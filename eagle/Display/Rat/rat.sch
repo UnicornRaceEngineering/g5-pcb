@@ -21414,7 +21414,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="CK102X06">
+<package name="CK101X12">
 <description>&lt;b&gt;ROTARY SWITCH&lt;/b&gt;&lt;p&gt;
 C&amp;K</description>
 <wire x1="5.5372" y1="-11.8618" x2="7.4886" y2="-10.719" width="0.1524" layer="21" curve="126.162725"/>
@@ -21451,38 +21451,37 @@ C&amp;K</description>
 <circle x="0" y="-9.525" radius="1.524" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="13.081" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="6.604" width="0.1524" layer="21"/>
-<pad name="C" x="2.8702" y="2.8702" drill="1.3208" shape="octagon"/>
 <pad name="A" x="-2.8702" y="-2.8702" drill="1.3208" shape="octagon"/>
-<pad name="A2" x="-7.7724" y="-7.7724" drill="1.3208" shape="octagon"/>
-<pad name="A1" x="-2.8448" y="-10.6172" drill="1.3208" shape="octagon"/>
-<pad name="C6" x="2.8448" y="-10.6172" drill="1.3208" shape="octagon"/>
-<pad name="C5" x="7.7724" y="-7.7724" drill="1.3208" shape="octagon"/>
-<pad name="C4" x="10.6172" y="-2.8448" drill="1.3208" shape="octagon"/>
-<pad name="C3" x="10.6172" y="2.8448" drill="1.3208" shape="octagon"/>
-<pad name="C2" x="7.7724" y="7.7724" drill="1.3208" shape="octagon"/>
-<pad name="C1" x="2.8448" y="10.6172" drill="1.3208" shape="octagon"/>
-<pad name="A6" x="-2.8448" y="10.6172" drill="1.3208" shape="octagon"/>
-<pad name="A5" x="-7.7724" y="7.7724" drill="1.3208" shape="octagon"/>
-<pad name="A4" x="-10.6172" y="2.8448" drill="1.3208" shape="octagon"/>
-<pad name="A3" x="-10.6172" y="-2.8448" drill="1.3208" shape="octagon"/>
+<pad name="2" x="-7.7724" y="-7.7724" drill="1.3208" shape="octagon"/>
+<pad name="1" x="-2.8448" y="-10.6172" drill="1.3208" shape="octagon"/>
+<pad name="12" x="2.8448" y="-10.6172" drill="1.3208" shape="octagon"/>
+<pad name="11" x="7.7724" y="-7.7724" drill="1.3208" shape="octagon"/>
+<pad name="10" x="10.6172" y="-2.8448" drill="1.3208" shape="octagon"/>
+<pad name="9" x="10.6172" y="2.8448" drill="1.3208" shape="octagon"/>
+<pad name="8" x="7.7724" y="7.7724" drill="1.3208" shape="octagon"/>
+<pad name="7" x="2.8448" y="10.6172" drill="1.3208" shape="octagon"/>
+<pad name="6" x="-2.8448" y="10.6172" drill="1.3208" shape="octagon"/>
+<pad name="5" x="-7.7724" y="7.7724" drill="1.3208" shape="octagon"/>
+<pad name="4" x="-10.6172" y="2.8448" drill="1.3208" shape="octagon"/>
+<pad name="3" x="-10.6172" y="-2.8448" drill="1.3208" shape="octagon"/>
 <text x="-2.54" y="13.462" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-15.24" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-6.35" y="-10.16" size="1.27" layer="21" ratio="10">A1</text>
-<text x="-10.16" y="-6.35" size="1.27" layer="21" ratio="10">A2</text>
-<text x="-12.065" y="-1.27" size="1.27" layer="21" ratio="10">A3</text>
-<text x="-10.795" y="4.445" size="1.27" layer="21" ratio="10">A4</text>
-<text x="-6.985" y="8.89" size="1.27" layer="21" ratio="10">A5</text>
-<text x="-1.27" y="10.16" size="1.27" layer="21" ratio="10">A6</text>
-<text x="4.445" y="8.89" size="1.27" layer="21" ratio="10">C1</text>
-<text x="7.62" y="5.08" size="1.27" layer="21" ratio="10">C2</text>
-<text x="9.525" y="0" size="1.27" layer="21" ratio="10">C3</text>
-<text x="8.89" y="-5.715" size="1.27" layer="21" ratio="10">C4</text>
-<text x="4.445" y="-10.16" size="1.27" layer="21" ratio="10">C5</text>
-<text x="-0.635" y="-12.7" size="1.27" layer="21" ratio="10">C6</text>
+<text x="-5.08" y="-9.525" size="1.27" layer="21" ratio="10">1</text>
+<text x="-9.525" y="-6.35" size="1.27" layer="21" ratio="10">2</text>
+<text x="-11.43" y="-1.27" size="1.27" layer="21" ratio="10">3</text>
+<text x="-10.795" y="4.445" size="1.27" layer="21" ratio="10">4</text>
+<text x="-6.35" y="7.62" size="1.27" layer="21" ratio="10">5</text>
+<text x="-1.27" y="9.525" size="1.27" layer="21" ratio="10">6</text>
+<text x="4.445" y="8.255" size="1.27" layer="21" ratio="10">7</text>
+<text x="8.255" y="5.08" size="1.27" layer="21" ratio="10">8</text>
+<text x="9.525" y="0" size="1.27" layer="21" ratio="10">9</text>
+<text x="8.89" y="-5.715" size="1.27" layer="21" ratio="10">10</text>
+<text x="4.445" y="-9.525" size="1.27" layer="21" ratio="10">11</text>
+<text x="-0.635" y="-12.7" size="1.27" layer="21" ratio="10">12</text>
 </package>
 </packages>
 <symbols>
-<symbol name="DS-A206">
+<symbol name="DS-A112">
 <wire x1="-19.05" y1="1.905" x2="-17.78" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-19.05" y1="1.905" x2="-19.05" y2="0" width="0.254" layer="94"/>
 <wire x1="-19.05" y1="-1.905" x2="-20.32" y2="-1.905" width="0.254" layer="94"/>
@@ -21508,32 +21507,30 @@ C&amp;K</description>
 <wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="5.08" x2="-12.7" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="1.905" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="1.905" x2="-12.7" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-3.175" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="3.175" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="3.175" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="3.175" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="3.175" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="3.175" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="3.175" x2="17.78" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-5.08" x2="12.7" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="-5.08" x2="17.78" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="4.953" y2="0" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="0" x2="-11.557" y2="0" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="0" x2="-12.7" y2="-1.905" width="0.254" layer="94"/>
 <circle x="-7.62" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="-5.08" y="5.08" radius="0.254" width="0.254" layer="94"/>
+<circle x="0" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="-12.7" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="-10.16" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="-12.7" y="2.54" radius="0.635" width="0.254" layer="94"/>
@@ -21549,77 +21546,75 @@ C&amp;K</description>
 <circle x="-2.54" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="0" y="2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="0" y="-2.54" radius="0.635" width="0.254" layer="94"/>
-<circle x="5.08" y="5.08" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="5.08" y="2.54" radius="0.635" width="0.254" layer="94"/>
-<circle x="5.08" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="7.62" y="2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="10.16" y="2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="12.7" y="2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="15.24" y="2.54" radius="0.635" width="0.254" layer="94"/>
-<circle x="17.78" y="2.54" radius="0.635" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="7.62" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="10.16" y="5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="12.7" y="5.08" radius="0.254" width="0.254" layer="94"/>
-<circle x="15.24" y="5.08" radius="0.254" width="0.254" layer="94"/>
+<circle x="5.08" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="7.62" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="10.16" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="12.7" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <circle x="15.24" y="-2.54" radius="0.635" width="0.254" layer="94"/>
-<circle x="17.78" y="-2.54" radius="0.635" width="0.254" layer="94"/>
 <text x="-18.415" y="3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="-15.875" y="3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="8.128" y="-0.508" size="1.27" layer="94" rot="R90">2</text>
-<text x="10.668" y="-0.508" size="1.27" layer="94" rot="R90">3</text>
-<text x="13.335" y="-0.635" size="1.27" layer="94" rot="R90">4</text>
-<text x="15.875" y="-0.635" size="1.27" layer="94" rot="R90">5</text>
-<text x="18.415" y="-0.635" size="1.27" layer="94" rot="R90">6</text>
-<text x="4.572" y="-1.27" size="1.27" layer="94" rot="R90">1</text>
-<text x="-13.208" y="-1.524" size="1.27" layer="94" rot="R90">1</text>
-<text x="-9.652" y="-1.016" size="1.27" layer="94" rot="R90">2</text>
-<text x="-7.112" y="-1.016" size="1.27" layer="94" rot="R90">3</text>
-<text x="-4.826" y="-1.016" size="1.27" layer="94" rot="R90">4</text>
-<text x="-2.032" y="-1.016" size="1.27" layer="94" rot="R90">5</text>
-<text x="0.508" y="-1.016" size="1.27" layer="94" rot="R90">6</text>
-<pin name="A1" x="-12.7" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="A" x="-12.7" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="A2" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="A3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="A4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="A5" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="A6" x="0" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="C1" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C2" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C3" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C4" x="12.7" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C5" x="15.24" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C6" x="17.78" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="C" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="-13.081" y="-1.397" size="1.27" layer="94" rot="R90">1</text>
+<text x="-9.525" y="-0.635" size="1.27" layer="94" rot="R90">2</text>
+<text x="-6.985" y="-0.635" size="1.27" layer="94" rot="R90">3</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="94" rot="R90">4</text>
+<text x="-1.905" y="-0.635" size="1.27" layer="94" rot="R90">5</text>
+<text x="0.635" y="-0.635" size="1.27" layer="94" rot="R90">6</text>
+<text x="3.175" y="-0.635" size="1.27" layer="94" rot="R90">7</text>
+<text x="5.715" y="-0.635" size="1.27" layer="94" rot="R90">8</text>
+<text x="8.255" y="-0.635" size="1.27" layer="94" rot="R90">9</text>
+<text x="10.795" y="-1.016" size="1.27" layer="94" rot="R90">10</text>
+<text x="13.335" y="-0.889" size="1.27" layer="94" rot="R90">11</text>
+<text x="15.875" y="-0.889" size="1.27" layer="94" rot="R90">12</text>
+<pin name="1" x="-12.7" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="A" x="-12.7" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-10.16" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="3" x="-7.62" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="4" x="-5.08" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="5" x="-2.54" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="6" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="7" x="2.54" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="8" x="5.08" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="9" x="7.62" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="10" x="10.16" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="11" x="12.7" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="12" x="15.24" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CK102X06" prefix="S" uservalue="yes">
+<deviceset name="CK101X12" prefix="S" uservalue="yes">
 <description>&lt;b&gt;ROTARY SWITCH&lt;/b&gt;&lt;p&gt;
 C&amp;K</description>
 <gates>
-<gate name="1" symbol="DS-A206" x="0" y="0"/>
+<gate name="1" symbol="DS-A112" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CK102X06">
+<device name="" package="CK101X12">
 <connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="11" pad="11"/>
+<connect gate="1" pin="12" pad="12"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
 <connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="A1" pad="A1"/>
-<connect gate="1" pin="A2" pad="A2"/>
-<connect gate="1" pin="A3" pad="A3"/>
-<connect gate="1" pin="A4" pad="A4"/>
-<connect gate="1" pin="A5" pad="A5"/>
-<connect gate="1" pin="A6" pad="A6"/>
-<connect gate="1" pin="C" pad="C"/>
-<connect gate="1" pin="C1" pad="C1"/>
-<connect gate="1" pin="C2" pad="C2"/>
-<connect gate="1" pin="C3" pad="C3"/>
-<connect gate="1" pin="C4" pad="C4"/>
-<connect gate="1" pin="C5" pad="C5"/>
-<connect gate="1" pin="C6" pad="C6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21752,7 +21747,7 @@ C&amp;K</description>
 <part name="SUPPLY7" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="PE" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="PE" device=""/>
-<part name="L1" library="rcl" deviceset="L-US" device="TFI0410" value="33 uf"/>
+<part name="L1" library="rcl" deviceset="L-US" device="TFI0410" value="33 uh"/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="P6T15" value="1n5824"/>
 <part name="SUPPLY10" library="supply2" deviceset="PE" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -21767,7 +21762,7 @@ C&amp;K</description>
 <part name="SUPPLY5" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="VCC" device=""/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M08" device="BM08B-SRSS-TB"/>
-<part name="S1" library="switch" deviceset="CK102X06" device=""/>
+<part name="S1" library="switch" deviceset="CK101X12" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21930,7 +21925,7 @@ C&amp;K</description>
 <instance part="SUPPLY5" gate="G$1" x="-165.1" y="60.96"/>
 <instance part="SUPPLY6" gate="G$1" x="203.2" y="91.44"/>
 <instance part="JP6" gate="G$1" x="213.36" y="78.74" rot="R180"/>
-<instance part="S1" gate="1" x="-127" y="91.44"/>
+<instance part="S1" gate="1" x="-124.46" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -23256,6 +23251,29 @@ C&amp;K</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,20.32,66.04,IC2,AVCC,+5V,,,"/>
+<approved hash="104,1,20.32,63.5,IC2,GND,PE,,,"/>
+<approved hash="104,1,20.32,58.42,IC2,VCC1,+5V,,,"/>
+<approved hash="104,1,20.32,55.88,IC2,VCC,+5V,,,"/>
+<approved hash="104,1,20.32,50.8,IC2,GND1,PE,,,"/>
+<approved hash="104,1,20.32,53.34,IC2,GND,PE,,,"/>
+<approved hash="104,1,165.1,106.68,IC3,GND,PE,,,"/>
+<approved hash="104,1,165.1,127,IC3,VCC,+5V,,,"/>
+<approved hash="104,1,40.64,-99.06,IC1P,VSS,PE,,,"/>
+<approved hash="104,1,40.64,-83.82,IC1P,VDD,+5V,,,"/>
+<approved hash="104,1,48.26,-101.6,IC4P,GND,PE,,,"/>
+<approved hash="104,1,48.26,-81.28,IC4P,VCC,+5V,,,"/>
+<approved hash="104,1,55.88,-101.6,IC5P,GND,PE,,,"/>
+<approved hash="104,1,55.88,-81.28,IC5P,VCC,+5V,,,"/>
+<approved hash="104,1,27.94,152.4,IC6,V+,+5V,,,"/>
+<approved hash="104,1,73.66,152.4,IC6,V-,PE,,,"/>
+<approved hash="104,1,88.9,152.4,IC7,V+,+5V,,,"/>
+<approved hash="104,1,134.62,152.4,IC7,V-,PE,,,"/>
+<approved hash="104,1,-139.7,45.72,IC8,GND,PE,,,"/>
+<approved hash="106,1,73.66,-2.54,SCL,,,,,"/>
+<approved hash="106,1,73.66,0,SDA,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
