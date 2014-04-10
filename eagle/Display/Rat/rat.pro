@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/Henrik/Documents/GitHub/g5-pcb/eagle/Display/Rat/rat.brd
+Job           : C:/Users/Simmers/Documents/GitHub/g5-pcb/eagle/Display/Rat/rat.brd
 
-Start at      : 15:14:05 (02-04-2014)
-End at        : 15:14:32 (02-04-2014)
-Elapsed time  : 00:00:27
+Start at      : 22:29:26 (09-04-2014)
+End at        : 22:29:44 (09-04-2014)
+Elapsed time  : 00:00:18
 
-Signals       :   111   RoutingGrid: 12 mil  Layers: 2
-Connections   :   324   predefined:  0 ( 4 Vias )
+Signals       :   109   RoutingGrid: 15 mil  Layers: 2
+Connections   :   327   predefined:  0 ( 4 Vias )
 
-Router memory :   954440
+Router memory :   615760
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:14  00:00:03  00:00:04  00:00:03  00:00:03
-Number of Ripups  :         0        80         0         0         0         0
-max. Level        :         0         8         0         0         0         0
-max. Total        :         0        61         0         0         0         0
+Time per pass     :  00:00:00  00:00:07  00:00:03  00:00:03  00:00:02  00:00:03
+Number of Ripups  :         0        34         0         0         0         0
+max. Level        :         0         4         0         0         0         0
+max. Total        :         0        55         0         0         0         0
 
-Routed            :        43       324       324       324       324       324
-Vias              :         0       455       316       277       249       236
-Resolution        :    13.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        39       327       327       327       327       327
+Vias              :         0       406       293       257       228       215
+Resolution        :    11.9 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
