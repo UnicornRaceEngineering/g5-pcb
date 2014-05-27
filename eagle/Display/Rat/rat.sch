@@ -20188,35 +20188,36 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
-<library name="AVR_ISP-header">
+<library name="ISP-Header">
 <packages>
 <package name="ISP-HEADER">
-<smd name="RESET" x="0" y="-2.54" dx="3.81" dy="1.9304" layer="1" roundness="15"/>
-<smd name="SCK" x="0" y="0" dx="3.81" dy="1.9304" layer="1" roundness="15"/>
-<smd name="MISO" x="0" y="2.54" dx="3.81" dy="1.9304" layer="1" roundness="15"/>
-<smd name="VCC" x="0" y="2.54" dx="3.81" dy="1.9304" layer="16" roundness="15" rot="R180"/>
-<smd name="MOSI" x="0" y="0" dx="3.81" dy="1.9304" layer="16" roundness="15"/>
-<smd name="GND" x="0" y="-2.54" dx="3.81" dy="1.9304" layer="16" roundness="15" rot="R180"/>
+<smd name="MISO" x="0" y="2.54" dx="3.81" dy="1.9304" layer="1" roundness="20"/>
+<smd name="SCK" x="0" y="0" dx="3.81" dy="1.9304" layer="1" roundness="20"/>
+<smd name="RST" x="0" y="-2.54" dx="3.81" dy="1.9304" layer="1" roundness="20"/>
+<smd name="GND" x="0" y="-2.54" dx="3.81" dy="1.9304" layer="16" roundness="20"/>
+<smd name="MOSI" x="0" y="0" dx="3.81" dy="1.9304" layer="16" roundness="20"/>
+<smd name="VDD" x="0" y="2.54" dx="3.81" dy="1.9304" layer="16" roundness="20"/>
 </package>
 </packages>
 <symbols>
 <symbol name="ISP-HEADER">
-<pin name="MOSI" x="7.62" y="0" length="middle" rot="R180"/>
-<pin name="VCC" x="7.62" y="2.54" length="middle" rot="R180"/>
-<pin name="GND" x="7.62" y="-2.54" length="middle" rot="R180"/>
-<pin name="RESET" x="-15.24" y="-2.54" length="middle"/>
-<pin name="SCK" x="-15.24" y="0" length="middle"/>
-<pin name="MISO" x="-15.24" y="2.54" length="middle"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="MISO" x="-10.16" y="0" length="middle"/>
+<pin name="SCK" x="-10.16" y="-2.54" length="middle"/>
+<pin name="RST" x="-10.16" y="-5.08" length="middle"/>
+<pin name="VDD" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="MOSI" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="ISP-HEADER">
+<description>2 sided print edge ISP header connector</description>
 <gates>
-<gate name="G$1" symbol="ISP-HEADER" x="2.54" y="0"/>
+<gate name="G$1" symbol="ISP-HEADER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ISP-HEADER">
@@ -20224,9 +20225,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="SCK" pad="SCK"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20419,7 +20420,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603K" value="0.05uf"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="0.20uf"/>
 <part name="SUPPLY19" library="supply2" deviceset="PE" device=""/>
-<part name="U$1" library="AVR_ISP-header" deviceset="ISP-HEADER" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="200"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="200"/>
@@ -20430,6 +20430,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="PE" device=""/>
+<part name="U$9" library="ISP-Header" deviceset="ISP-HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20640,7 +20641,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="C7" gate="G$1" x="104.14" y="91.44" rot="R90"/>
 <instance part="C8" gate="G$1" x="104.14" y="106.68" rot="R90"/>
 <instance part="SUPPLY19" gate="PE" x="111.76" y="86.36" smashed="yes"/>
-<instance part="U$1" gate="G$1" x="5.08" y="2.54"/>
 <instance part="P+11" gate="1" x="119.38" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="124.46" y="-20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -20655,6 +20655,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="C10" gate="G$1" x="-93.98" y="50.8"/>
 <instance part="P+15" gate="1" x="-93.98" y="58.42"/>
 <instance part="SUPPLY25" gate="PE" x="-93.98" y="40.64" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="0" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -20684,7 +20685,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="5.08" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U$9" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="58.42" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
@@ -20917,7 +20918,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="-10.16" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
 <label x="-22.86" y="0" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
+<pinref part="U$9" gate="G$1" pin="RST"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
@@ -20930,7 +20931,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="0" x2="17.78" y2="0" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="PE" pin="PE"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="-2.54" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
@@ -21180,7 +21181,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="12.7" y1="2.54" x2="20.32" y2="2.54" width="0.1524" layer="91"/>
 <label x="17.78" y="2.54" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<pinref part="U$9" gate="G$1" pin="MOSI"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="-25.4" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
@@ -21193,7 +21194,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="-10.16" y1="5.08" x2="-17.78" y2="5.08" width="0.1524" layer="91"/>
 <label x="-22.86" y="5.08" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
+<pinref part="U$9" gate="G$1" pin="MISO"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
@@ -21206,7 +21207,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="-10.16" y1="2.54" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
 <label x="-22.86" y="2.54" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
+<pinref part="U$9" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <label x="73.66" y="45.72" size="1.778" layer="95"/>
