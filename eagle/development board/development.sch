@@ -4338,6 +4338,11 @@ type RDH, grid 15 mm</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+5V" prefix="P+">
@@ -4357,6 +4362,19 @@ type RDH, grid 15 mm</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17338,19 +17356,19 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U70" value="12 MHz"/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="5/2.5" value="22pF"/>
 <part name="C2" library="capacitor-wima" deviceset="C" device="5/2.5" value="22pF"/>
-<part name="SUPPLY2" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY2" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="SUPPLY4" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY4" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY11" library="supply1" deviceset="GND" device=""/>
 <part name="ENSRET" library="diode" deviceset="1N4004" device=""/>
 <part name="IC2" library="atmel" deviceset="MEGA128" device="-A"/>
 <part name="IC3" library="micro-philips" deviceset="PCA82C250" device=""/>
-<part name="SUPPLY12" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY12" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY13" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY13" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="UNICORN" deviceset="MICROFIT4" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="PE" device=""/>
 <part name="CAN_HEADER" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -17371,12 +17389,12 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="ADC5_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
 <part name="ADC6_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
 <part name="ADC7_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
-<part name="SUPPLY3" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY5" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY6" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY14" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY15" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY16" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY3" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY14" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY15" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -17393,16 +17411,16 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="SW2" library="SparkFun" deviceset="SW_DIP-8" device=""/>
 <part name="INT5_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
 <part name="INT6_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
-<part name="SUPPLY20" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY21" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY20" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY21" library="supply1" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY17" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY17" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
 <part name="ADC0_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
 <part name="ADC1_TERMINAL" library="SparkFun" deviceset="M03" device="SCREW"/>
-<part name="SUPPLY7" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY8" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY7" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0603"/>
@@ -17424,7 +17442,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="R15" library="resistor" deviceset="R-EU_" device="R0603" value="200"/>
 <part name="R16" library="resistor" deviceset="R-EU_" device="R0603" value="200"/>
 <part name="R17" library="resistor" deviceset="R-EU_" device="R0603" value="200"/>
-<part name="SUPPLY9" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY9" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="ftdichip" deviceset="FT230X" device="S"/>
 <part name="CN1" library="adafruit" deviceset="USB" device="MINIB"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
@@ -17432,16 +17450,16 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="R19" library="resistor" deviceset="R-EU_" device="R0603" value="27"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="47pf"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-025X075" value="47pf"/>
-<part name="SUPPLY10" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY10" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="050-025X075" value="10nf"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value="100nf"/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY18" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY18" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="4.7uf"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="050-025X075" value="100nf"/>
-<part name="SUPPLY19" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY19" library="supply1" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY22" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY22" library="supply1" deviceset="GND" device=""/>
 <part name="IC5" library="maxim" deviceset="MAX7219CNG" device=""/>
 <part name="DIS1" library="display-hp" deviceset="HD-H101" device=""/>
 <part name="DIS2" library="display-hp" deviceset="HD-H101" device=""/>
@@ -17451,7 +17469,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="DIS6" library="display-hp" deviceset="HD-H101" device=""/>
 <part name="DIS7" library="display-hp" deviceset="HD-H101" device=""/>
 <part name="R20" library="resistor" deviceset="R-EU_" device="0204/7" value="9.5k"/>
-<part name="SUPPLY23" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY23" library="supply1" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="U$2" library="adafruit" deviceset="XBEE" device=""/>
 <part name="X1" library="farnell" deviceset="SDBMF" device=""/>
@@ -17459,11 +17477,11 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="LED10" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="R21" library="resistor" deviceset="R-EU_" device="0204/7" value="9.5k"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="0204/7" value="9.5k"/>
-<part name="SUPPLY24" library="supply2" deviceset="PE" device=""/>
-<part name="SUPPLY25" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY24" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY25" library="supply1" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
-<part name="SUPPLY26" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY26" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="0204/7" value="47k"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="0204/7" value="47k"/>
 <part name="R25" library="resistor" deviceset="R-EU_" device="0204/7" value="47k"/>
@@ -17473,19 +17491,9 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <part name="C13" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="SD" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="4.7uf"/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY27" library="supply2" deviceset="PE" device=""/>
+<part name="SUPPLY27" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
 <sheet>
 <plain>
 <text x="-124.46" y="17.78" size="1.778" layer="91">VCC</text>
@@ -17507,23 +17515,23 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <attribute name="NAME" x="-1.524" y="75.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-1.524" y="78.359" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY2" gate="PE" x="-20.32" y="40.64" smashed="yes"/>
+<instance part="SUPPLY2" gate="1" x="-20.32" y="40.64" smashed="yes"/>
 <instance part="P+2" gate="VCC" x="-81.28" y="30.48"/>
-<instance part="SUPPLY4" gate="PE" x="-60.96" y="-5.08" smashed="yes"/>
+<instance part="SUPPLY4" gate="1" x="-60.96" y="-5.08" smashed="yes"/>
 <instance part="P+3" gate="1" x="-38.1" y="30.48"/>
 <instance part="P+4" gate="1" x="-15.24" y="55.88"/>
 <instance part="P+7" gate="1" x="-20.32" y="121.92" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="119.38" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY11" gate="PE" x="-20.32" y="101.6" smashed="yes"/>
+<instance part="SUPPLY11" gate="1" x="-20.32" y="101.6" smashed="yes"/>
 <instance part="ENSRET" gate="1" x="-88.9" y="22.86" smashed="yes">
 <attribute name="VALUE" x="-93.472" y="19.0246" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="48.26" y="30.48"/>
 <instance part="IC3" gate="G$1" x="342.9" y="22.86"/>
-<instance part="SUPPLY12" gate="PE" x="314.96" y="30.48" smashed="yes"/>
+<instance part="SUPPLY12" gate="1" x="314.96" y="30.48" smashed="yes"/>
 <instance part="P+9" gate="1" x="358.14" y="43.18"/>
-<instance part="SUPPLY13" gate="PE" x="375.92" y="5.08" smashed="yes"/>
+<instance part="SUPPLY13" gate="1" x="375.92" y="5.08" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="401.32" y="17.78"/>
 <instance part="SUPPLY1" gate="PE" x="-7.62" y="66.04" smashed="yes"/>
 <instance part="CAN_HEADER" gate="G$1" x="370.84" y="5.08"/>
@@ -17544,12 +17552,12 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="ADC5_TERMINAL" gate="G$1" x="198.12" y="25.4"/>
 <instance part="ADC6_TERMINAL" gate="G$1" x="198.12" y="12.7"/>
 <instance part="ADC7_TERMINAL" gate="G$1" x="198.12" y="0"/>
-<instance part="SUPPLY3" gate="PE" x="210.82" y="-2.54" smashed="yes" rot="R90"/>
-<instance part="SUPPLY5" gate="PE" x="210.82" y="10.16" smashed="yes" rot="R90"/>
-<instance part="SUPPLY6" gate="PE" x="210.82" y="22.86" smashed="yes" rot="R90"/>
-<instance part="SUPPLY14" gate="PE" x="210.82" y="35.56" smashed="yes" rot="R90"/>
-<instance part="SUPPLY15" gate="PE" x="210.82" y="48.26" smashed="yes" rot="R90"/>
-<instance part="SUPPLY16" gate="PE" x="210.82" y="60.96" smashed="yes" rot="R90"/>
+<instance part="SUPPLY3" gate="1" x="210.82" y="-2.54" smashed="yes" rot="R90"/>
+<instance part="SUPPLY5" gate="1" x="210.82" y="10.16" smashed="yes" rot="R90"/>
+<instance part="SUPPLY6" gate="1" x="210.82" y="22.86" smashed="yes" rot="R90"/>
+<instance part="SUPPLY14" gate="1" x="210.82" y="35.56" smashed="yes" rot="R90"/>
+<instance part="SUPPLY15" gate="1" x="210.82" y="48.26" smashed="yes" rot="R90"/>
+<instance part="SUPPLY16" gate="1" x="210.82" y="60.96" smashed="yes" rot="R90"/>
 <instance part="P+1" gate="1" x="208.28" y="7.62"/>
 <instance part="P+8" gate="1" x="208.28" y="20.32"/>
 <instance part="P+10" gate="1" x="208.28" y="33.02"/>
@@ -17566,16 +17574,16 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="SW2" gate="A" x="-2.54" y="5.08" rot="MR90"/>
 <instance part="INT5_TERMINAL" gate="G$1" x="241.3" y="76.2"/>
 <instance part="INT6_TERMINAL" gate="G$1" x="241.3" y="63.5"/>
-<instance part="SUPPLY20" gate="PE" x="254" y="60.96" smashed="yes" rot="R90"/>
-<instance part="SUPPLY21" gate="PE" x="254" y="73.66" smashed="yes" rot="R90"/>
+<instance part="SUPPLY20" gate="1" x="254" y="60.96" smashed="yes" rot="R90"/>
+<instance part="SUPPLY21" gate="1" x="254" y="73.66" smashed="yes" rot="R90"/>
 <instance part="P+18" gate="1" x="251.46" y="71.12"/>
 <instance part="P+19" gate="1" x="251.46" y="83.82"/>
-<instance part="SUPPLY17" gate="PE" x="322.58" y="-38.1" smashed="yes"/>
+<instance part="SUPPLY17" gate="1" x="322.58" y="-38.1" smashed="yes"/>
 <instance part="R2" gate="G$1" x="355.6" y="5.08" rot="R90"/>
 <instance part="ADC0_TERMINAL" gate="G$1" x="198.12" y="88.9"/>
 <instance part="ADC1_TERMINAL" gate="G$1" x="198.12" y="76.2"/>
-<instance part="SUPPLY7" gate="PE" x="210.82" y="73.66" smashed="yes" rot="R90"/>
-<instance part="SUPPLY8" gate="PE" x="210.82" y="86.36" smashed="yes" rot="R90"/>
+<instance part="SUPPLY7" gate="1" x="210.82" y="73.66" smashed="yes" rot="R90"/>
+<instance part="SUPPLY8" gate="1" x="210.82" y="86.36" smashed="yes" rot="R90"/>
 <instance part="P+6" gate="1" x="208.28" y="83.82"/>
 <instance part="P+15" gate="1" x="208.28" y="96.52"/>
 <instance part="R1" gate="G$1" x="-10.16" y="22.86" rot="R90"/>
@@ -17597,7 +17605,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="R15" gate="G$1" x="101.6" y="99.06" rot="R90"/>
 <instance part="R16" gate="G$1" x="106.68" y="93.98" rot="R90"/>
 <instance part="R17" gate="G$1" x="111.76" y="99.06" rot="R90"/>
-<instance part="SUPPLY9" gate="PE" x="121.92" y="114.3" smashed="yes"/>
+<instance part="SUPPLY9" gate="1" x="121.92" y="114.3" smashed="yes"/>
 <instance part="IC1" gate="G$1" x="342.9" y="-22.86"/>
 <instance part="CN1" gate="G$1" x="388.62" y="-48.26" rot="R180"/>
 <instance part="P+5" gate="1" x="375.92" y="-35.56"/>
@@ -17605,16 +17613,16 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="R19" gate="G$1" x="365.76" y="-48.26" rot="R180"/>
 <instance part="C3" gate="G$1" x="358.14" y="-55.88"/>
 <instance part="C4" gate="G$1" x="350.52" y="-55.88"/>
-<instance part="SUPPLY10" gate="PE" x="358.14" y="-68.58" smashed="yes"/>
+<instance part="SUPPLY10" gate="1" x="358.14" y="-68.58" smashed="yes"/>
 <instance part="C6" gate="G$1" x="403.86" y="-48.26"/>
 <instance part="C7" gate="G$1" x="411.48" y="-48.26"/>
 <instance part="P+16" gate="1" x="411.48" y="-38.1"/>
-<instance part="SUPPLY18" gate="PE" x="411.48" y="-60.96" smashed="yes"/>
+<instance part="SUPPLY18" gate="1" x="411.48" y="-60.96" smashed="yes"/>
 <instance part="C10" gate="G$1" x="421.64" y="-48.26"/>
 <instance part="C11" gate="G$1" x="365.76" y="-33.02"/>
-<instance part="SUPPLY19" gate="PE" x="365.76" y="-40.64" smashed="yes"/>
+<instance part="SUPPLY19" gate="1" x="365.76" y="-40.64" smashed="yes"/>
 <instance part="P+17" gate="1" x="363.22" y="-15.24"/>
-<instance part="SUPPLY22" gate="PE" x="373.38" y="-30.48" smashed="yes"/>
+<instance part="SUPPLY22" gate="1" x="373.38" y="-30.48" smashed="yes"/>
 <instance part="IC5" gate="G$1" x="144.78" y="-139.7"/>
 <instance part="DIS1" gate="M" x="193.04" y="-124.46"/>
 <instance part="DIS2" gate="M" x="213.36" y="-124.46"/>
@@ -17624,7 +17632,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="DIS6" gate="M" x="294.64" y="-124.46"/>
 <instance part="DIS7" gate="M" x="314.96" y="-124.46"/>
 <instance part="R20" gate="G$1" x="124.46" y="-147.32" rot="R90"/>
-<instance part="SUPPLY23" gate="PE" x="127" y="-165.1" smashed="yes"/>
+<instance part="SUPPLY23" gate="1" x="127" y="-165.1" smashed="yes"/>
 <instance part="P+20" gate="1" x="119.38" y="-149.86"/>
 <instance part="U$2" gate="G$1" x="48.26" y="-66.04"/>
 <instance part="X1" gate="G$1" x="177.8" y="-48.26" rot="R180"/>
@@ -17632,11 +17640,11 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="LED10" gate="G$1" x="83.82" y="-68.58" rot="R90"/>
 <instance part="R21" gate="G$1" x="2.54" y="-78.74" rot="R90"/>
 <instance part="R22" gate="G$1" x="93.98" y="-78.74" rot="R90"/>
-<instance part="SUPPLY24" gate="PE" x="2.54" y="-88.9" smashed="yes"/>
-<instance part="SUPPLY25" gate="PE" x="93.98" y="-88.9" smashed="yes"/>
+<instance part="SUPPLY24" gate="1" x="2.54" y="-88.9" smashed="yes"/>
+<instance part="SUPPLY25" gate="1" x="93.98" y="-88.9" smashed="yes"/>
 <instance part="P+21" gate="1" x="22.86" y="-50.8"/>
 <instance part="C12" gate="G$1" x="17.78" y="-76.2"/>
-<instance part="SUPPLY26" gate="PE" x="22.86" y="-88.9" smashed="yes"/>
+<instance part="SUPPLY26" gate="1" x="22.86" y="-88.9" smashed="yes"/>
 <instance part="R23" gate="G$1" x="142.24" y="-66.04" rot="R180"/>
 <instance part="R24" gate="G$1" x="152.4" y="-63.5" rot="R180"/>
 <instance part="R25" gate="G$1" x="149.86" y="-55.88" rot="R180"/>
@@ -17646,7 +17654,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <instance part="C13" gate="G$1" x="137.16" y="-55.88"/>
 <instance part="SD" gate="G$1" x="129.54" y="-60.96" rot="R180"/>
 <instance part="P+22" gate="1" x="132.08" y="-43.18"/>
-<instance part="SUPPLY27" gate="PE" x="134.62" y="-71.12" smashed="yes"/>
+<instance part="SUPPLY27" gate="1" x="134.62" y="-71.12" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -17909,7 +17917,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <junction x="-73.66" y="0"/>
 <junction x="-81.28" y="0"/>
 <junction x="-124.46" y="10.16"/>
-<pinref part="SUPPLY4" gate="PE" pin="PE"/>
+<pinref part="SUPPLY4" gate="1" pin="GND"/>
 <pinref part="DC_IN" gate="G$1" pin="-"/>
 <pinref part="DC_IN2" gate="G$1" pin="2"/>
 <pinref part="DC_OUT" gate="G$1" pin="2"/>
@@ -17930,7 +17938,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <junction x="17.78" y="50.8"/>
 <junction x="-7.62" y="43.18"/>
 <junction x="-20.32" y="43.18"/>
-<pinref part="SUPPLY2" gate="PE" pin="PE"/>
+<pinref part="SUPPLY2" gate="1" pin="GND"/>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="IC2" gate="G$1" pin="GND@1"/>
 <pinref part="IC2" gate="G$1" pin="GND1"/>
@@ -17940,7 +17948,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <segment>
 <wire x1="330.2" y1="33.02" x2="314.96" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="RS"/>
-<pinref part="SUPPLY12" gate="PE" pin="PE"/>
+<pinref part="SUPPLY12" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="355.6" y1="12.7" x2="375.92" y2="12.7" width="0.1524" layer="91"/>
@@ -17953,7 +17961,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <junction x="375.92" y="12.7"/>
 <junction x="375.92" y="15.24"/>
 <pinref part="IC3" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY13" gate="PE" pin="PE"/>
+<pinref part="SUPPLY13" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="PIN3"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="PIN4"/>
@@ -17973,51 +17981,51 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <segment>
 <wire x1="-15.24" y1="106.68" x2="-20.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="104.14" x2="-20.32" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="PE" pin="PE"/>
+<pinref part="SUPPLY11" gate="1" pin="GND"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="-2.54" x2="208.28" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="ADC7_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY3" gate="PE" pin="PE"/>
+<pinref part="SUPPLY3" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="ADC6_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY5" gate="PE" pin="PE"/>
+<pinref part="SUPPLY5" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="22.86" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="ADC5_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY6" gate="PE" pin="PE"/>
+<pinref part="SUPPLY6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="ADC4_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY14" gate="PE" pin="PE"/>
+<pinref part="SUPPLY14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="ADC3_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY15" gate="PE" pin="PE"/>
+<pinref part="SUPPLY15" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="ADC2_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY16" gate="PE" pin="PE"/>
+<pinref part="SUPPLY16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="60.96" x2="251.46" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="INT6_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY20" gate="PE" pin="PE"/>
+<pinref part="SUPPLY20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="INT5_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY21" gate="PE" pin="PE"/>
+<pinref part="SUPPLY21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY17" gate="PE" pin="PE"/>
+<pinref part="SUPPLY17" gate="1" pin="GND"/>
 <wire x1="322.58" y1="-25.4" x2="322.58" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="327.66" y1="-25.4" x2="322.58" y2="-25.4" width="0.1524" layer="91"/>
@@ -18025,17 +18033,17 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <segment>
 <wire x1="205.74" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="ADC1_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY7" gate="PE" pin="PE"/>
+<pinref part="SUPPLY7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ADC0_TERMINAL" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="PE" pin="PE"/>
+<pinref part="SUPPLY8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="76.2" y1="109.22" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="PE" pin="PE"/>
+<pinref part="SUPPLY9" gate="1" pin="GND"/>
 <wire x1="76.2" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
@@ -18070,7 +18078,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="-60.96" x2="350.52" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="PE" pin="PE"/>
+<pinref part="SUPPLY10" gate="1" pin="GND"/>
 <wire x1="350.52" y1="-63.5" x2="358.14" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="-63.5" x2="358.14" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -18083,7 +18091,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="SUPPLY18" gate="PE" pin="PE"/>
+<pinref part="SUPPLY18" gate="1" pin="GND"/>
 <wire x1="411.48" y1="-53.34" x2="411.48" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="411.48" y1="-55.88" x2="411.48" y2="-58.42" width="0.1524" layer="91"/>
@@ -18096,17 +18104,17 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="SUPPLY19" gate="PE" pin="PE"/>
+<pinref part="SUPPLY19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND@1"/>
-<pinref part="SUPPLY22" gate="PE" pin="PE"/>
+<pinref part="SUPPLY22" gate="1" pin="GND"/>
 <wire x1="358.14" y1="-22.86" x2="373.38" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="-22.86" x2="373.38" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="GND@1"/>
-<pinref part="SUPPLY23" gate="PE" pin="PE"/>
+<pinref part="SUPPLY23" gate="1" pin="GND"/>
 <wire x1="129.54" y1="-157.48" x2="127" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="127" y1="-157.48" x2="127" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="GND@2"/>
@@ -18115,13 +18123,13 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <junction x="127" y="-160.02"/>
 </segment>
 <segment>
-<pinref part="SUPPLY24" gate="PE" pin="PE"/>
+<pinref part="SUPPLY24" gate="1" pin="GND"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="-86.36" x2="2.54" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="SUPPLY25" gate="PE" pin="PE"/>
+<pinref part="SUPPLY25" gate="1" pin="GND"/>
 <wire x1="93.98" y1="-83.82" x2="93.98" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18131,7 +18139,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="-83.82" x2="22.86" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="SUPPLY26" gate="PE" pin="PE"/>
+<pinref part="SUPPLY26" gate="1" pin="GND"/>
 <wire x1="22.86" y1="-86.36" x2="22.86" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="22.86" y="-83.82"/>
 </segment>
@@ -18143,7 +18151,7 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <wire x1="134.62" y1="-53.34" x2="137.16" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-53.34" x2="134.62" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="134.62" y="-53.34"/>
-<pinref part="SUPPLY27" gate="PE" pin="PE"/>
+<pinref part="SUPPLY27" gate="1" pin="GND"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="-55.88" x2="144.78" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-53.34" x2="137.16" y2="-53.34" width="0.1524" layer="91"/>
