@@ -12160,6 +12160,112 @@ shrink quad flat pack, square</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Maxim_By_element14_Batch_1">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 11:04:18</description>
+<packages>
+<package name="SOT95P280X145-6N">
+<smd name="1" x="-1.27" y="0.9398" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.27" y="0" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="3" x="-1.27" y="-0.9398" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="4" x="1.27" y="-0.9398" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="5" x="1.27" y="0" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="6" x="1.27" y="0.9398" dx="1.3208" dy="0.5588" layer="1"/>
+<wire x1="-0.4318" y1="-1.4986" x2="0.4318" y2="-1.4986" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.4986" x2="-0.4318" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="21" curve="-180"/>
+<text x="-2.1082" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-0.8636" y1="-1.4986" x2="0.8636" y2="-1.4986" width="0" layer="51"/>
+<wire x1="0.8636" y1="-1.4986" x2="0.8636" y2="-1.1938" width="0" layer="51"/>
+<wire x1="0.8636" y1="-1.1938" x2="0.8636" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.8636" y1="-0.7112" x2="0.8636" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.8636" y1="-0.254" x2="0.8636" y2="0.254" width="0" layer="51"/>
+<wire x1="0.8636" y1="0.254" x2="0.8636" y2="0.7112" width="0" layer="51"/>
+<wire x1="0.8636" y1="1.4986" x2="0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4986" x2="-0.8636" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.8636" y1="1.4986" x2="-0.8636" y2="1.1938" width="0" layer="51"/>
+<wire x1="-0.8636" y1="1.1938" x2="-0.8636" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="0.254" width="0" layer="51"/>
+<wire x1="-0.8636" y1="0.254" x2="-0.8636" y2="-0.254" width="0" layer="51"/>
+<wire x1="-0.8636" y1="-0.254" x2="-0.8636" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-0.8636" y1="1.1938" x2="-1.4986" y2="1.1938" width="0" layer="51"/>
+<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.4986" y1="0.7112" x2="-0.8636" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.8636" y1="0.254" x2="-1.4986" y2="0.254" width="0" layer="51"/>
+<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0" layer="51"/>
+<wire x1="-1.4986" y1="-0.254" x2="-0.8636" y2="-0.254" width="0" layer="51"/>
+<wire x1="-0.8636" y1="-1.4986" x2="-0.8636" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-0.8636" y1="-1.1938" x2="-0.8636" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-0.8636" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-1.4986" y1="-1.1938" x2="-0.8636" y2="-1.1938" width="0" layer="51"/>
+<wire x1="0.8636" y1="-1.1938" x2="1.4986" y2="-1.1938" width="0" layer="51"/>
+<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.7112" width="0" layer="51"/>
+<wire x1="1.4986" y1="-0.7112" x2="0.8636" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.8636" y1="-0.254" x2="1.4986" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.4986" y1="-0.254" x2="1.4986" y2="0.254" width="0" layer="51"/>
+<wire x1="1.4986" y1="0.254" x2="0.8636" y2="0.254" width="0" layer="51"/>
+<wire x1="0.8636" y1="1.4986" x2="0.8636" y2="1.1938" width="0" layer="51"/>
+<wire x1="0.8636" y1="1.1938" x2="0.8636" y2="0.7112" width="0" layer="51"/>
+<wire x1="0.8636" y1="0.7112" x2="1.4986" y2="0.7112" width="0" layer="51"/>
+<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.1938" width="0" layer="51"/>
+<wire x1="1.4986" y1="1.1938" x2="0.8636" y2="1.1938" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
+<text x="-2.1082" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX6817EUT+T">
+<pin name="VCC" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="IN1" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="IN2" x="-17.78" y="-5.08" length="middle" direction="in"/>
+<pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
+<pin name="OUT1" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="OUT2" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.4064" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.4008" y="-20.1168" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX6817EUT+T" prefix="U">
+<description>±15kV ESD-Protected CMOS Switch Debouncers</description>
+<gates>
+<gate name="A" symbol="MAX6817EUT+T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="IN1" pad="1"/>
+<connect gate="A" pin="IN2" pad="3"/>
+<connect gate="A" pin="OUT1" pad="6"/>
+<connect gate="A" pin="OUT2" pad="4"/>
+<connect gate="A" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="MAX6817EUT+T" constant="no"/>
+<attribute name="OC_FARNELL" value="1299771" constant="no"/>
+<attribute name="OC_NEWARK" value="68K9458" constant="no"/>
+<attribute name="PACKAGE" value="SOT23-6" constant="no"/>
+<attribute name="SUPPLIER" value="Maxim" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12286,34 +12392,11 @@ shrink quad flat pack, square</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4.9k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="TC" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT"/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="NEUT" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT"/>
-<part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="LC" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT"/>
-<part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="PAD" library="unicorn_v2" deviceset="M03" device=""/>
-<part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="ROT" library="unicorn_v2" deviceset="M06" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="PCA9685-1" library="adafruit" deviceset="PCA9685" device=""/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
@@ -12356,6 +12439,27 @@ shrink quad flat pack, square</description>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
 <part name="U1" library="apbteam_stm32" deviceset="STM32F4-100" device=""/>
+<part name="U2" library="Maxim_By_element14_Batch_1" deviceset="MAX6817EUT+T" device=""/>
+<part name="U3" library="Maxim_By_element14_Batch_1" deviceset="MAX6817EUT+T" device=""/>
+<part name="U4" library="Maxim_By_element14_Batch_1" deviceset="MAX6817EUT+T" device=""/>
+<part name="TC1" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT" value="NEUT"/>
+<part name="PAD1" library="unicorn_v2" deviceset="M03" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
+<part name="P+12" library="supply1" deviceset="+5V" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="ROT1" library="unicorn_v2" deviceset="M06" device=""/>
+<part name="P+23" library="supply1" deviceset="+5V" device=""/>
+<part name="P+24" library="supply1" deviceset="+5V" device=""/>
+<part name="P+25" library="supply1" deviceset="+5V" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="TC2" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT" value="LC"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="P+8" library="supply1" deviceset="+5V" device=""/>
+<part name="TC3" library="unicorn_v2" deviceset="M02" device="-JST-2MM-SMT" value="tc"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12510,34 +12614,11 @@ shrink quad flat pack, square</description>
 <instance part="R6" gate="G$1" x="-99.06" y="15.24" rot="R90"/>
 <instance part="GND14" gate="1" x="-99.06" y="7.62"/>
 <instance part="P+2" gate="1" x="-99.06" y="43.18"/>
-<instance part="TC" gate="G$1" x="20.32" y="-48.26"/>
-<instance part="P+3" gate="1" x="30.48" y="-38.1"/>
-<instance part="R7" gate="G$1" x="30.48" y="-55.88" rot="R90"/>
-<instance part="GND15" gate="1" x="30.48" y="-63.5"/>
-<instance part="NEUT" gate="G$1" x="50.8" y="-48.26"/>
-<instance part="P+8" gate="1" x="60.96" y="-38.1"/>
-<instance part="R8" gate="G$1" x="60.96" y="-55.88" rot="R90"/>
-<instance part="GND16" gate="1" x="60.96" y="-63.5"/>
-<instance part="LC" gate="G$1" x="76.2" y="-48.26"/>
-<instance part="P+11" gate="1" x="86.36" y="-38.1"/>
-<instance part="R9" gate="G$1" x="86.36" y="-55.88" rot="R90"/>
-<instance part="GND17" gate="1" x="86.36" y="-63.5"/>
-<instance part="PAD" gate="G$1" x="20.32" y="-78.74"/>
-<instance part="P+12" gate="1" x="30.48" y="-68.58"/>
-<instance part="R10" gate="G$1" x="30.48" y="-88.9" rot="R90"/>
-<instance part="R12" gate="G$1" x="38.1" y="-88.9" rot="R90"/>
-<instance part="GND18" gate="1" x="30.48" y="-96.52"/>
-<instance part="GND19" gate="1" x="38.1" y="-96.52"/>
-<instance part="ROT" gate="G$1" x="55.88" y="-83.82"/>
-<instance part="P+13" gate="1" x="66.04" y="-68.58"/>
-<instance part="R13" gate="G$1" x="66.04" y="-96.52" rot="R90"/>
-<instance part="R14" gate="G$1" x="73.66" y="-96.52" rot="R90"/>
-<instance part="GND20" gate="1" x="66.04" y="-104.14"/>
-<instance part="GND21" gate="1" x="73.66" y="-104.14"/>
-<instance part="R15" gate="G$1" x="81.28" y="-96.52" rot="R90"/>
-<instance part="R16" gate="G$1" x="88.9" y="-96.52" rot="R90"/>
-<instance part="GND22" gate="1" x="81.28" y="-104.14"/>
-<instance part="GND23" gate="1" x="88.9" y="-104.14"/>
+<instance part="P+13" gate="1" x="-22.86" y="-30.48"/>
+<instance part="R13" gate="G$1" x="-22.86" y="-40.64" rot="R270"/>
+<instance part="R14" gate="G$1" x="-15.24" y="-40.64" rot="R270"/>
+<instance part="R15" gate="G$1" x="-7.62" y="-40.64" rot="R270"/>
+<instance part="R16" gate="G$1" x="0" y="-40.64" rot="R270"/>
 <instance part="PCA9685-1" gate="G$1" x="190.5" y="48.26"/>
 <instance part="P+14" gate="1" x="165.1" y="68.58" smashed="yes">
 <attribute name="VALUE" x="170.18" y="66.04" size="1.778" layer="96" rot="R180"/>
@@ -12600,6 +12681,27 @@ shrink quad flat pack, square</description>
 <instance part="U1" gate="G$5" x="-180.34" y="93.98"/>
 <instance part="U1" gate="G$6" x="-160.02" y="93.98"/>
 <instance part="U1" gate="G$7" x="-139.7" y="93.98"/>
+<instance part="U2" gate="A" x="63.5" y="-43.18"/>
+<instance part="U3" gate="A" x="76.2" y="-81.28"/>
+<instance part="U4" gate="A" x="-5.08" y="-81.28"/>
+<instance part="TC1" gate="G$1" x="40.64" y="-91.44"/>
+<instance part="PAD1" gate="G$1" x="33.02" y="-48.26"/>
+<instance part="C15" gate="G$1" x="25.4" y="-45.72" rot="MR0"/>
+<instance part="P+12" gate="1" x="25.4" y="-35.56"/>
+<instance part="GND15" gate="1" x="25.4" y="-60.96"/>
+<instance part="ROT1" gate="G$1" x="-33.02" y="-55.88"/>
+<instance part="P+23" gate="1" x="-15.24" y="-30.48"/>
+<instance part="P+24" gate="1" x="-7.62" y="-30.48"/>
+<instance part="P+25" gate="1" x="0" y="-30.48"/>
+<instance part="GND16" gate="1" x="-22.86" y="-66.04"/>
+<instance part="TC2" gate="G$1" x="40.64" y="-76.2"/>
+<instance part="C16" gate="G$1" x="35.56" y="-81.28" rot="MR0"/>
+<instance part="GND17" gate="1" x="35.56" y="-104.14"/>
+<instance part="P+8" gate="1" x="35.56" y="-60.96"/>
+<instance part="TC3" gate="G$1" x="-35.56" y="-86.36"/>
+<instance part="C17" gate="G$1" x="-40.64" y="-83.82" rot="MR0"/>
+<instance part="GND18" gate="1" x="-40.64" y="-96.52"/>
+<instance part="P+11" gate="1" x="-40.64" y="-73.66"/>
 </instances>
 <busses>
 </busses>
@@ -12784,40 +12886,6 @@ shrink quad flat pack, square</description>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="TC" gate="G$1" pin="2"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="27.94" y1="-45.72" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-45.72" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="NEUT" gate="G$1" pin="2"/>
-<pinref part="P+8" gate="1" pin="+5V"/>
-<wire x1="58.42" y1="-45.72" x2="60.96" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-45.72" x2="60.96" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LC" gate="G$1" pin="2"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<wire x1="83.82" y1="-45.72" x2="86.36" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-45.72" x2="86.36" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="PAD" gate="G$1" pin="3"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
-<wire x1="27.94" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-76.2" x2="30.48" y2="-71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="ROT" gate="G$1" pin="6"/>
-<wire x1="63.5" y1="-76.2" x2="66.04" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
-<wire x1="66.04" y1="-76.2" x2="66.04" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="ROT" gate="G$1" pin="5"/>
-<wire x1="63.5" y1="-78.74" x2="66.04" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-78.74" x2="66.04" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="66.04" y="-76.2"/>
-</segment>
-<segment>
 <pinref part="PCA9685-1" gate="G$1" pin="VDD"/>
 <pinref part="P+14" gate="1" pin="+5V"/>
 <wire x1="170.18" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
@@ -12986,6 +13054,55 @@ shrink quad flat pack, square</description>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="VCC"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-40.64" x2="25.4" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-40.64" x2="25.4" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<wire x1="25.4" y1="-38.1" x2="25.4" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="25.4" y="-40.64"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<wire x1="-22.86" y1="-33.02" x2="-22.86" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="P+23" gate="1" pin="+5V"/>
+<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="P+24" gate="1" pin="+5V"/>
+<wire x1="-7.62" y1="-33.02" x2="-7.62" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="P+25" gate="1" pin="+5V"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-78.74" x2="35.56" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-66.04" x2="55.88" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-66.04" x2="55.88" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VCC"/>
+<wire x1="55.88" y1="-78.74" x2="58.42" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="35.56" y1="-63.5" x2="35.56" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="35.56" y="-66.04"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="VCC"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="-78.74" x2="-40.64" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-78.74" x2="-40.64" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="P+11" gate="1" pin="+5V"/>
+<wire x1="-40.64" y1="-78.74" x2="-40.64" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-78.74"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -13998,42 +14115,6 @@ shrink quad flat pack, square</description>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="GND23" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="PCA9685-1" gate="G$1" pin="GND"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="170.18" y1="25.4" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
@@ -14129,6 +14210,62 @@ shrink quad flat pack, square</description>
 <wire x1="152.4" y1="60.96" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <junction x="152.4" y="58.42"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="GND"/>
+<wire x1="45.72" y1="-53.34" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-53.34" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="PAD1" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-50.8" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-53.34" x2="43.18" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="43.18" y="-53.34"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-55.88" x2="25.4" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-55.88" x2="25.4" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="25.4" y1="-55.88" x2="25.4" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="25.4" y="-55.88"/>
+</segment>
+<segment>
+<pinref part="ROT1" gate="G$1" pin="1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="-25.4" y1="-60.96" x2="-22.86" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-60.96" x2="-22.86" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="ROT1" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="-58.42" x2="-22.86" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-58.42" x2="-22.86" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-60.96"/>
+</segment>
+<segment>
+<pinref part="TC2" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-76.2" x2="50.8" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-76.2" x2="50.8" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="TC1" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="-91.44" x2="48.26" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="GND"/>
+<wire x1="50.8" y1="-91.44" x2="58.42" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="50.8" y="-91.44"/>
+<wire x1="50.8" y1="-91.44" x2="50.8" y2="-99.06" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="-99.06" x2="35.56" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-99.06" x2="35.56" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="35.56" y1="-99.06" x2="35.56" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="35.56" y="-99.06"/>
+</segment>
+<segment>
+<pinref part="TC3" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="-86.36" x2="-25.4" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-86.36" x2="-25.4" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="GND"/>
+<wire x1="-25.4" y1="-91.44" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="-91.44" x2="-40.64" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-91.44" x2="-40.64" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-91.44"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-40.64" y1="-91.44" x2="-40.64" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-91.44"/>
+</segment>
 </net>
 <net name="N$26" class="0">
 <segment>
@@ -14219,13 +14356,9 @@ shrink quad flat pack, square</description>
 </net>
 <net name="NEUTRAL" class="0">
 <segment>
-<pinref part="NEUT" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="-48.26" x2="60.96" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="-48.26" x2="66.04" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-48.26" x2="60.96" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="60.96" y="-48.26"/>
-<label x="60.96" y="-48.26" size="1.778" layer="95"/>
+<wire x1="93.98" y1="-81.28" x2="96.52" y2="-81.28" width="0.1524" layer="91"/>
+<label x="96.52" y="-81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="OUT2"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(A15)PC7"/>
@@ -14247,13 +14380,9 @@ shrink quad flat pack, square</description>
 <label x="76.2" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TC" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-48.26" x2="30.48" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="-48.26" x2="35.56" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-48.26" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="30.48" y="-48.26"/>
-<label x="30.48" y="-48.26" size="1.778" layer="95"/>
+<wire x1="12.7" y1="-81.28" x2="15.24" y2="-81.28" width="0.1524" layer="91"/>
+<label x="15.24" y="-81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="A" pin="OUT2"/>
 </segment>
 </net>
 <net name="PADDOWN" class="0">
@@ -14263,13 +14392,9 @@ shrink quad flat pack, square</description>
 <label x="76.2" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PAD" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-81.28" x2="30.48" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-81.28" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-81.28" x2="45.72" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="30.48" y="-81.28"/>
-<label x="40.64" y="-81.28" size="1.778" layer="95"/>
+<wire x1="81.28" y1="-43.18" x2="83.82" y2="-43.18" width="0.1524" layer="91"/>
+<label x="83.82" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="A" pin="OUT2"/>
 </segment>
 </net>
 <net name="PADUP" class="0">
@@ -14279,24 +14404,20 @@ shrink quad flat pack, square</description>
 <label x="76.2" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PAD" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-78.74" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-78.74" x2="45.72" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="38.1" y="-78.74"/>
-<label x="40.64" y="-78.74" size="1.778" layer="95"/>
+<wire x1="81.28" y1="-40.64" x2="83.82" y2="-40.64" width="0.1524" layer="91"/>
+<label x="83.82" y="-40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="A" pin="OUT1"/>
 </segment>
 </net>
 <net name="ROTSW4" class="0">
 <segment>
-<pinref part="ROT" gate="G$1" pin="1"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="-88.9" x2="66.04" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-88.9" x2="66.04" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-88.9" x2="101.6" y2="-88.9" width="0.1524" layer="91"/>
-<junction x="66.04" y="-88.9"/>
-<label x="91.44" y="-88.9" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="-55.88" x2="-22.86" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-55.88" x2="-22.86" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-55.88" x2="12.7" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-55.88"/>
+<label x="2.54" y="-55.88" size="1.778" layer="95"/>
+<pinref part="ROT1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(OC0)PB4"/>
@@ -14306,13 +14427,13 @@ shrink quad flat pack, square</description>
 </net>
 <net name="ROTSW3" class="0">
 <segment>
-<pinref part="ROT" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="-86.36" x2="73.66" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-86.36" x2="73.66" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-86.36" x2="101.6" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="73.66" y="-86.36"/>
-<label x="91.44" y="-86.36" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="-53.34" x2="-15.24" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-53.34" x2="-15.24" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-53.34" x2="12.7" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-53.34"/>
+<label x="2.54" y="-53.34" size="1.778" layer="95"/>
+<pinref part="ROT1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(MISO)PB3"/>
@@ -14322,13 +14443,13 @@ shrink quad flat pack, square</description>
 </net>
 <net name="ROTSW2" class="0">
 <segment>
-<pinref part="ROT" gate="G$1" pin="3"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="-83.82" x2="81.28" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-83.82" x2="81.28" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-83.82" x2="101.6" y2="-83.82" width="0.1524" layer="91"/>
-<junction x="81.28" y="-83.82"/>
-<label x="91.44" y="-83.82" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="-50.8" x2="-7.62" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-50.8" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-50.8" x2="12.7" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-50.8"/>
+<label x="2.54" y="-50.8" size="1.778" layer="95"/>
+<pinref part="ROT1" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(MOSI)PB2"/>
@@ -14338,13 +14459,13 @@ shrink quad flat pack, square</description>
 </net>
 <net name="ROTSW1" class="0">
 <segment>
-<pinref part="ROT" gate="G$1" pin="4"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="-81.28" x2="88.9" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-81.28" x2="88.9" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-81.28" x2="101.6" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="88.9" y="-81.28"/>
-<label x="91.44" y="-81.28" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="-48.26" x2="0" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="0" y1="-48.26" x2="0" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="0" y1="-48.26" x2="12.7" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="0" y="-48.26"/>
+<label x="2.54" y="-48.26" size="1.778" layer="95"/>
+<pinref part="ROT1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(SS)PB0"/>
@@ -14354,13 +14475,9 @@ shrink quad flat pack, square</description>
 </net>
 <net name="LC" class="0">
 <segment>
-<pinref part="LC" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="-48.26" x2="86.36" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-48.26" x2="86.36" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-48.26" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="86.36" y="-48.26"/>
-<label x="88.9" y="-48.26" size="1.778" layer="95"/>
+<wire x1="93.98" y1="-78.74" x2="96.52" y2="-78.74" width="0.1524" layer="91"/>
+<label x="96.52" y="-78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="OUT1"/>
 </segment>
 <segment>
 <pinref part="AT90CAN128" gate="G$1" pin="(OC3A/AIN1)PE3"/>
@@ -14662,6 +14779,45 @@ shrink quad flat pack, square</description>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="93.98" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="IN1"/>
+<pinref part="PAD1" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-45.72" x2="40.64" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="IN2"/>
+<pinref part="PAD1" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-48.26" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="TC1" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="-88.9" x2="53.34" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-88.9" x2="53.34" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="IN2"/>
+<wire x1="53.34" y1="-86.36" x2="58.42" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="TC2" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="-73.66" x2="53.34" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-73.66" x2="53.34" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="IN1"/>
+<wire x1="53.34" y1="-83.82" x2="58.42" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$90" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="IN1"/>
+<pinref part="TC3" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="-83.82" x2="-27.94" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
