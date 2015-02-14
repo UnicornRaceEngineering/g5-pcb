@@ -1,10 +1,47 @@
-Part;Value;Device;Package
-C3;680 uf;CPOL-EUE5-10.5;E5-10,5
-C4;220 uf;CPOL-EUE2.5-7;E2,5-7
-C7;0.05uf;C-EUC0603K;C0603K
-C8;0.20uf;C-EUC0603K;C0603K
-L1;33 uh;L-USTFI0410;TFI0410
-LED1;2k2;R-EU_R0603;R0603
-LED2;3k3;R-EU_R0603;R0603
-LED3;1k;R-EU_R0603;R0603
-LED4;4k;R-EU_R0603;R0603
+Partlist exported from C:/Users/Simmers/Documents/GitHub/g5-pcb/STM32F407 era/Steering Wheel/rat.sch at 14-02-2015 05:55:19
+
+Qty Value                      Device                        Package               Parts                                                              Description                                       
+11                             LED_RGB_PLCC6CREE-CLV6A       RGBLED_PLCC6          LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11 RGB LED                                           
+1                              M03                           S3B-PH                PAD1                                                               Header 2                                          
+3                              PCA9685                       TSSOP28               PCA9685, PCA9685-1, PCA9685-2                                      PCA9685 - 16 Channel 12-Bit I2C PWM Controller    
+1                              PINHD-1X2/90                  1X02/90               JP7                                                                PIN HEADER                                        
+1                              STM32F4-100                   SQFP-S-14X14-100      U1                                                                 STM32F4, 100 pin package                          
+2                              SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE S1, S2                                                             Various NO switches- pushbuttons, reed, etc       
+9   100n                       CAP_CERAMIC_0402MP            _0402MP               C5, C7, C8, C9, C10, C18, C21, C23, C28                            Ceramic Capacitors                                
+9   100nF                      C-EUC0603K                    C0603K                C6, C11, C12, C13, C14, C15, C16, C17, C27                         CAPACITOR, European symbol                        
+6   10k                        R-EU_R0603                    R0603                 R13, R14, R15, R16, R17, R18                                       RESISTOR, European symbol                         
+2   10u                        CAP_CERAMIC0805               0805                  C3, C29                                                            Ceramic Capacitors                                
+1   120                        R-EU_R0603                    R0603                 R1                                                                 RESISTOR, European symbol                         
+2   1u                         CAP_CERAMIC_0402MP            _0402MP               C22, C24                                                           Ceramic Capacitors                                
+8   200                        R-EU_R0603                    R0603                 R21, R22, R23, R24, R25, R26, R27, R28                             RESISTOR, European symbol                         
+2   22                         R-EU_R0603                    R0603                 R2, R3                                                             RESISTOR, European symbol                         
+3   220                        R-EU_R0603                    R0603                 R6, R19, R29                                                       RESISTOR, European symbol                         
+2   22pf                       C-EUC0603K                    C0603K                C1, C2                                                             CAPACITOR, European symbol                        
+1   22u                        CAP_CERAMIC_0603MP            _0603MP               C4                                                                 Ceramic Capacitors                                
+2   2u2                        CAP_CERAMIC_0402MP            _0402MP               C19, C20                                                           Ceramic Capacitors                                
+1   4u7                        C-EUC0603K                    C0603K                C26                                                                CAPACITOR, European symbol                        
+1   4u7                        CAP_CERAMIC_0402MP            _0402MP               C25                                                                Ceramic Capacitors                                
+2   500                        R-EU_R0603                    R0603                 R4, R5                                                             RESISTOR, European symbol                         
+1   74AC14D                    74AC14D                       SO14                  IC2                                                                Hex schmitt trigger INVERTER                      
+1   8 MHz                      CRYSTALHC49U70                HC49U70               Q1                                                                 CRYSTAL                                           
+1   9.5k                       R-EU_R0603                    R0603                 R11                                                                RESISTOR, European symbol                         
+1   AP1509                     AP1509                        SOP-8L                U$10                                                                                                                 
+1   B340A-13-F                 MBRA140                       SMA-DIODE             D2                                                                 40V, 1A Schottky rectifier                        
+1   BIGSEVENSEGMENT            BIGSEVENSEGMENT               BIGSEVENSEGMENT       U$5                                                                                                                  
+5   BLUE                       LEDSMT1206                    1206                  BLUE1, BLUE2, BLUE3, BLUE4, BLUE5                                  LED                                               
+6   GREEN                      LEDSMT1206                    1206                  GREEN1, GREEN2, GREEN3, GREEN4, GREEN5, LCL                        LED                                               
+1   JTAG-ARMEDGE               JTAG-ARMEDGE                  MOLEX20_RIGHTANGLE    JTAG1                                                              20 Pin JTAG Connector                             
+1   LC                         M02-JST-2MM-SMT               S2B-PH                TC2                                                                Header 2                                          
+2   M06                        M06                           S6B_PH                JP6, ROT1                                                                                                            
+3   MAX6817EUT+T               MAX6817EUT+T                  SOT95P280X145-6N      U2, U3, U4                                                         ±15kV ESD-Protected CMOS Switch Debouncers        
+1   MAX7221-SMD                MAX7221-SMD                   MAX7221               MAX7221                                                                                                              
+1   MINI-USB-SCHIELD-32005-201 MINI-USB-SCHIELD-32005-201    32005-201             X1                                                                 MINI USB-B Conector                               
+1   MSS1038-473MLC 47u         INDUCTORPWR                   CDRH125               L1                                                                 Inductors                                         
+1   NEUT                       M02-JST-2MM-SMT               S2B-PH                TC1                                                                Header 2                                          
+1   PCA82C250T                 PCA82C250T                    SO8                   IC3                                                                CAN CONTROLLER INTERFACE                          
+5   RED                        LEDSMT1206                    1206                  RED, RED2, RED3, RED4, RED5                                        LED                                               
+6   REDSEVENSEGMENT            REDSEVENSEGMENT               REDSEGMENT            U$2, U$3, U$4, U$6, U$7, U$8                                                                                         
+1   REG1117                    REG1117                       SOT223                IC1                                                                800mA and 1A Low Dropout (LDO) Positive Regulator 
+4   STAND-OFF                  STAND-OFF                     STAND-OFF             JP2, JP3, JP4, JP5                                                 Stand Off                                         
+1   SWS008                     SWS008                        SMS-008               8-BIT-DIP                                                          SMD Dip Switch 8 pol.                             
+1   tc                         M02-JST-2MM-SMT               S2B-PH                TC3                                                                Header 2                                          
