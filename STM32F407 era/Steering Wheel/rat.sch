@@ -15352,11 +15352,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="A" pin="OUT2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$4" pin="PC9"/>
-<wire x1="83.82" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
-<label x="86.36" y="96.52" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="111.76" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <label x="114.3" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$5" pin="PD12"/>
@@ -15367,11 +15362,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.66" y1="254" x2="76.2" y2="254" width="0.1524" layer="91"/>
 <label x="76.2" y="254" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="A" pin="OUT1"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$4" pin="PC8"/>
-<wire x1="83.82" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
-<label x="86.36" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
@@ -15448,11 +15438,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="76.2" y1="218.44" x2="78.74" y2="218.44" width="0.1524" layer="91"/>
 <label x="78.74" y="218.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="U3" gate="A" pin="OUT1"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$4" pin="PC6"/>
-<wire x1="83.82" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
-<label x="86.36" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
@@ -16385,11 +16370,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 </net>
 <net name="NEUT" class="0">
-<segment>
-<pinref part="U1" gate="G$4" pin="PC7"/>
-<wire x1="83.82" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<label x="86.36" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="76.2" y1="215.9" x2="78.74" y2="215.9" width="0.1524" layer="91"/>
 <label x="78.74" y="215.9" size="1.27" layer="95" xref="yes"/>
