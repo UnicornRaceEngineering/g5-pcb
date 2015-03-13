@@ -13789,7 +13789,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="4u7"/>
 <part name="U$13" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201"/>
+<part name="X1" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201" value=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="U$16" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
