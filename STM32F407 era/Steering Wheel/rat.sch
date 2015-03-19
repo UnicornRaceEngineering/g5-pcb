@@ -13797,7 +13797,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$19" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$20" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$21" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
+<part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="PWR" value="MSS1038-473MLC 47u"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="MBRA140" device="" value="B340A-13-F"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
