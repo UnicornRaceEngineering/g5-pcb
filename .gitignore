@@ -34,3 +34,9 @@ eagle.epf
 *.info
 
 *.eps
+
+# Os files
+.DS_Store
+Thumbs.db
+thumbs.db
+
