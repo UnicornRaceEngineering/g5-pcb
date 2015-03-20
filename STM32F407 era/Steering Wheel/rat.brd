@@ -1624,7 +1624,7 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="Q1" library="crystal" package="HC49U70" value="8 MHz" x="249.659596875" y="6.3909375" rot="R270">
+<element name="Q1" library="crystal" package="HC49U70" value="25 MHz" x="249.659596875" y="6.3909375" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="249.659596875" y="6.3909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="249.659596875" y="6.3909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="249.659596875" y="6.3909375" size="1.778" layer="27" rot="R270" display="off"/>

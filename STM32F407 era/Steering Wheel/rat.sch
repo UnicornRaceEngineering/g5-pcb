@@ -13636,7 +13636,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U70" value="8 MHz"/>
+<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U70" value="25 MHz"/>
 <part name="IC3" library="micro-philips" deviceset="PCA82C250" device="T"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="120"/>
