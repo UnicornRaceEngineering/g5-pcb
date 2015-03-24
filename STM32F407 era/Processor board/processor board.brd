@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0003" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.003" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -6130,10 +6130,14 @@
 <wire x1="0" y1="0" x2="61.4172" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="43.47971875" width="0" layer="20"/>
 <text x="13.319759375" y="9.72311875" size="1.4224" layer="112" align="top-left">CPU Board V 0.5</text>
-<text x="2.377440625" y="12.283440625" size="0.8128" layer="112" align="top-left">RESET</text>
+<text x="2.377440625" y="12.2301" size="0.8128" layer="112" align="top-left">RESET</text>
 <text x="10.309859375" y="16.39061875" size="0.8128" layer="112" align="top-left">BOOT</text>
 <text x="25.290778125" y="27.698703125" size="1.27" layer="112" align="top-left">JTAG</text>
 <text x="0.8001" y="20.246340625" size="1.27" layer="112" align="top-left">CAN</text>
+<dimension x1="0" y1="43.4975" x2="61.595" y2="43.4975" x3="30.7975" y3="45.2247" layer="1"/>
+<dimension x1="61.595" y1="0" x2="61.595" y2="43.4975" x3="-2.156459375" y3="21.74875" layer="1"/>
+<wire x1="48.4251" y1="9.547859375" x2="48.592740625" y2="9.7155" width="0" layer="21"/>
+<wire x1="48.592740625" y1="9.7155" x2="52.707540625" y2="9.7155" width="0" layer="21"/>
 </plain>
 <libraries>
 <library name="apbteam_stm32">
@@ -7310,57 +7314,63 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="38.9911875" y="24.437615625" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="microbuilder" package="_0402MP" value="2u2" x="37.8799375" y="32.311615625" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.1275375" y="33.3225375" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="38.1275375" y="33.3225375" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="38.6737375" y="31.676615625" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C2" library="microbuilder" package="_0402MP" value="2u2" x="52.5801875" y="28.120615625" smashed="yes">
-<attribute name="NAME" x="53.461565625" y="27.880634375" size="0.6096" layer="25" ratio="18"/>
+<attribute name="NAME" x="53.461565625" y="27.575834375" size="0.8128" layer="21" ratio="18"/>
 <attribute name="VALUE" x="51.9451875" y="27.326815625" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="microbuilder" package="_0402MP" value="100n" x="47.9129375" y="11.896365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.163784375" y="12.80513125" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="52.18714375" y="9.71903125" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="47.1191375" y="12.531365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C4" library="microbuilder" package="_0402MP" value="1u" x="48.5796875" y="11.896365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.830534375" y="12.80513125" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="53.219653125" y="9.719034375" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="47.7858875" y="12.531365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C5" library="microbuilder" package="_0402MP" value="100n" x="34.4826875" y="15.706365625" rot="R180"/>
+<element name="C5" library="microbuilder" package="_0402MP" value="100n" x="34.4826875" y="15.706365625" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.2431125" y="15.478534375" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="35.1176875" y="16.500165625" size="0.4064" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="C6" library="microbuilder" package="_0402MP" value="100n" x="36.7051875" y="32.311615625" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.952790625" y="33.3225375" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="36.952790625" y="33.3225375" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="37.4989875" y="31.676615625" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C7" library="microbuilder" package="_0402MP" value="100n" x="52.5801875" y="28.787365625" smashed="yes">
-<attribute name="NAME" x="53.46156875" y="28.539765625" size="0.6096" layer="25" ratio="18"/>
+<attribute name="NAME" x="53.46156875" y="28.768365625" size="0.8128" layer="21" ratio="18"/>
 <attribute name="VALUE" x="51.9451875" y="27.993565625" size="0.4064" layer="27" ratio="10"/>
 </element>
-<element name="C8" library="microbuilder" package="_0402MP" value="100n" x="52.3579375" y="16.595365625" rot="R270"/>
+<element name="C8" library="microbuilder" package="_0402MP" value="100n" x="52.3579375" y="16.595365625" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.8342375" y="17.230365625" size="0.8128" layer="25" ratio="18" rot="R270"/>
+<attribute name="VALUE" x="51.5641375" y="17.230365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="C9" library="microbuilder" package="_0402MP" value="100n" x="45.9126875" y="11.896365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.16353125" y="12.805134375" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="49.089609375" y="9.719034375" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="45.1188875" y="12.531365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C10" library="microbuilder" package="_0402MP" value="100n" x="41.7216875" y="12.753615625" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.060828125" y="13.510534375" size="0.6096" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="43.054571875" y="12.245065625" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="40.9278875" y="13.388615625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C11" library="microbuilder" package="_0402MP" value="4u7" x="41.0549375" y="12.753615625" smashed="yes" rot="R270">
-<attribute name="NAME" x="40.61998125" y="11.99360625" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="40.54378125" y="12.22220625" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="40.2611375" y="13.388615625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C12" library="microbuilder" package="_0402MP" value="100n" x="46.5794375" y="11.896365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.837903125" y="12.805134375" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="50.122121875" y="9.71903125" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="45.7856375" y="12.531365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C13" library="microbuilder" package="_0402MP" value="1u" x="47.2461875" y="11.896365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.49703125" y="12.80513125" size="0.6096" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="51.15463125" y="9.71903125" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="46.4523875" y="12.531365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C14" library="microbuilder" package="_0402MP" value="22p" x="42.6424375" y="5.927365625" smashed="yes">
-<attribute name="NAME" x="43.46285625" y="5.6797625" size="0.6096" layer="25" ratio="18"/>
+<attribute name="NAME" x="43.53905625" y="5.6797625" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="42.0074375" y="5.133565625" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C15" library="microbuilder" package="_0402MP" value="22p" x="41.3724375" y="9.769115625" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.2316625" y="9.520965625" size="0.6096" layer="25" ratio="18"/>
+<attribute name="NAME" x="41.9268625" y="9.520965625" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="42.0074375" y="10.562915625" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="RESET" x="5.3679375" y="14.182365625" rot="R180">
@@ -7369,9 +7379,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="S2" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="BOOT" x="13.3054375" y="18.309865625" rot="R180">
 <attribute name="PROD_ID" value="SWCH-00815" x="13.3054375" y="18.309865625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="microbuilder" package="_0402MP" value="500" x="18.0361875" y="17.801865625" rot="R270"/>
+<element name="R1" library="microbuilder" package="_0402MP" value="500" x="18.0361875" y="17.801865625" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.5124875" y="18.513065625" size="0.8128" layer="25" ratio="18" rot="R270"/>
+<attribute name="VALUE" x="17.2423875" y="18.436865625" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="R2" library="microbuilder" package="_0402MP" value="500" x="8.7016875" y="16.531865625" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.789828125" y="16.848046875" size="0.6096" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="9.618628125" y="17.762446875" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="9.3366875" y="17.325665625" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X1" library="con-cypressindustries" package="32005-201" value="" x="5.9711875" y="36.343865625" smashed="yes">
@@ -7396,7 +7409,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="REG1117" x="20.0681875" y="39.645865625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="20.0681875" y="39.645865625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1097566" x="20.0681875" y="39.645865625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.913575" y="36.250528125" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.065975" y="36.479128125" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="14.2261875" y="42.439865625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C17" library="microbuilder" package="_0603MP" value="10u" x="13.1784375" y="38.852115625" smashed="yes" rot="R270">
@@ -7417,7 +7430,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="22.9193375" y="28.755615625" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="U$23" library="unicorn" package="MICROFIT4SOCK" value="MICROFIT4" x="5.4949375" y="25.548865625" rot="R270"/>
-<element name="R6" library="microbuilder" package="_0402MP" value="1k8" x="15.4644375" y="23.040615625" rot="R90"/>
+<element name="R6" library="microbuilder" package="_0402MP" value="1k8" x="15.4644375" y="23.040615625" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.6739375" y="23.624815625" size="0.8128" layer="25" ratio="18" rot="R90"/>
+<attribute name="VALUE" x="16.2582375" y="22.405615625" size="0.4064" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="X2" library="con-panduit" package="057-010-1" value="057-010-1" x="24.2591875" y="31.994115625" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="24.2591875" y="31.994115625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="24.2591875" y="31.994115625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7446,11 +7462,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="51.7229375" y="29.930365625" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_1206" value="" x="26.4181875" y="39.169615625" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.377490625" y="37.116746875" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="25.377490625" y="37.878746875" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="23.8781875" y="40.439615625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="microbuilder" package="_0402MP" value="100" x="24.8306875" y="41.614365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.17239375" y="41.87286875" size="0.6096" layer="25" ratio="18"/>
+<attribute name="NAME" x="25.32479375" y="41.26326875" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="24.0368875" y="42.249365625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
