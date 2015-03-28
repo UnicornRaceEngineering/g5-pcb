@@ -5468,86 +5468,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="APC220">
-<packages>
-<package name="APC220">
-<pad name="GND" x="-10.16" y="7.62" drill="0.8" shape="long"/>
-<pad name="VCC" x="-10.16" y="5.08" drill="0.8" shape="long"/>
-<pad name="EN" x="-10.16" y="2.54" drill="0.8" shape="long"/>
-<pad name="RXD" x="-10.16" y="0" drill="0.8" shape="long"/>
-<pad name="TXD" x="-10.16" y="-2.54" drill="0.8" shape="long"/>
-<pad name="AUX" x="-10.16" y="-5.08" drill="0.8" shape="long"/>
-<pad name="SET" x="-10.16" y="-7.62" drill="0.8" shape="long"/>
-<pad name="NC2" x="25.4" y="-7.62" drill="0.8" shape="long"/>
-<pad name="NC1" x="25.4" y="-5.08" drill="0.8" shape="long"/>
-<wire x1="-12.7" y1="8.89" x2="27.94" y2="8.89" width="0.127" layer="21"/>
-<wire x1="27.94" y1="8.89" x2="27.94" y2="6.35" width="0.127" layer="21"/>
-<wire x1="27.94" y1="6.35" x2="27.94" y2="3.81" width="0.127" layer="21"/>
-<wire x1="27.94" y1="3.81" x2="27.94" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="27.94" y1="-8.89" x2="-12.7" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-8.89" x2="-12.7" y2="8.89" width="0.127" layer="21"/>
-<text x="1.27" y="0" size="1.27" layer="21">APC220</text>
-<wire x1="25.4" y1="6.35" x2="27.94" y2="6.35" width="0.127" layer="21"/>
-<wire x1="27.94" y1="6.35" x2="29.21" y2="6.35" width="0.127" layer="21"/>
-<wire x1="29.21" y1="6.35" x2="30.48" y2="6.35" width="0.127" layer="21"/>
-<wire x1="30.48" y1="6.35" x2="31.75" y2="6.35" width="0.127" layer="21"/>
-<wire x1="31.75" y1="6.35" x2="33.02" y2="6.35" width="0.127" layer="21"/>
-<wire x1="33.02" y1="6.35" x2="33.02" y2="1.27" width="0.127" layer="21"/>
-<wire x1="33.02" y1="1.27" x2="31.75" y2="1.27" width="0.127" layer="21"/>
-<wire x1="31.75" y1="1.27" x2="30.48" y2="1.27" width="0.127" layer="21"/>
-<wire x1="30.48" y1="1.27" x2="29.21" y2="1.27" width="0.127" layer="21"/>
-<wire x1="29.21" y1="1.27" x2="25.4" y2="1.27" width="0.127" layer="21"/>
-<wire x1="26.67" y1="3.81" x2="27.94" y2="3.81" width="0.127" layer="21"/>
-<wire x1="33.02" y1="1.27" x2="31.75" y2="6.35" width="0.127" layer="21"/>
-<wire x1="31.75" y1="1.27" x2="30.48" y2="6.35" width="0.127" layer="21"/>
-<wire x1="30.48" y1="1.27" x2="29.21" y2="6.35" width="0.127" layer="21"/>
-<wire x1="29.21" y1="1.27" x2="27.94" y2="6.35" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="APC220">
-<pin name="GND" x="-12.7" y="7.62" length="middle"/>
-<pin name="VCC" x="-12.7" y="5.08" length="middle"/>
-<pin name="EN" x="-12.7" y="2.54" length="middle"/>
-<pin name="RXD" x="-12.7" y="0" length="middle"/>
-<pin name="TXD" x="-12.7" y="-2.54" length="middle"/>
-<pin name="AUX" x="-12.7" y="-5.08" length="middle"/>
-<pin name="SET" x="-12.7" y="-7.62" length="middle"/>
-<pin name="NC2" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="NC1" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="5.08" y="0" size="1.27" layer="94" rot="R90">apc220</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="APC220">
-<gates>
-<gate name="G$1" symbol="APC220" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="APC220">
-<connects>
-<connect gate="G$1" pin="AUX" pad="AUX"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="NC1" pad="NC1"/>
-<connect gate="G$1" pin="NC2" pad="NC2"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="SET" pad="SET"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="NXP_By_element14_Batch_1">
 <description>Developed by element14 :&lt;br&gt;
 element14 CAD Library consolidation.ulp
@@ -6216,9 +6136,7 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <part name="JP1" library="SparkFun-Boards" deviceset="RASPBERRYPI-B+-GPIO" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="APC220" deviceset="APC220" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="NXP_By_element14_Batch_1" deviceset="SC18IM700IPW,112" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -6250,6 +6168,13 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <part name="LP1" library="light-pipe" deviceset="LPF-C011304S" device=""/>
 <part name="LP2" library="light-pipe" deviceset="LPF-C011304S" device=""/>
 <part name="LP3" library="light-pipe" deviceset="LPF-C011304S" device=""/>
+<part name="XB2" library="maxstream" deviceset="XBEE" device="-PRO">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="XBP24-AWI-001"/>
+<attribute name="OC_FARNELL" value="1337916"/>
+<attribute name="OC_NEWARK" value="42M2667"/>
+</part>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6306,11 +6231,9 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <attribute name="VALUE" x="93.98" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="91.44" y="60.96"/>
-<instance part="U$1" gate="G$1" x="139.7" y="22.86"/>
-<instance part="+3V3" gate="G$1" x="124.46" y="35.56" smashed="yes">
-<attribute name="VALUE" x="127" y="38.1" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V3" gate="G$1" x="127" y="43.18" smashed="yes">
+<attribute name="VALUE" x="129.54" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="119.38" y="15.24"/>
 <instance part="U2" gate="A" x="99.06" y="35.56"/>
 <instance part="+3V6" gate="G$1" x="78.74" y="50.8" smashed="yes">
 <attribute name="VALUE" x="81.28" y="53.34" size="1.778" layer="96" rot="R180"/>
@@ -6354,6 +6277,8 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <instance part="LP1" gate="G$1" x="137.16" y="116.84"/>
 <instance part="LP2" gate="G$1" x="137.16" y="104.14"/>
 <instance part="LP3" gate="G$1" x="137.16" y="91.44"/>
+<instance part="XB2" gate="G$1" x="144.78" y="12.7"/>
+<instance part="GND4" gate="1" x="127" y="-20.32"/>
 </instances>
 <busses>
 </busses>
@@ -6426,12 +6351,6 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="127" y1="30.48" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="30.48" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="VSS"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="81.28" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
@@ -6465,6 +6384,12 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <wire x1="71.12" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="93.98" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <junction x="68.58" y="86.36"/>
+</segment>
+<segment>
+<pinref part="XB2" gate="G$1" pin="GND"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="129.54" y1="-15.24" x2="127" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="-15.24" x2="127" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6518,10 +6443,13 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <junction x="91.44" y="116.84"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="127" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="27.94" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="127" y1="38.1" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="XB2" gate="G$1" pin="!RESET"/>
+<wire x1="129.54" y1="35.56" x2="127" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="127" y1="35.56" x2="127" y2="38.1" width="0.1524" layer="91"/>
+<junction x="127" y="38.1"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VDD"/>
@@ -6647,19 +6575,19 @@ http://www.bobstarr.net&lt;/author&gt;</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="TX"/>
-<pinref part="U$1" gate="G$1" pin="RXD"/>
-<wire x1="116.84" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="XB2" gate="G$1" pin="DIN/!CONFIG"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TXD"/>
-<wire x1="127" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="20.32" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="7.62" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="RX"/>
 <wire x1="73.66" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="XB2" gate="G$1" pin="DOUT"/>
 </segment>
 </net>
 <net name="N$4" class="0">
