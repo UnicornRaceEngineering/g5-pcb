@@ -13667,49 +13667,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="MAX7221" library="max7221-smd" deviceset="MAX7221-SMD" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="9.5k"/>
 <part name="PCA9685" library="adafruit" deviceset="PCA9685" device=""/>
-<part name="BLUE4" library="led" deviceset="LED" device="SMT1206" value="BLUE">
+<part name="LED13" library="led" deviceset="LED" device="SMT1206" value="BLUE">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="BLUE3" library="led" deviceset="LED" device="SMT1206" value="BLUE">
+<part name="LED14" library="led" deviceset="LED" device="SMT1206" value="BLUE">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="BLUE2" library="led" deviceset="LED" device="SMT1206" value="BLUE">
+<part name="LED15" library="led" deviceset="LED" device="SMT1206" value="BLUE">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="BLUE1" library="led" deviceset="LED" device="SMT1206" value="BLUE">
+<part name="LED16" library="led" deviceset="LED" device="SMT1206" value="BLUE">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="RED5" library="led" deviceset="LED" device="SMT1206" value="RED">
+<part name="LED17" library="led" deviceset="LED" device="SMT1206" value="RED">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="RED4" library="led" deviceset="LED" device="SMT1206" value="RED">
+<part name="LED18" library="led" deviceset="LED" device="SMT1206" value="RED">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="RED3" library="led" deviceset="LED" device="SMT1206" value="RED">
+<part name="LED19" library="led" deviceset="LED" device="SMT1206" value="RED">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="RED2" library="led" deviceset="LED" device="SMT1206" value="RED">
+<part name="LED20" library="led" deviceset="LED" device="SMT1206" value="RED">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="RED" library="led" deviceset="LED" device="SMT1206" value="RED">
+<part name="LED21" library="led" deviceset="LED" device="SMT1206" value="RED">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="GREEN5" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED22" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="GREEN4" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED23" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="GREEN3" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED24" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="GREEN2" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED25" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="GREEN1" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED26" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
-<part name="BLUE5" library="led" deviceset="LED" device="SMT1206" value="BLUE">
+<part name="LED12" library="led" deviceset="LED" device="SMT1206" value="BLUE">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -13729,7 +13729,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="LCL" library="led" deviceset="LED" device="SMT1206" value="GREEN">
+<part name="LED27" library="led" deviceset="LED" device="SMT1206" value="GREEN">
 <attribute name="OSRAM-LGN971" value="GREEN"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -13945,49 +13945,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="MAX7221" gate="G$1" x="223.52" y="45.72" smashed="yes"/>
 <instance part="R11" gate="G$1" x="205.74" y="38.1" rot="R90"/>
 <instance part="PCA9685" gate="G$1" x="193.04" y="218.44"/>
-<instance part="BLUE4" gate="G$1" x="238.76" y="246.38" rot="R270">
+<instance part="LED13" gate="G$1" x="238.76" y="246.38" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="246.38" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="BLUE3" gate="G$1" x="248.92" y="241.3" rot="R270">
+<instance part="LED14" gate="G$1" x="248.92" y="241.3" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="241.3" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="BLUE2" gate="G$1" x="238.76" y="236.22" rot="R270">
+<instance part="LED15" gate="G$1" x="238.76" y="236.22" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="BLUE1" gate="G$1" x="248.92" y="231.14" rot="R270">
+<instance part="LED16" gate="G$1" x="248.92" y="231.14" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="231.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="RED5" gate="G$1" x="238.76" y="226.06" rot="R270">
+<instance part="LED17" gate="G$1" x="238.76" y="226.06" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="RED4" gate="G$1" x="248.92" y="220.98" rot="R270">
+<instance part="LED18" gate="G$1" x="248.92" y="220.98" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="RED3" gate="G$1" x="238.76" y="215.9" rot="R270">
+<instance part="LED19" gate="G$1" x="238.76" y="215.9" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="RED2" gate="G$1" x="248.92" y="210.82" rot="R270">
+<instance part="LED20" gate="G$1" x="248.92" y="210.82" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="RED" gate="G$1" x="238.76" y="205.74" rot="R270">
+<instance part="LED21" gate="G$1" x="238.76" y="205.74" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GREEN5" gate="G$1" x="248.92" y="200.66" rot="R270">
+<instance part="LED22" gate="G$1" x="248.92" y="200.66" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="200.66" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GREEN4" gate="G$1" x="238.76" y="195.58" rot="R270">
+<instance part="LED23" gate="G$1" x="238.76" y="195.58" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="195.58" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GREEN3" gate="G$1" x="248.92" y="190.5" rot="R270">
+<instance part="LED24" gate="G$1" x="248.92" y="190.5" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="190.5" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GREEN2" gate="G$1" x="238.76" y="185.42" rot="R270">
+<instance part="LED25" gate="G$1" x="238.76" y="185.42" rot="R270">
 <attribute name="OSRAM-LGN971" x="238.76" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GREEN1" gate="G$1" x="248.92" y="180.34" rot="R270">
+<instance part="LED26" gate="G$1" x="248.92" y="180.34" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="180.34" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="BLUE5" gate="G$1" x="248.92" y="251.46" rot="R270">
+<instance part="LED12" gate="G$1" x="248.92" y="251.46" rot="R270">
 <attribute name="OSRAM-LGN971" x="248.92" y="251.46" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="48.26" y="129.54" rot="MR0"/>
@@ -14007,7 +14007,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND25" gate="1" x="289.56" y="78.74"/>
 <instance part="R17" gate="G$1" x="63.5" y="101.6"/>
 <instance part="R18" gate="G$1" x="58.42" y="104.14"/>
-<instance part="LCL" gate="G$1" x="223.52" y="170.18" rot="R270">
+<instance part="LED27" gate="G$1" x="223.52" y="170.18" rot="R270">
 <attribute name="OSRAM-LGN971" x="223.52" y="170.18" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="147.32" y="203.2"/>
@@ -14559,7 +14559,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="218.44" y1="251.46" x2="218.44" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="PCA9685" gate="G$1" pin="PWM0"/>
 <wire x1="218.44" y1="233.68" x2="213.36" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="BLUE5" gate="G$1" pin="C"/>
+<pinref part="LED12" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -14740,7 +14740,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="213.36" y1="231.14" x2="220.98" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="231.14" x2="220.98" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="246.38" x2="233.68" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="BLUE4" gate="G$1" pin="C"/>
+<pinref part="LED13" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -14748,7 +14748,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM2"/>
 <wire x1="213.36" y1="228.6" x2="223.52" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="228.6" x2="223.52" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="BLUE3" gate="G$1" pin="C"/>
+<pinref part="LED14" gate="G$1" pin="C"/>
 <wire x1="223.52" y1="241.3" x2="243.84" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14757,7 +14757,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM3"/>
 <wire x1="213.36" y1="226.06" x2="226.06" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="226.06" x2="226.06" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="BLUE2" gate="G$1" pin="C"/>
+<pinref part="LED15" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="236.22" x2="233.68" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14766,7 +14766,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM4"/>
 <wire x1="213.36" y1="223.52" x2="228.6" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="223.52" x2="228.6" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="BLUE1" gate="G$1" pin="C"/>
+<pinref part="LED16" gate="G$1" pin="C"/>
 <wire x1="228.6" y1="231.14" x2="243.84" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14775,7 +14775,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM5"/>
 <wire x1="213.36" y1="220.98" x2="231.14" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="220.98" x2="231.14" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="RED5" gate="G$1" pin="C"/>
+<pinref part="LED17" gate="G$1" pin="C"/>
 <wire x1="231.14" y1="226.06" x2="233.68" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14784,14 +14784,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM6"/>
 <wire x1="213.36" y1="218.44" x2="233.68" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="218.44" x2="233.68" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="RED4" gate="G$1" pin="C"/>
+<pinref part="LED18" gate="G$1" pin="C"/>
 <wire x1="233.68" y1="220.98" x2="243.84" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="PCA9685" gate="G$1" pin="PWM7"/>
-<pinref part="RED3" gate="G$1" pin="C"/>
+<pinref part="LED19" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="215.9" x2="233.68" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14800,7 +14800,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM8"/>
 <wire x1="213.36" y1="213.36" x2="233.68" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="213.36" x2="233.68" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="RED2" gate="G$1" pin="C"/>
+<pinref part="LED20" gate="G$1" pin="C"/>
 <wire x1="233.68" y1="210.82" x2="243.84" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14809,7 +14809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM9"/>
 <wire x1="213.36" y1="210.82" x2="231.14" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="210.82" x2="231.14" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="RED" gate="G$1" pin="C"/>
+<pinref part="LED21" gate="G$1" pin="C"/>
 <wire x1="231.14" y1="205.74" x2="233.68" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14818,7 +14818,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM10"/>
 <wire x1="213.36" y1="208.28" x2="228.6" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="208.28" x2="228.6" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="GREEN5" gate="G$1" pin="C"/>
+<pinref part="LED22" gate="G$1" pin="C"/>
 <wire x1="228.6" y1="200.66" x2="243.84" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14827,7 +14827,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM11"/>
 <wire x1="213.36" y1="205.74" x2="226.06" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="205.74" x2="226.06" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="GREEN4" gate="G$1" pin="C"/>
+<pinref part="LED23" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="195.58" x2="233.68" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14836,7 +14836,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM12"/>
 <wire x1="213.36" y1="203.2" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="203.2" x2="223.52" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="GREEN3" gate="G$1" pin="C"/>
+<pinref part="LED24" gate="G$1" pin="C"/>
 <wire x1="223.52" y1="190.5" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14845,7 +14845,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM13"/>
 <wire x1="213.36" y1="200.66" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="200.66" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="GREEN2" gate="G$1" pin="C"/>
+<pinref part="LED25" gate="G$1" pin="C"/>
 <wire x1="220.98" y1="185.42" x2="233.68" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14854,7 +14854,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM14"/>
 <wire x1="213.36" y1="198.12" x2="218.44" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="198.12" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="GREEN1" gate="G$1" pin="C"/>
+<pinref part="LED26" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="180.34" x2="243.84" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15450,7 +15450,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PCA9685" gate="G$1" pin="PWM15"/>
 <wire x1="213.36" y1="195.58" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="195.58" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="LCL" gate="G$1" pin="C"/>
+<pinref part="LED27" gate="G$1" pin="C"/>
 <wire x1="215.9" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16045,62 +16045,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="254" y1="231.14" x2="254" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="254" y1="226.06" x2="254" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="254" y1="220.98" x2="254" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="BLUE4" gate="G$1" pin="A"/>
+<pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="246.38" x2="254" y2="246.38" width="0.1524" layer="91"/>
 <junction x="254" y="246.38"/>
-<pinref part="BLUE3" gate="G$1" pin="A"/>
+<pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="241.3" x2="254" y2="241.3" width="0.1524" layer="91"/>
 <junction x="254" y="241.3"/>
-<pinref part="BLUE1" gate="G$1" pin="A"/>
+<pinref part="LED16" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="231.14" x2="254" y2="231.14" width="0.1524" layer="91"/>
 <junction x="254" y="231.14"/>
-<pinref part="RED4" gate="G$1" pin="A"/>
+<pinref part="LED18" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="220.98" x2="254" y2="220.98" width="0.1524" layer="91"/>
 <junction x="254" y="220.98"/>
-<pinref part="RED5" gate="G$1" pin="A"/>
+<pinref part="LED17" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="226.06" x2="254" y2="226.06" width="0.1524" layer="91"/>
 <junction x="254" y="226.06"/>
-<pinref part="RED3" gate="G$1" pin="A"/>
+<pinref part="LED19" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="215.9" x2="254" y2="215.9" width="0.1524" layer="91"/>
 <junction x="254" y="215.9"/>
-<pinref part="RED2" gate="G$1" pin="A"/>
+<pinref part="LED20" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="210.82" x2="254" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="254" y1="210.82" x2="254" y2="215.9" width="0.1524" layer="91"/>
 <junction x="254" y="215.9"/>
-<pinref part="RED" gate="G$1" pin="A"/>
+<pinref part="LED21" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="205.74" x2="254" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="254" y1="205.74" x2="254" y2="210.82" width="0.1524" layer="91"/>
 <junction x="254" y="210.82"/>
-<pinref part="GREEN5" gate="G$1" pin="A"/>
+<pinref part="LED22" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="200.66" x2="254" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="254" y1="200.66" x2="254" y2="205.74" width="0.1524" layer="91"/>
 <junction x="254" y="205.74"/>
-<pinref part="GREEN4" gate="G$1" pin="A"/>
+<pinref part="LED23" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="195.58" x2="254" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="254" y1="195.58" x2="254" y2="200.66" width="0.1524" layer="91"/>
 <junction x="254" y="200.66"/>
-<pinref part="GREEN3" gate="G$1" pin="A"/>
+<pinref part="LED24" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="254" y1="190.5" x2="254" y2="195.58" width="0.1524" layer="91"/>
 <junction x="254" y="195.58"/>
-<pinref part="GREEN2" gate="G$1" pin="A"/>
+<pinref part="LED25" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="185.42" x2="254" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="254" y1="185.42" x2="254" y2="190.5" width="0.1524" layer="91"/>
 <junction x="254" y="190.5"/>
 <wire x1="251.46" y1="180.34" x2="254" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="254" y1="180.34" x2="254" y2="185.42" width="0.1524" layer="91"/>
 <junction x="254" y="185.42"/>
-<pinref part="GREEN1" gate="G$1" pin="A"/>
-<pinref part="BLUE2" gate="G$1" pin="A"/>
+<pinref part="LED26" gate="G$1" pin="A"/>
+<pinref part="LED15" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="236.22" x2="254" y2="236.22" width="0.1524" layer="91"/>
 <junction x="254" y="236.22"/>
-<pinref part="BLUE5" gate="G$1" pin="A"/>
+<pinref part="LED12" gate="G$1" pin="A"/>
 <wire x1="254" y1="215.9" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="215.9" x2="259.08" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U$31" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="LCL" gate="G$1" pin="A"/>
+<pinref part="LED27" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="170.18" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$32" gate="G$1" pin="3.3V"/>
@@ -16330,19 +16330,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="393.7" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="U1" gate="G$7" pin="NRST"/>
-<wire x1="25.4" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="147.32" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="152.4" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
-<junction x="55.88" y="152.4"/>
-</segment>
-</net>
 <net name="USB_ID" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PA10"/>
@@ -16458,6 +16445,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="119.38" y1="238.76" x2="114.3" y2="238.76" width="0.1524" layer="91"/>
 <label x="114.3" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JTAG1" gate="G$1" pin="15"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$7" pin="NRST"/>
+<wire x1="25.4" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="147.32" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="152.4" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<junction x="55.88" y="152.4"/>
+<label x="55.88" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SPI-SCK" class="0">
