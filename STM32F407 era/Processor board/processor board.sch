@@ -4334,6 +4334,21 @@ straight</description>
 <rectangle x1="9.779" y1="-5.461" x2="10.541" y2="-4.699" layer="21"/>
 <rectangle x1="9.779" y1="-4.699" x2="10.541" y2="-2.921" layer="51"/>
 </package>
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINH2X11">
@@ -4415,6 +4430,15 @@ straight</description>
 <pin name="16" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="17" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="18" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4589,6 +4613,22 @@ straight</description>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6114,33 +6154,33 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="U1" library="apbteam_stm32" deviceset="STM32F4-100" device=""/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="2u2"/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="2u2"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1u"/>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="4u7"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="2u2"/>
+<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="2u2"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="1u"/>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="4u7"/>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
-<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="100n"/>
-<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="1u"/>
+<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="100n"/>
+<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="1u"/>
 <part name="U$2" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
-<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="22p"/>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="22p"/>
+<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="22p"/>
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="22p"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="RESET"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="BOOT"/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0402MP" value="500"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="500"/>
 <part name="U$7" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
-<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0402MP" value="500"/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="500"/>
 <part name="U$9" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
 <part name="X1" library="con-cypressindustries" deviceset="MINI-USB-SCHIELD-" device="32005-201" value=""/>
@@ -6160,11 +6200,9 @@ Source: www.kingbright.com</description>
 <part name="U$22" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$23" library="unicorn" deviceset="MICROFIT4" device=""/>
 <part name="U$24" library="microbuilder" deviceset="GND" device=""/>
-<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0402MP" value="1k8"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1k8"/>
 <part name="X2" library="con-panduit" deviceset="057-010-" device="1"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X11" device=""/>
-<part name="U$11" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="Y1" library="microbuilder" deviceset="CRYSTAL" device="2.5X2.0MM" value="25 MHz"/>
@@ -6176,14 +6214,17 @@ Source: www.kingbright.com</description>
 <part name="JP3" library="pinhead" deviceset="PINHD-2X9" device=""/>
 <part name="U$28" library="microbuilder" deviceset="GND" device=""/>
 <part name="Y2" library="microbuilder" deviceset="CRYSTAL" device="32.768" value="32.768KHz"/>
-<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="6p8"/>
-<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="_0402MP" value="6p8"/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="6p8"/>
+<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="6p8"/>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$30" library="microbuilder" deviceset="GND" device=""/>
 <part name="TP1" library="microbuilder" deviceset="TESTPOINT" device="0.1&quot;"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0402MP" value="100"/>
+<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="100"/>
 <part name="U$31" library="microbuilder" deviceset="GND" device=""/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="U$11" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6258,7 +6299,7 @@ Source: www.kingbright.com</description>
 <instance part="U$8" gate="G$1" x="175.26" y="-7.62"/>
 <instance part="R2" gate="G$1" x="152.4" y="17.78" rot="R270"/>
 <instance part="U$9" gate="G$1" x="152.4" y="25.4"/>
-<instance part="U$10" gate="G$1" x="50.8" y="68.58"/>
+<instance part="U$10" gate="G$1" x="50.8" y="63.5"/>
 <instance part="X1" gate="G$1" x="208.28" y="99.06" rot="MR0"/>
 <instance part="X1" gate="S" x="208.28" y="88.9" rot="MR0"/>
 <instance part="U$13" gate="G$1" x="215.9" y="78.74"/>
@@ -6292,8 +6333,6 @@ Source: www.kingbright.com</description>
 <instance part="X2" gate="-9" x="177.8" y="86.36"/>
 <instance part="X2" gate="-10" x="177.8" y="88.9"/>
 <instance part="JP1" gate="A" x="208.28" y="45.72"/>
-<instance part="U$11" gate="G$1" x="200.66" y="27.94" rot="MR0"/>
-<instance part="U$12" gate="G$1" x="218.44" y="27.94" rot="MR0"/>
 <instance part="U$15" gate="G$1" x="233.68" y="27.94" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="256.54" y="27.94" rot="MR0"/>
 <instance part="Y1" gate="G$1" x="157.48" y="-2.54" rot="R90"/>
@@ -6313,6 +6352,9 @@ Source: www.kingbright.com</description>
 <instance part="LED1" gate="G$1" x="284.48" y="104.14" rot="R90"/>
 <instance part="R3" gate="G$1" x="274.32" y="104.14"/>
 <instance part="U$31" gate="G$1" x="292.1" y="99.06" rot="MR0"/>
+<instance part="JP6" gate="G$1" x="38.1" y="68.58" rot="R180"/>
+<instance part="U$11" gate="G$1" x="215.9" y="25.4" rot="MR0"/>
+<instance part="U$12" gate="G$1" x="203.2" y="25.4" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6428,7 +6470,11 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="G$3" pin="PB2/BOOT1"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="106.68" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="68.58" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="50.8" y="68.58"/>
 </segment>
 <segment>
 <pinref part="X1" gate="S" pin="S4"/>
@@ -6510,18 +6556,6 @@ Source: www.kingbright.com</description>
 <junction x="259.08" y="-7.62"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="21"/>
-<pinref part="U$11" gate="G$1" pin="GND"/>
-<wire x1="205.74" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="33.02" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="22"/>
-<pinref part="U$12" gate="G$1" pin="GND"/>
-<wire x1="213.36" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="33.02" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$15" gate="G$1" pin="GND"/>
 <wire x1="241.3" y1="35.56" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="35.56" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
@@ -6572,6 +6606,18 @@ Source: www.kingbright.com</description>
 <pinref part="U$31" gate="G$1" pin="GND"/>
 <wire x1="289.56" y1="104.14" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="104.14" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="19"/>
+<pinref part="U$12" gate="G$1" pin="GND"/>
+<wire x1="205.74" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="35.56" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="20"/>
+<pinref part="U$11" gate="G$1" pin="GND"/>
+<wire x1="213.36" y1="35.56" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="35.56" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -6917,9 +6963,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="PB10" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="19"/>
-<wire x1="200.66" y1="35.56" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
-<label x="200.66" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="200.66" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="21"/>
+<wire x1="200.66" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$3" pin="PB10"/>
@@ -6941,9 +6987,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="PB11" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="20"/>
-<wire x1="218.44" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="218.44" y="35.56" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="22"/>
+<wire x1="218.44" y1="33.02" x2="213.36" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$3" pin="PB11"/>
