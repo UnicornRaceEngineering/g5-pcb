@@ -15146,7 +15146,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805MP" value="22u"/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805MP" value="1u"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="PTC1" library="microbuilder" deviceset="PTC" device="1812"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="100n"/>
 <part name="XB1" library="microbuilder" deviceset="XBEE" device="-PRO"/>
@@ -15188,6 +15187,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="S1" library="switch" deviceset="TL36WO" device=""/>
+<part name="PTC2" library="microbuilder" deviceset="PTC" device="1206"/>
 </parts>
 <sheets>
 <sheet>
@@ -15286,7 +15286,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="C4" gate="G$1" x="63.5" y="175.26"/>
 <instance part="C5" gate="G$1" x="7.62" y="101.6" rot="R180"/>
 <instance part="GND4" gate="1" x="7.62" y="93.98"/>
-<instance part="PTC1" gate="G$1" x="71.12" y="182.88"/>
 <instance part="R6" gate="G$1" x="78.74" y="175.26" rot="R270"/>
 <instance part="C8" gate="G$1" x="83.82" y="175.26"/>
 <instance part="XB1" gate="G$1" x="124.46" y="200.66"/>
@@ -15328,6 +15327,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="H1" gate="G$1" x="-25.4" y="152.4"/>
 <instance part="H2" gate="G$1" x="-25.4" y="144.78"/>
 <instance part="S1" gate="BEF1" x="111.76" y="27.94" rot="R270"/>
+<instance part="PTC2" gate="G$1" x="71.12" y="182.88"/>
 </instances>
 <busses>
 </busses>
@@ -15923,7 +15923,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="+UB" class="0">
 <segment>
-<pinref part="PTC1" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="182.88" x2="78.74" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="182.88" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
@@ -15934,6 +15933,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="SUPPLY2" gate="G$1" pin="+UB"/>
 <wire x1="83.82" y1="185.42" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
 <junction x="83.82" y="182.88"/>
+<pinref part="PTC2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
@@ -16019,9 +16019,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="63.5" y1="180.34" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="PTC1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 <junction x="63.5" y="182.88"/>
+<pinref part="PTC2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
