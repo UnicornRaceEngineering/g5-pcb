@@ -2729,6 +2729,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="30.765" y1="-4.435" x2="30.765" y2="-5.5526" width="0.2032" layer="21"/>
 <wire x1="30.765" y1="-5.5526" x2="21.23" y2="-5.5526" width="0.2032" layer="21"/>
 </package>
+<package name="KPS-1290">
+<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="3.35" y1="1.3" x2="-3.35" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.5" x2="1.4" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-2.8" x2="-1.4" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-2.8" x2="-1.4" y2="-1.5" width="0.127" layer="51"/>
+<smd name="P$1" x="-4.15" y="1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$2" x="-4.15" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$3" x="4.15" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$4" x="4.15" y="1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="O" x="-2.25" y="2.25" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P" x="0.75" y="2.25" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S" x="2.25" y="2.25" dx="0.7" dy="1.5" layer="1"/>
+<text x="2.5" y="-2.492" size="0.4064" layer="25">&gt;NAME</text>
+<text x="2.5" y="-3.23" size="0.4064" layer="27">&gt;VALUE</text>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH-MOMENTARY-2">
@@ -2751,6 +2771,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
 <pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
+</symbol>
+<symbol name="SW_SPDT">
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<text x="-1.905" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3092,6 +3125,28 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH_SPDT">
+<description>SWCH-10651
+
+Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
+<gates>
+<gate name="G$1" symbol="SW_SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KPS-1290">
+<connects>
+<connect gate="G$1" pin="O" pad="O"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-10651" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6303,7 +6358,6 @@ Source: www.kingbright.com</description>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="RESET"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="BOOT"/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="500"/>
 <part name="U$7" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
@@ -6353,6 +6407,7 @@ Source: www.kingbright.com</description>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="PTC1" library="microbuilder" deviceset="PTC" device="1206"/>
+<part name="U$32" library="SparkFun-Electromechanical" deviceset="SWITCH_SPDT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6421,9 +6476,8 @@ Source: www.kingbright.com</description>
 <instance part="U$5" gate="G$1" x="170.18" y="-12.7"/>
 <instance part="U$6" gate="G$1" x="17.78" y="53.34"/>
 <instance part="S1" gate="G$1" x="162.56" y="10.16"/>
-<instance part="S2" gate="G$1" x="182.88" y="7.62"/>
 <instance part="R1" gate="G$1" x="175.26" y="0" rot="R270"/>
-<instance part="U$7" gate="G$1" x="190.5" y="12.7"/>
+<instance part="U$7" gate="G$1" x="187.96" y="15.24"/>
 <instance part="U$8" gate="G$1" x="175.26" y="-7.62"/>
 <instance part="R2" gate="G$1" x="152.4" y="17.78" rot="R270"/>
 <instance part="U$9" gate="G$1" x="152.4" y="25.4"/>
@@ -6436,11 +6490,11 @@ Source: www.kingbright.com</description>
 <instance part="U$16" gate="G$1" x="170.18" y="73.66" rot="MR0"/>
 <instance part="BAT1" gate="G$1" x="30.48" y="53.34"/>
 <instance part="U$18" gate="G$1" x="38.1" y="48.26"/>
-<instance part="IC1" gate="G$1" x="251.46" y="104.14"/>
-<instance part="U$19" gate="G$1" x="266.7" y="109.22"/>
-<instance part="U$20" gate="G$1" x="251.46" y="83.82"/>
-<instance part="C17" gate="G$1" x="236.22" y="96.52" rot="R180"/>
-<instance part="C18" gate="G$1" x="266.7" y="96.52"/>
+<instance part="IC1" gate="G$1" x="261.62" y="104.14"/>
+<instance part="U$19" gate="G$1" x="276.86" y="109.22"/>
+<instance part="U$20" gate="G$1" x="261.62" y="83.82"/>
+<instance part="C17" gate="G$1" x="246.38" y="96.52" rot="R180"/>
+<instance part="C18" gate="G$1" x="276.86" y="96.52"/>
 <instance part="U2" gate="A" x="226.06" y="0" smashed="yes">
 <attribute name="NAME" x="221.3356" y="14.1986" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="220.2688" y="-22.1996" size="2.0828" layer="96" ratio="10" rot="SR0"/>
@@ -6477,13 +6531,14 @@ Source: www.kingbright.com</description>
 <instance part="U$29" gate="G$1" x="165.1" y="35.56"/>
 <instance part="U$30" gate="G$1" x="304.8" y="35.56" rot="MR0"/>
 <instance part="TP1" gate="G$1" x="165.1" y="50.8"/>
-<instance part="LED1" gate="G$1" x="284.48" y="104.14" rot="R90"/>
-<instance part="R3" gate="G$1" x="274.32" y="104.14"/>
-<instance part="U$31" gate="G$1" x="292.1" y="99.06" rot="MR0"/>
+<instance part="LED1" gate="G$1" x="294.64" y="104.14" rot="R90"/>
+<instance part="R3" gate="G$1" x="284.48" y="104.14"/>
+<instance part="U$31" gate="G$1" x="302.26" y="99.06" rot="MR0"/>
 <instance part="JP6" gate="G$1" x="38.1" y="68.58" rot="R180"/>
 <instance part="U$11" gate="G$1" x="215.9" y="25.4" rot="MR0"/>
 <instance part="U$12" gate="G$1" x="203.2" y="25.4" rot="MR0"/>
-<instance part="PTC1" gate="G$1" x="144.78" y="121.92"/>
+<instance part="PTC1" gate="G$1" x="238.76" y="104.14"/>
+<instance part="U$32" gate="G$1" x="180.34" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -6655,15 +6710,15 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="U$20" gate="G$1" pin="GND"/>
-<wire x1="251.46" y1="86.36" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="86.36" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="P$1"/>
-<wire x1="251.46" y1="88.9" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
-<junction x="251.46" y="88.9"/>
+<wire x1="261.62" y1="88.9" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="91.44" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="88.9" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
+<junction x="261.62" y="88.9"/>
 <pinref part="C18" gate="G$1" pin="P$2"/>
-<wire x1="251.46" y1="88.9" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="88.9" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="88.9" x2="276.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="88.9" x2="276.86" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="GND"/>
@@ -6733,8 +6788,8 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="U$31" gate="G$1" pin="GND"/>
-<wire x1="289.56" y1="104.14" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="104.14" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="104.14" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="104.14" x2="302.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="19"/>
@@ -6824,10 +6879,10 @@ Source: www.kingbright.com</description>
 <wire x1="17.78" y1="50.8" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="U$7" gate="G$1" pin="3.3V"/>
-<wire x1="187.96" y1="7.62" x2="190.5" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="7.62" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="10.16" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="10.16" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$32" gate="G$1" pin="O"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -6846,13 +6901,13 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VOUT"/>
 <pinref part="U$19" gate="G$1" pin="3.3V"/>
-<wire x1="264.16" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="104.14" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="104.14" x2="276.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="104.14" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="P$1"/>
-<wire x1="266.7" y1="104.14" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
-<junction x="266.7" y="104.14"/>
+<wire x1="276.86" y1="104.14" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
+<junction x="276.86" y="104.14"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="104.14" x2="269.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VCC"/>
@@ -6900,12 +6955,12 @@ Source: www.kingbright.com</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$7" pin="BOOT0"/>
-<pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="7.62" x2="177.8" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="7.62" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
 <junction x="175.26" y="7.62"/>
+<pinref part="U$32" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
@@ -6913,13 +6968,9 @@ Source: www.kingbright.com</description>
 <pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="C16" gate="G$1" pin="P$1"/>
 <wire x1="213.36" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
-<wire x1="228.6" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="PTC1" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
 <junction x="228.6" y="104.14"/>
-<pinref part="C17" gate="G$1" pin="P$2"/>
-<wire x1="236.22" y1="104.14" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="104.14" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
-<junction x="236.22" y="104.14"/>
 </segment>
 </net>
 <net name="USB_ID" class="0">
@@ -7942,7 +7993,18 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="281.94" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C17" gate="G$1" pin="P$2"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="104.14" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="PTC1" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<junction x="246.38" y="104.14"/>
 </segment>
 </net>
 </nets>
