@@ -20042,8 +20042,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="U$6" gate="G$1" x="50.8" y="63.5" rot="MR0"/>
 <instance part="X1" gate="-1" x="45.72" y="53.34"/>
 <instance part="X1" gate="-2" x="40.64" y="53.34" rot="R180"/>
-<instance part="IC3" gate="A" x="162.56" y="76.2"/>
-<instance part="IC3" gate="C" x="160.02" y="88.9"/>
 <instance part="IC3" gate="D" x="-10.16" y="30.48"/>
 <instance part="IC2" gate="C" x="-35.56" y="22.86"/>
 <instance part="IC2" gate="D" x="-35.56" y="38.1"/>
