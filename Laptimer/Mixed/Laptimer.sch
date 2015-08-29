@@ -16435,7 +16435,7 @@ Based on the following sources:
 <label x="27.94" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="1D+" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -16443,7 +16443,7 @@ Based on the following sources:
 <wire x1="38.1" y1="185.42" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="1D-" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="X1" gate="G$1" pin="2"/>

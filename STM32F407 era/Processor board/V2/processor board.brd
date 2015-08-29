@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7837,7 +7837,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.354" y1="34.63925" x2="38.799" y2="34.19425" width="0.3048" layer="1"/>
 <wire x1="38.799" y1="34.19425" x2="38.8011875" y2="30.132615625" width="0.3048" layer="1"/>
 <wire x1="12.573" y1="36.35375" x2="14.2875" y2="34.63925" width="0.3048" layer="1"/>
-<wire x1="14.2875" y1="34.63925" x2="38.354" y2="34.63925" width="0.3048" layer="1"/>
+<wire x1="14.2875" y1="34.63925" x2="32.402315625" y2="34.63925" width="0.3048" layer="1"/>
+<wire x1="32.402315625" y1="34.63925" x2="32.973815625" y2="34.06775" width="0.3048" layer="1" curve="-90"/>
+<wire x1="32.973815625" y1="34.06775" x2="33.545315625" y2="33.49625" width="0.3048" layer="1" curve="90"/>
+<wire x1="33.545315625" y1="33.49625" x2="33.5915" y2="33.49625" width="0.3048" layer="1"/>
+<wire x1="33.5915" y1="33.49625" x2="34.163" y2="34.06775" width="0.3048" layer="1" curve="90"/>
+<wire x1="34.163" y1="34.06775" x2="34.7345" y2="34.63925" width="0.3048" layer="1" curve="-90"/>
+<wire x1="34.7345" y1="34.63925" x2="38.354" y2="34.63925" width="0.3048" layer="1"/>
 </signal>
 <signal name="JTAG_TMS">
 <contactref element="U1" pad="72"/>
