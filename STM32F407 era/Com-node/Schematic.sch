@@ -12942,7 +12942,7 @@ schottky</description>
 <part name="LM2575-ADJ" library="national-semiconductor" deviceset="LM2596" device="S"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="100uF"/>
 <part name="SUPPLY3" library="supply2" deviceset="PE" device=""/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="xuF"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="220uF"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1K69"/>
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1K"/>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
@@ -12993,8 +12993,8 @@ schottky</description>
 <instance part="R10" gate="G$1" x="-101.6" y="-12.7" rot="R90"/>
 <instance part="R11" gate="G$1" x="-101.6" y="-27.94" rot="R90"/>
 <instance part="P+2" gate="G$1" x="-101.6" y="-5.08"/>
-<instance part="L1" gate="G$1" x="-132.08" y="-45.72"/>
-<instance part="D1" gate="1" x="-157.48" y="-45.72"/>
+<instance part="L1" gate="G$1" x="-124.46" y="-7.62" rot="R90"/>
+<instance part="D1" gate="1" x="-132.08" y="-25.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13071,9 +13071,17 @@ schottky</description>
 <pinref part="SUPPLY3" gate="PE" pin="PE"/>
 <junction x="-182.88" y="-15.24"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="-101.6" y1="-33.02" x2="-170.18" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-33.02" x2="-114.3" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-33.02" x2="-132.08" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-33.02" x2="-170.18" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="-33.02" x2="-170.18" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="-170.18" y="-17.78"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="-132.08" y1="-27.94" x2="-132.08" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-33.02"/>
+<pinref part="C6" gate="G$1" pin="-"/>
+<wire x1="-114.3" y1="-17.78" x2="-114.3" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-114.3" y="-33.02"/>
 </segment>
 </net>
 <net name="SD-SCK" class="0">
@@ -13291,16 +13299,18 @@ schottky</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="G$1" pin="+3V3"/>
 <wire x1="-76.2" y1="2.54" x2="-76.2" y2="7.62" width="0.1524" layer="91"/>
+<label x="-101.6" y="-7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LM2575-ADJ" gate="G$1" pin="OUT"/>
-<wire x1="-142.24" y1="-10.16" x2="-139.7" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-101.6" y1="-7.62" x2="-139.7" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="-7.62" x2="-139.7" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="G$1" pin="+3V3"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="-7.62" x2="-114.3" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-101.6" y="-7.62"/>
-<label x="-101.6" y="-7.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="-114.3" y1="-7.62" x2="-101.6" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-10.16" x2="-114.3" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-114.3" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="VCC1"/>
@@ -13332,6 +13342,18 @@ schottky</description>
 <wire x1="-101.6" y1="-20.32" x2="-101.6" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="-20.32" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-101.6" y="-20.32"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="LM2575-ADJ" gate="G$1" pin="OUT"/>
+<wire x1="-142.24" y1="-10.16" x2="-139.7" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-7.62" x2="-139.7" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="-139.7" y1="-7.62" x2="-132.08" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="-132.08" y1="-22.86" x2="-132.08" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-7.62"/>
 </segment>
 </net>
 </nets>

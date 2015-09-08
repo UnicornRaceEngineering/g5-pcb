@@ -1403,7 +1403,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9494367" x="-8.89" y="-83.82" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="rcl" package="E15-5" value="100uF" x="-6.35" y="-96.52"/>
-<element name="C6" library="rcl" package="E15-5" value="xuF" x="-6.35" y="-106.68"/>
+<element name="C6" library="rcl" package="E15-5" value="220uF" x="-6.35" y="-106.68"/>
 <element name="R10" library="microbuilder" package="_0603" value="1K69" x="-8.89" y="-115.57"/>
 <element name="R11" library="microbuilder" package="_0603" value="1K" x="-8.89" y="-120.65"/>
 <element name="L1" library="SparkFun-Passives" package="CDRH125" value="220µH" x="-22.86" y="-114.3"/>
@@ -1440,7 +1440,11 @@ design rules under a new name.</description>
 <contactref element="LM2575-ADJ" pad="5"/>
 <contactref element="C5" pad="-"/>
 <contactref element="R11" pad="1"/>
-<wire x1="1.27" y1="-96.52" x2="-9.652" y2="-120.65" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="A"/>
+<contactref element="C6" pad="-"/>
+<wire x1="-9.652" y1="-120.65" x2="-6.35" y2="-128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="-106.68" x2="-9.652" y2="-120.65" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="-96.52" x2="1.27" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.4864" y1="-89.6112" x2="1.27" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.89" y1="-89.6112" x2="-5.4864" y2="-89.6112" width="0" layer="19" extent="1-1"/>
 <wire x1="5.588" y1="-40.64" x2="-5.4864" y2="-89.6112" width="0" layer="19" extent="1-1"/>
@@ -1450,7 +1454,7 @@ design rules under a new name.</description>
 <wire x1="33.909" y1="9.271" x2="31.75" y2="-3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="28.575" y1="13.589" x2="33.909" y2="9.271" width="0" layer="19" extent="1-1"/>
 <wire x1="30.184" y1="22.521" x2="28.575" y2="13.589" width="0" layer="19" extent="1-1"/>
-<wire x1="12.241" y1="40.53" x2="32.893" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="12.241" y1="40.53" x2="30.184" y2="22.521" width="0" layer="19" extent="1-1"/>
 <wire x1="17.018" y1="52.832" x2="12.241" y2="40.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD-SCK">
@@ -1606,7 +1610,6 @@ design rules under a new name.</description>
 <contactref element="XB1" pad="1"/>
 <contactref element="XB1" pad="5"/>
 <contactref element="C1" pad="1"/>
-<contactref element="LM2575-ADJ" pad="2"/>
 <contactref element="R10" pad="2"/>
 <contactref element="U$1" pad="P$43"/>
 <contactref element="X1" pad="4"/>
@@ -1621,16 +1624,19 @@ design rules under a new name.</description>
 <vertex x="76.2" y="66.04"/>
 <vertex x="0" y="66.04"/>
 </polygon>
-<wire x1="-10.5918" y1="-89.6112" x2="-8.128" y2="-115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="29.11475" y1="-49.94275" x2="-10.5918" y2="-89.6112" width="0" layer="19" extent="1-1"/>
+<contactref element="L1" pad="2"/>
+<contactref element="C6" pad="+"/>
+<wire x1="-8.128" y1="-115.57" x2="-22.86" y2="-119.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.97" y1="-106.68" x2="-8.128" y2="-115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="29.11475" y1="-49.94275" x2="-13.97" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="18.669" y1="9.271" x2="29.11475" y2="-49.94275" width="0" layer="19" extent="1-1"/>
 <wire x1="23.495" y1="13.589" x2="18.669" y2="9.271" width="0" layer="19" extent="1-1"/>
 <wire x1="32.893" y1="20.32" x2="23.495" y2="13.589" width="0" layer="19" extent="1-1"/>
-<wire x1="32.893" y1="27.94" x2="32.893" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="27.94" x2="32.893" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="35.941" y1="26.289" x2="32.893" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="32.893" y1="27.94" x2="34.29" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="32.893" y1="35.433" x2="32.893" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="20.701" y1="28.194" x2="32.893" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="12.241" y1="50.53" x2="32.893" y2="35.433" width="0" layer="19" extent="1-1"/>
+<wire x1="12.241" y1="50.53" x2="20.701" y2="28.194" width="0" layer="19" extent="1-1"/>
 <wire x1="12.241" y1="58.53" x2="12.241" y2="50.53" width="0" layer="19" extent="1-1"/>
 <wire x1="17.018" y1="57.912" x2="12.241" y2="58.53" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1645,6 +1651,13 @@ design rules under a new name.</description>
 <contactref element="R11" pad="2"/>
 <wire x1="-8.128" y1="-120.65" x2="-9.652" y2="-115.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.1882" y1="-89.6112" x2="-9.652" y2="-115.57" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="LM2575-ADJ" pad="2"/>
+<contactref element="L1" pad="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="-22.86" y1="-109.4" x2="-26.67" y2="-128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.5918" y1="-89.6112" x2="-22.86" y2="-109.4" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
