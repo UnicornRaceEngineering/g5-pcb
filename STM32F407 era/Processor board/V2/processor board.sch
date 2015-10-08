@@ -8026,24 +8026,26 @@ Source: www.kingbright.com</description>
 <approved hash="104,1,15.24,10.16,U1G$1,VSS,GND,,,"/>
 <approved hash="104,1,35.56,53.34,BAT1,-,GND,,,"/>
 <approved hash="104,1,25.4,53.34,BAT1,+,N$6,,,"/>
-<approved hash="104,1,160.02,154.94,U2,VCC,3.3V,,,"/>
+<approved hash="104,1,208.28,7.62,U2,VCC,3.3V,,,"/>
 <approved hash="208,1,25.4,0,3.3V,sup,,,,"/>
 <approved hash="208,1,17.78,50.8,3.3V,sup,,,,"/>
-<approved hash="208,1,175.26,15.24,3.3V,sup,,,,"/>
-<approved hash="208,1,137.16,27.94,3.3V,sup,,,,"/>
-<approved hash="208,1,127,154.94,3.3V,sup,,,,"/>
-<approved hash="208,1,63.5,137.16,3.3V,out,,,,"/>
-<approved hash="208,1,66.04,139.7,3.3V,sup,,,,"/>
-<approved hash="208,1,157.48,157.48,3.3V,sup,,,,"/>
-<approved hash="208,1,243.84,68.58,3.3V,sup,,,,"/>
-<approved hash="208,1,276.86,68.58,3.3V,sup,,,,"/>
+<approved hash="208,1,187.96,12.7,3.3V,sup,,,,"/>
+<approved hash="208,1,152.4,22.86,3.3V,sup,,,,"/>
+<approved hash="208,1,170.18,104.14,3.3V,sup,,,,"/>
+<approved hash="208,1,274.32,104.14,3.3V,out,,,,"/>
+<approved hash="208,1,276.86,106.68,3.3V,sup,,,,"/>
+<approved hash="208,1,205.74,10.16,3.3V,sup,,,,"/>
+<approved hash="208,1,228.6,35.56,3.3V,sup,,,,"/>
+<approved hash="208,1,261.62,35.56,3.3V,sup,,,,"/>
 <approved hash="115,1,9.7155,25.2095,U1,,,,,"/>
-<approved hash="115,1,300.948,80.1412,JP1,,,,,"/>
-<approved hash="115,1,260.308,80.1412,JP2,,,,,"/>
-<approved hash="115,1,227.288,83.9512,JP4,,,,,"/>
-<approved hash="115,1,181.568,82.6812,JP3,,,,,"/>
-<approved hash="115,1,172.136,43.1377,TP1,,,,,"/>
-<approved hash="115,1,85.09,137.482,LED1,,,,,"/>
+<approved hash="115,1,209.508,47.1212,JP1,,,,,"/>
+<approved hash="115,1,245.068,47.1212,JP2,,,,,"/>
+<approved hash="115,1,313.648,50.9312,JP4,,,,,"/>
+<approved hash="115,1,280.628,49.6612,JP3,,,,,"/>
+<approved hash="115,1,164.516,53.2977,TP1,,,,,"/>
+<approved hash="115,1,295.91,104.462,LED1,,,,,"/>
+<approved hash="115,1,40.4029,67.1788,JP6,,,,,"/>
+<approved hash="115,1,238.76,105.952,PTC1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
