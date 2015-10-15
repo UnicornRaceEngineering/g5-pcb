@@ -11004,6 +11004,7 @@ at 30/07/2012 11:04:18</description>
 <part name="U$13" library="microbuilder" deviceset="12V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="J2" library="unicorn_v2" deviceset="AUTOCONNECTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11071,6 +11072,10 @@ at 30/07/2012 11:04:18</description>
 <instance part="IC1" gate="F" x="58.42" y="132.08"/>
 <instance part="GND18" gate="1" x="20.32" y="129.54"/>
 <instance part="GND19" gate="1" x="48.26" y="129.54"/>
+<instance part="J2" gate="G$1" x="7.62" y="172.72"/>
+<instance part="J2" gate="G$2" x="20.32" y="172.72"/>
+<instance part="J2" gate="G$3" x="33.02" y="172.72"/>
+<instance part="J2" gate="G$4" x="45.72" y="172.72"/>
 </instances>
 <busses>
 </busses>

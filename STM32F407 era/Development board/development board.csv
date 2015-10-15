@@ -1,32 +1,32 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"SUPPLIER";
-"8";"";"10-XX";"B3F-10XX";"S1, S2, S3, S4, S5, S6, S7, S8";"OMRON SWITCH";"";"B3F-1000";"176432";"36M3542";"";"";
-"1";"";"HEADER-1X2ROUND";"1X02_ROUND";"JP2";"PIN HEADER";"";"";"";"";"";"";
-"2";"";"LED3MM";"LED3MM";"LED9, LED10";"LED";"";"";"";"";"";"";
-"8";"";"LED5MM";"LED5MM";"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8";"LED";"";"";"";"";"";"";
-"3";"";"MA03-1";"MA03-1";"SV2, SV3, SV4";"PIN HEADER";"";"";"unknown";"unknown";"";"";
-"1";"";"MA03-2";"MA03-2";"SV5";"PIN HEADER";"";"";"unknown";"unknown";"";"";
-"1";"";"MA08-1";"MA08-1";"SV1";"PIN HEADER";"";"";"unknown";"unknown";"";"";
-"1";"";"PINHD-2X11";"2X11";"JP3";"PIN HEADER";"";"";"";"";"";"";
-"1";"";"TRIM_EU-RJ9W";"RJ9W";"R27";"POTENTIOMETER";"";"";"";"";"";"";
-"3";"057-006-1";"057-006-1";"057-006-1";"X4, X8, X9";"CONNECTOR";"";"";"unknown";"unknown";"";"";
-"9";"100";"RESISTOR_0603";"_0603";"R19, R20, R21, R22, R23, R24, R25, R26, R30";"Resistors";"";"";"";"";"";"";
-"4";"100n";"CAP_CERAMIC_0603";"_0603";"C1, C2, C3, C5";"Ceramic Capacitors";"";"";"";"";"";"";
-"1";"150";"RESISTOR_0603";"_0603";"R29";"Resistors";"";"";"";"";"";"";
-"1";"1k8";"RESISTOR_0603";"_0603";"R28";"Resistors";"";"";"";"";"";"";
-"2";"1u";"C-EU050-035X075";"C050-035X075";"C4, C6";"CAPACITOR, European symbol";"";"";"";"";"";"";
-"11";"240";"RESISTOR_0603";"_0603";"R1, R3, R5, R11, R12, R13, R14, R15, R16, R17, R18";"Resistors";"";"";"";"";"";"";
-"2";"317T";"317T";"TO220H";"IC3, IC4";"Positive VOLTAGE REGULATOR";"";"";"";"";"";"";
-"1";"400";"RESISTOR_0603";"_0603";"R4";"Resistors";"";"";"";"";"";"";
-"5";"47k";"RESISTOR_0603";"_0603";"R6, R7, R8, R9, R10";"Resistors";"";"";"";"";"";"";
-"1";"732";"RESISTOR_0603";"_0603";"R2";"Resistors";"";"";"";"";"";"";
-"2";"74HC595N";"74HC595N";"DIL16";"IC1, IC2";"8-bit SHIFT REGISTER, output latch";"";"";"";"";"";"";
-"1";"AVRISP-BOX";"AVRISP-BOX";"AVRISP-BOX";"ISP1";"AVR ISP HEADER";"";"";"";"";"";"";
-"1";"CPU-BOARD";"CPU-BOARD";"CPU-BOARD-JP1";"U$1";"";"";"";"";"";"";"";
-"2";"HD-H103";"HD-H103";"HDSP-M";"DIS1, DIS2";"LED DISPLAY";"";"";"unknown";"unknown";"";"";
-"1";"HD44780LCD-1602";"HD44780LCD-1602";"LCD1602";"X2";"HD44780 LCD";"";"";"";"";"";"";
-"1";"K375M";"K375M";"K375M";"X1";"K375M - DC POWER JACK 2.5mm/CENTRAL PIN";"";"";"";"";"";"";
-"1";"MAX13052ESA+";"MAX13052ESA+";"SOIC127P600X175-8N";"U1";"Industry-Standard High-Speed CAN Transceivers with ±80V Fault Protection";"";"MAX13052ESA+";"1600112";"99K2875";"SOIC-8";"Maxim";
-"1";"MICROFIT4";"MICROFIT4";"MICROFIT4SOCK";"U$57";"";"";"";"";"";"";"";
-"3";"MOUNT-HOLE3.2";"MOUNT-HOLE3.2";"3,2";"H1, H2, H3";"MOUNTING HOLE with drill center marker";"";"";"";"";"";"";
-"1";"SDBMF";"SDBMF";"SDBMF-009XXBXX2";"X3";"SD MEMORY CARD PUSH-PUSH WITH CONNECTOR TYPE B (BIG SWUÌTCH #3)";"";"";"";"";"";"";
-"1";"USB_MICROB_PLUGCONN-11752";"USB_MICROB_PLUGCONN-11752";"USB-B-MICRO-SMD_V03";"JP1";"USB Micro-B connectors";"";"";"";"";"";"";
+Qty;Value;Device;Package;Parts;Description
+8;;10-XX;B3F-10XX;S1, S2, S3, S4, S5, S6, S7, S8;OMRON SWITCH
+1;;HEADER-1X2ROUND;1X02_ROUND;JP2;PIN HEADER
+2;;LED3MM;LED3MM;LED9, LED10;LED
+8;;LED5MM;LED5MM;LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8;LED
+3;;MA03-1;MA03-1;SV2, SV3, SV4;PIN HEADER
+1;;MA03-2;MA03-2;SV5;PIN HEADER
+1;;MA08-1;MA08-1;SV1;PIN HEADER
+1;;PINHD-2X11;2X11;JP3;PIN HEADER
+1;;TRIM_EU-RJ9W;RJ9W;R27;POTENTIOMETER
+3;057-006-1;057-006-1;057-006-1;X4, X8, X9;CONNECTOR
+9;100;RESISTOR_0603;_0603;R19, R20, R21, R22, R23, R24, R25, R26, R30;Resistors
+4;100n;CAP_CERAMIC_0603;_0603;C1, C2, C3, C5;Ceramic Capacitors
+1;150;RESISTOR_0603;_0603;R29;Resistors
+1;1k8;RESISTOR_0603;_0603;R28;Resistors
+2;1u;C-EU050-035X075;C050-035X075;C4, C6;CAPACITOR, European symbol
+11;240;RESISTOR_0603;_0603;R1, R3, R5, R11, R12, R13, R14, R15, R16, R17, R18;Resistors
+2;317T;317T;TO220H;IC3, IC4;Positive VOLTAGE REGULATOR
+1;400;RESISTOR_0603;_0603;R4;Resistors
+5;47k;RESISTOR_0603;_0603;R6, R7, R8, R9, R10;Resistors
+1;732;RESISTOR_0603;_0603;R2;Resistors
+2;74HC595N;74HC595N;DIL16;IC1, IC2;8-bit SHIFT REGISTER, output latch
+1;AVRISP-BOX;AVRISP-BOX;AVRISP-BOX;ISP1;AVR ISP HEADER
+1;CPU-BOARD;CPU-BOARD;CPU-BOARD-JP1;U$1;
+2;HD-H103;HD-H103;HDSP-M;DIS1, DIS2;LED DISPLAY
+1;HD44780LCD-1602;HD44780LCD-1602;LCD1602;X2;HD44780 LCD
+1;K375M;K375M;K375M;X1;K375M - DC POWER JACK 2.5mm/CENTRAL PIN
+1;MAX13052ESA+;MAX13052ESA+;SOIC127P600X175-8N;U1;Industry-Standard High-Speed CAN Transceivers with ±80V Fault Protection
+1;MICROFIT4;MICROFIT4;MICROFIT4SOCK;U$57;
+3;MOUNT-HOLE3.2;MOUNT-HOLE3.2;3,2;H1, H2, H3;MOUNTING HOLE with drill center marker
+1;PN61729-S;PN61729-S;PN61729-S;X5;BERG USB connector
+1;SDBMF;SDBMF;SDBMF-009XXBXX2;X3;SD MEMORY CARD PUSH-PUSH WITH CONNECTOR TYPE B (BIG SWUÌTCH #3)
