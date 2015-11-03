@@ -7059,26 +7059,26 @@ Source: www.kingbright.com</description>
 </net>
 <net name="CAN_RX" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="TXD"/>
-<wire x1="205.74" y1="2.54" x2="208.28" y2="2.54" width="0.1524" layer="91"/>
-<label x="205.74" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="109.22" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <label x="109.22" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$5" pin="PD0"/>
 </segment>
-</net>
-<net name="CAN_TX" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="RXD"/>
 <wire x1="246.38" y1="7.62" x2="243.84" y2="7.62" width="0.1524" layer="91"/>
 <label x="246.38" y="7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="CAN_TX" class="0">
 <segment>
 <wire x1="109.22" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$5" pin="PD1"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="TXD"/>
+<wire x1="205.74" y1="2.54" x2="208.28" y2="2.54" width="0.1524" layer="91"/>
+<label x="205.74" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">

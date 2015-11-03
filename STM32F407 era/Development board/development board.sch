@@ -13964,9 +13964,9 @@ Based on  the following source:
 <label x="121.92" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="TXD"/>
-<wire x1="203.2" y1="-48.26" x2="200.66" y2="-48.26" width="0.1524" layer="91"/>
-<label x="200.66" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="A" pin="RXD"/>
+<wire x1="238.76" y1="-43.18" x2="241.3" y2="-43.18" width="0.1524" layer="91"/>
+<label x="241.3" y="-43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -13976,9 +13976,9 @@ Based on  the following source:
 <label x="149.86" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="RXD"/>
-<wire x1="238.76" y1="-43.18" x2="241.3" y2="-43.18" width="0.1524" layer="91"/>
-<label x="241.3" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="A" pin="TXD"/>
+<wire x1="203.2" y1="-48.26" x2="200.66" y2="-48.26" width="0.1524" layer="91"/>
+<label x="200.66" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANL" class="0">
