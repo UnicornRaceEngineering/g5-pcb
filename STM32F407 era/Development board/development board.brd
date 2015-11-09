@@ -26,16 +26,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -4976,45 +4976,6 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="94.107" x2="44.45" y2="96.52" width="0.4064" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,04c8d158a8c8883f"/>
-<approved hash="5,1,e02b2d63160e71a0"/>
-<approved hash="5,1,3ef02e709f527a7f"/>
-<approved hash="5,16,34c0e2608c98fdc0"/>
-<approved hash="5,16,0dadc0e82054f381"/>
-<approved hash="5,16,4b4ceafa81ea52cb"/>
-<approved hash="5,16,ef8fef84507856cc"/>
-<approved hash="5,16,767a47425ffabae0"/>
-<approved hash="5,16,d15c100974c7b3bc"/>
-<approved hash="5,16,d0dfbd42a3ef8161"/>
-<approved hash="5,16,ce4ce8e5cd5f6518"/>
-<approved hash="5,16,e9331cbd774699ca"/>
-<approved hash="5,16,dd3294b1884af2d4"/>
-<approved hash="5,16,7a262fb0984cbcc1"/>
-<approved hash="5,16,2fe10173ab659eea"/>
-<approved hash="5,16,1dc4b24a1815ac86"/>
-<approved hash="5,16,db10eaa2f5ab1187"/>
-<approved hash="5,16,3bfc160e0824e4a8"/>
-<approved hash="5,16,ca722edee66931c7"/>
-<approved hash="5,16,8cd63b5925cddd5f"/>
-<approved hash="5,16,10a672356bc5464b"/>
-<approved hash="5,16,7ce0f9698a00b4d7"/>
-<approved hash="5,16,9cfb227194645bf5"/>
-<approved hash="5,16,b48f981e36205bac"/>
-<approved hash="5,16,db4d2cc0857333e3"/>
-<approved hash="5,16,7573310b4821cf93"/>
-<approved hash="5,16,4c01a9917c000e8c"/>
-<approved hash="5,16,75d49d584ab13521"/>
-<approved hash="5,16,91aeff35198c02c8"/>
-<approved hash="5,16,f23304a16ea98325"/>
-<approved hash="5,16,021675981fc97359"/>
-<approved hash="5,16,4ae50b2ce1f943a3"/>
-<approved hash="5,16,65a3922d3d298ab8"/>
-<approved hash="5,16,42d1fe8c1ca65902"/>
-<approved hash="5,16,3c963533d5ecdf39"/>
-<approved hash="5,16,2d0b9329e784a492"/>
-<approved hash="5,16,36af216ac105ca50"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
