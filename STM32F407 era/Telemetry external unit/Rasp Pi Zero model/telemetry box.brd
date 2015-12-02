@@ -1963,12 +1963,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="78.6765" y1="58.674" x2="77.724" y2="58.674" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="6,1,094f97466b09ad12"/>
-<approved hash="6,1,caa6e6e9af10a3aa"/>
-<approved hash="6,16,caa6e6e9af10a3aa"/>
-<approved hash="6,16,094f97466b09ad12"/>
-</errors>
 </board>
 </drawing>
 </eagle>
