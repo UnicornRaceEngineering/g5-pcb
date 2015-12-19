@@ -159,28 +159,7 @@ Jakob Jensen
 JesperJørgensen
 Peter Reichwald</text>
 <text x="41.06418125" y="35.0012" size="1.016" layer="25">USART3 [G|R|T] &gt;</text>
-<rectangle x1="16.635734375" y1="9.813290625" x2="16.696696875" y2="9.820909375" layer="25"/>
-<rectangle x1="19.80565625" y1="9.813290625" x2="19.8666125" y2="9.820909375" layer="25"/>
-<rectangle x1="23.524215625" y1="9.813290625" x2="23.585171875" y2="9.820909375" layer="25"/>
-<rectangle x1="16.582396875" y1="9.820909375" x2="16.757653125" y2="9.828528125" layer="25"/>
-<rectangle x1="19.744696875" y1="9.820909375" x2="19.919953125" y2="9.828528125" layer="25"/>
-<rectangle x1="23.46325625" y1="9.820909375" x2="23.6385125" y2="9.828528125" layer="25"/>
-<rectangle x1="16.559534375" y1="9.828528125" x2="16.788134375" y2="9.836146875" layer="25"/>
-<rectangle x1="19.721834375" y1="9.828528125" x2="19.950434375" y2="9.836146875" layer="25"/>
-<rectangle x1="23.440396875" y1="9.828528125" x2="23.668996875" y2="9.836146875" layer="25"/>
-<rectangle x1="16.544296875" y1="9.83615" x2="16.803371875" y2="9.84376875" layer="25"/>
-<rectangle x1="19.706596875" y1="9.83615" x2="19.973296875" y2="9.84376875" layer="25"/>
-<rectangle x1="23.42515625" y1="9.83615" x2="23.69185625" y2="9.84376875" layer="25"/>
-<rectangle x1="16.52905625" y1="9.84376875" x2="16.8186125" y2="9.8513875" layer="25"/>
-<rectangle x1="19.698975" y1="9.84376875" x2="19.98853125" y2="9.8513875" layer="25"/>
-<rectangle x1="23.417534375" y1="9.84376875" x2="23.707096875" y2="9.8513875" layer="25"/>
-<rectangle x1="16.521434375" y1="9.851390625" x2="16.833853125" y2="9.859009375" layer="25"/>
-<rectangle x1="19.69135625" y1="9.851390625" x2="20.003775" y2="9.859009375" layer="25"/>
-<rectangle x1="23.409915625" y1="9.851390625" x2="23.722334375" y2="9.859009375" layer="25"/>
-<rectangle x1="16.521434375" y1="9.859009375" x2="16.849096875" y2="9.866628125" layer="25"/>
-<rectangle x1="19.683734375" y1="9.859009375" x2="20.011396875" y2="9.866628125" layer="25"/>
-<rectangle x1="23.402296875" y1="9.859009375" x2="23.729953125" y2="9.866628125" layer="25"/>
-<text x="13.332459375" y="9.733278125" size="1.4224" layer="25" align="top-left">CPU Board V 1.0</text>
+<text x="13.332459375" y="9.733278125" size="1.4224" layer="25" align="top-left">CPU Board V 2.0</text>
 <hole x="57.4675" y="3.81" drill="3"/>
 <hole x="58.7375" y="40.005" drill="3"/>
 <hole x="2.54" y="2.54" drill="3"/>
@@ -1487,12 +1466,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="4.7011875" y="36.343865625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="4.7011875" y="36.343865625" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="4.7011875" y="36.343865625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.5327875" y="41.456884375" size="1.27" layer="25"/>
+<attribute name="NAME" x="3.4057875" y="30.471384375" size="1.27" layer="25"/>
 <attribute name="VALUE" x="0.2561875" y="29.358865625" size="1.27" layer="27"/>
 </element>
 <element name="C16" library="microbuilder" package="_0603MP" value="4u7" x="10.912115625" y="38.0978125" smashed="yes">
-<attribute name="NAME" x="12.329434375" y="37.696490625" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="9.959615625" y="37.1453125" size="0.4064" layer="27" ratio="10"/>
+<attribute name="NAME" x="9.852934375" y="36.775740625" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="9.5589375" y="37.645615625" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM_PTH" value="CR1220" x="6.2865" y="12.1285" smashed="yes" rot="MR270">
 <attribute name="PROD_ID" value="BATT-08315" x="6.2865" y="12.1285" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1508,11 +1487,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="14.2261875" y="42.439865625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C17" library="microbuilder" package="_0603MP" value="10u" x="13.852884375" y="38.2609375" smashed="yes">
-<attribute name="NAME" x="12.438659375" y="38.655346875" size="0.8128" layer="25" ratio="18" rot="R180"/>
-<attribute name="VALUE" x="12.900384375" y="37.3084375" size="0.4064" layer="27" ratio="10"/>
+<attribute name="NAME" x="12.929590625" y="36.909653125" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="12.6025625" y="37.760634375" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C18" library="microbuilder" package="_0603MP" value="22u" x="13.884634375" y="42.0074375" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.20090625" y="41.606821875" size="0.8128" layer="25" ratio="18"/>
+<attribute name="NAME" x="12.272928125" y="41.07715625" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="14.837134375" y="42.9599375" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U2" library="Maxim_By_element14_Batch_1" package="SOIC127P600X175-8N" value="MAX13052ESA+" x="22.5764375" y="23.008865625" smashed="yes" rot="R180">
@@ -1570,7 +1549,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="53.474621875" y="34.232853125" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="57.79008125" y="34.163" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="PTC1" library="microbuilder" package="1206" value="" x="12.359640625" y="39.989759375" rot="R180"/>
+<element name="PTC1" library="microbuilder" package="1206" value="" x="12.359640625" y="39.989759375" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.166609375" y="42.210990625" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="9.819640625" y="40.624759375" size="0.4064" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="U$32" library="SparkFun-Electromechanical" package="KPS-1290" value="SWITCH_SPDT" x="15.313659375" y="16.25091875">
 <attribute name="PROD_ID" value="SWCH-10651" x="15.313659375" y="16.25091875" size="1.778" layer="27" display="off"/>
 </element>

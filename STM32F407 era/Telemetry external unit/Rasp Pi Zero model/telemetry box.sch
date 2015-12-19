@@ -4644,6 +4644,12 @@ at 30/07/2012 10:08:22</description>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="10u"/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603" value="30k1"/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603" value="850"/>
+<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
+<part name="U$30" library="microbuilder" deviceset="GND" device=""/>
+<part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0603" value="850"/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
+<part name="U$31" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4669,10 +4675,10 @@ at 30/07/2012 10:08:22</description>
 <instance part="U$9" gate="G$1" x="127" y="83.82"/>
 <instance part="C1" gate="G$1" x="116.84" y="111.76" rot="R180"/>
 <instance part="U$10" gate="G$1" x="116.84" y="104.14"/>
-<instance part="C2" gate="G$1" x="116.84" y="68.58" rot="R180"/>
-<instance part="C3" gate="G$1" x="58.42" y="68.58" rot="R180"/>
-<instance part="U$11" gate="G$1" x="116.84" y="60.96"/>
-<instance part="U$12" gate="G$1" x="58.42" y="60.96"/>
+<instance part="C2" gate="G$1" x="114.3" y="25.4" rot="R180"/>
+<instance part="C3" gate="G$1" x="55.88" y="25.4" rot="R180"/>
+<instance part="U$11" gate="G$1" x="114.3" y="15.24"/>
+<instance part="U$12" gate="G$1" x="55.88" y="15.24"/>
 <instance part="BAT1" gate="G$1" x="-58.42" y="190.5" rot="R270"/>
 <instance part="BAT2" gate="G$1" x="-58.42" y="154.94" rot="R270"/>
 <instance part="BAT3" gate="G$1" x="-58.42" y="119.38" rot="R270"/>
@@ -4748,6 +4754,12 @@ at 30/07/2012 10:08:22</description>
 <instance part="U$29" gate="G$1" x="-20.32" y="137.16"/>
 <instance part="C17" gate="G$1" x="-33.02" y="152.4" rot="MR0"/>
 <instance part="R6" gate="G$1" x="-27.94" y="147.32" rot="R90"/>
+<instance part="R7" gate="G$1" x="63.5" y="63.5" rot="R180"/>
+<instance part="C18" gate="G$1" x="53.34" y="58.42" rot="R180"/>
+<instance part="U$30" gate="G$1" x="53.34" y="50.8"/>
+<instance part="R8" gate="G$1" x="121.92" y="63.5" rot="R180"/>
+<instance part="C19" gate="G$1" x="111.76" y="58.42" rot="R180"/>
+<instance part="U$31" gate="G$1" x="111.76" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -4808,9 +4820,12 @@ at 30/07/2012 10:08:22</description>
 <wire x1="71.12" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="73.66" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="P$2"/>
-<wire x1="68.58" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="73.66" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="73.66" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="73.66"/>
+<pinref part="XB1" gate="G$1" pin="!RESET"/>
+<wire x1="71.12" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="71.12" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="XB2" gate="G$1" pin="VCC"/>
@@ -4818,9 +4833,12 @@ at 30/07/2012 10:08:22</description>
 <wire x1="129.54" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="P$2"/>
-<wire x1="127" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="73.66" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="73.66" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <junction x="127" y="73.66"/>
+<pinref part="XB2" gate="G$1" pin="!RESET"/>
+<wire x1="129.54" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="71.12" x2="127" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VDD"/>
@@ -4893,10 +4911,12 @@ at 30/07/2012 10:08:22</description>
 <segment>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <pinref part="U$11" gate="G$1" pin="GND"/>
+<wire x1="114.3" y1="17.78" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="P$1"/>
 <pinref part="U$12" gate="G$1" pin="GND"/>
+<wire x1="55.88" y1="17.78" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="-"/>
@@ -5053,6 +5073,14 @@ at 30/07/2012 10:08:22</description>
 <wire x1="-20.32" y1="157.48" x2="-20.32" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <junction x="-27.94" y="142.24"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="P$1"/>
+<pinref part="U$30" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="P$1"/>
+<pinref part="U$31" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="TELE-TX" class="0">
@@ -5477,6 +5505,42 @@ at 30/07/2012 10:08:22</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="154.94" x2="-27.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="154.94" x2="-27.94" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="XB1" gate="G$1" pin="PWM0/RSSI"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TELERSSISENSE" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="63.5" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="66.04" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<junction x="53.34" y="63.5"/>
+<label x="53.34" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="XB2" gate="G$1" pin="PWM0/RSSI"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LAPRSSISENSE" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="P$2"/>
+<wire x1="116.84" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="63.5" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="66.04" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<junction x="111.76" y="63.5"/>
+<label x="111.76" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
