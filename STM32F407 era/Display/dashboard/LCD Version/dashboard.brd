@@ -4082,11 +4082,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="142.24" y1="46.99" x2="143.51" y2="45.72" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,b53e0f6500d6c1b8"/>
-<approved hash="5,1,ebf85b4b996a5244"/>
-<approved hash="5,1,e88a4614840552b4"/>
-</errors>
 </board>
 </drawing>
 </eagle>
