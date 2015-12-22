@@ -779,8 +779,8 @@
 <devices>
 <device name="" package="CPU-BOARD-JP1">
 <connects>
-<connect gate="G$1" pin="GND1" pad="P$21"/>
-<connect gate="G$1" pin="GND2" pad="P$22"/>
+<connect gate="G$1" pin="GND1" pad="P$19"/>
+<connect gate="G$1" pin="GND2" pad="P$20"/>
 <connect gate="G$1" pin="PA3" pad="P$1"/>
 <connect gate="G$1" pin="PA4" pad="P$2"/>
 <connect gate="G$1" pin="PA5" pad="P$3"/>
@@ -788,8 +788,8 @@
 <connect gate="G$1" pin="PA7" pad="P$5"/>
 <connect gate="G$1" pin="PB0" pad="P$8"/>
 <connect gate="G$1" pin="PB1" pad="P$9"/>
-<connect gate="G$1" pin="PB10" pad="P$19"/>
-<connect gate="G$1" pin="PB11" pad="P$20"/>
+<connect gate="G$1" pin="PB10" pad="P$21"/>
+<connect gate="G$1" pin="PB11" pad="P$22"/>
 <connect gate="G$1" pin="PC4" pad="P$6"/>
 <connect gate="G$1" pin="PC5" pad="P$7"/>
 <connect gate="G$1" pin="PE10" pad="P$13"/>
@@ -12106,7 +12106,8 @@ straight</description>
 <wire x1="401.32" y1="33.02" x2="401.32" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$3" pin="B"/>
 <wire x1="401.32" y1="22.86" x2="401.32" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="20.32" x2="401.32" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="20.32" x2="401.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="12.7" x2="401.32" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="33.02" x2="401.32" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$3" pin="F"/>
 <wire x1="398.78" y1="22.86" x2="401.32" y2="22.86" width="0.1524" layer="91"/>
@@ -12114,6 +12115,9 @@ straight</description>
 <pinref part="J1" gate="G$3" pin="G"/>
 <wire x1="398.78" y1="20.32" x2="401.32" y2="20.32" width="0.1524" layer="91"/>
 <junction x="401.32" y="20.32"/>
+<pinref part="J1" gate="G$3" pin="K"/>
+<wire x1="398.78" y1="12.7" x2="401.32" y2="12.7" width="0.1524" layer="91"/>
+<junction x="401.32" y="12.7"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="E" pin="I"/>
@@ -12371,13 +12375,17 @@ straight</description>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="12V"/>
-<wire x1="439.42" y1="7.62" x2="439.42" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="7.62" x2="439.42" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$4" pin="M"/>
+<wire x1="439.42" y1="12.7" x2="439.42" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="22.86" x2="439.42" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="7.62" x2="439.42" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$4" pin="F"/>
 <wire x1="431.8" y1="22.86" x2="439.42" y2="22.86" width="0.1524" layer="91"/>
 <junction x="439.42" y="22.86"/>
+<pinref part="J1" gate="G$4" pin="K"/>
+<wire x1="431.8" y1="12.7" x2="439.42" y2="12.7" width="0.1524" layer="91"/>
+<junction x="439.42" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="12V"/>
@@ -13095,32 +13103,18 @@ straight</description>
 <wire x1="383.54" y1="48.26" x2="386.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FUEL1" class="0">
+<net name="FUEL-RECIEVE" class="0">
 <segment>
 <pinref part="J1" gate="G$3" pin="J"/>
 <wire x1="403.86" y1="15.24" x2="398.78" y2="15.24" width="0.1524" layer="91"/>
 <label x="403.86" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FUEL2" class="0">
-<segment>
-<pinref part="J1" gate="G$3" pin="K"/>
-<wire x1="403.86" y1="12.7" x2="398.78" y2="12.7" width="0.1524" layer="91"/>
-<label x="403.86" y="12.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FUEL3" class="0">
+<net name="FUEL-SEND" class="0">
 <segment>
 <pinref part="J1" gate="G$4" pin="J"/>
 <wire x1="441.96" y1="15.24" x2="431.8" y2="15.24" width="0.1524" layer="91"/>
 <label x="441.96" y="15.24" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FUEL4" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="K"/>
-<wire x1="441.96" y1="12.7" x2="431.8" y2="12.7" width="0.1524" layer="91"/>
-<label x="441.96" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
