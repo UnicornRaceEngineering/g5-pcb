@@ -2419,12 +2419,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="47.5107" y1="45.1485" x2="50.9905" y2="48.6283" width="0.4064" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="6,1,17688bc6df2f3935"/>
-<approved hash="6,1,3a8f4180e0b495ca"/>
-<approved hash="6,16,3a8f4180e0b495ca"/>
-<approved hash="6,16,17688bc6df2f3935"/>
-</errors>
 </board>
 </drawing>
 </eagle>
