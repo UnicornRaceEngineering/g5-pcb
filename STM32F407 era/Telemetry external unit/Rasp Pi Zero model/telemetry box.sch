@@ -6433,6 +6433,47 @@ at 30/07/2012 16:36:08</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,2.54,71.12,JP1,5V,5.0V,,,"/>
+<approved hash="104,1,2.54,73.66,JP1,5V,5.0V,,,"/>
+<approved hash="104,1,71.12,73.66,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,71.12,22.86,XB1,VREF,,,,"/>
+<approved hash="104,1,129.54,73.66,XB2,VCC,3.3V,,,"/>
+<approved hash="202,1,129.54,22.86,XB2,VREF,,,,"/>
+<approved hash="104,1,129.54,116.84,U1,VDD,3.3V,,,"/>
+<approved hash="104,1,-58.42,185.42,BAT1,-,GND,,,"/>
+<approved hash="104,1,-58.42,195.58,BAT1,+,N$4,,,"/>
+<approved hash="104,1,-58.42,149.86,BAT2,-,GND,,,"/>
+<approved hash="104,1,-58.42,160.02,BAT2,+,N$1,,,"/>
+<approved hash="104,1,-58.42,114.3,BAT3,-,GND,,,"/>
+<approved hash="104,1,-58.42,124.46,BAT3,+,N$8,,,"/>
+<approved hash="104,1,-81.28,187.96,IC1,VSS,GND,,,"/>
+<approved hash="104,1,-109.22,198.12,IC1,VDD,VCC,,,"/>
+<approved hash="104,1,-81.28,152.4,IC2,VSS,GND,,,"/>
+<approved hash="104,1,-109.22,162.56,IC2,VDD,VCC,,,"/>
+<approved hash="104,1,-81.28,116.84,IC3,VSS,GND,,,"/>
+<approved hash="104,1,-109.22,127,IC3,VDD,VCC,,,"/>
+<approved hash="104,1,-215.9,58.42,IC4P,VCC,3.3V,,,"/>
+<approved hash="104,1,-208.28,58.42,IC6P,VCC,3.3V,,,"/>
+<approved hash="104,1,-200.66,58.42,IC5P,VCC,3.3V,,,"/>
+<approved hash="104,1,-182.88,182.88,CN1,VBUS,N$17,,,"/>
+<approved hash="104,1,-200.66,213.36,CN2,PWR,N$22,,,"/>
+<approved hash="104,1,-200.66,210.82,CN2,GNDBREAK,GND,,,"/>
+<approved hash="104,1,27.94,134.62,U2,VIN,VBAT,,,"/>
+<approved hash="209,1,-73.66,33.02,MISO,,,,,"/>
+<approved hash="209,1,33.02,55.88,MISO,,,,,"/>
+<approved hash="115,1,-56.7013,190.5,BAT1,,,,,"/>
+<approved hash="115,1,-56.7013,154.94,BAT2,,,,,"/>
+<approved hash="115,1,-56.7013,119.38,BAT3,,,,,"/>
+<approved hash="115,1,-191.135,179.091,CN1,,,,,"/>
+<approved hash="115,1,-199.381,211.997,CN2,,,,,"/>
+<approved hash="115,1,-172.72,184.692,PTC1,,,,,"/>
+<approved hash="115,1,-160.02,184.057,D1,,,,,"/>
+<approved hash="115,1,-152.4,214.537,D2,,,,,"/>
+<approved hash="115,1,-53.34,199.297,D3,,,,,"/>
+<approved hash="115,1,-53.34,163.737,D4,,,,,"/>
+<approved hash="115,1,-53.34,128.177,D5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
