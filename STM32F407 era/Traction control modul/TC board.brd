@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -2642,7 +2642,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.0175" y="61.8173" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C11" library="microbuilder" package="_0603" value="100n" x="17.4625" y="56.1975" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.415" y="57.15" size="0.8128" layer="25" ratio="18"/>
+<attribute name="NAME" x="19.05" y="54.61" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="16.8275" y="57.8802" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C12" library="microbuilder" package="_0603" value="100n" x="9.2075" y="61.595" smashed="yes" rot="R270">
@@ -2650,7 +2650,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="8.5725" y="63.2777" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C10" library="microbuilder" package="_0603" value="100n" x="17.4625" y="52.07" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.415" y="53.0225" size="0.8128" layer="25" ratio="18"/>
+<attribute name="NAME" x="19.05" y="50.4825" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="16.8275" y="53.7527" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="R8" library="microbuilder" package="_0603" value="604" x="52.3875" y="59.3725" smashed="yes" rot="R90">
