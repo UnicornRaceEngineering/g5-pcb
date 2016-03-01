@@ -15792,6 +15792,44 @@ Based on the following sources:
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,10.16,314.96,IC4B,O,,,,"/>
+<approved hash="101,1,10.16,302.26,IC4C,O,,,,"/>
+<approved hash="101,1,10.16,289.56,IC4D,O,,,,"/>
+<approved hash="101,1,10.16,276.86,IC4E,O,,,,"/>
+<approved hash="101,1,10.16,264.16,IC4F,O,,,,"/>
+<approved hash="104,1,66.04,17.78,IC1,VSS,GND,,,"/>
+<approved hash="104,1,38.1,27.94,IC1,VDD,+UB,,,"/>
+<approved hash="204,1,137.16,63.5,U$4,VCC,,,,"/>
+<approved hash="202,1,160.02,190.5,IC5,CV,,,,"/>
+<approved hash="104,1,180.34,185.42,IC5,V+,5.0V,,,"/>
+<approved hash="104,1,109.22,228.6,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,109.22,177.8,XB1,VREF,,,,"/>
+<approved hash="104,1,88.9,10.16,BAT1,-,GND,,,"/>
+<approved hash="104,1,88.9,20.32,BAT1,+,BAT-ADC,,,"/>
+<approved hash="202,1,129.54,17.78,IC3,COMP,,,,"/>
+<approved hash="104,1,248.92,200.66,IC4P,VCC,5.0V,,,"/>
+<approved hash="104,1,241.3,200.66,IC6P,VCC,5.0V,,,"/>
+<approved hash="208,1,106.68,231.14,3.3V,sup,,,,"/>
+<approved hash="208,1,134.62,160.02,3.3V,out,,,,"/>
+<approved hash="208,1,137.16,162.56,3.3V,sup,,,,"/>
+<approved hash="208,1,134.62,137.16,3.3V,sup,,,,"/>
+<approved hash="208,1,40.64,152.4,5.0V,sup,,,,"/>
+<approved hash="208,1,27.94,119.38,5.0V,sup,,,,"/>
+<approved hash="208,1,17.78,231.14,5.0V,sup,,,,"/>
+<approved hash="208,1,83.82,231.14,5.0V,sup,,,,"/>
+<approved hash="208,1,170.18,218.44,5.0V,sup,,,,"/>
+<approved hash="208,1,106.68,162.56,5.0V,sup,,,,"/>
+<approved hash="208,1,157.48,22.86,5.0V,out,,,,"/>
+<approved hash="208,1,162.56,33.02,5.0V,sup,,,,"/>
+<approved hash="208,1,274.32,231.14,5.0V,sup,,,,"/>
+<approved hash="208,1,248.92,205.74,5.0V,sup,,,,"/>
+<approved hash="115,1,162.493,172.72,Q3,,,,,"/>
+<approved hash="115,1,91.6771,214.761,JP1,,,,,"/>
+<approved hash="115,1,90.6187,15.24,BAT1,,,,,"/>
+<approved hash="115,1,76.2,192.312,PTC2,,,,,"/>
+<approved hash="115,1,132.013,116.84,Q2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

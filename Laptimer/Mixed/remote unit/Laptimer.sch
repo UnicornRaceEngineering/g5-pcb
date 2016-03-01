@@ -8546,7 +8546,20 @@ Based on the following sources:
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,1,10.16,314.96,IC4B,O,,,,"/>
+<approved hash="101,1,10.16,302.26,IC4C,O,,,,"/>
+<approved hash="101,1,10.16,289.56,IC4D,O,,,,"/>
+<approved hash="101,1,10.16,276.86,IC4E,O,,,,"/>
+<approved hash="101,1,10.16,264.16,IC4F,O,,,,"/>
 <approved hash="202,1,238.76,134.62,IC5,CV,,,,"/>
+<approved hash="104,1,259.08,129.54,IC5,V+,5.0V,,,"/>
+<approved hash="104,1,248.92,200.66,IC4P,VCC,5.0V,,,"/>
+<approved hash="115,1,241.233,116.84,Q3,,,,,"/>
+<approved hash="115,1,243.603,92.8412,JP3,,,,,"/>
+<approved hash="115,1,264.397,96.6512,JP2,,,,,"/>
+<approved hash="115,1,332.977,130.941,JP1,,,,,"/>
+<approved hash="115,1,276.623,92.8412,JP4,,,,,"/>
+<approved hash="115,1,297.417,96.6512,JP5,,,,,"/>
 </errors>
 </schematic>
 </drawing>
