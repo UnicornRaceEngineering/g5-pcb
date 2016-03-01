@@ -11953,7 +11953,6 @@ straight</description>
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="_0603" value="178"/>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="_0603" value="604"/>
 <part name="U3" library="Maxim_By_element14_Batch_1" deviceset="MAX531AESD+" device=""/>
-<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="IC5" library="burr-brown" deviceset="REG1117" device=""/>
 <part name="U$11" library="microbuilder" deviceset="5.0V" device=""/>
@@ -11988,6 +11987,7 @@ straight</description>
 <part name="R27" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$27" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12163,7 +12163,6 @@ straight</description>
 <instance part="R20" gate="G$1" x="307.34" y="180.34" rot="R90"/>
 <instance part="R21" gate="G$1" x="307.34" y="195.58" rot="R90"/>
 <instance part="U3" gate="A" x="96.52" y="86.36"/>
-<instance part="C13" gate="G$1" x="73.66" y="66.04" rot="MR0"/>
 <instance part="C14" gate="G$1" x="63.5" y="66.04" rot="MR0"/>
 <instance part="IC5" gate="G$1" x="27.94" y="111.76"/>
 <instance part="U$11" gate="G$1" x="63.5" y="73.66"/>
@@ -12207,6 +12206,7 @@ straight</description>
 <instance part="IC3" gate="A" x="78.74" y="190.5"/>
 <instance part="IC3" gate="B" x="99.06" y="180.34"/>
 <instance part="IC3" gate="C" x="99.06" y="160.02"/>
+<instance part="GND26" gate="1" x="73.66" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -12487,6 +12487,25 @@ straight</description>
 <segment>
 <pinref part="C20" gate="G$1" pin="P$1"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="DGND"/>
+<wire x1="78.74" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="68.58" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="P$2"/>
+<wire x1="73.66" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="60.96" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<junction x="73.66" y="60.96"/>
+<pinref part="U3" gate="A" pin="AGND"/>
+<wire x1="78.74" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<junction x="76.2" y="68.58"/>
+<pinref part="U3" gate="A" pin="VSS"/>
+<wire x1="78.74" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<junction x="76.2" y="71.12"/>
+<pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -13431,32 +13450,6 @@ straight</description>
 <label x="187.96" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="DGND"/>
-<wire x1="78.74" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="71.12" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="P$2"/>
-<wire x1="76.2" y1="68.58" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="60.96" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="P$2"/>
-<wire x1="73.66" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="60.96" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<junction x="73.66" y="60.96"/>
-<pinref part="U3" gate="A" pin="AGND"/>
-<wire x1="78.74" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<junction x="76.2" y="68.58"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="VSS"/>
-<pinref part="C13" gate="G$1" pin="P$1"/>
-<wire x1="78.74" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="73.66" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="5.0V" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="P$1"/>
@@ -13564,12 +13557,22 @@ straight</description>
 <wire x1="76.2" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
 <label x="76.2" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="PD10"/>
+<wire x1="71.12" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="71.12" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DACCLR" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="~CLR"/>
 <wire x1="76.2" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
 <label x="76.2" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="PD8"/>
+<wire x1="71.12" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
+<label x="71.12" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIRBSENSE" class="0">
@@ -13740,23 +13743,35 @@ straight</description>
 <errors>
 <approved hash="101,1,408.94,73.66,IC1E,O,,,,"/>
 <approved hash="101,1,391.16,63.5,IC1F,O,,,,"/>
-<approved hash="101,1,223.52,182.88,IC4C,O,,,,"/>
-<approved hash="101,1,223.52,172.72,IC4D,O,,,,"/>
-<approved hash="101,1,223.52,162.56,IC4E,O,,,,"/>
-<approved hash="101,1,223.52,152.4,IC4F,O,,,,"/>
+<approved hash="101,1,210.82,177.8,IC6E,O,,,,"/>
+<approved hash="101,1,210.82,167.64,IC6F,O,,,,"/>
 <approved hash="104,1,320.04,66.04,IC1P,VCC,3.3V,,,"/>
 <approved hash="104,1,251.46,81.28,U1,VCC,3.3V,,,"/>
-<approved hash="104,1,182.88,170.18,IC3P,VCC,3.3V,,,"/>
-<approved hash="104,1,233.68,175.26,IC4P,VCC,3.3V,,,"/>
+<approved hash="104,1,233.68,154.94,IC3P,VCC,3.3V,,,"/>
 <approved hash="104,1,154.94,109.22,U2,VCC,3.3V,,,"/>
 <approved hash="104,1,154.94,106.68,U2,V+,N$23,,,"/>
 <approved hash="202,1,154.94,101.6,U2,T1IN,,,,"/>
 <approved hash="202,1,154.94,93.98,U2,R1IN,,,,"/>
 <approved hash="104,1,154.94,71.12,U2,V-,N$13,,,"/>
-<approved hash="115,1,134.553,172.72,Q1,,,,,"/>
-<approved hash="115,1,134.553,152.4,Q2,,,,,"/>
-<approved hash="115,1,231.073,200.66,Q3,,,,,"/>
-<approved hash="115,1,182.813,200.66,Q4,,,,,"/>
+<approved hash="104,1,78.74,99.06,U3,VDD,5.0V,,,"/>
+<approved hash="104,1,78.74,73.66,U3,VSS,N$28,,,"/>
+<approved hash="104,1,193.04,154.94,IC6P,VCC,3.3V,,,"/>
+<approved hash="208,1,63.5,71.12,5.0V,sup,,,,"/>
+<approved hash="208,1,76.2,101.6,5.0V,sup,,,,"/>
+<approved hash="208,1,40.64,111.76,5.0V,out,,,,"/>
+<approved hash="208,1,43.18,114.3,5.0V,sup,,,,"/>
+<approved hash="208,1,139.7,223.52,5.0V,sup,,,,"/>
+<approved hash="208,1,99.06,223.52,5.0V,sup,,,,"/>
+<approved hash="209,1,78.74,93.98,DACCLR,,,,,"/>
+<approved hash="106,1,78.74,93.98,DACCLR,,,,,"/>
+<approved hash="209,1,78.74,86.36,DACCS,,,,,"/>
+<approved hash="106,1,78.74,86.36,DACCS,,,,,"/>
+<approved hash="115,1,165.033,172.72,Q1,,,,,"/>
+<approved hash="115,1,165.033,152.4,Q2,,,,,"/>
+<approved hash="115,1,231.073,218.44,Q3,,,,,"/>
+<approved hash="115,1,182.813,218.44,Q4,,,,,"/>
+<approved hash="115,1,137.093,218.44,Q6,,,,,"/>
+<approved hash="115,1,96.4528,218.44,Q7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
