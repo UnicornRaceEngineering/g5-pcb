@@ -1,31 +1,31 @@
-Qty;Value;Device;Package;Parts;Description
-1;;LEDCHIPLED_1206;CHIPLED_1206;LED1;LED
-1;;MINI-USB-SCHIELD-32005-201;32005-201;X1;MINI USB-B Conector
-1;;PINHD-1X1;1X01;JP6;PIN HEADER
-2;;PINHD-2X11;2X11;JP1, JP2;PIN HEADER
-1;;PINHD-2X8;2X08;JP4;PIN HEADER
-1;;PINHD-2X9;2X09;JP3;PIN HEADER
-1;;PTC1206;1206;PTC1;PTC (Resettable Fuse)
-1;;STM32F4-100;SQFP-S-14X14-100;U1;STM32F4, 100 pin package
-1;;"TESTPOINT0.1"";1X01_ROUND""";TP1;Test Point;
-1;057-010-1;057-010-1;057-010-1;X2;CONNECTOR
-1;100;RESISTOR_0603MP;_0603MP;R3;Resistors
-8;100n;CAP_CERAMIC_0603MP;_0603MP;C3, C5, C6, C7, C8, C9, C10, C12;Ceramic Capacitors
-1;10u;CAP_CERAMIC_0603MP;_0603MP;C17;Ceramic Capacitors
-2;1u;CAP_CERAMIC_0603MP;_0603MP;C4, C13;Ceramic Capacitors
-2;22p;CAP_CERAMIC_0603MP;_0603MP;C14, C15;Ceramic Capacitors
-1;22u;CAP_CERAMIC_0603MP;_0603MP;C18;Ceramic Capacitors
-1;25 MHz;CRYSTAL2.5X2.0MM;CRYSTAL_2.5X2;Y1;Crystals
-2;2u2;CAP_CERAMIC_0603MP;_0603MP;C1, C2;Ceramic Capacitors
-1;32.768KHz;CRYSTAL32.768;CRYSTAL_CYL_2X6MM_SMT;Y2;Crystals
-1;4n7;CAP_CERAMIC_0603;_0603;C21;Ceramic Capacitors
-2;4u7;CAP_CERAMIC_0603MP;_0603MP;C11, C16;Ceramic Capacitors
-2;500;RESISTOR_0603MP;_0603MP;R1, R2;Resistors
-2;60;RESISTOR_0603;_0603;R4, R5;Resistors
-2;6p8;CAP_CERAMIC_0603MP;_0603MP;C19, C20;Ceramic Capacitors
-1;CR1220;BATTERY12PTH;BATTCON_12MM_PTH;BAT1;Battery Holders
-1;MAX13052ESA+;MAX13052ESA+;SOIC127P600X175-8N;U2;Industry-Standard High-Speed CAN Transceivers with ±80V Fault Protection
-1;MICROFIT4;MICROFIT4;MICROFIT4SOCK;U$23;
-1;REG1117;REG1117;SOT223;IC1;800mA and 1A Low Dropout (LDO) Positive Regulator
-1;RESET;SWITCH-MOMENTARY-2SMD-1101NE;TACTILE-SWITCH-1101NE;S1;Various NO switches- pushbuttons, reed, etc
-1;SWITCH_SPDT;SWITCH_SPDT;KPS-1290;U$32;SWCH-10651
+"Qty";"Value";"Device";"Package";"Parts";"Description";"BOM";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"PROD_ID";"SUPPLIER";
+"1";"";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1";"LED";"";"";"";"";"";"";"";"";
+"1";"";"MINI-USB-SCHIELD-32005-201";"32005-201";"X1";"MINI USB-B Conector";"";"";"";"unknown";"unknown";"";"";"";
+"1";"";"PINHD-1X1";"1X01";"JP6";"PIN HEADER";"";"";"";"";"";"";"";"";
+"2";"";"PINHD-2X11";"2X11";"JP1, JP2";"PIN HEADER";"";"";"";"";"";"";"";"";
+"1";"";"PINHD-2X8";"2X08";"JP4";"PIN HEADER";"";"";"";"";"";"";"";"";
+"1";"";"PINHD-2X9";"2X09";"JP3";"PIN HEADER";"";"";"";"";"";"";"";"";
+"1";"";"PTC1206";"1206";"PTC1";"PTC (Resettable Fuse)";"";"";"";"";"";"";"";"";
+"1";"";"STM32F4-100";"SQFP-S-14X14-100";"U1";"STM32F4, 100 pin package";"";"";"";"";"";"";"";"";
+"1";"";"TESTPOINT0.1"";"1X01_ROUND";"TP1";"Test Point";"EXCLUDE";"";"";"";"";"";"";"";
+"1";"057-010-1";"057-010-1";"057-010-1";"X2";"CONNECTOR";"";"";"";"unknown";"unknown";"";"";"";
+"1";"100";"RESISTOR_0603MP";"_0603MP";"R3";"Resistors";"";"";"";"";"";"";"";"";
+"8";"100n";"CAP_CERAMIC_0603MP";"_0603MP";"C3, C5, C6, C7, C8, C9, C10, C12";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"1";"10u";"CAP_CERAMIC_0603MP";"_0603MP";"C17";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"2";"1u";"CAP_CERAMIC_0603MP";"_0603MP";"C4, C13";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"2";"22p";"CAP_CERAMIC_0603MP";"_0603MP";"C14, C15";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"1";"22u";"CAP_CERAMIC_0603MP";"_0603MP";"C18";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"1";"25 MHz";"CRYSTAL2.5X2.0MM";"CRYSTAL_2.5X2";"Y1";"Crystals";"";"";"";"";"";"";"";"";
+"2";"2u2";"CAP_CERAMIC_0603MP";"_0603MP";"C1, C2";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"1";"32.768KHz";"CRYSTAL32.768";"CRYSTAL_CYL_2X6MM_SMT";"Y2";"Crystals";"";"";"";"";"";"";"";"";
+"1";"4n7";"CAP_CERAMIC_0603";"_0603";"C21";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"2";"4u7";"CAP_CERAMIC_0603MP";"_0603MP";"C11, C16";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"2";"500";"RESISTOR_0603MP";"_0603MP";"R1, R2";"Resistors";"";"";"";"";"";"";"";"";
+"2";"60";"RESISTOR_0603";"_0603";"R4, R5";"Resistors";"";"";"";"";"";"";"";"";
+"2";"6p8";"CAP_CERAMIC_0603MP";"_0603MP";"C19, C20";"Ceramic Capacitors";"";"";"";"";"";"";"";"";
+"1";"CR1220";"BATTERY12PTH";"BATTCON_12MM_PTH";"BAT1";"Battery Holders";"";"";"";"";"";"";"BATT-08315";"";
+"1";"MAX13052ESA+";"MAX13052ESA+";"SOIC127P600X175-8N";"U2";"Industry-Standard High-Speed CAN Transceivers with ±80V Fault Protection";"";"";"MAX13052ESA+";"1600112";"99K2875";"SOIC-8";"";"Maxim";
+"1";"MICROFIT4";"MICROFIT4";"MICROFIT4SOCK";"U$23";"";"";"";"";"";"";"";"";"";
+"1";"REG1117";"REG1117";"SOT223";"IC1";"800mA and 1A Low Dropout (LDO) Positive Regulator";"";"";"REG1117";"1097566";"14P6981";"";"";"";
+"1";"RESET";"SWITCH-MOMENTARY-2SMD-1101NE";"TACTILE-SWITCH-1101NE";"S1";"Various NO switches- pushbuttons, reed, etc";"";"";"";"";"";"";"SWCH-00815";"";
+"1";"SWITCH_SPDT";"SWITCH_SPDT";"KPS-1290";"U$32";"SWCH-10651";"";"";"";"";"";"";"SWCH-10651";"";
