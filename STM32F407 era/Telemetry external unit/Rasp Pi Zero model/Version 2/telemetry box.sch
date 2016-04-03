@@ -4135,6 +4135,80 @@ at 30/07/2012 16:36:08</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="switch">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TL3XWO">
+<description>&lt;b&gt;TINY SWITCH&lt;/b&gt;&lt;p&gt;
+Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da-01-de-Subminiaturschalter_TL_36YO.pdf</description>
+<wire x1="-3.955" y1="3.5" x2="3.955" y2="3.5" width="0.2032" layer="21"/>
+<wire x1="3.955" y1="-4.425" x2="-3.955" y2="-4.425" width="0.2032" layer="51"/>
+<wire x1="-3.955" y1="-4.425" x2="-3.955" y2="3.5" width="0.2032" layer="21"/>
+<wire x1="3.955" y1="3.5" x2="3.955" y2="-4.425" width="0.2032" layer="21"/>
+<wire x1="-2.18" y1="9.2" x2="2.18" y2="9.2" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="4.295" x2="2.4" y2="4.295" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="4.295" x2="2.4" y2="3.595" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="3.62" x2="-2.4" y2="4.295" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="4.37" x2="-2.2" y2="9.195" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="4.345" x2="2.2" y2="9.195" width="0.2032" layer="21"/>
+<wire x1="0.95" y1="9.295" x2="1.15" y2="13.345" width="0.2032" layer="21"/>
+<wire x1="1.15" y1="13.345" x2="-1.15" y2="13.345" width="0.2032" layer="21" curve="185.655231"/>
+<wire x1="-1.15" y1="13.345" x2="-0.95" y2="9.295" width="0.2032" layer="21"/>
+<wire x1="-3.411" y1="-4.425" x2="-3.955" y2="-4.425" width="0.2032" layer="21"/>
+<wire x1="3.955" y1="-4.425" x2="3.411" y2="-4.425" width="0.2032" layer="21"/>
+<wire x1="-0.871" y1="-4.425" x2="-1.669" y2="-4.425" width="0.2032" layer="21"/>
+<wire x1="1.669" y1="-4.425" x2="0.871" y2="-4.425" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="-5.08" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-5.08" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-5.08" drill="1.1" diameter="1.4224" shape="long" rot="R90"/>
+<pad name="M1" x="-2.54" y="0" drill="1.1" diameter="1.6764" rot="R90"/>
+<pad name="M2" x="2.54" y="0" drill="1.1" diameter="1.6764" rot="R90"/>
+<text x="-4.318" y="-4.572" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-4.572" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.8" y1="-5.455" x2="-2.25" y2="-4.405" layer="51"/>
+<rectangle x1="-0.26" y1="-5.455" x2="0.29" y2="-4.405" layer="51"/>
+<rectangle x1="2.28" y1="-5.455" x2="2.83" y2="-4.405" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="U">
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
+<text x="5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TL36WO" prefix="S">
+<description>&lt;b&gt;TINY SWITCH&lt;/b&gt; ON - ON&lt;p&gt;
+Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da-01-de-Subminiaturschalter_TL_36WO.pdf</description>
+<gates>
+<gate name="BEF1" symbol="U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TL3XWO">
+<connects>
+<connect gate="BEF1" pin="O" pad="1"/>
+<connect gate="BEF1" pin="P" pad="2"/>
+<connect gate="BEF1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4225,6 +4299,7 @@ at 30/07/2012 16:36:08</description>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SMA" value="B320"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="SMA" value="B320"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SMA" value="B320"/>
+<part name="S1" library="switch" deviceset="TL36WO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4290,7 +4365,7 @@ at 30/07/2012 16:36:08</description>
 <instance part="C17" gate="G$1" x="-7.62" y="132.08" rot="R90"/>
 <instance part="C21" gate="G$1" x="-2.54" y="139.7" rot="R90"/>
 <instance part="U$29" gate="G$1" x="-15.24" y="129.54"/>
-<instance part="U$34" gate="G$1" x="25.4" y="154.94"/>
+<instance part="U$34" gate="G$1" x="27.94" y="167.64"/>
 <instance part="R11" gate="G$1" x="15.24" y="139.7" rot="R90"/>
 <instance part="C22" gate="G$1" x="15.24" y="114.3" rot="R180"/>
 <instance part="U$35" gate="G$1" x="-20.32" y="139.7"/>
@@ -4311,6 +4386,7 @@ at 30/07/2012 16:36:08</description>
 <instance part="D1" gate="G$1" x="-152.4" y="213.36"/>
 <instance part="D2" gate="G$1" x="-160.02" y="182.88"/>
 <instance part="D3" gate="G$1" x="-5.08" y="119.38" rot="R180"/>
+<instance part="S1" gate="BEF1" x="25.4" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -4785,26 +4861,9 @@ at 30/07/2012 16:36:08</description>
 <pinref part="B1" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="IPRG"/>
+<pinref part="S1" gate="BEF1" pin="S"/>
 <pinref part="U$34" gate="G$1" pin="VBAT"/>
-<wire x1="27.94" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="129.54" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VIN"/>
-<wire x1="25.4" y1="134.62" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
-<junction x="25.4" y="134.62"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="149.86" x2="15.24" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="149.86" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
-<junction x="25.4" y="149.86"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="139.7" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-<junction x="20.32" y="149.86"/>
-<pinref part="C24" gate="G$1" pin="P$2"/>
-<wire x1="25.4" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="149.86" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="162.56" x2="27.94" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -4993,6 +5052,30 @@ at 30/07/2012 16:36:08</description>
 <pinref part="JP1" gate="G$1" pin="GP17"/>
 <wire x1="35.56" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 <label x="35.56" y="40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="IPRG"/>
+<wire x1="27.94" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="129.54" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VIN"/>
+<wire x1="25.4" y1="134.62" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<junction x="25.4" y="134.62"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="149.86" x2="15.24" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="149.86" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
+<junction x="25.4" y="149.86"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="139.7" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
+<junction x="20.32" y="149.86"/>
+<pinref part="C24" gate="G$1" pin="P$2"/>
+<wire x1="25.4" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="149.86" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="S1" gate="BEF1" pin="P"/>
+<wire x1="25.4" y1="149.86" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
