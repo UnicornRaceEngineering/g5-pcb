@@ -12416,42 +12416,6 @@ Grid 5.00 mm&lt;p&gt;
 <text x="-4.532" y="0.635" size="1.27" layer="21" ratio="10">1</text>
 <text x="0.421" y="0.635" size="1.27" layer="21" ratio="10">2</text>
 </package>
-<package name="W237-103">
-<description>&lt;b&gt;WAGO SCREW CLAMP&lt;/b&gt;</description>
-<wire x1="4.093" y1="-2.255" x2="5.897" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-0.911" y1="-2.331" x2="0.994" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-5.991" y1="-2.306" x2="-3.984" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-7.489" y1="-5.481" x2="7.497" y2="-5.481" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.714" x2="7.497" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.714" x2="-7.489" y2="3.714" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-5.481" x2="-7.489" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-3.093" x2="-5.889" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-5.889" y1="-3.093" x2="-4.111" y2="-3.093" width="0.1524" layer="51"/>
-<wire x1="-4.111" y1="-3.093" x2="-0.885" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="0.893" y1="-3.093" x2="4.119" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="5.897" y1="-3.093" x2="7.497" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-3.093" x2="-7.489" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="-3.093" x2="7.497" y2="-5.481" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.511" x2="-7.489" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.511" x2="7.497" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="3.511" x2="-7.489" y2="3.714" width="0.1524" layer="21"/>
-<wire x1="-0.885" y1="-3.093" x2="0.893" y2="-3.093" width="0.1524" layer="51"/>
-<wire x1="4.119" y1="-3.093" x2="5.897" y2="-3.093" width="0.1524" layer="51"/>
-<circle x="-5" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="5.0076" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="-5" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<circle x="5.0076" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<circle x="0.0038" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="0.0038" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<pad name="1" x="-5" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<pad name="3" x="5" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<text x="-6.905" y="0.615" size="1.27" layer="51" ratio="10">1</text>
-<text x="-1.8504" y="0.5642" size="1.27" layer="51" ratio="10">2</text>
-<text x="3.1534" y="0.615" size="1.27" layer="51" ratio="10">3</text>
-<text x="-5.3048" y="-4.9476" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.6858" y="-7.4622" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="KL">
@@ -12485,31 +12449,6 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="MPN" value="237-102" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="70K9898" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="W237-103" prefix="X" uservalue="yes">
-<description>&lt;b&gt;WAGO SCREW CLAMP&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="KL" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="KL" x="0" y="0" addlevel="always"/>
-<gate name="-3" symbol="KL+V" x="0" y="-5.08" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="W237-103">
-<connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-<connect gate="-3" pin="KL" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="237-103" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="18M7116" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12751,6 +12690,104 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5566-10">
+<description>&lt;b&gt;Mini FIT connector 10 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
+<wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="11" y1="-3.3" x2="11" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="11" y1="-4.9" x2="-11" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-11" y1="-4.9" x2="-11" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-14.5" y1="3.2" x2="-11.7" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="-14.5" y1="1.4" x2="-11.7" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="-14.5" y1="3.2" x2="-14.5" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-11.8" y1="3.3" x2="-11.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-11.8" y1="1.3" x2="-11.1" y2="1.3" width="0.254" layer="21"/>
+<wire x1="11.7" y1="1.4" x2="14.5" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="11.7" y1="3.2" x2="14.5" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="14.5" y1="1.4" x2="14.5" y2="3.2" width="0.254" layer="21"/>
+<wire x1="11.8" y1="1.3" x2="11.1" y2="1.3" width="0.254" layer="21"/>
+<wire x1="11.8" y1="3.3" x2="11.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="11" y1="-2.2" x2="11" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<pad name="1" x="8.4" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="4.2" y="-2.75" drill="1.4" shape="square"/>
+<pad name="3" x="0" y="-2.75" drill="1.4" shape="square"/>
+<pad name="4" x="-4.2" y="-2.75" drill="1.4" shape="square"/>
+<pad name="5" x="-8.4" y="-2.75" drill="1.4" shape="square"/>
+<pad name="9" x="-4.2" y="2.75" drill="1.4" shape="square"/>
+<pad name="10" x="-8.4" y="2.75" drill="1.4" shape="square"/>
+<pad name="8" x="0" y="2.75" drill="1.4" shape="square"/>
+<pad name="7" x="4.2" y="2.75" drill="1.4" shape="square"/>
+<pad name="6" x="8.4" y="2.75" drill="1.4" shape="square"/>
+<text x="5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="13.1" y="2.29" drill="3"/>
+<hole x="-13.1" y="2.29" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5566-10" prefix="X">
+<description>&lt;b&gt;Mini FIT connector 10 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="10.16" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="7.62" addlevel="always"/>
+<gate name="-3" symbol="M" x="0" y="5.08" addlevel="always"/>
+<gate name="-4" symbol="M" x="0" y="2.54" addlevel="always"/>
+<gate name="-5" symbol="M" x="0" y="0" addlevel="always"/>
+<gate name="-6" symbol="M" x="0" y="-2.54" addlevel="always"/>
+<gate name="-7" symbol="M" x="0" y="-5.08" addlevel="always"/>
+<gate name="-8" symbol="M" x="0" y="-7.62" addlevel="always"/>
+<gate name="-9" symbol="M" x="0" y="-10.16" addlevel="always"/>
+<gate name="-10" symbol="M" x="0" y="-12.7" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="5566-10">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-10" pin="S" pad="10"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+<connect gate="-9" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12901,7 +12938,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="_0603" value="221"/>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="_0603" value="221"/>
 <part name="X2" library="con-wago-500" deviceset="W237-102" device=""/>
-<part name="X3" library="con-wago-500" deviceset="W237-103" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="R28" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
 <part name="R29" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
@@ -12924,6 +12960,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="X5" library="con-molex" deviceset="5566-10" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13152,9 +13189,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <instance part="R21" gate="G$1" x="307.34" y="180.34" rot="R90"/>
 <instance part="X2" gate="-1" x="236.22" y="-12.7" rot="R270"/>
 <instance part="X2" gate="-2" x="231.14" y="-12.7" rot="R270"/>
-<instance part="X3" gate="-1" x="279.4" y="-38.1" rot="R180"/>
-<instance part="X3" gate="-2" x="279.4" y="-43.18" rot="R180"/>
-<instance part="X3" gate="-3" x="294.64" y="-38.1" rot="R270"/>
 <instance part="GND27" gate="1" x="236.22" y="-78.74"/>
 <instance part="R28" gate="G$1" x="228.6" y="-30.48" rot="R180"/>
 <instance part="R29" gate="G$1" x="228.6" y="-38.1" rot="R180"/>
@@ -13177,6 +13211,16 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <instance part="GND43" gate="1" x="172.72" y="-60.96"/>
 <instance part="GND44" gate="1" x="187.96" y="-17.78"/>
 <instance part="C6" gate="G$1" x="180.34" y="-12.7" rot="MR90"/>
+<instance part="X5" gate="-1" x="276.86" y="-38.1"/>
+<instance part="X5" gate="-2" x="276.86" y="-43.18"/>
+<instance part="X5" gate="-3" x="294.64" y="-40.64" rot="R90"/>
+<instance part="X5" gate="-4" x="269.24" y="-68.58"/>
+<instance part="X5" gate="-5" x="58.42" y="-38.1"/>
+<instance part="X5" gate="-6" x="274.32" y="-35.56"/>
+<instance part="X5" gate="-7" x="274.32" y="-45.72"/>
+<instance part="X5" gate="-8" x="58.42" y="-45.72"/>
+<instance part="X5" gate="-9" x="58.42" y="-48.26"/>
+<instance part="X5" gate="-10" x="58.42" y="-50.8"/>
 </instances>
 <busses>
 </busses>
@@ -14753,16 +14797,13 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <junction x="45.72" y="147.32"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="OUTA" class="0">
 <segment>
 <pinref part="U$28" gate="G$1" pin="OUTA@1"/>
-<pinref part="X3" gate="-1" pin="KL"/>
-<wire x1="274.32" y1="-38.1" x2="271.78" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="U$28" gate="G$1" pin="OUTA@25"/>
 <wire x1="271.78" y1="-38.1" x2="269.24" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-35.56" x2="271.78" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-35.56" x2="271.78" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="271.78" y="-38.1"/>
 <pinref part="U$28" gate="G$1" pin="OUTA@30"/>
 <wire x1="269.24" y1="-33.02" x2="271.78" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-33.02" x2="271.78" y2="-35.56" width="0.1524" layer="91"/>
@@ -14771,26 +14812,31 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="269.24" y1="-30.48" x2="271.78" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-30.48" x2="271.78" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="271.78" y="-33.02"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<wire x1="274.32" y1="-38.1" x2="271.78" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="271.78" y="-38.1"/>
+<pinref part="X5" gate="-6" pin="S"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="OUTB" class="0">
 <segment>
 <pinref part="U$28" gate="G$1" pin="OUTB@15"/>
 <wire x1="271.78" y1="-50.8" x2="269.24" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="U$28" gate="G$1" pin="OUTB@SLUG2"/>
-<pinref part="X3" gate="-2" pin="KL"/>
-<wire x1="274.32" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="U$28" gate="G$1" pin="OUTB@21"/>
 <wire x1="271.78" y1="-43.18" x2="269.24" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-45.72" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-45.72" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="271.78" y="-43.18"/>
 <pinref part="U$28" gate="G$1" pin="OUTB@16"/>
 <wire x1="269.24" y1="-48.26" x2="271.78" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-48.26" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="271.78" y="-45.72"/>
 <wire x1="271.78" y1="-50.8" x2="271.78" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="271.78" y="-48.26"/>
+<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="274.32" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="271.78" y="-43.18"/>
+<pinref part="X5" gate="-7" pin="S"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -14911,8 +14957,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <net name="MP" class="0">
 <segment>
 <pinref part="Q8" gate="G$1" pin="S"/>
-<pinref part="X3" gate="-3" pin="KL"/>
 <wire x1="294.64" y1="-43.18" x2="294.64" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -14981,7 +15027,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <approved hash="202,1,154.94,93.98,U2,R1IN,,,,"/>
 <approved hash="104,1,154.94,71.12,U2,V-,N$13,,,"/>
 <approved hash="104,1,78.74,99.06,U3,VDD,5.0V,,,"/>
-<approved hash="104,1,78.74,73.66,U3,VSS,N$28,,,"/>
 <approved hash="104,1,193.04,154.94,IC6P,VCC,3.3V,,,"/>
 <approved hash="208,1,63.5,71.12,5.0V,sup,,,,"/>
 <approved hash="208,1,76.2,101.6,5.0V,sup,,,,"/>
@@ -14989,10 +15034,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <approved hash="208,1,43.18,114.3,5.0V,sup,,,,"/>
 <approved hash="208,1,139.7,223.52,5.0V,sup,,,,"/>
 <approved hash="208,1,99.06,223.52,5.0V,sup,,,,"/>
-<approved hash="209,1,78.74,93.98,DACCLR,,,,,"/>
-<approved hash="106,1,78.74,93.98,DACCLR,,,,,"/>
-<approved hash="209,1,78.74,86.36,DACCS,,,,,"/>
-<approved hash="106,1,78.74,86.36,DACCS,,,,,"/>
 <approved hash="115,1,165.033,172.72,Q1,,,,,"/>
 <approved hash="115,1,165.033,152.4,Q2,,,,,"/>
 <approved hash="115,1,231.073,218.44,Q3,,,,,"/>
