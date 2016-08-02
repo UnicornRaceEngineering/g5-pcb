@@ -5292,8 +5292,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="133.985" y="23.495"/>
 <vertex x="133.985" y="22.86"/>
 <vertex x="105.41" y="22.86"/>
-<vertex x="101.9175" y="26.3525"/>
-<vertex x="93.0275" y="26.3525"/>
+<vertex x="102.87" y="25.4"/>
+<vertex x="93.0275" y="25.4"/>
 </polygon>
 <contactref element="X5" pad="6"/>
 <via x="118.11" y="28.575" extent="1-16" drill="0.635" shape="square"/>
@@ -5366,8 +5366,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="122.8725" y="30.48"/>
 <vertex x="122.8725" y="37.465"/>
 <vertex x="105.41" y="37.465"/>
-<vertex x="101.9175" y="33.9725"/>
-<vertex x="93.0275" y="33.9725"/>
+<vertex x="102.87" y="34.925"/>
+<vertex x="93.0275" y="34.925"/>
 </polygon>
 <via x="122.2375" y="33.02" extent="1-16" drill="0.635" shape="square"/>
 <via x="122.2375" y="34.29" extent="1-16" drill="0.635" shape="square"/>
@@ -5509,9 +5509,9 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="123.5075" y="38.735"/>
 <vertex x="123.5075" y="24.765"/>
 <vertex x="123.825" y="24.4475"/>
-<vertex x="128.5875" y="24.4475"/>
-<vertex x="128.905" y="24.765"/>
-<vertex x="128.905" y="43.4975"/>
+<vertex x="129.54" y="24.4475"/>
+<vertex x="129.8575" y="24.765"/>
+<vertex x="129.8575" y="42.545"/>
 <vertex x="125.095" y="47.3075"/>
 <vertex x="93.6625" y="47.3075"/>
 </polygon>

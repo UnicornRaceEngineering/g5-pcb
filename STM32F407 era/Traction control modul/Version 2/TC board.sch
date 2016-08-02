@@ -13126,12 +13126,12 @@ Source: http://www.molex.com</description>
 <instance part="R35" gate="G$1" x="220.98" y="-66.04" rot="R180"/>
 <instance part="Q8" gate="G$1" x="292.1" y="-50.8"/>
 <instance part="GND41" gate="1" x="294.64" y="-60.96"/>
-<instance part="U4" gate="G$1" x="172.72" y="-35.56"/>
-<instance part="U$29" gate="G$1" x="175.26" y="-7.62"/>
-<instance part="U$32" gate="G$1" x="170.18" y="-7.62"/>
-<instance part="GND43" gate="1" x="172.72" y="-60.96"/>
-<instance part="GND44" gate="1" x="187.96" y="-17.78"/>
-<instance part="C6" gate="G$1" x="180.34" y="-12.7" rot="MR90"/>
+<instance part="U4" gate="G$1" x="187.96" y="-35.56"/>
+<instance part="U$29" gate="G$1" x="190.5" y="-7.62"/>
+<instance part="U$32" gate="G$1" x="185.42" y="-7.62"/>
+<instance part="GND43" gate="1" x="187.96" y="-60.96"/>
+<instance part="GND44" gate="1" x="203.2" y="-17.78"/>
+<instance part="C6" gate="G$1" x="195.58" y="-12.7" rot="MR90"/>
 <instance part="X5" gate="-1" x="276.86" y="-38.1"/>
 <instance part="X5" gate="-2" x="276.86" y="-43.18"/>
 <instance part="X5" gate="-3" x="231.14" y="-76.2" rot="R180"/>
@@ -13467,8 +13467,8 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="C6" gate="G$1" pin="P$1"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="185.42" y1="-12.7" x2="187.96" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="-12.7" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-12.7" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-12.7" x2="203.2" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -13577,7 +13577,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCCA"/>
 <pinref part="U$32" gate="G$1" pin="3.3V"/>
-<wire x1="170.18" y1="-15.24" x2="170.18" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-15.24" x2="185.42" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -14457,11 +14457,11 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCCB"/>
 <pinref part="U$29" gate="G$1" pin="5.0V"/>
-<wire x1="175.26" y1="-15.24" x2="175.26" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-15.24" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="P$2"/>
-<wire x1="175.26" y1="-12.7" x2="175.26" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-12.7" x2="177.8" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="175.26" y="-12.7"/>
+<wire x1="190.5" y1="-12.7" x2="190.5" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-12.7" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="190.5" y="-12.7"/>
 </segment>
 </net>
 <net name="REF" class="0">
@@ -14817,8 +14817,8 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="B2"/>
-<wire x1="190.5" y1="-33.02" x2="187.96" y2="-33.02" width="0.1524" layer="91"/>
-<label x="190.5" y="-33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="205.74" y1="-33.02" x2="203.2" y2="-33.02" width="0.1524" layer="91"/>
+<label x="205.74" y="-33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EN2H" class="0">
@@ -14833,8 +14833,8 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="B4"/>
-<wire x1="190.5" y1="-38.1" x2="187.96" y2="-38.1" width="0.1524" layer="91"/>
-<label x="190.5" y="-38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="205.74" y1="-38.1" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
+<label x="205.74" y="-38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GNDS" class="0">
@@ -14909,7 +14909,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="B1"/>
-<wire x1="223.52" y1="-30.48" x2="187.96" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-30.48" x2="203.2" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -14917,7 +14917,7 @@ Source: http://www.molex.com</description>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="-38.1" x2="220.98" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-38.1" x2="220.98" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-40.64" x2="187.96" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-40.64" x2="203.2" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="B5"/>
 </segment>
 </net>
@@ -14927,7 +14927,7 @@ Source: http://www.molex.com</description>
 <wire x1="223.52" y1="-45.72" x2="218.44" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="-45.72" x2="218.44" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="B3"/>
-<wire x1="218.44" y1="-35.56" x2="187.96" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-35.56" x2="203.2" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GNDM" class="0">
