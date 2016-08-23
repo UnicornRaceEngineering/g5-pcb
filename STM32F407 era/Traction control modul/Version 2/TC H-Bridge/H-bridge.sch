@@ -2309,13 +2309,6 @@ Source: http://www.molex.com</description>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
 <part name="U$4" library="microbuilder" deviceset="12V" device=""/>
-<part name="Q2" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE"/>
-<part name="U$5" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k5"/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603" value="10k"/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="330n"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2372,13 +2365,6 @@ Source: http://www.molex.com</description>
 <instance part="R1" gate="G$1" x="177.8" y="-73.66" rot="R270"/>
 <instance part="R2" gate="G$1" x="165.1" y="-88.9"/>
 <instance part="U$4" gate="G$1" x="177.8" y="-66.04"/>
-<instance part="Q2" gate="G$1" x="284.48" y="-55.88"/>
-<instance part="U$5" gate="G$1" x="284.48" y="-48.26"/>
-<instance part="R3" gate="G$1" x="284.48" y="-71.12" rot="R270"/>
-<instance part="R4" gate="G$1" x="292.1" y="-63.5" rot="R180"/>
-<instance part="C1" gate="G$1" x="299.72" y="-71.12"/>
-<instance part="GND2" gate="1" x="284.48" y="-78.74"/>
-<instance part="GND3" gate="1" x="299.72" y="-78.74"/>
 </instances>
 <busses>
 </busses>
@@ -2435,15 +2421,6 @@ Source: http://www.molex.com</description>
 <wire x1="254" y1="-2.54" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-2.54" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="P$2"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="299.72" y1="-76.2" x2="299.72" y2="-73.66" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -2461,10 +2438,6 @@ Source: http://www.molex.com</description>
 <junction x="165.1" y="-27.94"/>
 <pinref part="U4" gate="G$1" pin="OE"/>
 <wire x1="170.18" y1="-22.86" x2="172.72" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<pinref part="U$5" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -2810,33 +2783,10 @@ Source: http://www.molex.com</description>
 <junction x="177.8" y="-81.28"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$28" gate="G$1" pin="CS"/>
-<pinref part="Q2" gate="G$1" pin="B"/>
-<wire x1="269.24" y1="-55.88" x2="279.4" y2="-55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="-60.96" x2="284.48" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="-63.5" x2="284.48" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="-63.5" x2="284.48" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="284.48" y="-63.5"/>
-</segment>
-</net>
 <net name="CS" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="P$1"/>
-<wire x1="297.18" y1="-63.5" x2="299.72" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="-63.5" x2="299.72" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="-63.5" x2="299.72" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="299.72" y="-63.5"/>
-<label x="302.26" y="-63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="271.78" y1="-55.88" x2="269.24" y2="-55.88" width="0.1524" layer="91"/>
+<label x="271.78" y="-55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="7"/>
