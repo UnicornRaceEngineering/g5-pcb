@@ -1744,8 +1744,6 @@
 <text x="1.27" y="32.7025" size="1.27" layer="112" font="vector" rot="SR270">Relay Control Board
 Version 1</text>
 <wire x1="15.24" y1="47.3075" x2="18.0975" y2="50.165" width="0.254" layer="112"/>
-<dimension x1="0" y1="58.42" x2="135.89" y2="58.42" x3="67.945" y3="62.5475" layer="1"/>
-<dimension x1="0" y1="58.42" x2="0" y2="0" x3="-2.2225" y3="29.21" layer="1"/>
 </plain>
 <libraries>
 <library name="unicorn_v2">
