@@ -12288,8 +12288,6 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="U$52" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
-<part name="U$53" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$54" library="microbuilder" deviceset="12V" device=""/>
 <part name="U$55" library="Microchip_By_element14_Batch_1" deviceset="MCP6001T-E/OT" device=""/>
 <part name="U$56" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
@@ -12332,7 +12330,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="27.94" y1="-53.34" x2="27.94" y2="-7.62" width="0.3048" layer="97"/>
 <text x="-198.12" y="68.58" size="1.778" layer="97" font="vector">RS232 Transciever</text>
 <text x="-78.74" y="170.18" size="1.778" layer="97" font="vector">CAN Transciever</text>
-<wire x1="220.98" y1="30.48" x2="256.54" y2="30.48" width="0.3048" layer="97"/>
+<wire x1="-43.18" y1="40.64" x2="-7.62" y2="40.64" width="0.3048" layer="97"/>
 <wire x1="12.7" y1="172.72" x2="12.7" y2="167.64" width="0.3048" layer="97"/>
 <wire x1="12.7" y1="167.64" x2="12.7" y2="119.38" width="0.3048" layer="97"/>
 <wire x1="12.7" y1="119.38" x2="154.94" y2="119.38" width="0.3048" layer="97"/>
@@ -12340,14 +12338,14 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="35.56" y1="172.72" x2="154.94" y2="172.72" width="0.3048" layer="97"/>
 <wire x1="154.94" y1="172.72" x2="154.94" y2="119.38" width="0.3048" layer="97"/>
 <text x="15.24" y="170.18" size="1.778" layer="97" font="vector">5V to 3,3V</text>
-<text x="299.72" y="53.34" size="1.778" layer="97" font="vector">Ignition cut</text>
-<wire x1="256.54" y1="55.88" x2="256.54" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="220.98" y1="30.48" x2="220.98" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="220.98" y1="50.8" x2="220.98" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="220.98" y1="55.88" x2="243.84" y2="55.88" width="0.3048" layer="97"/>
+<text x="35.56" y="63.5" size="1.778" layer="97" font="vector">Ignition cut</text>
+<wire x1="-7.62" y1="66.04" x2="-7.62" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-43.18" y1="40.64" x2="-43.18" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="-43.18" y1="60.96" x2="-43.18" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="-43.18" y1="66.04" x2="-20.32" y2="66.04" width="0.3048" layer="97"/>
 <text x="-198.12" y="127" size="1.778" layer="97" font="vector">DAC</text>
 <text x="-198.12" y="170.18" size="1.778" layer="97" font="vector">3,3V Power Supply</text>
-<wire x1="243.84" y1="55.88" x2="256.54" y2="55.88" width="0.3048" layer="97"/>
+<wire x1="-20.32" y1="66.04" x2="-7.62" y2="66.04" width="0.3048" layer="97"/>
 <wire x1="-200.66" y1="172.72" x2="-167.64" y2="172.72" width="0.3048" layer="97"/>
 <wire x1="-167.64" y1="172.72" x2="-132.08" y2="172.72" width="0.3048" layer="97"/>
 <wire x1="-132.08" y1="172.72" x2="-132.08" y2="132.08" width="0.3048" layer="97"/>
@@ -12400,26 +12398,26 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-55.88" y1="167.64" x2="-50.8" y2="172.72" width="0.3048" layer="97"/>
 <wire x1="-200.66" y1="-12.7" x2="-182.88" y2="-12.7" width="0.3048" layer="97"/>
 <wire x1="-182.88" y1="-12.7" x2="-177.8" y2="-7.62" width="0.3048" layer="97"/>
-<wire x1="294.64" y1="30.48" x2="259.08" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="259.08" y1="30.48" x2="259.08" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="259.08" y1="50.8" x2="259.08" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="259.08" y1="55.88" x2="281.94" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="281.94" y1="55.88" x2="294.64" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="294.64" y1="55.88" x2="294.64" y2="30.48" width="0.3048" layer="97"/>
-<text x="223.52" y="53.34" size="1.778" layer="97" font="vector">ECU AUX 1</text>
-<text x="261.62" y="53.34" size="1.778" layer="97" font="vector">ECU AUX 2</text>
-<wire x1="259.08" y1="50.8" x2="276.86" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="276.86" y1="50.8" x2="281.94" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="220.98" y1="50.8" x2="238.76" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="238.76" y1="50.8" x2="243.84" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="297.18" y1="55.88" x2="320.04" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="320.04" y1="55.88" x2="332.74" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="332.74" y1="55.88" x2="332.74" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="332.74" y1="30.48" x2="297.18" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="297.18" y1="30.48" x2="297.18" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="297.18" y1="50.8" x2="297.18" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="297.18" y1="50.8" x2="314.96" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="314.96" y1="50.8" x2="320.04" y2="55.88" width="0.3048" layer="97"/>
+<wire x1="30.48" y1="40.64" x2="-5.08" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-5.08" y1="40.64" x2="-5.08" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="-5.08" y1="60.96" x2="-5.08" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="-5.08" y1="66.04" x2="17.78" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="30.48" y1="66.04" x2="30.48" y2="40.64" width="0.3048" layer="97"/>
+<text x="-40.64" y="63.5" size="1.778" layer="97" font="vector">ECU AUX 1</text>
+<text x="-2.54" y="63.5" size="1.778" layer="97" font="vector">ECU AUX 2</text>
+<wire x1="-5.08" y1="60.96" x2="12.7" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="12.7" y1="60.96" x2="17.78" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="-43.18" y1="60.96" x2="-25.4" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="-25.4" y1="60.96" x2="-20.32" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="33.02" y1="66.04" x2="55.88" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="55.88" y1="66.04" x2="68.58" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="68.58" y1="66.04" x2="68.58" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="68.58" y1="40.64" x2="33.02" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="33.02" y1="40.64" x2="33.02" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="33.02" y1="60.96" x2="33.02" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="33.02" y1="60.96" x2="50.8" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="50.8" y1="60.96" x2="55.88" y2="66.04" width="0.3048" layer="97"/>
 <wire x1="165.1" y1="-38.1" x2="203.2" y2="-38.1" width="0.3048" layer="97"/>
 <wire x1="203.2" y1="-38.1" x2="233.68" y2="-38.1" width="0.3048" layer="97"/>
 <wire x1="233.68" y1="-38.1" x2="233.68" y2="-111.76" width="0.3048" layer="97"/>
@@ -12430,18 +12428,18 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="165.1" y1="-43.18" x2="198.12" y2="-43.18" width="0.3048" layer="97"/>
 <wire x1="198.12" y1="-43.18" x2="203.2" y2="-38.1" width="0.3048" layer="97"/>
 <wire x1="-81.28" y1="116.84" x2="-81.28" y2="111.76" width="0.3048" layer="97"/>
-<wire x1="-81.28" y1="111.76" x2="-81.28" y2="63.5" width="0.3048" layer="97"/>
-<wire x1="-81.28" y1="63.5" x2="53.34" y2="63.5" width="0.3048" layer="97"/>
-<wire x1="53.34" y1="63.5" x2="53.34" y2="116.84" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="111.76" x2="-81.28" y2="68.58" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="68.58" x2="53.34" y2="68.58" width="0.3048" layer="97"/>
+<wire x1="53.34" y1="68.58" x2="53.34" y2="116.84" width="0.3048" layer="97"/>
 <wire x1="53.34" y1="116.84" x2="-48.26" y2="116.84" width="0.3048" layer="97"/>
 <text x="-78.74" y="114.3" size="1.778" layer="97" font="vector">Main Connector 1</text>
 <wire x1="-48.26" y1="116.84" x2="-81.28" y2="116.84" width="0.3048" layer="97"/>
 <wire x1="-81.28" y1="111.76" x2="-53.34" y2="111.76" width="0.3048" layer="97"/>
 <wire x1="-53.34" y1="111.76" x2="-48.26" y2="116.84" width="0.3048" layer="97"/>
 <wire x1="55.88" y1="116.84" x2="55.88" y2="111.76" width="0.3048" layer="97"/>
-<wire x1="55.88" y1="111.76" x2="55.88" y2="63.5" width="0.3048" layer="97"/>
-<wire x1="55.88" y1="63.5" x2="193.04" y2="63.5" width="0.3048" layer="97"/>
-<wire x1="193.04" y1="63.5" x2="193.04" y2="116.84" width="0.3048" layer="97"/>
+<wire x1="55.88" y1="111.76" x2="55.88" y2="68.58" width="0.3048" layer="97"/>
+<wire x1="55.88" y1="68.58" x2="193.04" y2="68.58" width="0.3048" layer="97"/>
+<wire x1="193.04" y1="68.58" x2="193.04" y2="116.84" width="0.3048" layer="97"/>
 <wire x1="193.04" y1="116.84" x2="88.9" y2="116.84" width="0.3048" layer="97"/>
 <text x="58.42" y="114.3" size="1.778" layer="97" font="vector">Main Connector 2</text>
 <wire x1="88.9" y1="116.84" x2="55.88" y2="116.84" width="0.3048" layer="97"/>
@@ -12467,15 +12465,15 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-86.36" y1="-55.88" x2="5.08" y2="-55.88" width="0.3048" layer="97"/>
 <wire x1="5.08" y1="-55.88" x2="5.08" y2="-106.68" width="0.3048" layer="97"/>
 <wire x1="5.08" y1="-106.68" x2="-129.54" y2="-106.68" width="0.3048" layer="97"/>
-<wire x1="182.88" y1="30.48" x2="218.44" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="218.44" y1="55.88" x2="218.44" y2="30.48" width="0.3048" layer="97"/>
-<wire x1="182.88" y1="30.48" x2="182.88" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="182.88" y1="50.8" x2="182.88" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="182.88" y1="55.88" x2="205.74" y2="55.88" width="0.3048" layer="97"/>
-<wire x1="205.74" y1="55.88" x2="218.44" y2="55.88" width="0.3048" layer="97"/>
-<text x="185.42" y="53.34" size="1.778" layer="97" font="vector">BITE</text>
-<wire x1="182.88" y1="50.8" x2="200.66" y2="50.8" width="0.3048" layer="97"/>
-<wire x1="200.66" y1="50.8" x2="205.74" y2="55.88" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="40.64" x2="-45.72" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-45.72" y1="66.04" x2="-45.72" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="40.64" x2="-81.28" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="60.96" x2="-81.28" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="-81.28" y1="66.04" x2="-58.42" y2="66.04" width="0.3048" layer="97"/>
+<wire x1="-58.42" y1="66.04" x2="-45.72" y2="66.04" width="0.3048" layer="97"/>
+<text x="-78.74" y="63.5" size="1.778" layer="97" font="vector">BITE</text>
+<wire x1="-81.28" y1="60.96" x2="-63.5" y2="60.96" width="0.3048" layer="97"/>
+<wire x1="-63.5" y1="60.96" x2="-58.42" y2="66.04" width="0.3048" layer="97"/>
 <wire x1="-127" y1="-5.08" x2="-127" y2="33.02" width="0.3048" layer="97"/>
 <wire x1="-127" y1="33.02" x2="-127" y2="38.1" width="0.3048" layer="97"/>
 <wire x1="-127" y1="38.1" x2="-88.9" y2="38.1" width="0.3048" layer="97"/>
@@ -12485,6 +12483,11 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-88.9" y1="38.1" x2="88.9" y2="38.1" width="0.3048" layer="97"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="-5.08" width="0.3048" layer="97"/>
 <wire x1="88.9" y1="-5.08" x2="-127" y2="-5.08" width="0.3048" layer="97"/>
+<wire x1="-127" y1="71.12" x2="-83.82" y2="71.12" width="0.3048" layer="97"/>
+<wire x1="-83.82" y1="71.12" x2="-83.82" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-83.82" y1="40.64" x2="-127" y2="40.64" width="0.3048" layer="97"/>
+<wire x1="-127" y1="40.64" x2="-127" y2="71.12" width="0.3048" layer="97"/>
+<text x="-124.46" y="68.58" size="1.778" layer="97" font="vector">RS232 Debug</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-172.72" y="-27.94"/>
@@ -12544,9 +12547,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="C10" gate="G$1" x="-187.96" y="55.88" rot="R90"/>
 <instance part="GND31" gate="1" x="17.78" y="124.46"/>
 <instance part="GND32" gate="1" x="88.9" y="124.46"/>
-<instance part="Q3" gate="G$1" x="327.66" y="40.64"/>
-<instance part="GND34" gate="1" x="327.66" y="33.02"/>
-<instance part="R17" gate="G$1" x="314.96" y="40.64" rot="R180"/>
+<instance part="Q3" gate="G$1" x="63.5" y="50.8"/>
+<instance part="GND34" gate="1" x="63.5" y="43.18"/>
+<instance part="R17" gate="G$1" x="50.8" y="50.8" rot="R180"/>
 <instance part="U3" gate="A" x="-160.02" y="104.14"/>
 <instance part="C14" gate="G$1" x="-193.04" y="91.44" rot="MR0"/>
 <instance part="IC5" gate="G$1" x="-106.68" y="157.48"/>
@@ -12558,8 +12561,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="U$22" gate="G$1" x="-91.44" y="162.56"/>
 <instance part="GND37" gate="1" x="-106.68" y="137.16"/>
 <instance part="U$23" gate="G$1" x="-121.92" y="162.56"/>
-<instance part="U$15" gate="G$1" x="251.46" y="50.8"/>
-<instance part="U$16" gate="G$1" x="289.56" y="50.8"/>
+<instance part="U$15" gate="G$1" x="-12.7" y="60.96"/>
+<instance part="U$16" gate="G$1" x="25.4" y="60.96"/>
 <instance part="GND26" gate="1" x="-182.88" y="83.82"/>
 <instance part="D2" gate="1" x="-157.48" y="144.78" rot="R90"/>
 <instance part="C5" gate="G$1" x="-73.66" y="132.08" rot="MR0"/>
@@ -12568,26 +12571,26 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="R6" gate="G$1" x="88.9" y="149.86" rot="R90"/>
 <instance part="R8" gate="G$1" x="88.9" y="134.62" rot="R90"/>
 <instance part="C7" gate="G$1" x="-193.04" y="149.86" rot="MR0"/>
-<instance part="J2" gate="G$1" x="-73.66" y="86.36"/>
-<instance part="J2" gate="G$2" x="-43.18" y="86.36"/>
-<instance part="J2" gate="G$3" x="-12.7" y="86.36"/>
-<instance part="J2" gate="G$4" x="17.78" y="86.36"/>
-<instance part="J1" gate="G$1" x="63.5" y="86.36"/>
-<instance part="J1" gate="G$2" x="93.98" y="86.36"/>
-<instance part="J1" gate="G$3" x="127" y="86.36"/>
-<instance part="J1" gate="G$4" x="160.02" y="86.36"/>
-<instance part="GND9" gate="1" x="-66.04" y="68.58"/>
-<instance part="GND14" gate="1" x="-35.56" y="68.58"/>
-<instance part="GND15" gate="1" x="-5.08" y="68.58"/>
-<instance part="GND17" gate="1" x="25.4" y="68.58"/>
+<instance part="J2" gate="G$1" x="-68.58" y="88.9"/>
+<instance part="J2" gate="G$2" x="-38.1" y="88.9"/>
+<instance part="J2" gate="G$3" x="-7.62" y="88.9"/>
+<instance part="J2" gate="G$4" x="22.86" y="88.9"/>
+<instance part="J1" gate="G$1" x="63.5" y="91.44"/>
+<instance part="J1" gate="G$2" x="93.98" y="91.44"/>
+<instance part="J1" gate="G$3" x="127" y="91.44"/>
+<instance part="J1" gate="G$4" x="160.02" y="91.44"/>
+<instance part="GND9" gate="1" x="-60.96" y="71.12"/>
+<instance part="GND14" gate="1" x="-30.48" y="71.12"/>
+<instance part="GND15" gate="1" x="0" y="71.12"/>
+<instance part="GND17" gate="1" x="30.48" y="71.12"/>
 <instance part="H1" gate="G$1" x="-116.84" y="119.38"/>
 <instance part="H2" gate="G$1" x="-116.84" y="111.76"/>
 <instance part="H3" gate="G$1" x="-116.84" y="104.14"/>
 <instance part="H4" gate="G$1" x="-116.84" y="96.52"/>
 <instance part="H5" gate="G$1" x="-116.84" y="88.9"/>
 <instance part="H6" gate="G$1" x="-116.84" y="81.28"/>
-<instance part="GND20" gate="1" x="170.18" y="68.58"/>
-<instance part="U$5" gate="G$1" x="167.64" y="106.68"/>
+<instance part="GND20" gate="1" x="170.18" y="73.66"/>
+<instance part="U$5" gate="G$1" x="167.64" y="111.76"/>
 <instance part="D1" gate="G$1" x="-152.4" y="-71.12" rot="R90"/>
 <instance part="OK1" gate="G$1" x="-167.64" y="-68.58"/>
 <instance part="GND21" gate="1" x="-177.8" y="-76.2"/>
@@ -12622,26 +12625,26 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="GND43" gate="1" x="289.56" y="63.5"/>
 <instance part="GND44" gate="1" x="304.8" y="106.68"/>
 <instance part="C1" gate="G$1" x="297.18" y="111.76" rot="MR90"/>
-<instance part="Q10" gate="G$1" x="337.82" y="106.68"/>
-<instance part="U$9" gate="G$1" x="337.82" y="114.3"/>
-<instance part="R30" gate="G$1" x="337.82" y="91.44" rot="R270"/>
-<instance part="R31" gate="G$1" x="345.44" y="99.06" rot="R180"/>
-<instance part="C13" gate="G$1" x="353.06" y="91.44"/>
-<instance part="GND33" gate="1" x="337.82" y="83.82"/>
-<instance part="GND35" gate="1" x="353.06" y="83.82"/>
+<instance part="Q10" gate="G$1" x="342.9" y="99.06"/>
+<instance part="U$9" gate="G$1" x="342.9" y="106.68"/>
+<instance part="R30" gate="G$1" x="342.9" y="83.82" rot="R270"/>
+<instance part="R31" gate="G$1" x="350.52" y="91.44" rot="R180"/>
+<instance part="C13" gate="G$1" x="358.14" y="83.82"/>
+<instance part="GND33" gate="1" x="342.9" y="76.2"/>
+<instance part="GND35" gate="1" x="358.14" y="76.2"/>
 <instance part="C15" gate="G$1" x="-139.7" y="104.14"/>
-<instance part="GND38" gate="1" x="71.12" y="68.58"/>
-<instance part="U$10" gate="G$1" x="-63.5" y="106.68"/>
-<instance part="U$12" gate="G$1" x="-33.02" y="106.68"/>
-<instance part="U$13" gate="G$1" x="-2.54" y="106.68"/>
-<instance part="U$14" gate="G$1" x="27.94" y="106.68"/>
-<instance part="Q11" gate="G$1" x="213.36" y="43.18"/>
-<instance part="U$18" gate="G$1" x="213.36" y="50.8"/>
-<instance part="R32" gate="G$1" x="200.66" y="43.18" rot="R180"/>
-<instance part="Q6" gate="G$1" x="251.46" y="43.18"/>
-<instance part="Q7" gate="G$1" x="289.56" y="43.18"/>
-<instance part="R24" gate="G$1" x="238.76" y="43.18" rot="R180"/>
-<instance part="R25" gate="G$1" x="276.86" y="43.18" rot="R180"/>
+<instance part="GND38" gate="1" x="71.12" y="73.66"/>
+<instance part="U$10" gate="G$1" x="-58.42" y="109.22"/>
+<instance part="U$12" gate="G$1" x="-27.94" y="109.22"/>
+<instance part="U$13" gate="G$1" x="2.54" y="109.22"/>
+<instance part="U$14" gate="G$1" x="33.02" y="109.22"/>
+<instance part="Q11" gate="G$1" x="-50.8" y="53.34"/>
+<instance part="U$18" gate="G$1" x="-50.8" y="60.96"/>
+<instance part="R32" gate="G$1" x="-63.5" y="53.34" rot="R180"/>
+<instance part="Q6" gate="G$1" x="-12.7" y="53.34"/>
+<instance part="Q7" gate="G$1" x="25.4" y="53.34"/>
+<instance part="R24" gate="G$1" x="-25.4" y="53.34" rot="R180"/>
+<instance part="R25" gate="G$1" x="12.7" y="53.34" rot="R180"/>
 <instance part="U$19" gate="A" x="121.92" y="144.78"/>
 <instance part="U$24" gate="A" x="50.8" y="144.78"/>
 <instance part="U$25" gate="G$1" x="27.94" y="152.4"/>
@@ -12696,12 +12699,10 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="U$50" gate="G$1" x="-86.36" y="-154.94"/>
 <instance part="GND52" gate="1" x="-83.82" y="-180.34"/>
 <instance part="C28" gate="G$1" x="-86.36" y="-170.18" rot="R180"/>
-<instance part="U$17" gate="G$1" x="172.72" y="106.68"/>
-<instance part="GND53" gate="1" x="134.62" y="68.58"/>
-<instance part="U$52" gate="G$1" x="137.16" y="106.68"/>
-<instance part="GND54" gate="1" x="101.6" y="68.58"/>
-<instance part="U$53" gate="G$1" x="104.14" y="106.68"/>
-<instance part="U$54" gate="G$1" x="73.66" y="106.68"/>
+<instance part="U$17" gate="G$1" x="172.72" y="111.76"/>
+<instance part="GND53" gate="1" x="134.62" y="73.66"/>
+<instance part="U$52" gate="G$1" x="137.16" y="111.76"/>
+<instance part="GND54" gate="1" x="101.6" y="73.66"/>
 <instance part="U$55" gate="A" x="-170.18" y="-198.12"/>
 <instance part="U$56" gate="G$1" x="-193.04" y="-190.5"/>
 <instance part="GND55" gate="1" x="-190.5" y="-215.9"/>
@@ -12728,8 +12729,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="C33" gate="G$1" x="396.24" y="17.78"/>
 <instance part="GND58" gate="1" x="388.62" y="12.7"/>
 <instance part="GND59" gate="1" x="396.24" y="12.7"/>
-<instance part="JP1" gate="G$1" x="134.62" y="-7.62"/>
-<instance part="GND60" gate="1" x="124.46" y="-17.78"/>
+<instance part="JP1" gate="G$1" x="-101.6" y="55.88"/>
+<instance part="GND60" gate="1" x="-111.76" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -12920,78 +12921,86 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="J2" gate="G$2" pin="B"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="-38.1" y1="99.06" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="99.06" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="101.6" x2="-30.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="101.6" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$2" pin="G"/>
-<wire x1="-35.56" y1="86.36" x2="-35.56" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="83.82" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="81.28" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="73.66" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="86.36" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-35.56" y="86.36"/>
+<wire x1="-30.48" y1="93.98" x2="-30.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="88.9" x2="-30.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="86.36" x2="-30.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="83.82" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="76.2" x2="-30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="88.9" x2="-30.48" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-30.48" y="88.9"/>
 <pinref part="J2" gate="G$2" pin="H"/>
-<wire x1="-35.56" y1="83.82" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-35.56" y="83.82"/>
+<wire x1="-30.48" y1="86.36" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-30.48" y="86.36"/>
 <pinref part="J2" gate="G$2" pin="J"/>
-<wire x1="-38.1" y1="81.28" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-35.56" y="81.28"/>
+<wire x1="-33.02" y1="83.82" x2="-30.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-30.48" y="83.82"/>
 <pinref part="J2" gate="G$2" pin="M"/>
-<wire x1="-38.1" y1="73.66" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-35.56" y="73.66"/>
+<wire x1="-33.02" y1="76.2" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-30.48" y="76.2"/>
+<pinref part="J2" gate="G$2" pin="E"/>
+<wire x1="-33.02" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-30.48" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$3" pin="B"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-7.62" y1="99.06" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="99.06" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="0" y1="101.6" x2="0" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$3" pin="C"/>
-<wire x1="-5.08" y1="96.52" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="93.98" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="86.36" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="73.66" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-5.08" y="96.52"/>
+<wire x1="0" y1="99.06" x2="0" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="0" y1="96.52" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="0" y1="88.9" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="0" y1="76.2" x2="0" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="91"/>
+<junction x="0" y="99.06"/>
 <pinref part="J2" gate="G$3" pin="D"/>
-<wire x1="-7.62" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-5.08" y="93.98"/>
+<wire x1="-2.54" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
+<junction x="0" y="96.52"/>
 <pinref part="J2" gate="G$3" pin="G"/>
-<wire x1="-5.08" y1="86.36" x2="-7.62" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-5.08" y="86.36"/>
+<wire x1="0" y1="88.9" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
+<junction x="0" y="88.9"/>
 <pinref part="J2" gate="G$3" pin="M"/>
-<wire x1="-7.62" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-5.08" y="73.66"/>
+<wire x1="-2.54" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<junction x="0" y="76.2"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$4" pin="B"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="22.86" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="99.06" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="101.6" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$4" pin="G"/>
-<wire x1="25.4" y1="86.36" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="73.66" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
-<junction x="25.4" y="86.36"/>
+<wire x1="30.48" y1="93.98" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="88.9" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="76.2" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<junction x="30.48" y="88.9"/>
 <pinref part="J2" gate="G$4" pin="M"/>
-<wire x1="22.86" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<junction x="25.4" y="73.66"/>
+<wire x1="27.94" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
+<junction x="30.48" y="76.2"/>
+<pinref part="J2" gate="G$4" pin="E"/>
+<wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<junction x="30.48" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="M"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="165.1" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="73.66" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="78.74" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$4" pin="B"/>
-<wire x1="170.18" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="99.06" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
-<junction x="170.18" y="73.66"/>
+<wire x1="170.18" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="104.14" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<junction x="170.18" y="78.74"/>
 <pinref part="J1" gate="G$4" pin="H"/>
-<wire x1="170.18" y1="88.9" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="83.82" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<junction x="170.18" y="83.82"/>
-<pinref part="J1" gate="G$4" pin="F"/>
+<wire x1="170.18" y1="93.98" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="88.9" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="170.18" y="88.9"/>
+<pinref part="J1" gate="G$4" pin="F"/>
+<wire x1="165.1" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<junction x="170.18" y="93.98"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="G$1" pin="C"/>
@@ -13034,7 +13043,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="C13" gate="G$1" pin="P$2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="353.06" y1="86.36" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="78.74" x2="358.14" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
@@ -13043,24 +13052,20 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="J1" gate="G$1" pin="J"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="68.58" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="81.28" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="B"/>
-<wire x1="68.58" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="99.06" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
-<junction x="71.12" y="81.28"/>
-<pinref part="J1" gate="G$1" pin="D"/>
-<wire x1="71.12" y1="93.98" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="88.9" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="86.36" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<junction x="71.12" y="86.36"/>
+<wire x1="71.12" y1="104.14" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="93.98" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="91.44" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="G"/>
+<wire x1="68.58" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<junction x="71.12" y="91.44"/>
+<pinref part="J1" gate="G$1" pin="F"/>
 <wire x1="68.58" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
 <junction x="71.12" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="G"/>
-<wire x1="68.58" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<junction x="71.12" y="86.36"/>
-<pinref part="J1" gate="G$1" pin="F"/>
-<wire x1="68.58" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<junction x="71.12" y="88.9"/>
 </segment>
 <segment>
 <pinref part="U$24" gate="A" pin="VSS"/>
@@ -13124,17 +13129,17 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="B"/>
-<wire x1="-68.58" y1="99.06" x2="-66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="101.6" x2="-60.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-66.04" y1="99.06" x2="-66.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="101.6" x2="-60.96" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="G"/>
-<wire x1="-66.04" y1="86.36" x2="-66.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="73.66" x2="-66.04" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="86.36" x2="-66.04" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-66.04" y="86.36"/>
+<wire x1="-60.96" y1="88.9" x2="-60.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="76.2" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="88.9" x2="-60.96" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-60.96" y="88.9"/>
 <pinref part="J2" gate="G$1" pin="M"/>
-<wire x1="-68.58" y1="73.66" x2="-66.04" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-66.04" y="73.66"/>
+<wire x1="-63.5" y1="76.2" x2="-60.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-60.96" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U$33" gate="A" pin="VSS"/>
@@ -13199,22 +13204,26 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="J1" gate="G$3" pin="F"/>
 <pinref part="GND53" gate="1" pin="GND"/>
-<wire x1="132.08" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="88.9" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="93.98" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$3" pin="B"/>
-<wire x1="132.08" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
-<junction x="134.62" y="88.9"/>
+<wire x1="132.08" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="104.14" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
+<junction x="134.62" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="F"/>
 <pinref part="GND54" gate="1" pin="GND"/>
-<wire x1="99.06" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="88.9" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="93.98" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$2" pin="B"/>
-<wire x1="99.06" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="99.06" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<junction x="101.6" y="88.9"/>
+<wire x1="99.06" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="104.14" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<junction x="101.6" y="93.98"/>
+<pinref part="J1" gate="G$2" pin="D"/>
+<wire x1="101.6" y1="99.06" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<junction x="101.6" y="99.06"/>
 </segment>
 <segment>
 <pinref part="U$55" gate="A" pin="VSS"/>
@@ -13257,8 +13266,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <pinref part="GND60" gate="1" pin="GND"/>
-<wire x1="127" y1="-12.7" x2="124.46" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-12.7" x2="124.46" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="50.8" x2="-111.76" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="50.8" x2="-111.76" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -13401,35 +13410,35 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="3.3V"/>
-<wire x1="-63.5" y1="78.74" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="81.28" x2="-58.42" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="K"/>
-<wire x1="-68.58" y1="78.74" x2="-63.5" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="81.28" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="3.3V"/>
 <pinref part="J2" gate="G$2" pin="K"/>
-<wire x1="-38.1" y1="78.74" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="78.74" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="81.28" x2="-27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="81.28" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="3.3V"/>
 <pinref part="J2" gate="G$3" pin="K"/>
-<wire x1="-7.62" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="78.74" x2="-2.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="81.28" x2="2.54" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="3.3V"/>
-<wire x1="27.94" y1="83.82" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="86.36" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$4" pin="K"/>
-<wire x1="22.86" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="78.74" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$4" pin="H"/>
-<wire x1="27.94" y1="81.28" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<junction x="27.94" y="83.82"/>
+<wire x1="33.02" y1="83.82" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
+<junction x="33.02" y="86.36"/>
 <pinref part="J2" gate="G$4" pin="J"/>
-<wire x1="22.86" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<junction x="27.94" y="81.28"/>
+<wire x1="27.94" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
+<junction x="33.02" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U$33" gate="A" pin="VDD"/>
@@ -13488,24 +13497,18 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="J1" gate="G$4" pin="G"/>
 <pinref part="U$17" gate="G$1" pin="3.3V"/>
-<wire x1="165.1" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="86.36" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="91.44" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$4" pin="D"/>
-<wire x1="172.72" y1="93.98" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
-<junction x="172.72" y="93.98"/>
+<wire x1="172.72" y1="99.06" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
+<junction x="172.72" y="99.06"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="D"/>
 <pinref part="U$52" gate="G$1" pin="3.3V"/>
-<wire x1="132.08" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="93.98" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$2" pin="D"/>
-<pinref part="U$53" gate="G$1" pin="3.3V"/>
-<wire x1="99.06" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="93.98" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="99.06" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$55" gate="A" pin="VDD"/>
@@ -13595,12 +13598,12 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="J1" gate="G$4" pin="L"/>
 <pinref part="U$5" gate="G$1" pin="12V"/>
-<wire x1="165.1" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="76.2" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="81.28" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$4" pin="A"/>
-<wire x1="167.64" y1="101.6" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
-<junction x="167.64" y="101.6"/>
+<wire x1="167.64" y1="106.68" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<junction x="167.64" y="106.68"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13712,8 +13715,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$2" pin="D"/>
-<wire x1="-30.48" y1="93.98" x2="-38.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="-30.48" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="-25.4" y1="96.52" x2="-33.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="-25.4" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -13731,8 +13734,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="D"/>
-<wire x1="-60.96" y1="93.98" x2="-68.58" y2="93.98" width="0.1524" layer="91"/>
-<label x="-60.96" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="96.52" x2="-63.5" y2="96.52" width="0.1524" layer="91"/>
+<label x="-55.88" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TRAVEL1" class="0">
@@ -13743,8 +13746,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$3" pin="L"/>
-<wire x1="-2.54" y1="76.2" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
-<label x="-2.54" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="2.54" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="2.54" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TRAVEL2" class="0">
@@ -13755,8 +13758,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$4" pin="L"/>
-<wire x1="27.94" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<label x="27.94" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="33.02" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TRAVEL3" class="0">
@@ -13767,8 +13770,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$2" pin="L"/>
-<wire x1="-33.02" y1="76.2" x2="-38.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="-33.02" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="-27.94" y1="78.74" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="-27.94" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TRAVEL4" class="0">
@@ -13779,8 +13782,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="L"/>
-<wire x1="-63.5" y1="76.2" x2="-68.58" y2="76.2" width="0.1524" layer="91"/>
-<label x="-63.5" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="-58.42" y1="78.74" x2="-63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="-58.42" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GSENS" class="0">
@@ -13791,8 +13794,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="A"/>
-<wire x1="106.68" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<label x="106.68" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="106.68" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
+<label x="106.68" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="YAW" class="0">
@@ -13803,8 +13806,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="A"/>
-<wire x1="139.7" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
-<label x="139.7" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="139.7" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
+<label x="139.7" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE-POT" class="0">
@@ -13815,8 +13818,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="C"/>
-<wire x1="139.7" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="139.7" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="139.7" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
+<label x="139.7" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CLUTCH-POT" class="0">
@@ -13827,8 +13830,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="C"/>
-<wire x1="175.26" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="175.26" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="175.26" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="175.26" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -13929,8 +13932,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$2" pin="C"/>
-<wire x1="-30.48" y1="96.52" x2="-38.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="-30.48" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="-25.4" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
+<label x="-25.4" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RS232RX" class="0">
@@ -13941,8 +13944,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="C"/>
-<wire x1="-60.96" y1="96.52" x2="-68.58" y2="96.52" width="0.1524" layer="91"/>
-<label x="-60.96" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="99.06" x2="-63.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="-55.88" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GSENSO" class="0">
@@ -13994,28 +13997,28 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <net name="IGNCUTO" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="C"/>
-<wire x1="327.66" y1="45.72" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
-<label x="325.12" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="55.88" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="60.96" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="H"/>
-<wire x1="-60.96" y1="83.82" x2="-68.58" y2="83.82" width="0.1524" layer="91"/>
-<label x="-60.96" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="86.36" x2="-63.5" y2="86.36" width="0.1524" layer="91"/>
+<label x="-55.88" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<wire x1="320.04" y1="40.64" x2="322.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IGNCUT" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="40.64" x2="307.34" y2="40.64" width="0.1524" layer="91"/>
-<label x="307.34" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="45.72" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PE7"/>
@@ -14050,8 +14053,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="J"/>
-<wire x1="-60.96" y1="81.28" x2="-68.58" y2="81.28" width="0.1524" layer="91"/>
-<label x="-60.96" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="83.82" x2="-63.5" y2="83.82" width="0.1524" layer="91"/>
+<label x="-55.88" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="38.1" x2="337.82" y2="40.64" width="0.1524" layer="91"/>
@@ -14062,8 +14065,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <net name="OILP" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="C"/>
-<wire x1="73.66" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
-<label x="73.66" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="73.66" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="73.66" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PE13"/>
@@ -14084,8 +14087,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$3" pin="A"/>
-<wire x1="0" y1="101.6" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
-<label x="0" y="101.6" size="1.27" layer="97" xref="yes"/>
+<wire x1="5.08" y1="104.14" x2="-2.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="5.08" y="104.14" size="1.27" layer="97" xref="yes"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -14200,8 +14203,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="H"/>
-<wire x1="137.16" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
-<label x="137.16" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="137.16" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<label x="137.16" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DACCS" class="0">
@@ -14230,34 +14233,34 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="ECU1" class="0">
 <segment>
-<wire x1="251.46" y1="38.1" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="35.56" x2="248.92" y2="35.56" width="0.1524" layer="91"/>
-<label x="248.92" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-12.7" y1="48.26" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
+<label x="-15.24" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q6" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$4" pin="C"/>
-<wire x1="35.56" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
-<label x="35.56" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="40.64" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ECU2" class="0">
 <segment>
-<wire x1="289.56" y1="38.1" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="35.56" x2="287.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="287.02" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="48.26" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="22.86" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q7" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$4" pin="D"/>
-<wire x1="35.56" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
-<label x="35.56" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<label x="40.64" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ECU1L" class="0">
 <segment>
-<wire x1="231.14" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="231.14" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-33.02" y1="53.34" x2="-30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="-33.02" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -14268,22 +14271,22 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="N$34" class="0">
 <segment>
-<wire x1="243.84" y1="43.18" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="53.34" x2="-17.78" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="B"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<wire x1="281.94" y1="43.18" x2="284.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ECU2L" class="0">
 <segment>
-<wire x1="269.24" y1="43.18" x2="271.78" y2="43.18" width="0.1524" layer="91"/>
-<label x="269.24" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="5.08" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
+<label x="5.08" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -14372,8 +14375,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$2" pin="A"/>
-<wire x1="-38.1" y1="101.6" x2="-30.48" y2="101.6" width="0.1524" layer="91"/>
-<label x="-30.48" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="-33.02" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
+<label x="-25.4" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RPM2IN" class="0">
@@ -14384,8 +14387,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="A"/>
-<wire x1="-60.96" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="-60.96" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="104.14" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
+<label x="-55.88" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RPM1IN" class="0">
@@ -14396,8 +14399,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$4" pin="A"/>
-<wire x1="35.56" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="35.56" y="101.6" size="1.27" layer="97" xref="yes"/>
+<wire x1="40.64" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="40.64" y="104.14" size="1.27" layer="97" xref="yes"/>
 </segment>
 </net>
 <net name="RLY6" class="0">
@@ -14414,8 +14417,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="M"/>
-<wire x1="137.16" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="137.16" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="137.16" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="137.16" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="GND-RELAY" class="0">
@@ -14499,8 +14502,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="K"/>
-<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<label x="73.66" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="73.66" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="73.66" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -14571,8 +14574,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="L"/>
-<wire x1="73.66" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<label x="73.66" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="73.66" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<label x="73.66" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RLY2" class="0">
@@ -14589,8 +14592,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="M"/>
-<wire x1="73.66" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
-<label x="73.66" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<label x="73.66" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RLY3" class="0">
@@ -14607,8 +14610,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="L"/>
-<wire x1="104.14" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<label x="104.14" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="104.14" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<label x="104.14" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RLY4" class="0">
@@ -14625,8 +14628,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="M"/>
-<wire x1="104.14" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-<label x="104.14" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="104.14" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="104.14" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RLY5" class="0">
@@ -14643,8 +14646,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="L"/>
-<wire x1="137.16" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<label x="137.16" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="137.16" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
+<label x="137.16" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="HB-PWM-IN" class="0">
@@ -14655,8 +14658,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="J"/>
-<wire x1="137.16" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<label x="137.16" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="137.16" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<label x="137.16" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HB-MD-IN" class="0">
@@ -14666,9 +14669,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <label x="307.34" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="137.16" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="137.16" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$3" pin="K"/>
-<wire x1="132.08" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HB-EN1-IN" class="0">
@@ -14679,8 +14682,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="J"/>
-<wire x1="172.72" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
-<label x="172.72" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="172.72" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="172.72" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HB-EN2-IN" class="0">
@@ -14691,8 +14694,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="J"/>
-<wire x1="104.14" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
-<label x="104.14" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="104.14" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
+<label x="104.14" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HB-INA-IN" class="0">
@@ -14703,8 +14706,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="H"/>
-<wire x1="73.66" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="73.66" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<label x="73.66" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HB-INB-IN" class="0">
@@ -14715,31 +14718,31 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="K"/>
-<wire x1="172.72" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="172.72" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="172.72" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="E"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="101.6" x2="337.82" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="93.98" x2="342.9" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="99.06" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="99.06" x2="337.82" y2="99.06" width="0.1524" layer="91"/>
-<junction x="337.82" y="99.06"/>
+<wire x1="342.9" y1="91.44" x2="342.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="91.44" x2="342.9" y2="91.44" width="0.1524" layer="91"/>
+<junction x="342.9" y="91.44"/>
 </segment>
 </net>
 <net name="HB-CS-IN" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="B"/>
-<wire x1="332.74" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="330.2" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="99.06" x2="335.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="335.28" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="H"/>
-<wire x1="104.14" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
-<label x="104.14" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="104.14" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<label x="104.14" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OC1" class="0">
@@ -14806,11 +14809,11 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="P$1"/>
-<wire x1="350.52" y1="99.06" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="99.06" x2="353.06" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="99.06" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
-<junction x="353.06" y="99.06"/>
-<label x="355.6" y="99.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="355.6" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="91.44" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
+<junction x="358.14" y="91.44"/>
+<label x="360.68" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$4" pin="PC1"/>
@@ -14821,28 +14824,28 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <net name="BITE" class="0">
 <segment>
 <pinref part="Q11" gate="G$1" pin="E"/>
-<wire x1="213.36" y1="38.1" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="35.56" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<label x="210.82" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-50.8" y1="48.26" x2="-50.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="45.72" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="-53.34" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
+<label x="76.2" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="Q11" gate="G$1" pin="B"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="53.34" x2="-55.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BITEL" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
-<label x="193.04" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="53.34" x2="-68.58" y2="53.34" width="0.1524" layer="91"/>
+<label x="-71.12" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PE10"/>
@@ -15023,8 +15026,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$3" pin="J"/>
-<wire x1="0" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
-<label x="0" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="5.08" y1="83.82" x2="-2.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="5.08" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKEP" class="0">
@@ -15034,14 +15037,14 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <label x="-142.24" y="-129.54" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$3" pin="H"/>
-<wire x1="0" y1="83.82" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
-<label x="0" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="38.1" x2="353.06" y2="40.64" width="0.1524" layer="91"/>
 <label x="353.06" y="38.1" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$4" pin="F"/>
+<wire x1="35.56" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="35.56" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKEP2B" class="0">
@@ -15071,8 +15074,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$2" pin="F"/>
-<wire x1="-30.48" y1="88.9" x2="-38.1" y2="88.9" width="0.1524" layer="91"/>
-<label x="-30.48" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="-25.4" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
+<label x="-25.4" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -15107,8 +15110,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="F"/>
-<wire x1="-60.96" y1="88.9" x2="-68.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="-60.96" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="91.44" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
+<label x="-55.88" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -15143,8 +15146,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J2" gate="G$3" pin="F"/>
-<wire x1="0" y1="88.9" x2="-7.62" y2="88.9" width="0.1524" layer="91"/>
-<label x="0" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="5.08" y1="91.44" x2="-2.54" y2="91.44" width="0.1524" layer="91"/>
+<label x="5.08" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -15178,9 +15181,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <label x="-88.9" y="-165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$4" pin="F"/>
-<wire x1="30.48" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<label x="30.48" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$3" pin="H"/>
+<wire x1="5.08" y1="86.36" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="5.08" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUELTEMP" class="0">
@@ -15191,8 +15194,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="C"/>
-<wire x1="106.68" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<label x="106.68" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="106.68" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
+<label x="106.68" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
@@ -15207,9 +15210,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <label x="-157.48" y="-33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="104.14" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="104.14" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$2" pin="G"/>
-<wire x1="99.06" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
@@ -15230,8 +15233,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="G"/>
-<wire x1="137.16" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="137.16" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="137.16" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<label x="137.16" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
@@ -15252,8 +15255,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$2" pin="E"/>
-<wire x1="104.14" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
-<label x="104.14" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="104.14" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<label x="104.14" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX5" class="0">
@@ -15264,8 +15267,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="E"/>
-<wire x1="175.26" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
-<label x="175.26" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="175.26" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="175.26" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX2" class="0">
@@ -15276,8 +15279,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="E"/>
-<wire x1="73.66" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<label x="73.66" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="73.66" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
+<label x="73.66" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX4" class="0">
@@ -15288,8 +15291,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="J1" gate="G$3" pin="E"/>
-<wire x1="137.16" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<label x="137.16" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="137.16" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="137.16" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUELTEMPB" class="0">
@@ -15381,8 +15384,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="-5.08" x2="127" y2="-5.08" width="0.1524" layer="91"/>
-<label x="124.46" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-111.76" y1="58.42" x2="-109.22" y2="58.42" width="0.1524" layer="91"/>
+<label x="-111.76" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DRS232TX" class="0">
@@ -15393,8 +15396,44 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="124.46" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
-<label x="124.46" y="-7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-111.76" y1="55.88" x2="-109.22" y2="55.88" width="0.1524" layer="91"/>
+<label x="-111.76" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="AUX1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PE9"/>
+<wire x1="-157.48" y1="-30.48" x2="-160.02" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-157.48" y="-30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="D"/>
+<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="73.66" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="AUX6" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="E"/>
+<wire x1="-55.88" y1="93.98" x2="-63.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="-55.88" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$4" pin="PE4"/>
+<wire x1="-17.78" y1="-20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-17.78" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="AUX7" class="0">
+<segment>
+<pinref part="J2" gate="G$3" pin="E"/>
+<wire x1="5.08" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="5.08" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$4" pin="PE5"/>
+<wire x1="10.16" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
+<label x="10.16" y="-20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
