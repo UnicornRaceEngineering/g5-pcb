@@ -1727,12 +1727,14 @@
 <text x="125.65888125" y="27.085290625" size="1.27" layer="112" font="vector" rot="R90">Traction control unit
 Auxiliary sensor board
 Version 2</text>
-<wire x1="0" y1="165.1" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="127" y2="0" width="0" layer="20"/>
-<wire x1="127" y1="0" x2="127" y2="165.1" width="0" layer="20"/>
+<wire x1="0" y1="165.1" x2="0" y2="5.3975" width="0" layer="20"/>
+<wire x1="5.3975" y1="0" x2="121.6025" y2="0" width="0" layer="20"/>
+<wire x1="127" y1="5.3975" x2="127" y2="165.1" width="0" layer="20"/>
 <wire x1="127" y1="165.1" x2="0" y2="165.1" width="0" layer="20"/>
 <text x="74.93" y="127.635" size="1.778" layer="25" font="vector">Connector 1</text>
 <text x="52.3875" y="129.54" size="1.778" layer="25" font="vector" rot="R180">Connector 2</text>
+<wire x1="0" y1="5.3975" x2="5.3975" y2="0" width="0" layer="20"/>
+<wire x1="127" y1="5.3975" x2="121.6025" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="unicorn_v2">
