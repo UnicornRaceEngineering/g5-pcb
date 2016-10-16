@@ -15366,14 +15366,14 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="COM2RX" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="T1OUT"/>
-<wire x1="-142.24" y1="55.88" x2="-144.78" y2="55.88" width="0.1524" layer="91"/>
-<label x="-142.24" y="55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$3" pin="PC11"/>
 <wire x1="-48.26" y1="-17.78" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-48.26" y="-17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="R1OUT"/>
+<wire x1="-142.24" y1="48.26" x2="-144.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="-142.24" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DRS232RX" class="0">
@@ -15390,14 +15390,14 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="DRS232TX" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="R1OUT"/>
-<wire x1="-142.24" y1="48.26" x2="-144.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="-142.24" y="48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="-111.76" y1="55.88" x2="-109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="-111.76" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="T1OUT"/>
+<wire x1="-142.24" y1="55.88" x2="-144.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="-142.24" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX1" class="0">
