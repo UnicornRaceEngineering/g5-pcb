@@ -1373,32 +1373,6 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <pad name="P$27" x="10.16" y="20.32" drill="0.9" shape="octagon"/>
 <text x="12.7" y="10.16" size="1.27" layer="21">GAMMA-868-SO</text>
 </package>
-<package name="12-PIN-AUTOCON">
-<wire x1="30" y1="0" x2="15" y2="0" width="0.127" layer="21"/>
-<wire x1="15" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="12" width="0.127" layer="21"/>
-<wire x1="30" y1="12" x2="0" y2="12" width="0.127" layer="21"/>
-<wire x1="30" y1="0" x2="30" y2="12" width="0.127" layer="21"/>
-<pad name="3" x="17.1" y="2.45" drill="1.1"/>
-<pad name="10" x="17.1" y="8.8" drill="1.1"/>
-<pad name="9" x="12.9" y="8.8" drill="1.1"/>
-<pad name="4" x="12.9" y="2.45" drill="1.1"/>
-<pad name="11" x="21.29" y="8.8" drill="1.1"/>
-<pad name="2" x="21.29" y="2.45" drill="1.1"/>
-<pad name="8" x="8.71" y="8.8" drill="1.1"/>
-<pad name="5" x="8.71" y="2.45" drill="1.1"/>
-<pad name="7" x="4.52" y="8.8" drill="1.1"/>
-<pad name="12" x="25.48" y="8.8" drill="1.1"/>
-<pad name="6" x="4.52" y="2.45" drill="1.1"/>
-<pad name="1" x="25.48" y="2.45" drill="1.1"/>
-<text x="8" y="-2" size="1.27" layer="21" font="vector">This Way Out</text>
-<wire x1="15" y1="0" x2="15" y2="1" width="0.127" layer="21"/>
-<wire x1="15" y1="2" x2="15" y2="3" width="0.127" layer="21"/>
-<wire x1="15" y1="4" x2="15" y2="5" width="0.127" layer="21"/>
-<wire x1="15" y1="6" x2="15" y2="7" width="0.127" layer="21"/>
-<wire x1="15" y1="8" x2="15" y2="9" width="0.127" layer="21"/>
-<wire x1="15" y1="10" x2="15" y2="11" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CPU-BOARD-JP1">
@@ -1543,25 +1517,6 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="27.94" size="1.27" layer="94" rot="MR180">GAMMA-868-SO</text>
 </symbol>
-<symbol name="12-PIN-AUTOCON">
-<pin name="1" x="-2.54" y="12.7" visible="pin" length="short"/>
-<pin name="2" x="-2.54" y="10.16" visible="pin" length="short"/>
-<pin name="3" x="-2.54" y="7.62" visible="pin" length="short"/>
-<pin name="4" x="-2.54" y="5.08" visible="pin" length="short"/>
-<pin name="5" x="-2.54" y="2.54" visible="pin" length="short"/>
-<pin name="6" x="-2.54" y="0" visible="pin" length="short"/>
-<pin name="7" x="-2.54" y="-2.54" visible="pin" length="short"/>
-<pin name="8" x="-2.54" y="-5.08" visible="pin" length="short"/>
-<pin name="9" x="-2.54" y="-7.62" visible="pin" length="short"/>
-<pin name="10" x="-2.54" y="-10.16" visible="pin" length="short"/>
-<pin name="11" x="-2.54" y="-12.7" visible="pin" length="short"/>
-<pin name="12" x="-2.54" y="-15.24" visible="pin" length="short"/>
-<wire x1="0" y1="-17.78" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
-<text x="7.62" y="-7.62" size="1.27" layer="94" rot="R90">12 Auto Connector</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPU-BOARD">
@@ -1699,32 +1654,6 @@ Herstellerbez.:  SDBMF-00915B0T2</description>
 <connect gate="G$1" pin="RX" pad="P$18"/>
 <connect gate="G$1" pin="TX" pad="P$17"/>
 <connect gate="G$1" pin="VCC" pad="P$16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="12-PIN-AUTOCONNECTOR">
-<gates>
-<gate name="G$1" symbol="12-PIN-AUTOCON" x="-5.08" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="12-PIN-AUTOCON">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12589,6 +12518,173 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </deviceset>
 </devicesets>
 </library>
+<library name="AAU-Racing">
+<packages>
+<package name="SUPERSEAL-26">
+<pad name="7" x="-9.12" y="14.66" drill="1.3"/>
+<pad name="26" x="-9.12" y="6.66" drill="1.3"/>
+<pad name="6" x="-6.12" y="14.66" drill="1.3"/>
+<pad name="25" x="-6.12" y="6.66" drill="1.3"/>
+<pad name="5" x="-3.12" y="14.66" drill="1.3"/>
+<pad name="24" x="-3.12" y="6.66" drill="1.3"/>
+<pad name="4" x="-0.12" y="14.66" drill="1.3"/>
+<pad name="23" x="-0.12" y="6.66" drill="1.3"/>
+<pad name="3" x="2.88" y="14.66" drill="1.3"/>
+<pad name="22" x="2.88" y="6.66" drill="1.3"/>
+<pad name="2" x="5.88" y="14.66" drill="1.3"/>
+<pad name="21" x="5.88" y="6.66" drill="1.3"/>
+<pad name="1" x="8.88" y="14.66" drill="1.3"/>
+<pad name="20" x="8.88" y="6.66" drill="1.3"/>
+<pad name="19" x="-7.62" y="9.16" drill="1.3"/>
+<pad name="13" x="-7.62" y="12.16" drill="1.3"/>
+<pad name="12" x="-4.62" y="12.16" drill="1.3"/>
+<pad name="11" x="-1.62" y="12.16" drill="1.3"/>
+<pad name="10" x="1.38" y="12.16" drill="1.3"/>
+<pad name="9" x="4.38" y="12.16" drill="1.3"/>
+<pad name="8" x="7.38" y="12.16" drill="1.3"/>
+<pad name="14" x="7.38" y="9.16" drill="1.3"/>
+<pad name="15" x="4.38" y="9.16" drill="1.3"/>
+<pad name="16" x="1.38" y="9.16" drill="1.3"/>
+<pad name="17" x="-1.62" y="9.16" drill="1.3"/>
+<pad name="18" x="-4.62" y="9.16" drill="1.3"/>
+<rectangle x1="-19.87" y1="-3.33" x2="-12.87" y2="3.67" layer="41"/>
+<rectangle x1="-19.87" y1="-3.33" x2="-12.87" y2="3.67" layer="42"/>
+<wire x1="-19.87" y1="3.67" x2="-12.87" y2="3.67" width="0.127" layer="21"/>
+<wire x1="-12.87" y1="-3.33" x2="-19.87" y2="-3.33" width="0.127" layer="21"/>
+<wire x1="-19.87" y1="-3.33" x2="-19.87" y2="3.67" width="0.127" layer="21"/>
+<wire x1="-19.87" y1="3.67" x2="-12.87" y2="-3.33" width="0.127" layer="21"/>
+<wire x1="-12.87" y1="-3.33" x2="-12.87" y2="3.67" width="0.127" layer="21"/>
+<wire x1="-12.87" y1="3.67" x2="-19.87" y2="-3.33" width="0.127" layer="21"/>
+<hole x="-16.37" y="0.17" drill="3.3"/>
+<rectangle x1="12.63" y1="-3.33" x2="19.63" y2="3.67" layer="41"/>
+<rectangle x1="12.63" y1="-3.33" x2="19.63" y2="3.67" layer="42"/>
+<wire x1="12.63" y1="3.67" x2="19.63" y2="3.67" width="0.127" layer="21"/>
+<wire x1="19.63" y1="-3.33" x2="12.63" y2="-3.33" width="0.127" layer="21"/>
+<wire x1="12.63" y1="-3.33" x2="12.63" y2="3.67" width="0.127" layer="21"/>
+<wire x1="12.63" y1="3.67" x2="19.63" y2="-3.33" width="0.127" layer="21"/>
+<wire x1="19.63" y1="-3.33" x2="19.63" y2="3.67" width="0.127" layer="21"/>
+<wire x1="19.63" y1="3.67" x2="12.63" y2="-3.33" width="0.127" layer="21"/>
+<hole x="16.13" y="0.17" drill="3.3"/>
+<wire x1="-12.9" y1="-3.325" x2="12.65" y2="-3.325" width="0.127" layer="21"/>
+<wire x1="12.625" y1="3.675" x2="-12.925" y2="3.675" width="0.127" layer="21"/>
+<wire x1="-12.15" y1="6.65" x2="-12.15" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-12.15" y1="3.7" x2="-12.15" y2="14.65" width="0.127" layer="21"/>
+<wire x1="-12.15" y1="14.65" x2="-9.15" y2="17.65" width="0.127" layer="21" curve="-90"/>
+<wire x1="8.9" y1="17.65" x2="11.9" y2="14.65" width="0.127" layer="21" curve="-90"/>
+<wire x1="8.9" y1="17.65" x2="-9.15" y2="17.65" width="0.127" layer="21"/>
+<wire x1="11.9" y1="14.65" x2="11.9" y2="3.7" width="0.127" layer="21"/>
+<text x="10.16" y="13.97" size="1.27" layer="21">1</text>
+<text x="-11.43" y="13.97" size="1.27" layer="21">7</text>
+<text x="8.89" y="11.43" size="1.27" layer="21">8</text>
+<text x="-10.795" y="11.43" size="1.27" layer="21">13</text>
+<text x="10.795" y="9.525" size="1.27" layer="21" rot="R180">14</text>
+<text x="-8.89" y="9.525" size="1.27" layer="21" rot="R180">19</text>
+<text x="10.795" y="5.715" size="1.27" layer="21" align="bottom-center">20</text>
+<text x="-12.065" y="5.715" size="1.27" layer="21">26</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SUPERSEAL-26">
+<pin name="P$1" x="-7.62" y="7.62" visible="pad" length="short"/>
+<pin name="P$2" x="-7.62" y="5.08" visible="pad" length="short"/>
+<pin name="P$3" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="P$4" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="P$5" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="P$6" x="-7.62" y="-5.08" visible="pad" length="short"/>
+<pin name="P$7" x="-7.62" y="-7.62" visible="pad" length="short"/>
+<text x="0" y="0" size="1.27" layer="97" align="center">1 - 7</text>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SUPERSEAL-26-2">
+<pin name="P$1" x="-7.62" y="7.62" visible="pad" length="short"/>
+<pin name="P$2" x="-7.62" y="5.08" visible="pad" length="short"/>
+<pin name="P$3" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="P$4" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="P$5" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="P$6" x="-7.62" y="-5.08" visible="pad" length="short"/>
+<text x="0" y="0" size="1.27" layer="97" align="bottom-center">8 - 13</text>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SUPERSEAL-26-3">
+<pin name="P$1" x="-7.62" y="7.62" visible="pad" length="short"/>
+<pin name="P$2" x="-7.62" y="5.08" visible="pad" length="short"/>
+<pin name="P$3" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="P$4" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="P$5" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="P$6" x="-7.62" y="-5.08" visible="pad" length="short"/>
+<text x="0" y="0" size="1.27" layer="95" align="bottom-center">14 - 19</text>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SUPERSEAL-26-4">
+<pin name="P$1" x="-7.62" y="7.62" visible="pad" length="short"/>
+<pin name="P$2" x="-7.62" y="5.08" visible="pad" length="short"/>
+<pin name="P$3" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="P$4" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="P$5" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="P$6" x="-7.62" y="-5.08" visible="pad" length="short"/>
+<pin name="P$7" x="-7.62" y="-7.62" visible="pad" length="short"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.27" layer="97" align="center">20-26</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SUPERSEAL-26">
+<gates>
+<gate name="G$1" symbol="SUPERSEAL-26" x="-33.02" y="2.54"/>
+<gate name="G$2" symbol="SUPERSEAL-26-2" x="-17.78" y="0"/>
+<gate name="G$3" symbol="SUPERSEAL-26-3" x="-2.54" y="0"/>
+<gate name="G$4" symbol="SUPERSEAL-26-4" x="12.7" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SUPERSEAL-26">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$2" pin="P$1" pad="8"/>
+<connect gate="G$2" pin="P$2" pad="9"/>
+<connect gate="G$2" pin="P$3" pad="10"/>
+<connect gate="G$2" pin="P$4" pad="11"/>
+<connect gate="G$2" pin="P$5" pad="12"/>
+<connect gate="G$2" pin="P$6" pad="13"/>
+<connect gate="G$3" pin="P$1" pad="14"/>
+<connect gate="G$3" pin="P$2" pad="15"/>
+<connect gate="G$3" pin="P$3" pad="16"/>
+<connect gate="G$3" pin="P$4" pad="17"/>
+<connect gate="G$3" pin="P$5" pad="18"/>
+<connect gate="G$3" pin="P$6" pad="19"/>
+<connect gate="G$4" pin="P$1" pad="20"/>
+<connect gate="G$4" pin="P$2" pad="21"/>
+<connect gate="G$4" pin="P$3" pad="22"/>
+<connect gate="G$4" pin="P$4" pad="23"/>
+<connect gate="G$4" pin="P$5" pad="24"/>
+<connect gate="G$4" pin="P$6" pad="25"/>
+<connect gate="G$4" pin="P$7" pad="26"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12679,7 +12775,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="33p"/>
 <part name="U2" library="SMS05" deviceset="SMS05" device=""/>
 <part name="U$23" library="ihpcb-misc" deviceset="GND" device=""/>
-<part name="U$24" library="unicorn_v2" deviceset="12-PIN-AUTOCONNECTOR" device=""/>
 <part name="U$25" library="microbuilder" deviceset="12V" device=""/>
 <part name="U$26" library="microbuilder" deviceset="12V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -12717,6 +12812,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="10n"/>
 <part name="C21" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="C22" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="4u7"/>
+<part name="U$18" library="AAU-Racing" deviceset="SUPERSEAL-26" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12860,7 +12956,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="C11" gate="G$1" x="-109.22" y="-154.94" rot="R90"/>
 <instance part="U2" gate="A" x="-104.14" y="-215.9"/>
 <instance part="U$23" gate="G$1" x="-124.46" y="-226.06"/>
-<instance part="U$24" gate="G$1" x="-63.5" y="-17.78"/>
 <instance part="U$25" gate="G$1" x="-177.8" y="-5.08"/>
 <instance part="U$26" gate="G$1" x="-68.58" y="0"/>
 <instance part="GND25" gate="1" x="-76.2" y="-38.1"/>
@@ -12892,6 +12987,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <instance part="C20" gate="G$1" x="-71.12" y="-60.96"/>
 <instance part="C21" gate="G$1" x="-55.88" y="-60.96"/>
 <instance part="C22" gate="G$1" x="-63.5" y="-60.96"/>
+<instance part="U$18" gate="G$1" x="-215.9" y="-106.68"/>
+<instance part="U$18" gate="G$2" x="-200.66" y="-106.68"/>
+<instance part="U$18" gate="G$3" x="-185.42" y="-106.68"/>
+<instance part="U$18" gate="G$4" x="-170.18" y="-106.68"/>
 </instances>
 <busses>
 </busses>
@@ -13091,7 +13190,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-76.2" y="-7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13108,7 +13206,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <pinref part="R16" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="11"/>
 <wire x1="-76.2" y1="-30.48" x2="-66.04" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-76.2" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13509,12 +13606,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <junction x="-124.46" y="-223.52"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="12"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="-66.04" y1="-33.02" x2="-68.58" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-33.02" x2="-76.2" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-33.02" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="U$24" gate="G$1" pin="5"/>
 <wire x1="-66.04" y1="-15.24" x2="-68.58" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-15.24" x2="-68.58" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-33.02"/>
@@ -13840,7 +13935,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <wire x1="-177.8" y1="-10.16" x2="-177.8" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="1"/>
 <pinref part="U$26" gate="G$1" pin="12V"/>
 <wire x1="-66.04" y1="-5.08" x2="-68.58" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-5.08" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
@@ -13915,7 +14009,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </segment>
 <segment>
 <label x="-76.2" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$24" gate="G$1" pin="4"/>
 <wire x1="-76.2" y1="-12.7" x2="-66.04" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13927,13 +14020,11 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </segment>
 <segment>
 <label x="-76.2" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$24" gate="G$1" pin="9"/>
 <wire x1="-76.2" y1="-25.4" x2="-66.04" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="7"/>
 <wire x1="-76.2" y1="-20.32" x2="-66.04" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-76.2" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13948,7 +14039,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="6"/>
 <wire x1="-76.2" y1="-17.78" x2="-66.04" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-76.2" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13993,7 +14083,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <junction x="-63.5" y="-55.88"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="8"/>
 <pinref part="U$27" gate="G$1" pin="5.0V"/>
 <wire x1="-66.04" y1="-22.86" x2="-73.66" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-22.86" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>

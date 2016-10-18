@@ -14403,6 +14403,8 @@ at 30/07/2012 16:36:08</description>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
 <part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
 <part name="Q4" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="PBSS4120T"/>
+<part name="U$1" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14556,6 +14558,8 @@ at 30/07/2012 16:36:08</description>
 <instance part="R4" gate="G$1" x="71.12" y="223.52"/>
 <instance part="R5" gate="G$1" x="71.12" y="213.36" rot="R270"/>
 <instance part="Q4" gate="G$1" x="83.82" y="223.52"/>
+<instance part="U$1" gate="G$1" x="215.9" y="104.14"/>
+<instance part="GND13" gate="1" x="215.9" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -14802,6 +14806,20 @@ at 30/07/2012 16:36:08</description>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="OPT1"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="218.44" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="93.98" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="GND1"/>
+<wire x1="215.9" y1="71.12" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="68.58" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
+<junction x="215.9" y="71.12"/>
+<pinref part="U$7" gate="G$1" pin="GND2"/>
+<wire x1="218.44" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<junction x="215.9" y="68.58"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -15211,6 +15229,12 @@ at 30/07/2012 16:36:08</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="218.44" y1="99.06" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="99.06" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
