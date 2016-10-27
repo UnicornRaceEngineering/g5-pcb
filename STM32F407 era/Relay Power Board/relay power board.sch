@@ -3085,6 +3085,21 @@ Source: http://www.osram.convergy.de/</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,-1.27,42.8583,LED1,,,,,"/>
+<approved hash="115,1,-9.83827,46.99,LED2,,,,,"/>
+<approved hash="115,1,2.54,67.4031,D1,,,,,"/>
+<approved hash="115,1,2.54,72.4831,D2,,,,,"/>
+<approved hash="115,1,2.54,77.5631,D3,,,,,"/>
+<approved hash="115,1,62.23,42.8583,LED3,,,,,"/>
+<approved hash="115,1,53.6617,46.99,LED4,,,,,"/>
+<approved hash="115,1,66.04,72.4831,D5,,,,,"/>
+<approved hash="115,1,66.04,77.5631,D6,,,,,"/>
+<approved hash="115,1,1.27,2.21827,LED5,,,,,"/>
+<approved hash="115,1,-7.29827,6.35,LED6,,,,,"/>
+<approved hash="115,1,62.23,2.21827,LED7,,,,,"/>
+<approved hash="115,1,53.6617,6.35,LED8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

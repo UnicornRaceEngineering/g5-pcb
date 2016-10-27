@@ -2536,32 +2536,12 @@ Source: http://www.molex.com</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,408.94,73.66,IC1E,O,,,,"/>
-<approved hash="101,1,391.16,63.5,IC1F,O,,,,"/>
-<approved hash="101,1,210.82,177.8,IC6E,O,,,,"/>
-<approved hash="101,1,210.82,167.64,IC6F,O,,,,"/>
-<approved hash="104,1,320.04,66.04,IC1P,VCC,3.3V,,,"/>
-<approved hash="104,1,251.46,81.28,U1,VCC,3.3V,,,"/>
-<approved hash="104,1,233.68,154.94,IC3P,VCC,3.3V,,,"/>
-<approved hash="104,1,154.94,109.22,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,154.94,106.68,U2,V+,N$23,,,"/>
-<approved hash="202,1,154.94,101.6,U2,T1IN,,,,"/>
-<approved hash="202,1,154.94,93.98,U2,R1IN,,,,"/>
-<approved hash="104,1,154.94,71.12,U2,V-,N$13,,,"/>
-<approved hash="104,1,78.74,99.06,U3,VDD,5.0V,,,"/>
-<approved hash="104,1,193.04,154.94,IC6P,VCC,3.3V,,,"/>
-<approved hash="208,1,63.5,71.12,5.0V,sup,,,,"/>
-<approved hash="208,1,76.2,101.6,5.0V,sup,,,,"/>
-<approved hash="208,1,40.64,111.76,5.0V,out,,,,"/>
-<approved hash="208,1,43.18,114.3,5.0V,sup,,,,"/>
-<approved hash="208,1,139.7,223.52,5.0V,sup,,,,"/>
-<approved hash="208,1,99.06,223.52,5.0V,sup,,,,"/>
-<approved hash="115,1,165.033,172.72,Q1,,,,,"/>
-<approved hash="115,1,165.033,152.4,Q2,,,,,"/>
-<approved hash="115,1,231.073,218.44,Q3,,,,,"/>
-<approved hash="115,1,182.813,218.44,Q4,,,,,"/>
-<approved hash="115,1,137.093,218.44,Q6,,,,,"/>
-<approved hash="115,1,96.4528,218.44,Q7,,,,,"/>
+<approved hash="208,1,287.02,-7.62,5.0V,sup,,,,"/>
+<approved hash="208,1,294.64,-7.62,5.0V,sup,,,,"/>
+<approved hash="208,1,266.7,12.7,5.0V,out,,,,"/>
+<approved hash="208,1,269.24,15.24,5.0V,sup,,,,"/>
+<approved hash="115,1,229.777,-60.96,D2,,,,,"/>
+<approved hash="115,1,175.193,-88.9,Q1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

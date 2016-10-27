@@ -13943,7 +13943,6 @@ Based on the following sources:
 </sheets>
 <errors>
 <approved hash="101,1,-162.56,63.5,IC2F,O,,,,"/>
-<approved hash="101,1,-116.84,-30.48,IC3F,O,,,,"/>
 <approved hash="104,1,-45.72,-109.22,LED1,RGND,N$7,,,"/>
 <approved hash="104,1,-43.18,-109.22,LED1,GGND,N$8,,,"/>
 <approved hash="104,1,-40.64,-109.22,LED1,BGND,N$10,,,"/>
@@ -14033,6 +14032,7 @@ Based on the following sources:
 <approved hash="115,1,-210.82,-66.4295,S4,,,,,"/>
 <approved hash="115,1,-210.82,-79.1295,S5,,,,,"/>
 <approved hash="115,1,43.18,-48.5987,IC1,,,,,"/>
+<approved hash="115,1,-210.82,-91.8295,S6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
