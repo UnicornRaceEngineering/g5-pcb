@@ -4676,7 +4676,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="40.3606" y="129.286" size="2.0828" layer="27" ratio="10" rot="SR270"/>
 </element>
 <element name="C29" library="microbuilder" package="_0603" value="100n" x="53.6575" y="113.03" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.61" y="111.4425" size="1.27" layer="25" ratio="18"/>
+<attribute name="NAME" x="54.61" y="110.8075" size="1.27" layer="25" ratio="18"/>
 <attribute name="VALUE" x="55.1498" y="111.76" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$57" library="Microchip_By_element14_Batch_1" package="SOT95P270X145-5N" value="MCP6001T-E/OT" x="44.45" y="117.475" smashed="yes" rot="R270">
@@ -4911,7 +4911,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J2" pad="E4"/>
 <via x="93.98" y="44.1325" extent="1-16" drill="0.381" shape="octagon"/>
 <via x="93.98" y="40.9575" extent="1-16" drill="0.381" shape="octagon"/>
-<wire x1="53.6575" y1="112.268" x2="49.1109" y2="113.03" width="0" layer="19" extent="1-1"/>
+<via x="54.9275" y="112.7125" extent="1-16" drill="0.381" shape="octagon"/>
+<via x="47.625" y="113.9825" extent="1-16" drill="0.381" shape="octagon"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U$1" pad="P$43"/>
