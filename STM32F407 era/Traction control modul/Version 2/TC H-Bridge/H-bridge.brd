@@ -1844,6 +1844,25 @@ Version 1</text>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="CELEC_3.5MM_10MM">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 3.5 mm, diameter 10 mm</description>
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.2032" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.2032" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="5.08" width="0.2032" layer="21"/>
+<pad name="-" x="1.778" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="5.588" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="5.588" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-PowerIC">
@@ -2263,6 +2282,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="MOLEX" x="145.0975" y="35.8775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1756826" x="145.0975" y="35.8775" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="C1" library="microbuilder" package="CELEC_3.5MM_10MM" value="1000u" x="123.5075" y="47.625" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2288,6 +2308,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C17" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="X1" pad="8"/>
+<contactref element="C1" pad="-"/>
 </signal>
 <signal name="5.0V">
 <contactref element="R34" pad="1"/>
@@ -2652,15 +2673,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="134.3914" y1="44.2214" x2="137.4521" y2="44.2214" width="0.6096" layer="1"/>
 <wire x1="138.684" y1="46.355" x2="137.4521" y2="45.1231" width="0.6096" layer="1"/>
 <wire x1="137.4521" y1="45.1231" x2="137.4521" y2="44.2214" width="0.6096" layer="1"/>
+<contactref element="C1" pad="+"/>
 </signal>
 <signal name="MD">
 <contactref element="R2" pad="1"/>
 <contactref element="X1" pad="7"/>
-<wire x1="112.522" y1="46.0375" x2="132.3975" y2="46.0375" width="0.4064" layer="1"/>
-<wire x1="132.3975" y1="46.0375" x2="132.715" y2="45.72" width="0.4064" layer="1"/>
 <via x="132.715" y="45.72" extent="1-16" drill="0.381"/>
 <wire x1="132.715" y1="45.72" x2="136.2075" y2="42.2275" width="0.4064" layer="16"/>
 <wire x1="136.2075" y1="42.2275" x2="145.0975" y2="42.2275" width="0.4064" layer="16"/>
+<wire x1="112.522" y1="46.0375" x2="120.015" y2="46.0375" width="0.4064" layer="1"/>
+<wire x1="120.015" y1="46.0375" x2="122.2375" y2="43.815" width="0.4064" layer="1"/>
+<wire x1="122.2375" y1="43.815" x2="125.095" y2="43.815" width="0.4064" layer="1"/>
+<wire x1="125.095" y1="43.815" x2="127" y2="45.72" width="0.4064" layer="1"/>
+<wire x1="127" y1="45.72" x2="132.715" y2="45.72" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="Q1" pad="1"/>
@@ -2687,81 +2712,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="137.795" y1="39.6875" x2="145.0975" y2="39.6875" width="0.4064" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,138f242de850dff2"/>
-<approved hash="19,1,aacca2916eec66b1"/>
-<approved hash="19,1,38d10defc192f4ac"/>
-<approved hash="19,1,be05965a5a277278"/>
-<approved hash="19,1,27981826d45bebe5"/>
-<approved hash="19,1,e1fc5aa396ae2df1"/>
-<approved hash="19,1,f5356e68a2653938"/>
-<approved hash="19,1,7861d4df18d2b46c"/>
-<approved hash="19,1,4c76e8d424d9807b"/>
-<approved hash="19,1,6728c1160d1bab25"/>
-<approved hash="19,1,469aaec762dd8a80"/>
-<approved hash="19,1,cbce1470d86a07d4"/>
-<approved hash="19,1,ffd9287be46133c3"/>
-<approved hash="19,1,52539a0c56169e49"/>
-<approved hash="19,1,d48701b9cda3189d"/>
-<approved hash="19,1,631ef5203925af1b"/>
-<approved hash="19,1,4840dce210e78445"/>
-<approved hash="19,1,e5ca6e95a29029cf"/>
-<approved hash="19,1,f1035a5e965b3d06"/>
-<approved hash="19,1,7c57e0e92cecb052"/>
-<approved hash="19,1,b51b8aa3c6def966"/>
-<approved hash="19,1,245f13735f0e6822"/>
-<approved hash="19,1,46547e6832150a29"/>
-<approved hash="19,1,c001f5bdb9c08c7c"/>
-<approved hash="19,1,cfb400c44cb983c9"/>
-<approved hash="19,1,19adb291fe9c55a0"/>
-<approved hash="19,1,7ba6df8a938737ab"/>
-<approved hash="19,1,eae2465a0a57a6ef"/>
-<approved hash="19,1,904dcc3d8030dc40"/>
-<approved hash="19,1,9ff839447549d3f5"/>
-<approved hash="19,1,23e20c9240886ff8"/>
-<approved hash="19,1,2c57f9ebb5f1604d"/>
-<approved hash="19,1,aa02723e3e24e618"/>
-<approved hash="19,1,c8091f25533f8413"/>
-<approved hash="19,1,594d86f5caef1557"/>
-<approved hash="19,1,eed4726c3e69a2d1"/>
-<approved hash="19,1,1d9b86a7caa2519e"/>
-<approved hash="19,1,947bf80bb40ed87e"/>
-<approved hash="19,1,7f90ebbca7b93395"/>
-<approved hash="19,1,9bce0d724177d7cb"/>
-<approved hash="19,1,5d148b2e4715912f"/>
-<approved hash="19,1,db70029dcea6174b"/>
-<approved hash="19,1,50df9c61505a9ce4"/>
-<approved hash="19,1,44c691785d4388fd"/>
-<approved hash="19,1,e7c90e6ac2512bf2"/>
-<approved hash="19,1,690db7d77beca536"/>
-<approved hash="19,1,c212ea2f26140e29"/>
-<approved hash="19,1,ce0b1634da0f0230"/>
-<approved hash="19,1,75b1e38e2f88b9b7"/>
-<approved hash="19,1,ff7c64c2a8c4337a"/>
-<approved hash="19,1,d2b7426d8e6b1eb1"/>
-<approved hash="19,1,60caf7273b21accc"/>
-<approved hash="19,1,79a81f95d393b5ae"/>
-<approved hash="19,1,5c73fbd037d69075"/>
-<approved hash="19,1,eb6569dba5dd2763"/>
-<approved hash="19,1,e6ae7e94b2922aa8"/>
-<approved hash="19,1,afa236cffac863a5"/>
-<approved hash="19,1,3014a52a692dfc13"/>
-<approved hash="19,1,931b3a38f63f5f1c"/>
-<approved hash="19,1,1ddf83854f82d1d8"/>
-<approved hash="19,1,b6c0de7d127a7ac7"/>
-<approved hash="19,1,29c6bf7c737be5c1"/>
-<approved hash="19,1,bad92266ee6176de"/>
-<approved hash="19,1,240da8336434e80a"/>
-<approved hash="19,1,5324ab4967539f3e"/>
-<approved hash="19,1,d54022faeee0195a"/>
-<approved hash="19,1,6f9da7be6ba4a387"/>
-<approved hash="19,1,e1591e03d2192d43"/>
-<approved hash="19,1,4a4643fb8fe1865c"/>
-<approved hash="19,1,cc9238acf4b60088"/>
-<approved hash="19,1,d88b35b5f9af1491"/>
-<approved hash="19,1,465fbfe073fa8a45"/>
-<approved hash="5,1,0b495c52e2c89536"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
