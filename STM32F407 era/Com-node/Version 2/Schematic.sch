@@ -15547,6 +15547,10 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="-180.34" y="-78.74"/>
 <pinref part="U$32" gate="G$1" pin="GND1"/>
 <pinref part="U$32" gate="G$1" pin="GND2"/>
+<pinref part="U$32" gate="G$1" pin="OPT2"/>
+<wire x1="-177.8" y1="-55.88" x2="-195.58" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-55.88" x2="-195.58" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-78.74" x2="-180.34" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X5" gate="-4" pin="S"/>

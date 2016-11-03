@@ -5561,6 +5561,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$18" pad="21"/>
 <contactref element="U$18" pad="22"/>
 <contactref element="U$18" pad="16"/>
+<contactref element="U$32" pad="P$14"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R11" pad="1"/>
@@ -6241,78 +6242,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="72.0725" y1="93.7895" x2="72.0725" y2="95.9765" width="0.4064" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,b9d992eb9326b814"/>
-<approved hash="3,1,fc9bcaa9caeefcdc"/>
-<approved hash="4,1,c1144f4e0f4c8116"/>
-<approved hash="4,1,c802513a11388800"/>
-<approved hash="4,1,d3895aa11aa3938b"/>
-<approved hash="4,1,3e8eb1e7349db9f1"/>
-<approved hash="4,1,9b61d6dc59a6141c"/>
-<approved hash="4,1,758a7878837dee80"/>
-<approved hash="4,1,d62abe39a35bdbf7"/>
-<approved hash="4,1,b249d7edc7da2c7b"/>
-<approved hash="4,1,3ffe3224dcde4553"/>
-<approved hash="4,1,afc96521b773b4f9"/>
-<approved hash="4,1,30b1ae69ee7470ac"/>
-<approved hash="4,1,8abdea97aa8acaa0"/>
-<approved hash="4,1,873e12692fd2bac7"/>
-<approved hash="4,1,89b81ce52f10b21f"/>
-<approved hash="4,1,87b412612eccbacf"/>
-<approved hash="4,1,858e139d2f1ab927"/>
-<approved hash="4,1,87b613612f0abb0f"/>
-<approved hash="4,1,86bc12e92e8cbb07"/>
-<approved hash="4,1,862c13592fdcbba7"/>
-<approved hash="4,1,86b6139d2072ba0f"/>
-<approved hash="4,1,86c810652cd8baa7"/>
-<approved hash="4,1,86b1139c2873ba0c"/>
-<approved hash="4,1,15f985a3c5a055fa"/>
-<approved hash="4,1,71165bbd5d90712e"/>
-<approved hash="4,1,0764904cd04f4767"/>
-<approved hash="4,1,35b1a299e29a75b2"/>
-<approved hash="4,1,a7595833733bd672"/>
-<approved hash="5,1,5230295d181daf10"/>
-<approved hash="4,1,0b89371a94982c8c"/>
-<approved hash="4,1,7cc6cac6b980355a"/>
-<approved hash="4,1,509f9e311537db82"/>
-<approved hash="4,1,aaf2918fa86aa148"/>
-<approved hash="4,1,7958e6853a31f302"/>
-<approved hash="4,1,0a5be7a09adb1136"/>
-<approved hash="4,1,9e15fa1abb9bd8e8"/>
-<approved hash="4,1,7102e54de541710e"/>
-<approved hash="4,1,3ace1f011f053aca"/>
-<approved hash="4,1,7800ee0422ed42ac"/>
-<approved hash="4,1,c011b63bf63e8014"/>
-<approved hash="4,1,e7a9b3fe8f92db17"/>
-<approved hash="4,1,e591b3028f82d93f"/>
-<approved hash="4,1,e7abb2fe8e54dad7"/>
-<approved hash="4,1,e9a7bc7a8f88d207"/>
-<approved hash="4,1,e6d7b0fa8c40dabf"/>
-<approved hash="4,1,e721b2f68f4adadf"/>
-<approved hash="4,1,e6aeb30388ebda14"/>
-<approved hash="4,1,e6a3b2768e14db1f"/>
-<approved hash="4,1,e633b3c68f44dbbf"/>
-<approved hash="4,1,e6a9b30280eada17"/>
-<approved hash="5,1,e56bdab4f761085b"/>
-<approved hash="5,1,678d2cf034e2334d"/>
-<approved hash="4,16,b249d7edc7da2c7b"/>
-<approved hash="4,16,d62abe39a35bdbf7"/>
-<approved hash="4,16,a67c1540d1473dc4"/>
-<approved hash="4,16,b5d043c9c21d4a8b"/>
-<approved hash="19,16,87695e3b9cd609ca"/>
-<approved hash="19,16,3a78b616c99e20b0"/>
-<approved hash="19,16,6852d18b5189e850"/>
-<approved hash="4,16,15f985a3c5a055fa"/>
-<approved hash="4,16,3ab91e621e673abc"/>
-<approved hash="4,16,06a4dd084c51e7e9"/>
-<approved hash="4,16,3aa11f9c2ead8c90"/>
-<approved hash="4,16,bcdb8175e16ebdc7"/>
-<approved hash="4,16,9a655abaaef96e99"/>
-<approved hash="4,16,10f3c53cc53010ff"/>
-<approved hash="4,16,bb9e9ed19ed4bb9b"/>
-<approved hash="4,16,aaf2918fa86aa148"/>
-<approved hash="4,16,07f892b1d58138fa"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
