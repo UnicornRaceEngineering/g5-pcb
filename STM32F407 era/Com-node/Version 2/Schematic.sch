@@ -15740,14 +15740,10 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="-320.04" y="-38.1"/>
 </segment>
 <segment>
-<pinref part="U$18" gate="G$3" pin="P$6"/>
 <pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="-175.26" y1="-111.76" x2="-177.8" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-111.76" x2="-177.8" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$3" pin="P$3"/>
 <wire x1="-175.26" y1="-104.14" x2="-177.8" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-104.14" x2="-177.8" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="-177.8" y="-111.76"/>
+<wire x1="-177.8" y1="-104.14" x2="-177.8" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="P$2"/>
@@ -15761,9 +15757,13 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-144.78" y1="-101.6" x2="-149.86" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-101.6" x2="-149.86" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$4" pin="P$3"/>
-<wire x1="-149.86" y1="-104.14" x2="-149.86" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-104.14" x2="-149.86" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-111.76" x2="-149.86" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="-104.14" x2="-149.86" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="-149.86" y="-104.14"/>
+<pinref part="U$18" gate="G$4" pin="P$6"/>
+<wire x1="-144.78" y1="-111.76" x2="-149.86" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="-149.86" y="-111.76"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
