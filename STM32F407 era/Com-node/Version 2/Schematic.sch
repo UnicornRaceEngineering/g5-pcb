@@ -2130,6 +2130,56 @@ chip</description>
 <vertex x="0.381" y="-0.254"/>
 </polygon>
 </package>
+<package name="PTC1210">
+<description>PTC 1210 (3225 Metric)
+
+Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="-1.6" y2="0.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="0.25" x2="-1.6" y2="-0.25" width="0.2032" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="-0.25" x2="-1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="1.6" y2="-0.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="0.25" width="0.2032" layer="51" curve="-180"/>
+<wire x1="1.6" y1="0.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="1.75" x2="2.25" y2="1.75" width="0.127" layer="39"/>
+<wire x1="2.25" y1="1.75" x2="2.25" y2="-1.75" width="0.127" layer="39"/>
+<wire x1="2.25" y1="-1.75" x2="-2.25" y2="-1.75" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="-1.75" x2="-2.25" y2="1.75" width="0.127" layer="39"/>
+<wire x1="-2.2225" y1="1.778" x2="2.2225" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="2.2225" y1="1.778" x2="2.2225" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="2.2225" y1="-1.778" x2="-2.2225" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-2.2225" y1="-1.778" x2="-2.2225" y2="1.778" width="0.2032" layer="21"/>
+<smd name="P$1" x="-1.5" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="PTC1812">
+<description>PTC 1812 (4532 Metric)
+
+Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
+<wire x1="-2.25" y1="1.625" x2="2.25" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-1.625" x2="2.25" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="1.625" x2="-2.25" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="0.5" x2="-2.25" y2="-0.5" width="0.127" layer="51" curve="-180"/>
+<wire x1="-2.25" y1="-0.5" x2="-2.25" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-1.625" x2="2.25" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-0.5" x2="2.25" y2="0.5" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.25" y1="0.5" x2="2.25" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-3.1" y1="2.1" x2="3.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="3.1" y1="2.1" x2="3.1" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="3.1" y1="-2.1" x2="-3.1" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="-3.1" y1="-2.1" x2="-3.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="-3.1115" y1="2.0955" x2="3.1115" y2="2.0955" width="0.2032" layer="21"/>
+<wire x1="3.1115" y1="2.0955" x2="3.1115" y2="-2.0955" width="0.2032" layer="21"/>
+<wire x1="3.1115" y1="-2.0955" x2="-3.1115" y2="-2.0955" width="0.2032" layer="21"/>
+<wire x1="-3.1115" y1="-2.0955" x2="-3.1115" y2="2.0955" width="0.2032" layer="21"/>
+<smd name="P$1" x="-2.1" y="0" dx="1.5" dy="3.7" layer="1"/>
+<smd name="P$2" x="2.1" y="0" dx="1.5" dy="3.7" layer="1"/>
+<text x="-3.175" y="2.54" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.175" y="-2.794" size="0.4064" layer="27" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -2205,6 +2255,36 @@ chip</description>
 <wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="PTC">
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-2.286" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="3.302" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.0668" y1="2.1336" x2="-0.762" y2="2.159" width="0.1524" layer="94" curve="-143.401004"/>
+<wire x1="-0.762" y1="2.159" x2="-0.635" y2="1.651" width="0.1524" layer="94" curve="16.281888"/>
+<wire x1="-0.635" y1="1.651" x2="-0.0508" y2="1.5494" width="0.1524" layer="94" curve="135.668554"/>
+<wire x1="-0.0508" y1="1.5494" x2="-0.127" y2="2.921" width="0.1524" layer="94" curve="65.705733"/>
+<wire x1="-0.127" y1="2.921" x2="-0.381" y2="2.794" width="0.1524" layer="94" curve="139.383116"/>
+<wire x1="-0.381" y1="2.794" x2="0.381" y2="2.286" width="0.1524" layer="94" curve="100.176187"/>
+<text x="-3.81" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.794" y="1.778"/>
+<vertex x="2.286" y="1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="2.54"/>
+<vertex x="3.556" y="1.778"/>
+<vertex x="3.048" y="1.778"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -2733,6 +2813,53 @@ chip</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTC" prefix="PTC" uservalue="yes">
+<description>&lt;b&gt;PTC (Resettable Fuse)&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;1206 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250mA PTC (16V Max, Time-to-Trip: 0.08s) - Digikey: F2110CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;1210 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100mA PTC (30V Max, Time-to-Trip: 0.6s) - Digikey: MF-USMF010-2CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;1812 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;750mA PTC (24V Max, Time-to-Trip: 0.2s) - Digikey: MF-MSMF075/24-2CT-ND&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1210" package="PTC1210">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1812" package="PTC1812">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14837,6 +14964,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="U$2" library="microbuilder" deviceset="12V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="PTC1" library="microbuilder" deviceset="PTC" device="1812"/>
 </parts>
 <sheets>
 <sheet>
@@ -14970,7 +15098,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="C11" gate="G$1" x="-109.22" y="-154.94" rot="R90"/>
 <instance part="U2" gate="A" x="-104.14" y="-215.9"/>
 <instance part="U$23" gate="G$1" x="-124.46" y="-226.06"/>
-<instance part="U$25" gate="G$1" x="-177.8" y="-5.08"/>
+<instance part="U$25" gate="G$1" x="-185.42" y="-5.08"/>
 <instance part="R15" gate="G$1" x="96.52" y="-83.82"/>
 <instance part="R16" gate="G$1" x="96.52" y="-91.44"/>
 <instance part="C2" gate="G$1" x="88.9" y="-99.06"/>
@@ -15034,6 +15162,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="U$2" gate="G$1" x="-147.32" y="-93.98"/>
 <instance part="GND25" gate="1" x="-238.76" y="-119.38"/>
 <instance part="GND33" gate="1" x="-149.86" y="-119.38"/>
+<instance part="PTC1" gate="G$1" x="-177.8" y="-10.16"/>
 </instances>
 <busses>
 </busses>
@@ -16062,16 +16191,10 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="12V" class="0">
 <segment>
-<wire x1="-165.1" y1="-10.16" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="-170.18" y1="-15.24" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="-170.18" y1="-7.62" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-170.18" y="-10.16"/>
 <pinref part="U$25" gate="G$1" pin="12V"/>
-<wire x1="-170.18" y1="-10.16" x2="-177.8" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-10.16" x2="-177.8" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-185.42" y1="-10.16" x2="-185.42" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="PTC1" gate="G$1" pin="2"/>
+<wire x1="-185.42" y1="-10.16" x2="-182.88" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$4" pin="P$7"/>
@@ -16379,6 +16502,19 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$18" gate="G$2" pin="P$3"/>
 <wire x1="-208.28" y1="-104.14" x2="-205.74" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-208.28" y="-104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<wire x1="-165.1" y1="-10.16" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
+<wire x1="-170.18" y1="-15.24" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="-170.18" y1="-7.62" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-10.16"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="PTC1" gate="G$1" pin="1"/>
+<wire x1="-170.18" y1="-10.16" x2="-172.72" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
