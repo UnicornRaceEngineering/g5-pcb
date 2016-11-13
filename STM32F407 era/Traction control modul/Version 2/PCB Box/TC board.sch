@@ -15258,13 +15258,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <label x="137.16" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="HB-CS-IN" class="0">
-<segment>
-<pinref part="J1" gate="G$2" pin="H"/>
-<wire x1="104.14" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
-<label x="104.14" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="OC1" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -16481,6 +16474,12 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <approved hash="104,1,-187.96,-195.58,U$55,VDD,3.3V,,,"/>
 <approved hash="104,1,-134.62,-195.58,U$57,VDD,3.3V,,,"/>
 <approved hash="104,1,-81.28,-195.58,U$59,VDD,3.3V,,,"/>
+<approved hash="202,1,139.7,27.94,U5,EXT1,,,,"/>
+<approved hash="202,1,139.7,25.4,U5,EXT2,,,,"/>
+<approved hash="202,1,139.7,-33.02,U6,EXT1,,,,"/>
+<approved hash="202,1,139.7,-35.56,U6,EXT2,,,,"/>
+<approved hash="202,1,205.74,30.48,U7,5A,,,,"/>
+<approved hash="202,1,205.74,27.94,U7,6A,,,,"/>
 <approved hash="208,1,-193.04,96.52,5.0V,sup,,,,"/>
 <approved hash="208,1,-180.34,119.38,5.0V,sup,,,,"/>
 <approved hash="208,1,-93.98,157.48,5.0V,out,,,,"/>
@@ -16489,6 +16488,84 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <approved hash="208,1,-50.8,58.42,5.0V,sup,,,,"/>
 <approved hash="208,1,-12.7,58.42,5.0V,sup,,,,"/>
 <approved hash="208,1,25.4,58.42,5.0V,sup,,,,"/>
+<approved hash="208,1,137.16,48.26,5.0V,sup,,,,"/>
+<approved hash="208,1,177.8,58.42,5.0V,sup,,,,"/>
+<approved hash="208,1,185.42,58.42,5.0V,sup,,,,"/>
+<approved hash="208,1,177.8,-2.54,5.0V,sup,,,,"/>
+<approved hash="208,1,185.42,-2.54,5.0V,sup,,,,"/>
+<approved hash="208,1,134.62,17.78,5.0V,sup,,,,"/>
+<approved hash="208,1,137.16,-12.7,5.0V,sup,,,,"/>
+<approved hash="208,1,134.62,-43.18,5.0V,sup,,,,"/>
+<approved hash="206,1,175.26,38.1,GND,,,,,"/>
+<approved hash="206,1,175.26,-22.86,GND,,,,,"/>
+<approved hash="208,1,-185.42,-45.72,GND,sup,,,,"/>
+<approved hash="208,1,-157.48,-45.72,GND,sup,,,,"/>
+<approved hash="208,1,-127,-45.72,GND,sup,,,,"/>
+<approved hash="208,1,-96.52,-45.72,GND,sup,,,,"/>
+<approved hash="208,1,-48.26,-40.64,GND,sup,,,,"/>
+<approved hash="208,1,-17.78,-38.1,GND,sup,,,,"/>
+<approved hash="208,1,10.16,-38.1,GND,sup,,,,"/>
+<approved hash="208,1,-177.8,139.7,GND,sup,,,,"/>
+<approved hash="208,1,-165.1,139.7,GND,sup,,,,"/>
+<approved hash="208,1,-157.48,139.7,GND,sup,,,,"/>
+<approved hash="208,1,-137.16,139.7,GND,sup,,,,"/>
+<approved hash="208,1,-43.18,132.08,GND,sup,,,,"/>
+<approved hash="208,1,-73.66,127,GND,sup,,,,"/>
+<approved hash="208,1,-182.88,2.54,GND,sup,,,,"/>
+<approved hash="208,1,-195.58,50.8,GND,sup,,,,"/>
+<approved hash="208,1,17.78,127,GND,sup,,,,"/>
+<approved hash="208,1,88.9,127,GND,sup,,,,"/>
+<approved hash="208,1,63.5,45.72,GND,sup,,,,"/>
+<approved hash="208,1,-106.68,139.7,GND,sup,,,,"/>
+<approved hash="208,1,-182.88,86.36,GND,sup,,,,"/>
+<approved hash="208,1,-30.48,73.66,GND,sup,,,,"/>
+<approved hash="208,1,0,73.66,GND,sup,,,,"/>
+<approved hash="208,1,30.48,73.66,GND,sup,,,,"/>
+<approved hash="208,1,170.18,76.2,GND,sup,,,,"/>
+<approved hash="208,1,-177.8,-73.66,GND,sup,,,,"/>
+<approved hash="208,1,-177.8,-93.98,GND,sup,,,,"/>
+<approved hash="208,1,-106.68,-73.66,GND,sup,,,,"/>
+<approved hash="208,1,-106.68,-93.98,GND,sup,,,,"/>
+<approved hash="208,1,-40.64,-73.66,GND,sup,,,,"/>
+<approved hash="208,1,-40.64,-93.98,GND,sup,,,,"/>
+<approved hash="208,1,289.56,66.04,GND,sup,,,,"/>
+<approved hash="208,1,304.8,109.22,GND,sup,,,,"/>
+<approved hash="208,1,-139.7,101.6,GND,sup,,,,"/>
+<approved hash="208,1,71.12,76.2,GND,sup,,,,"/>
+<approved hash="208,1,30.48,129.54,GND,sup,,,,"/>
+<approved hash="208,1,101.6,129.54,GND,sup,,,,"/>
+<approved hash="208,1,-114.3,2.54,GND,sup,,,,"/>
+<approved hash="208,1,-60.96,2.54,GND,sup,,,,"/>
+<approved hash="208,1,-7.62,2.54,GND,sup,,,,"/>
+<approved hash="208,1,45.72,2.54,GND,sup,,,,"/>
+<approved hash="208,1,-60.96,73.66,GND,sup,,,,"/>
+<approved hash="208,1,-190.5,-142.24,GND,sup,,,,"/>
+<approved hash="208,1,-137.16,-142.24,GND,sup,,,,"/>
+<approved hash="208,1,-83.82,-142.24,GND,sup,,,,"/>
+<approved hash="208,1,-190.5,-177.8,GND,sup,,,,"/>
+<approved hash="208,1,-137.16,-177.8,GND,sup,,,,"/>
+<approved hash="208,1,-83.82,-177.8,GND,sup,,,,"/>
+<approved hash="208,1,134.62,76.2,GND,sup,,,,"/>
+<approved hash="208,1,101.6,76.2,GND,sup,,,,"/>
+<approved hash="208,1,-190.5,-213.36,GND,sup,,,,"/>
+<approved hash="208,1,-137.16,-213.36,GND,sup,,,,"/>
+<approved hash="208,1,-83.82,-213.36,GND,sup,,,,"/>
+<approved hash="208,1,388.62,15.24,GND,sup,,,,"/>
+<approved hash="208,1,396.24,15.24,GND,sup,,,,"/>
+<approved hash="208,1,175.26,38.1,GND,out,,,,"/>
+<approved hash="208,1,177.8,33.02,GND,sup,,,,"/>
+<approved hash="208,1,137.16,2.54,GND,sup,,,,"/>
+<approved hash="208,1,203.2,12.7,GND,sup,,,,"/>
+<approved hash="208,1,137.16,-58.42,GND,sup,,,,"/>
+<approved hash="208,1,175.26,-22.86,GND,out,,,,"/>
+<approved hash="208,1,177.8,-27.94,GND,sup,,,,"/>
+<approved hash="208,1,355.6,-50.8,GND,sup,,,,"/>
+<approved hash="208,1,322.58,-27.94,GND,sup,,,,"/>
+<approved hash="208,1,322.58,-53.34,GND,sup,,,,"/>
+<approved hash="208,1,325.12,-78.74,GND,sup,,,,"/>
+<approved hash="208,1,327.66,-104.14,GND,sup,,,,"/>
+<approved hash="206,1,-142.24,111.76,MISO,,,,,"/>
+<approved hash="206,1,398.78,-33.02,MISO,,,,,"/>
 <approved hash="115,1,60.8928,50.8,Q3,,,,,"/>
 <approved hash="115,1,-153.577,-71.12,D1,,,,,"/>
 <approved hash="115,1,-153.577,-91.44,D3,,,,,"/>
@@ -16497,7 +16574,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <approved hash="115,1,-16.4169,-71.12,D6,,,,,"/>
 <approved hash="115,1,-16.4169,-91.44,D7,,,,,"/>
 <approved hash="115,1,289.56,87.63,U4,,,,,"/>
-<approved hash="115,1,340.797,99.06,Q10,,,,,"/>
 <approved hash="115,1,-52.9698,53.34,Q11,,,,,"/>
 <approved hash="115,1,-15.3072,53.34,Q6,,,,,"/>
 <approved hash="115,1,22.7928,53.34,Q7,,,,,"/>
