@@ -2292,6 +2292,12 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="5.0V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="VCC">
+<text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -2876,6 +2882,19 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <description>&lt;b&gt;5.0V Supply&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="5.0V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;VCC SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -15225,7 +15244,6 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="LED1" library="microbuilder" deviceset="LED" device="1206"/>
 <part name="LED4" library="microbuilder" deviceset="LED" device="1206"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="microbuilder" deviceset="12V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="PTC1" library="microbuilder" deviceset="PTC" device="1812"/>
@@ -15257,6 +15275,8 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="499"/>
 <part name="R27" library="microbuilder" deviceset="RESISTOR" device="_0603" value="976"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="P+1" library="microbuilder" deviceset="VCC" device=""/>
+<part name="P+2" library="microbuilder" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15390,7 +15410,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <instance part="C11" gate="G$1" x="-109.22" y="-154.94" rot="R90"/>
 <instance part="U2" gate="A" x="-104.14" y="-215.9"/>
 <instance part="U$23" gate="G$1" x="-124.46" y="-226.06"/>
-<instance part="U$25" gate="G$1" x="-185.42" y="-5.08"/>
+<instance part="U$25" gate="G$1" x="-175.26" y="-2.54"/>
 <instance part="R15" gate="G$1" x="96.52" y="-83.82"/>
 <instance part="R16" gate="G$1" x="96.52" y="-91.44"/>
 <instance part="C2" gate="G$1" x="88.9" y="-99.06"/>
@@ -15451,10 +15471,9 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <instance part="LED1" gate="G$1" x="129.54" y="38.1" rot="R270"/>
 <instance part="LED4" gate="G$1" x="114.3" y="38.1" rot="R270"/>
 <instance part="GND32" gate="1" x="-177.8" y="-116.84"/>
-<instance part="U$2" gate="G$1" x="-147.32" y="-93.98"/>
 <instance part="GND25" gate="1" x="-238.76" y="-119.38"/>
 <instance part="GND33" gate="1" x="-149.86" y="-119.38"/>
-<instance part="PTC1" gate="G$1" x="-177.8" y="-10.16"/>
+<instance part="PTC1" gate="G$1" x="-182.88" y="-10.16"/>
 <instance part="U$26" gate="G$1" x="20.32" y="-121.92"/>
 <instance part="U$27" gate="G$1" x="20.32" y="-142.24"/>
 <instance part="U$33" gate="G$1" x="20.32" y="-162.56"/>
@@ -15483,6 +15502,8 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <instance part="R26" gate="G$1" x="-88.9" y="-58.42"/>
 <instance part="R27" gate="G$1" x="-96.52" y="-66.04" rot="R90"/>
 <instance part="GND36" gate="1" x="-96.52" y="-73.66"/>
+<instance part="P+1" gate="VCC" x="-190.5" y="-5.08"/>
+<instance part="P+2" gate="VCC" x="-147.32" y="-93.98"/>
 </instances>
 <busses>
 </busses>
@@ -16619,15 +16640,18 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <net name="12V" class="0">
 <segment>
 <pinref part="U$25" gate="G$1" pin="12V"/>
-<wire x1="-185.42" y1="-10.16" x2="-185.42" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="PTC1" gate="G$1" pin="2"/>
-<wire x1="-185.42" y1="-10.16" x2="-182.88" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$18" gate="G$4" pin="P$7"/>
-<pinref part="U$2" gate="G$1" pin="12V"/>
-<wire x1="-144.78" y1="-114.3" x2="-147.32" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="-114.3" x2="-147.32" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-10.16" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
+<wire x1="-170.18" y1="-15.24" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="-170.18" y1="-7.62" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-10.16"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="PTC1" gate="G$1" pin="1"/>
+<wire x1="-170.18" y1="-10.16" x2="-175.26" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="-10.16" x2="-177.8" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="-5.08" x2="-175.26" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-175.26" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="VIN"/>
@@ -16940,19 +16964,6 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="-208.28" y="-104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$57" class="0">
-<segment>
-<wire x1="-165.1" y1="-10.16" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="-170.18" y1="-15.24" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="-170.18" y1="-7.62" x2="-170.18" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-170.18" y="-10.16"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="PTC1" gate="G$1" pin="1"/>
-<wire x1="-170.18" y1="-10.16" x2="-172.72" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SCK" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA5"/>
@@ -17209,6 +17220,20 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <pinref part="Q7" gate="G$1" pin="B"/>
 <pinref part="R63" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="PTC1" gate="G$1" pin="2"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="-187.96" y1="-10.16" x2="-190.5" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-10.16" x2="-190.5" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$18" gate="G$4" pin="P$7"/>
+<wire x1="-144.78" y1="-114.3" x2="-147.32" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-114.3" x2="-147.32" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 </nets>

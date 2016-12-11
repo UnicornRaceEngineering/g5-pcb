@@ -5751,12 +5751,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="12V">
 <contactref element="IC5" pad="3"/>
 <contactref element="C16" pad="2"/>
-<contactref element="J1" pad="L4"/>
 <contactref element="J1" pad="A4"/>
-<wire x1="19.065" y1="145.0975" x2="19.065" y2="159.0825" width="1.016" layer="16"/>
-<wire x1="19.065" y1="159.0825" x2="21.59" y2="161.6075" width="1.016" layer="16"/>
-<wire x1="39.175" y1="154.5" x2="45.085" y2="148.59" width="1.016" layer="16"/>
-<wire x1="45.085" y1="148.59" x2="45.085" y2="145.1175" width="1.016" layer="16"/>
 <wire x1="45.085" y1="145.1175" x2="45.065" y2="145.0975" width="1.016" layer="16"/>
 <wire x1="45.065" y1="145.0975" x2="51.435" y2="145.0975" width="0.8128" layer="1"/>
 <wire x1="51.435" y1="145.0975" x2="52.3875" y2="144.145" width="0.8128" layer="1"/>
@@ -5771,9 +5766,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="60.96" y1="124.587" x2="60.95365" y2="124.58065" width="0.8128" layer="1"/>
 <wire x1="63.08725" y1="126.65075" x2="60.99175" y2="126.65075" width="0.8128" layer="1"/>
 <wire x1="60.99175" y1="126.65075" x2="60.96" y2="126.6825" width="0.8128" layer="1"/>
-<contactref element="PTC2" pad="P$2"/>
-<wire x1="21.59" y1="161.6075" x2="39.175" y2="161.6075" width="1.016" layer="16"/>
-<wire x1="39.175" y1="154.5" x2="39.175" y2="161.6075" width="1.016" layer="16"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="C7" pad="+"/>
+<contactref element="PTC2" pad="P$1"/>
+<wire x1="65.4939" y1="150.4188" x2="61.595" y2="154.3177" width="1.016" layer="1"/>
+<wire x1="61.595" y1="154.3177" x2="61.595" y2="157.63875" width="1.016" layer="1"/>
+<wire x1="61.595" y1="157.63875" x2="57.4675" y2="161.76625" width="1.016" layer="1"/>
+<wire x1="57.30875" y1="161.6075" x2="57.4675" y2="161.76625" width="1.016" layer="16"/>
+<wire x1="43.375" y1="161.6075" x2="43.53375" y2="161.76625" width="1.016" layer="16"/>
+<wire x1="43.53375" y1="161.76625" x2="57.4675" y2="161.76625" width="1.016" layer="16"/>
+<wire x1="45.085" y1="145.1175" x2="43.375" y2="146.8275" width="1.016" layer="16"/>
+<wire x1="43.375" y1="146.8275" x2="43.375" y2="161.6075" width="1.016" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC2" pad="4"/>
@@ -7685,17 +7688,6 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="SCL">
 <contactref element="U$1" pad="P$58"/>
 </signal>
-<signal name="N$37">
-<contactref element="IC2" pad="1"/>
-<contactref element="C7" pad="+"/>
-<wire x1="65.4939" y1="150.4188" x2="61.595" y2="154.3177" width="1.016" layer="1"/>
-<wire x1="61.595" y1="154.3177" x2="61.595" y2="157.63875" width="1.016" layer="1"/>
-<wire x1="61.595" y1="157.63875" x2="57.4675" y2="161.76625" width="1.016" layer="1"/>
-<wire x1="57.30875" y1="161.6075" x2="57.4675" y2="161.76625" width="1.016" layer="16"/>
-<contactref element="PTC2" pad="P$1"/>
-<wire x1="43.375" y1="161.6075" x2="43.53375" y2="161.76625" width="1.016" layer="16"/>
-<wire x1="43.53375" y1="161.76625" x2="57.4675" y2="161.76625" width="1.016" layer="16"/>
-</signal>
 <signal name="ADC_CS">
 <contactref element="U8" pad="8"/>
 <contactref element="U$1" pad="P$12"/>
@@ -8006,6 +7998,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R25" pad="2"/>
 <wire x1="98.06" y1="57.7825" x2="98.298" y2="58.0205" width="0.4064" layer="1"/>
 <wire x1="98.298" y1="58.0205" x2="98.298" y2="59.69" width="0.4064" layer="1"/>
+</signal>
+<signal name="VCC">
+<contactref element="PTC2" pad="P$2"/>
+<contactref element="J1" pad="L4"/>
+<wire x1="39.175" y1="161.6075" x2="35.575" y2="161.6075" width="1.016" layer="16"/>
+<wire x1="35.575" y1="161.6075" x2="19.065" y2="145.0975" width="1.016" layer="16"/>
 </signal>
 </signals>
 </board>

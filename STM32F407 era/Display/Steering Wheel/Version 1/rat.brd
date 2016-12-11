@@ -4350,28 +4350,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="232.29925" y1="18.39875" x2="232.29925" y2="14.17225" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,ee092f1a70e4bda1"/>
-<approved hash="4,1,ed0b2c867032b1d9"/>
-<approved hash="4,1,ed092d1671e4b099"/>
-<approved hash="4,1,eac328de74b2b631"/>
-<approved hash="4,1,eec128da774cb239"/>
-<approved hash="4,1,eccf2dda7076b131"/>
-<approved hash="4,1,ed512cde700cb1e1"/>
-<approved hash="4,1,ea0b2b167082b5b9"/>
-<approved hash="4,1,ed0f2d1a71eeb099"/>
-<approved hash="4,1,ecb12dfa706cb139"/>
-<approved hash="4,16,ea0b2b167082b5b9"/>
-<approved hash="4,16,ed0f2d1a71eeb099"/>
-<approved hash="4,16,ecb12dfa706cb139"/>
-<approved hash="4,16,ee092f1a70e4bda1"/>
-<approved hash="4,16,eac328de74b2b631"/>
-<approved hash="4,16,eccf2dda7076b131"/>
-<approved hash="4,16,ed0b2c867032b1d9"/>
-<approved hash="4,16,ed092d1671e4b099"/>
-<approved hash="4,16,ed512cde700cb1e1"/>
-<approved hash="4,16,eec128da774cb239"/>
-</errors>
 </board>
 </drawing>
 </eagle>
