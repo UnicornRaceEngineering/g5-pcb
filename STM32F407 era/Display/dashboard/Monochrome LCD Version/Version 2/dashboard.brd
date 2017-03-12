@@ -2297,22 +2297,22 @@ Based on the following sources:
 <rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
 <rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
 </package>
-<package name="SMB">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="-2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="2.2606" y1="-1.905" x2="2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="0.193" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.83" y1="0" x2="0.193" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.193" y1="-1" x2="0.193" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.159" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
-<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
-<rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
+<package name="SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
 </package>
 </packages>
 </library>
@@ -4259,7 +4259,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R2" library="microbuilder" package="_0603" value="1k69" x="214.63" y="31.115" rot="MR270"/>
 <element name="R3" library="microbuilder" package="_0603" value="1k" x="214.63" y="34.29" rot="MR270"/>
 <element name="L2" library="SparkFun-Passives" package="CDRH125" value="MSS1583-683MED" x="219.71" y="22.86" rot="MR90"/>
-<element name="D3" library="diode" package="SMB" value="MBRS130LT3" x="217.805" y="33.02" rot="MR270"/>
 <element name="C25" library="rcl" package="153CLV-1012" value="470u" x="227.33" y="34.925" rot="MR0"/>
 <element name="C26" library="rcl" package="153CLV-1012" value="220u" x="205.105" y="22.86" rot="MR180"/>
 <element name="S6" library="switch-omron" package="B3F-10XX" value="" x="74.6125" y="47.9425" smashed="yes">
@@ -4279,6 +4278,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="85.3123" y="51.7525" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="PTC1" library="microbuilder" package="PTC1812" value="" x="237.8075" y="38.4175" rot="MR180"/>
+<element name="D2" library="diode" package="SMC" value="" x="231.14" y="23.1775" rot="MR270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4381,7 +4381,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="3"/>
-<contactref element="D3" pad="A"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C25" pad="-"/>
 <contactref element="C26" pad="-"/>
@@ -4389,6 +4388,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="S6" pad="2"/>
 <contactref element="C4" pad="1"/>
 <via x="86.0425" y="55.88" extent="1-16" drill="0.381"/>
+<contactref element="D2" pad="A"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$10" pad="P$14"/>
@@ -5906,12 +5906,13 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$6">
 <contactref element="IC1" pad="2"/>
 <contactref element="L2" pad="1"/>
-<contactref element="D3" pad="C"/>
-<wire x1="211.5312" y1="36.6268" x2="216.3982" y2="36.6268" width="1.016" layer="16"/>
-<wire x1="216.3982" y1="36.6268" x2="217.805" y2="35.22" width="1.016" layer="16"/>
-<wire x1="217.805" y1="35.22" x2="217.805" y2="34.925" width="1.016" layer="16"/>
-<wire x1="217.805" y1="34.925" x2="224.61" y2="28.12" width="1.016" layer="16"/>
-<wire x1="224.61" y1="28.12" x2="224.61" y2="22.86" width="1.016" layer="16"/>
+<wire x1="216.1032" y1="36.6268" x2="224.61" y2="28.12" width="1.016" layer="16"/>
+<wire x1="224.61" y1="28.12" x2="224.61" y2="26.9875" width="1.016" layer="16"/>
+<contactref element="D2" pad="C"/>
+<wire x1="224.61" y1="26.9875" x2="224.61" y2="22.86" width="1.016" layer="16"/>
+<wire x1="216.1032" y1="36.6268" x2="211.5312" y2="36.6268" width="1.016" layer="16"/>
+<wire x1="231.14" y1="26.8775" x2="230.395" y2="26.9875" width="1.016" layer="16"/>
+<wire x1="230.395" y1="26.9875" x2="224.61" y2="26.9875" width="1.016" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC1" pad="4"/>

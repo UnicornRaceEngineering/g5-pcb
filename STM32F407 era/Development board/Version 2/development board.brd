@@ -2385,43 +2385,6 @@ grid 5.08 mm, diameter 10.5 mm</description>
 </package>
 </packages>
 </library>
-<library name="diode">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO201-15">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 5.6 mm, horizontal, grid 15.24 mm</description>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.143" y2="0.5842" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="0.5842" x2="1.143" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="-0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.794" x2="5.08" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.794" x2="-5.08" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
-<wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
-<pad name="C" x="-7.62" y="0" drill="1.4986" shape="long"/>
-<pad name="A" x="7.62" y="0" drill="1.4986" shape="long"/>
-<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.191" y1="-2.794" x2="-3.429" y2="2.794" layer="21"/>
-<rectangle x1="-5.969" y1="-0.635" x2="-5.08" y2="0.635" layer="21"/>
-<rectangle x1="5.08" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="red_segment">
 <packages>
 <package name="REDSEGMENT">
@@ -2882,6 +2845,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="diode">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3255,10 +3248,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="126.65075" y="11.049" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="129.82575" y="11.811" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="D2" library="diode" package="DO201-15" value="1n5824" x="149.06625" y="40.9575" smashed="yes">
-<attribute name="NAME" x="143.8275" y="43.97375" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="146.52625" y="38.7985" size="1.27" layer="27" ratio="10"/>
-</element>
 <element name="C4" library="rcl" package="E5-10,5" value="680u" x="123.98375" y="5.715" smashed="yes" rot="R180">
 <attribute name="NAME" x="119.28475" y="2.9718" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="127.10795" y="8.9408" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -3326,6 +3315,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U3" library="microbuilder" package="TSSOP20" value="" x="106.9975" y="77.1525"/>
 <element name="C8" library="microbuilder" package="_0603" value="100n" x="102.87" y="77.31125" rot="R90"/>
 <element name="C10" library="microbuilder" package="_0603" value="100n" x="111.28375" y="77.1525" rot="R270"/>
+<element name="D1" library="diode" package="SMC" value="" x="150.01875" y="41.5925"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3386,7 +3376,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC3" pad="5"/>
 <contactref element="C4" pad="-"/>
 <contactref element="R1" pad="1"/>
-<contactref element="D2" pad="A"/>
 <contactref element="C3" pad="-"/>
 <contactref element="MAX7221" pad="GND1"/>
 <contactref element="MAX7221" pad="GND"/>
@@ -3423,6 +3412,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="U3" pad="11"/>
 <contactref element="U$61" pad="PIN7"/>
+<contactref element="D1" pad="A"/>
 </signal>
 <signal name="12V">
 <contactref element="IC5" pad="3"/>
@@ -4321,15 +4311,15 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$21">
 <contactref element="IC3" pad="2"/>
 <contactref element="L1" pad="1"/>
-<contactref element="D2" pad="C"/>
 <wire x1="151.9682" y1="22.4663" x2="151.9682" y2="24.2443" width="0.8128" layer="1"/>
 <wire x1="151.9682" y1="24.2443" x2="151.4475" y2="24.765" width="0.8128" layer="1"/>
 <wire x1="151.4475" y1="24.765" x2="146.3675" y2="24.765" width="0.8128" layer="1"/>
 <wire x1="146.3675" y1="24.765" x2="142.1025" y2="24.765" width="0.8128" layer="1"/>
 <wire x1="142.1025" y1="24.765" x2="141.12875" y2="25.73875" width="0.8128" layer="1"/>
-<wire x1="141.44625" y1="40.9575" x2="145.0975" y2="40.9575" width="0.8128" layer="1"/>
-<wire x1="145.0975" y1="40.9575" x2="146.3675" y2="39.6875" width="0.8128" layer="1"/>
 <wire x1="146.3675" y1="39.6875" x2="146.3675" y2="24.765" width="0.8128" layer="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="146.3675" y1="39.6875" x2="146.31875" y2="39.6875" width="0.8128" layer="1"/>
+<wire x1="146.31875" y1="39.6875" x2="146.31875" y2="41.5925" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="U$23" pad="A"/>
@@ -4986,15 +4976,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="113.79125" y1="87.75625" x2="113.79125" y2="89.47125" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,7e594f51733c4234"/>
-<approved hash="3,1,c4c082d282c8c4da"/>
-<approved hash="3,1,2419c20bc20e241c"/>
-<approved hash="4,1,3cb81646c90d9f4d"/>
-<approved hash="4,1,99be621b39f6c581"/>
-<approved hash="5,1,6c31ac3ec0311bcd"/>
-<approved hash="5,1,64a5c7e69cad6622"/>
-</errors>
 </board>
 </drawing>
 </eagle>
