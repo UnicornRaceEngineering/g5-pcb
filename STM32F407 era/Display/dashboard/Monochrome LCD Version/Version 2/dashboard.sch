@@ -13863,38 +13863,38 @@ Based on the following sources:
 </net>
 <net name="BTN1S" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="PB12"/>
-<wire x1="0" y1="63.5" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
-<label x="0" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="D" pin="O"/>
 <wire x1="-200.66" y1="27.94" x2="-203.2" y2="27.94" width="0.1524" layer="91"/>
 <label x="-200.66" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="BTN2S" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="PB13"/>
 <wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="33.02" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="BTN2S" class="0">
 <segment>
 <pinref part="IC2" gate="E" pin="O"/>
 <wire x1="-200.66" y1="10.16" x2="-203.2" y2="10.16" width="0.1524" layer="91"/>
 <label x="-200.66" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="PB15"/>
+<wire x1="33.02" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="33.02" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BTN3S" class="0">
-<segment>
-<pinref part="U$1" gate="G$2" pin="PB14"/>
-<wire x1="0" y1="60.96" x2="5.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="0" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="B" pin="O"/>
 <wire x1="-200.66" y1="63.5" x2="-203.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="-200.66" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="PD11"/>
+<wire x1="33.02" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="33.02" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BTN4S" class="0">
@@ -13904,9 +13904,9 @@ Based on the following sources:
 <label x="-200.66" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$2" pin="PD9"/>
-<wire x1="27.94" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-<label x="33.02" y="58.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$2" pin="PC6"/>
+<wire x1="0" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
+<label x="0" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BTN5S" class="0">
@@ -13916,9 +13916,9 @@ Based on the following sources:
 <label x="-200.66" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$2" pin="PB15"/>
-<wire x1="33.02" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="33.02" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$2" pin="PD9"/>
+<wire x1="27.94" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="33.02" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW5" class="0">

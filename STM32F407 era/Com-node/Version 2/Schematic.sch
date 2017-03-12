@@ -12410,32 +12410,83 @@ Socket for SIM cellular cards. Schematic element and footprint production proven
 
 Schematic and footprint made form the microchip's datasheet.</description>
 <packages>
-<package name="MCP2200">
-<description>This is a simple soic footprint for MCP2200 by microchip</description>
-<wire x1="-1.34" y1="8.04" x2="12.13" y2="8.04" width="0.127" layer="20"/>
-<wire x1="12.13" y1="8.04" x2="12.13" y2="1.34" width="0.127" layer="20"/>
-<wire x1="12.13" y1="1.34" x2="-1.34" y2="1.34" width="0.127" layer="20"/>
-<wire x1="-1.34" y1="1.34" x2="-1.34" y2="8.04" width="0.127" layer="20"/>
-<smd name="20" x="-0.6" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="19" x="0.67" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="18" x="2.01" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="17" x="3.35" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="16" x="4.69" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="15" x="6.03" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="14" x="7.37" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="13" x="8.71" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="12" x="10.05" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="11" x="11.39" y="9.525" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-0.6" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0.67" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="2.01" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="3.35" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="4.69" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="6.03" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="7.37" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="8.71" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="10.05" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
-<smd name="10" x="11.39" y="0.145" dx="1.95" dy="0.6" layer="1" rot="R90"/>
+<package name="SO20L">
+<description>&lt;b&gt;20-Lead (300-MIL) SOIC S5&lt;/b&gt;&lt;p&gt;
+Source: www.cypress.com .. CY7C6301XX.pdf</description>
+<wire x1="6.1214" y1="3.7338" x2="-6.1214" y2="3.7338" width="0.1524" layer="21"/>
+<wire x1="6.1214" y1="-3.7338" x2="6.5024" y2="-3.3528" width="0.1524" layer="21" curve="90"/>
+<wire x1="-6.5024" y1="3.3528" x2="-6.1214" y2="3.7338" width="0.1524" layer="21" curve="-90"/>
+<wire x1="6.1214" y1="3.7338" x2="6.5024" y2="3.3528" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-6.5024" y1="-3.3528" x2="-6.1214" y2="-3.7338" width="0.1524" layer="21" curve="90"/>
+<wire x1="-6.1214" y1="-3.7338" x2="6.1214" y2="-3.7338" width="0.1524" layer="21"/>
+<wire x1="6.5024" y1="-3.3528" x2="6.5024" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-6.5024" y1="3.3528" x2="-6.5024" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.5024" y1="1.27" x2="-6.5024" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.5024" y1="-1.27" x2="-6.5024" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="-6.477" y1="-3.3782" x2="6.477" y2="-3.3782" width="0.0508" layer="21"/>
+<wire x1="-6.5024" y1="1.27" x2="-6.5024" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<smd name="1" x="-5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="-0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="-0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="17" x="-1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="18" x="-3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="19" x="-4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="20" x="-5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-4.826" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.858" y="-3.556" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-5.969" y1="-3.8608" x2="-5.461" y2="-3.7338" layer="21"/>
+<rectangle x1="-5.969" y1="-5.334" x2="-5.461" y2="-3.8608" layer="51"/>
+<rectangle x1="-4.699" y1="-3.8608" x2="-4.191" y2="-3.7338" layer="21"/>
+<rectangle x1="-4.699" y1="-5.334" x2="-4.191" y2="-3.8608" layer="51"/>
+<rectangle x1="-3.429" y1="-3.8608" x2="-2.921" y2="-3.7338" layer="21"/>
+<rectangle x1="-3.429" y1="-5.334" x2="-2.921" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.159" y1="-3.8608" x2="-1.651" y2="-3.7338" layer="21"/>
+<rectangle x1="-2.159" y1="-5.334" x2="-1.651" y2="-3.8608" layer="51"/>
+<rectangle x1="-0.889" y1="-5.334" x2="-0.381" y2="-3.8608" layer="51"/>
+<rectangle x1="-0.889" y1="-3.8608" x2="-0.381" y2="-3.7338" layer="21"/>
+<rectangle x1="0.381" y1="-3.8608" x2="0.889" y2="-3.7338" layer="21"/>
+<rectangle x1="0.381" y1="-5.334" x2="0.889" y2="-3.8608" layer="51"/>
+<rectangle x1="1.651" y1="-3.8608" x2="2.159" y2="-3.7338" layer="21"/>
+<rectangle x1="1.651" y1="-5.334" x2="2.159" y2="-3.8608" layer="51"/>
+<rectangle x1="2.921" y1="-3.8608" x2="3.429" y2="-3.7338" layer="21"/>
+<rectangle x1="2.921" y1="-5.334" x2="3.429" y2="-3.8608" layer="51"/>
+<rectangle x1="-5.969" y1="3.8608" x2="-5.461" y2="5.334" layer="51"/>
+<rectangle x1="-5.969" y1="3.7338" x2="-5.461" y2="3.8608" layer="21"/>
+<rectangle x1="-4.699" y1="3.7338" x2="-4.191" y2="3.8608" layer="21"/>
+<rectangle x1="-4.699" y1="3.8608" x2="-4.191" y2="5.334" layer="51"/>
+<rectangle x1="-3.429" y1="3.7338" x2="-2.921" y2="3.8608" layer="21"/>
+<rectangle x1="-3.429" y1="3.8608" x2="-2.921" y2="5.334" layer="51"/>
+<rectangle x1="-2.159" y1="3.7338" x2="-1.651" y2="3.8608" layer="21"/>
+<rectangle x1="-2.159" y1="3.8608" x2="-1.651" y2="5.334" layer="51"/>
+<rectangle x1="-0.889" y1="3.7338" x2="-0.381" y2="3.8608" layer="21"/>
+<rectangle x1="-0.889" y1="3.8608" x2="-0.381" y2="5.334" layer="51"/>
+<rectangle x1="0.381" y1="3.7338" x2="0.889" y2="3.8608" layer="21"/>
+<rectangle x1="0.381" y1="3.8608" x2="0.889" y2="5.334" layer="51"/>
+<rectangle x1="1.651" y1="3.7338" x2="2.159" y2="3.8608" layer="21"/>
+<rectangle x1="1.651" y1="3.8608" x2="2.159" y2="5.334" layer="51"/>
+<rectangle x1="2.921" y1="3.7338" x2="3.429" y2="3.8608" layer="21"/>
+<rectangle x1="2.921" y1="3.8608" x2="3.429" y2="5.334" layer="51"/>
+<rectangle x1="4.191" y1="3.7338" x2="4.699" y2="3.8608" layer="21"/>
+<rectangle x1="5.461" y1="3.7338" x2="5.969" y2="3.8608" layer="21"/>
+<rectangle x1="4.191" y1="3.8608" x2="4.699" y2="5.334" layer="51"/>
+<rectangle x1="5.461" y1="3.8608" x2="5.969" y2="5.334" layer="51"/>
+<rectangle x1="4.191" y1="-3.8608" x2="4.699" y2="-3.7338" layer="21"/>
+<rectangle x1="5.461" y1="-3.8608" x2="5.969" y2="-3.7338" layer="21"/>
+<rectangle x1="4.191" y1="-5.334" x2="4.699" y2="-3.8608" layer="51"/>
+<rectangle x1="5.461" y1="-5.334" x2="5.969" y2="-3.8608" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -12473,7 +12524,7 @@ Schematic and footprint made form the microchip's datasheet.</description>
 <gate name="G$1" symbol="MCP2200" x="-17.78" y="17.78"/>
 </gates>
 <devices>
-<device name="" package="MCP2200">
+<device name="" package="SO20L">
 <connects>
 <connect gate="G$1" pin="!CTS" pad="13"/>
 <connect gate="G$1" pin="!RST" pad="4"/>
@@ -12497,7 +12548,7 @@ Schematic and footprint made form the microchip's datasheet.</description>
 <connect gate="G$1" pin="VUSB" pad="17"/>
 </connects>
 <technologies>
-<technology name="SOIC"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15201,7 +15252,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="U$9" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="U$18" library="AAU-Racing" deviceset="SUPERSEAL-26" device=""/>
-<part name="U$24" library="mcp2200" deviceset="MCP2200" device="" technology="SOIC"/>
+<part name="U$24" library="mcp2200" deviceset="MCP2200" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$28" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -15217,7 +15268,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
-<part name="U$29" library="mcp2200" deviceset="MCP2200" device="" technology="SOIC"/>
+<part name="U$29" library="mcp2200" deviceset="MCP2200" device=""/>
 <part name="U$30" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$31" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
