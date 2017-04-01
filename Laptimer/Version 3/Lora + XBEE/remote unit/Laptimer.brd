@@ -3173,57 +3173,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="67.31" y1="49.2125" x2="67.31" y2="46.355" width="0.4064" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,f6a2e0ce77de5ab0"/>
-<approved hash="6,1,0e0c0d498d488e0d"/>
-<approved hash="5,1,e0c574a7730adc6a"/>
-<approved hash="5,1,4fe5dee2d5a56471"/>
-<approved hash="5,1,4fe5dee2d5a56471"/>
-<approved hash="5,1,c9125ebbd6b266b2"/>
-<approved hash="5,1,e22994512d481a07"/>
-<approved hash="5,1,db15f7e63201a61b"/>
-<approved hash="5,1,af13af22a9a01660"/>
-<approved hash="5,1,caf771ed389940c9"/>
-<approved hash="5,1,da2baf22a8601a78"/>
-<approved hash="5,1,b2bab0dcf9b226ba"/>
-<approved hash="5,1,c6df05f54d814c21"/>
-<approved hash="5,1,48225f19d5226471"/>
-<approved hash="5,1,15612cea1997e0ea"/>
-<approved hash="5,1,c5082675db30310f"/>
-<approved hash="5,1,b921797256259d8f"/>
-<approved hash="5,1,c5ec8aa2285c9fa5"/>
-<approved hash="5,1,a1aa8b262940f317"/>
-<approved hash="5,1,0b39d84df3e83fd9"/>
-<approved hash="5,1,74e0683dae87d18b"/>
-<approved hash="5,1,387c7d82b0e002d7"/>
-<approved hash="5,1,dc1f8bc6285c9ec1"/>
-<approved hash="5,1,bbb28c96703748da"/>
-<approved hash="5,1,9c1c20386d01bb3a"/>
-<approved hash="5,1,a75ad2e7d7259a49"/>
-<approved hash="5,1,4da47d82b1200eff"/>
-<approved hash="5,1,f0daa3da1bc0cc57"/>
-<approved hash="5,1,3b6113bd3a8c3e89"/>
-<approved hash="5,1,3552e7b7a6c00a86"/>
-<approved hash="5,1,a0968b26287c8a88"/>
-<approved hash="5,1,43f11f954e7446d9"/>
-<approved hash="5,1,132d1c84a3b7086b"/>
-<approved hash="5,1,f81b83492cba64ba"/>
-<approved hash="5,1,d876ee69ae64d1cd"/>
-<approved hash="5,1,c18e1e230558e892"/>
-<approved hash="5,1,9fd8f890054a7e2e"/>
-<approved hash="5,1,72dd72e31821a7ee"/>
-<approved hash="5,1,488c383a8a25bf1d"/>
-<approved hash="5,1,94f6a6e4170d0869"/>
-<approved hash="5,1,f5ffc747def9aea5"/>
-<approved hash="5,1,07e572e319e1abf6"/>
-<approved hash="5,1,92708cb8709272c6"/>
-<approved hash="5,1,19736f24abf96506"/>
-<approved hash="5,1,1d1b6f24abf9616e"/>
-<approved hash="5,1,24cb6f24abf958be"/>
-<approved hash="5,1,21236f24abf95d56"/>
-<approved hash="5,1,f541bdce0a49c4dc"/>
-<approved hash="5,1,d3a50f197123adaa"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
