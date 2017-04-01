@@ -9909,26 +9909,26 @@ at 30/07/2012 11:04:18</description>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="PB7"/>
-<wire x1="-147.32" y1="30.48" x2="-149.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="-149.86" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X4" gate="-1" pin="S"/>
 <wire x1="-152.4" y1="-66.04" x2="-149.86" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-152.4" y="-66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PB7"/>
+<wire x1="-147.32" y1="30.48" x2="-149.86" y2="30.48" width="0.1524" layer="91"/>
+<label x="-149.86" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="USART1_TX" class="0">
-<segment>
-<pinref part="U$1" gate="G$3" pin="PB6"/>
-<wire x1="-124.46" y1="33.02" x2="-122.174" y2="33.02" width="0.1524" layer="91"/>
-<label x="-122.174" y="33.02" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="X4" gate="-2" pin="S"/>
 <wire x1="-152.4" y1="-68.58" x2="-149.86" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-152.4" y="-68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PB6"/>
+<wire x1="-124.46" y1="33.02" x2="-121.92" y2="33.02" width="0.1524" layer="91"/>
+<label x="-121.92" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -10068,6 +10068,10 @@ at 30/07/2012 11:04:18</description>
 <pinref part="C1" gate="G$1" pin="P$2"/>
 <wire x1="-58.42" y1="-50.8" x2="-58.42" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-55.88" x2="-53.34" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="LDAC*"/>
+<wire x1="-45.72" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-25.4" x2="-53.34" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="-53.34" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="B"/>
@@ -10164,28 +10168,16 @@ at 30/07/2012 11:04:18</description>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="SCLK"/>
-<wire x1="-45.72" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-53.34" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="SCLK"/>
 <wire x1="-116.84" y1="-88.9" x2="-132.08" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-132.08" y="-88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LDAC" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="LDAC*"/>
-<wire x1="-45.72" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-53.34" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="DACCS" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="SYNC*"/>
-<wire x1="-45.72" y1="-27.94" x2="-53.34" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-53.34" y="-27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-45.72" y1="-27.94" x2="-55.88" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-55.88" y="-27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -10198,6 +10190,11 @@ at 30/07/2012 11:04:18</description>
 <pinref part="U2" gate="A" pin="DIN"/>
 <wire x1="-116.84" y1="-86.36" x2="-132.08" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-132.08" y="-86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PB5"/>
+<wire x1="-147.32" y1="33.02" x2="-149.86" y2="33.02" width="0.1524" layer="91"/>
+<label x="-149.86" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VOUT1" class="0">
@@ -10231,8 +10228,8 @@ at 30/07/2012 11:04:18</description>
 <net name="DACCLR" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CLR*"/>
-<wire x1="-45.72" y1="-30.48" x2="-53.34" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-53.34" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-45.72" y1="-30.48" x2="-55.88" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-55.88" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ECU_POT" class="0">
@@ -10268,6 +10265,18 @@ at 30/07/2012 11:04:18</description>
 <pinref part="U2" gate="A" pin="SDO"/>
 <wire x1="-81.28" y1="-78.74" x2="-73.66" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-73.66" y="-78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SCLK" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA5"/>
+<wire x1="-259.08" y1="40.64" x2="-261.62" y2="40.64" width="0.1524" layer="91"/>
+<label x="-261.62" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="SCLK"/>
+<wire x1="-45.72" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-53.34" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

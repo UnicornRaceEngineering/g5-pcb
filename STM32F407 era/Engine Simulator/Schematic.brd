@@ -3097,7 +3097,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="141.2498" y1="37.0082" x2="141.2498" y2="36.215" width="0.4064" layer="1"/>
 </signal>
 <signal name="USART1_RX">
-<contactref element="U$1" pad="P$57"/>
 <contactref element="X4" pad="1"/>
 <wire x1="130.396" y1="41.8" x2="130.396" y2="38.4734" width="0.4064" layer="16"/>
 <wire x1="130.396" y1="38.4734" x2="127.4064" y2="35.4838" width="0.4064" layer="16"/>
@@ -3110,10 +3109,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="160.2232" y1="27.432" x2="160.2232" y2="36.83" width="0.4064" layer="16"/>
 <wire x1="160.2232" y1="36.83" x2="178.9176" y2="55.5244" width="0.4064" layer="16"/>
 <wire x1="178.9176" y1="55.5244" x2="199.2939" y2="55.5244" width="0.4064" layer="16"/>
-<wire x1="199.2939" y1="55.5244" x2="200.5345" y2="56.765" width="0.4064" layer="16"/>
+<contactref element="U$1" pad="P$57"/>
+<wire x1="200.5345" y1="56.765" x2="199.2939" y2="55.5244" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART1_TX">
-<contactref element="U$1" pad="P$56"/>
 <contactref element="X4" pad="2"/>
 <wire x1="127.856" y1="41.8" x2="127.8552" y2="41.8" width="0.4064" layer="16"/>
 <wire x1="127.8552" y1="41.8" x2="127.6858" y2="41.6306" width="0.4064" layer="16"/>
@@ -3128,7 +3127,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="162.4584" y1="27.1018" x2="162.4584" y2="35.306" width="0.4064" layer="16"/>
 <wire x1="162.4584" y1="35.306" x2="181.2798" y2="54.1274" width="0.4064" layer="16"/>
 <wire x1="181.2798" y1="54.1274" x2="197.8969" y2="54.1274" width="0.4064" layer="16"/>
-<wire x1="197.8969" y1="54.1274" x2="197.9945" y2="54.225" width="0.4064" layer="16"/>
+<contactref element="U$1" pad="P$56"/>
+<wire x1="197.8969" y1="54.1274" x2="197.9945" y2="54.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$21">
 <contactref element="U1" pad="5"/>
@@ -3185,6 +3185,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U2" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="1"/>
+<contactref element="U3" pad="1"/>
 <wire x1="145.698" y1="85.43" x2="153.206" y2="91.38" width="0" layer="19" extent="1-1"/>
 <wire x1="139.7272" y1="87.1336" x2="145.698" y2="85.43" width="0" layer="19" extent="1-1"/>
 <wire x1="139.7272" y1="83.73" x2="139.7272" y2="87.1336" width="0" layer="19" extent="1-1"/>
@@ -3206,7 +3207,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="119.7864" y1="-8.2042" x2="119.7864" y2="-6.2484" width="0" layer="19" extent="1-1"/>
 <wire x1="125.4252" y1="-8.8392" x2="119.7864" y2="-8.2042" width="0" layer="19" extent="1-1"/>
 <wire x1="112.1664" y1="-5.3086" x2="119.7864" y2="-6.2484" width="0" layer="19" extent="1-1"/>
-<wire x1="106.5276" y1="-8.5598" x2="112.1664" y2="-5.3086" width="0" layer="19" extent="1-1"/>
+<wire x1="106.5276" y1="-3.9878" x2="112.1664" y2="-5.3086" width="0" layer="19" extent="1-1"/>
+<wire x1="106.5276" y1="-8.5598" x2="106.5276" y2="-3.9878" width="0" layer="19" extent="1-1"/>
 <wire x1="107.7214" y1="-14.8082" x2="106.5276" y2="-8.5598" width="0" layer="19" extent="1-1"/>
 <wire x1="106.0332" y1="-17.8562" x2="107.7214" y2="-14.8082" width="0" layer="19" extent="1-1"/>
 <wire x1="106.0332" y1="-20.1676" x2="106.0332" y2="-17.8562" width="0" layer="19" extent="1-1"/>
@@ -3271,12 +3273,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="107.7332" y1="-20.1676" x2="106.1974" y2="-14.8082" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
-<contactref element="U3" pad="16"/>
 <contactref element="U2" pad="11"/>
-<wire x1="112.1664" y1="-3.9878" x2="125.4252" y2="-7.5438" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LDAC">
-<contactref element="U3" pad="1"/>
 </signal>
 <signal name="DACCS">
 <contactref element="U3" pad="2"/>
@@ -3284,6 +3281,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="MOSI">
 <contactref element="U3" pad="15"/>
 <contactref element="U2" pad="10"/>
+<contactref element="U$1" pad="P$55"/>
+<wire x1="125.4252" y1="-8.2042" x2="200.5345" y2="54.225" width="0" layer="19" extent="1-1"/>
 <wire x1="112.1664" y1="-4.6482" x2="125.4252" y2="-8.2042" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOUT1">
@@ -3317,6 +3316,11 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="SDO">
 <contactref element="U2" pad="13"/>
+</signal>
+<signal name="SCLK">
+<contactref element="U$1" pad="P$3"/>
+<contactref element="U3" pad="16"/>
+<wire x1="189.676" y1="90.42" x2="112.1664" y2="-3.9878" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
