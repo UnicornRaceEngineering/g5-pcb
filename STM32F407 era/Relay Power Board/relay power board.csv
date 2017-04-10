@@ -1,1 +1,10 @@
-Qty;Value;Device;Package;Parts;Description
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"5";"";"DIODESMA";"SMADIODE";"D1, D2, D3, D5, D6";"Diode";"";
+"8";"";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8";"LED";"";
+"2";"22-23-2021";"22-23-2021";"22-23-2021";"X3, X4";".100" (2.54mm) Center Header - 2 Pin";"";
+"1";"22-23-2031";"22-23-2031";"22-23-2031";"X2";".100" (2.54mm) Center Header - 3 Pin";"";
+"8";"470";"RESISTOR_0603";"_0603";"R1, R2, R3, R4, R5, R6, R7, R8";"Resistors";"";
+"1";"5566-6";"5566-6";"5566-6";"X1";"Mini FIT connector 6 pol";"";
+"4";"FUSE_SOCKET";"FUSE_SOCKET";"FUSE_SOCKET_12V_30A";"U$1, U$2, U$4, U$10";"";"";
+"4";"LITTE_FUSE";"LITTE_FUSE";"LITTE_FUSE_PAC";"U$3, U$5, U$11, U$18";"";"";
+"4";"MOUNT-HOLE3.0";"MOUNT-HOLE3.0";"3,0";"H1, H2, H3, H6";"MOUNTING HOLE with drill center marker";"";
