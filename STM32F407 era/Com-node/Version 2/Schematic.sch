@@ -15298,8 +15298,8 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603" value="47k"/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603" value="47k"/>
 <part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603" value="47k"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="1µF"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="1µ"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="linear" deviceset="LM2596S" device="" value="lm2575"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603" value="1k"/>
@@ -15308,7 +15308,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="U$6" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="PWR" value="MSS1278-224KLD"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="220uf"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="220u"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="1N5400" device="" value="1n5824"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="680u"/>
@@ -15431,11 +15431,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="U$34" library="SparkFun-DigitalIC" deviceset="AT45DB161D" device=""/>
 <part name="U$35" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
-<part name="C26" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
-<part name="C27" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
-<part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
-<part name="C29" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100nF"/>
+<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C26" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C27" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C29" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="U$36" library="SparkFun" deviceset="EM406" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="U$37" library="microbuilder" deviceset="5.0V" device=""/>
