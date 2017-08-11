@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.7" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0007" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5284,6 +5284,7 @@
 <rectangle x1="72.12456875" y1="33.54196875" x2="74.84490625" y2="33.55975" layer="112"/>
 <rectangle x1="68.40855" y1="33.55975" x2="71.85786875" y2="33.577525" layer="112"/>
 <rectangle x1="72.12456875" y1="33.55975" x2="74.5959875" y2="33.577525" layer="112"/>
+<text x="77.27188125" y="30.012640625" size="1.016" layer="112" font="vector">SODIMM CPU V1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">

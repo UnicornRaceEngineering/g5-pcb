@@ -6457,7 +6457,8 @@ Covered vias can be set in Masks (Limit).
 <contactref element="SODIMM1" pad="158"/>
 <contactref element="SODIMM1" pad="156"/>
 <contactref element="SODIMM1" pad="154"/>
-<wire x1="96.48825" y1="17.93875" x2="97.63125" y2="17.81175" width="0" layer="19" extent="1-1"/>
+<wire x1="96.48825" y1="17.93875" x2="97.63125" y2="17.93875" width="0.4064" layer="1"/>
+<wire x1="97.63125" y1="17.93875" x2="97.63125" y2="17.81175" width="0.4064" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="21"/>
