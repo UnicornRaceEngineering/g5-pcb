@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,11 +46,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -94,7 +94,7 @@
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
@@ -1704,6 +1704,31 @@
 <rectangle x1="58.1025" y1="25.6413" x2="60.4139" y2="25.6667" layer="121"/>
 <text x="72.0598" y="19.05" size="1.27" layer="121" font="vector">Dashboard
 Version 1</text>
+<dimension x1="43.18" y1="16.51" x2="43.18" y2="91.59" x3="38.4175" y3="54.05" layer="199"/>
+<dimension x1="43.18" y1="91.59" x2="243.18" y2="91.59" x3="143.18" y3="109.22" layer="199"/>
+<dimension x1="47.3075" y1="87.3125" x2="47.3075" y2="91.7575" x3="34.925" y3="89.535" layer="199"/>
+<dimension x1="47.3075" y1="87.3125" x2="43.18" y2="87.3125" x3="45.24375" y3="100.6475" layer="199"/>
+<dimension x1="239.0775" y1="87.3125" x2="239.0775" y2="91.7575" x3="249.2375" y3="89.535" layer="199"/>
+<dimension x1="239.0775" y1="87.3125" x2="243.205" y2="87.3125" x3="241.14125" y3="105.7275" layer="199"/>
+<dimension x1="239.0775" y1="20.6375" x2="239.0775" y2="16.51" x3="249.2375" y3="18.57375" layer="199"/>
+<dimension x1="239.0775" y1="20.6375" x2="243.205" y2="20.6375" x3="241.14125" y3="8.89" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="66.3575" y2="91.7575" x3="66.3575" y3="85.56625" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="43.18" y2="79.375" x3="54.76875" y3="79.375" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="70.485" y3="75.8825" layer="199" dtype="horizontal"/>
+<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="78.74" y3="75.2475" layer="199" dtype="vertical"/>
+<dimension x1="66.3575" y1="62.865" x2="58.1025" y2="47.9425" x3="52.07" y3="55.40375" layer="199" dtype="vertical"/>
+<dimension x1="47.3075" y1="20.6375" x2="43.18" y2="20.6375" x3="45.24375" y3="26.3525" layer="199"/>
+<dimension x1="47.3075" y1="20.6375" x2="47.3075" y2="16.51" x3="36.5125" y3="18.57375" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="104.4575" y2="16.51" x3="103.505" y3="16.98625" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="43.18" y2="17.4625" x3="73.81875" y3="9.2075" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="183.1975" y2="17.4625" x3="143.8275" y3="11.1125" layer="199"/>
+<dimension x1="183.1975" y1="17.4625" x2="183.1975" y2="83.5025" x3="191.135" y3="50.4825" layer="199"/>
+<dimension x1="143.8275" y1="87.3125" x2="43.18" y2="87.3125" x3="93.50375" y3="93.6625" layer="199"/>
+<dimension x1="143.8275" y1="87.3125" x2="151.4475" y2="87.3125" x3="147.6375" y3="94.615" layer="199"/>
+<dimension x1="197.1675" y1="87.3125" x2="197.1675" y2="91.7575" x3="197.1675" y3="89.535" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="16.51" x3="90.805" y3="23.97125" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="43.18" y2="31.4325" x3="69.37375" y3="31.4325" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="40.3225" x3="111.76" y3="35.8775" layer="199"/>
 </plain>
 <libraries>
 <library name="holes">

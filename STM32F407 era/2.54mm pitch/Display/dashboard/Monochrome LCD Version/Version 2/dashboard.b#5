@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1757,6 +1757,18 @@ Version 1</text>
 <dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="16.51" x3="90.805" y3="23.97125" layer="199"/>
 <dimension x1="95.5675" y1="31.4325" x2="43.18" y2="31.4325" x3="69.37375" y3="31.4325" layer="199"/>
 <dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="40.3225" x3="111.76" y3="35.8775" layer="199"/>
+<text x="227.6475" y="47.3075" size="1.778" layer="26">+</text>
+<text x="227.0125" y="48.5775" size="1.778" layer="26" rot="MR0">AUX Power</text>
+<wire x1="232.7275" y1="46.99" x2="232.7275" y2="52.07" width="0.4064" layer="26"/>
+<wire x1="232.7275" y1="52.07" x2="228.2825" y2="52.07" width="0.4064" layer="26"/>
+<wire x1="228.2825" y1="52.07" x2="227.0125" y2="50.8" width="0.4064" layer="26"/>
+<wire x1="227.0125" y1="50.8" x2="213.995" y2="50.8" width="0.4064" layer="26"/>
+<wire x1="213.995" y1="50.8" x2="213.36" y2="50.165" width="0.4064" layer="26"/>
+<wire x1="213.36" y1="50.165" x2="213.36" y2="48.5775" width="0.4064" layer="26"/>
+<wire x1="213.36" y1="48.5775" x2="213.6775" y2="48.26" width="0.4064" layer="26"/>
+<wire x1="213.6775" y1="48.26" x2="227.0125" y2="48.26" width="0.4064" layer="26"/>
+<wire x1="227.0125" y1="48.26" x2="228.2825" y2="46.99" width="0.4064" layer="26"/>
+<wire x1="228.2825" y1="46.99" x2="232.7275" y2="46.99" width="0.4064" layer="26"/>
 </plain>
 <libraries>
 <library name="holes">
@@ -4402,11 +4414,13 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="PTC1" library="microbuilder" package="PTC1812" value="" x="237.8075" y="38.4175" rot="MR180"/>
 <element name="D2" library="diode" package="SMC" value="" x="231.14" y="23.1775" rot="MR270"/>
-<element name="X2" library="con-molex" package="7395-02" value="22-05-7028-02" x="230.8225" y="49.53" rot="MR270">
+<element name="X2" library="con-molex" package="7395-02" value="22-05-7028-02" x="230.8225" y="49.53" smashed="yes" rot="MR270">
 <attribute name="OC_NEWARK" value="unknown" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="9731601" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="235.6851" y="52.2971" size="1.016" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="233.2624" y="46.1279" size="0.8128" layer="28" ratio="10" rot="MR180"/>
 </element>
 </elements>
 <signals>
@@ -4884,7 +4898,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="239.9075" y1="38.4175" x2="239.9075" y2="33.2975" width="1.016" layer="16"/>
 <wire x1="239.9075" y1="33.2975" x2="239.7125" y2="33.2975" width="1.016" layer="16"/>
 <contactref element="X2" pad="1"/>
-<wire x1="239.9075" y1="38.4175" x2="230.8225" y2="48.26" width="0" layer="19" extent="16-16"/>
+<wire x1="230.8225" y1="48.26" x2="239.7125" y2="48.26" width="0.8128" layer="16"/>
+<wire x1="239.7125" y1="48.26" x2="241.935" y2="46.0375" width="0.8128" layer="16"/>
+<wire x1="241.935" y1="46.0375" x2="241.935" y2="41.5925" width="0.8128" layer="16"/>
+<wire x1="241.935" y1="41.5925" x2="240.03" y2="39.6875" width="0.8128" layer="16"/>
+<wire x1="240.03" y1="39.6875" x2="240.03" y2="38.54" width="0.8128" layer="16"/>
+<wire x1="240.03" y1="38.54" x2="239.9075" y2="38.4175" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED1" pad="3"/>

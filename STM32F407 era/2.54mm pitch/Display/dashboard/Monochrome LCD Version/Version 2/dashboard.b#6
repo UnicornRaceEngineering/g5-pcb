@@ -3820,6 +3820,52 @@ Based on the following sources:
 </package>
 </packages>
 </library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="7395-02">
+<description>&lt;b&gt;MOLEX 2.54mm KK RA CONNECTOR&lt;/b&gt;
+&lt;br&gt;Fixed Orientation</description>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0.635" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-1.905" x2="-0.635" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-1.905" x2="-0.635" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.905" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-2.54" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.651" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-1.651" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-13.081" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-13.081" x2="1.016" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="1.016" y1="-13.589" x2="-0.0508" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-13.081" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-13.081" x2="-1.016" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="-1.016" y1="-13.589" x2="-0.0508" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="-0.0508" y1="-13.589" x2="0.0508" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="0.889" y2="-5.08" width="0.254" layer="51"/>
+<wire x1="-1.651" y1="-5.08" x2="-1.651" y2="-11.303" width="0.254" layer="21"/>
+<wire x1="-1.651" y1="-11.303" x2="-1.3208" y2="-11.6586" width="0.254" layer="21"/>
+<wire x1="1.651" y1="-5.08" x2="1.651" y2="-11.303" width="0.254" layer="21"/>
+<wire x1="1.651" y1="-11.303" x2="1.3208" y2="-11.6586" width="0.254" layer="21"/>
+<pad name="1" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="2.6401" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="0.7859" y="-3.4021" size="1.27" layer="21" ratio="14" rot="R270">1</text>
+<text x="-1.7033" y="-3.2751" size="1.27" layer="21" ratio="14" rot="R270">2</text>
+<text x="3.4021" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-2.5146" x2="1.524" y2="-0.2794" layer="51"/>
+<rectangle x1="-1.524" y1="-2.5146" x2="-1.016" y2="-0.2794" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4356,6 +4402,12 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="PTC1" library="microbuilder" package="PTC1812" value="" x="237.8075" y="38.4175" rot="MR180"/>
 <element name="D2" library="diode" package="SMC" value="" x="231.14" y="23.1775" rot="MR270"/>
+<element name="X2" library="con-molex" package="7395-02" value="22-05-7028-02" x="230.8225" y="49.53" rot="MR270">
+<attribute name="OC_NEWARK" value="unknown" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_FARNELL" value="9731601" x="230.8225" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -4466,6 +4518,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C4" pad="1"/>
 <via x="86.0425" y="55.88" extent="1-16" drill="0.381"/>
 <contactref element="D2" pad="A"/>
+<contactref element="X2" pad="2"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$10" pad="P$14"/>
@@ -4830,6 +4883,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="PTC1" pad="P$2"/>
 <wire x1="239.9075" y1="38.4175" x2="239.9075" y2="33.2975" width="1.016" layer="16"/>
 <wire x1="239.9075" y1="33.2975" x2="239.7125" y2="33.2975" width="1.016" layer="16"/>
+<contactref element="X2" pad="1"/>
+<wire x1="239.9075" y1="38.4175" x2="230.8225" y2="48.26" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED1" pad="3"/>

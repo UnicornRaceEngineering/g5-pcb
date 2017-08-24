@@ -567,8 +567,8 @@ Covered vias can be set in Masks (Limit).
 <element name="J1" library="SparkFun-Connectors" package="DB9" value="" x="46.0375" y="72.54875">
 <attribute name="PROD_ID" value="CONN-08194" x="46.0375" y="72.54875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW1" library="microbuilder" package="DPDT_SMT_JS202011SCQN" value="" x="20.79625" y="71.91375" rot="R180"/>
-<element name="R26" library="microbuilder" package="_0603" value="60" x="14.44625" y="71.91375" rot="R270"/>
+<element name="SW1" library="microbuilder" package="DPDT_SMT_JS202011SCQN" value="" x="21.9075" y="67.78625" rot="R180"/>
+<element name="R26" library="microbuilder" package="_0603" value="60" x="16.03375" y="67.78625" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -605,15 +605,15 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X1" pad="7"/>
 <contactref element="J1" pad="7"/>
 <contactref element="SW1" pad="P$5"/>
-<wire x1="20.79625" y1="67.91375" x2="44.6575" y2="73.96875" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="68.58" x2="20.79625" y2="67.91375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.9075" y1="63.78625" x2="44.6575" y2="73.96875" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="68.58" x2="21.9075" y2="63.78625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
 <contactref element="X1" pad="8"/>
 <contactref element="J1" pad="2"/>
 <contactref element="SW1" pad="P$2"/>
-<wire x1="20.79625" y1="75.91375" x2="43.2675" y2="71.12875" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="68.58" x2="20.79625" y2="75.91375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.9075" y1="71.78625" x2="43.2675" y2="71.12875" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="68.58" x2="21.9075" y2="71.78625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5.0V">
 <contactref element="X1" pad="1"/>
@@ -908,12 +908,20 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$5">
 <contactref element="SW1" pad="P$4"/>
 <contactref element="R26" pad="2"/>
-<wire x1="14.44625" y1="71.15175" x2="18.29625" y2="67.91375" width="0" layer="19" extent="1-1"/>
+<wire x1="16.03375" y1="67.02425" x2="16.47825" y2="67.46875" width="0.3048" layer="1"/>
+<wire x1="19.05" y1="67.46875" x2="19.3675" y2="67.15125" width="0.3048" layer="1"/>
+<wire x1="19.3675" y1="67.15125" x2="19.3675" y2="63.82625" width="0.3048" layer="1"/>
+<wire x1="19.3675" y1="63.82625" x2="19.4075" y2="63.78625" width="0.3048" layer="1"/>
+<wire x1="16.47825" y1="67.46875" x2="19.05" y2="67.46875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="SW1" pad="P$3"/>
 <contactref element="R26" pad="1"/>
-<wire x1="14.44625" y1="72.67575" x2="18.29625" y2="75.91375" width="0" layer="19" extent="1-1"/>
+<wire x1="16.03375" y1="68.54825" x2="16.47825" y2="68.10375" width="0.3048" layer="1"/>
+<wire x1="19.05" y1="68.10375" x2="19.3675" y2="68.42125" width="0.3048" layer="1"/>
+<wire x1="19.3675" y1="68.42125" x2="19.3675" y2="71.74625" width="0.3048" layer="1"/>
+<wire x1="19.3675" y1="71.74625" x2="19.4075" y2="71.78625" width="0.3048" layer="1"/>
+<wire x1="16.47825" y1="68.10375" x2="19.05" y2="68.10375" width="0.3048" layer="1"/>
 </signal>
 </signals>
 </board>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -1732,31 +1732,31 @@
 <rectangle x1="58.1025" y1="25.6413" x2="60.4139" y2="25.6667" layer="121"/>
 <text x="72.0598" y="19.05" size="1.27" layer="121" font="vector">Dashboard
 Version 1</text>
-<dimension x1="43.18" y1="16.51" x2="43.18" y2="91.59" x3="38.4175" y3="54.05" layer="199"/>
-<dimension x1="43.18" y1="91.59" x2="243.18" y2="91.59" x3="143.18" y3="109.22" layer="199"/>
-<dimension x1="47.3075" y1="87.3125" x2="47.3075" y2="91.7575" x3="34.925" y3="89.535" layer="199"/>
-<dimension x1="47.3075" y1="87.3125" x2="43.18" y2="87.3125" x3="45.24375" y3="100.6475" layer="199"/>
-<dimension x1="239.0775" y1="87.3125" x2="239.0775" y2="91.7575" x3="249.2375" y3="89.535" layer="199"/>
-<dimension x1="239.0775" y1="87.3125" x2="243.205" y2="87.3125" x3="241.14125" y3="105.7275" layer="199"/>
-<dimension x1="239.0775" y1="20.6375" x2="239.0775" y2="16.51" x3="249.2375" y3="18.57375" layer="199"/>
-<dimension x1="239.0775" y1="20.6375" x2="243.205" y2="20.6375" x3="241.14125" y3="8.89" layer="199"/>
-<dimension x1="66.3575" y1="79.375" x2="66.3575" y2="91.7575" x3="66.3575" y3="85.56625" layer="199"/>
-<dimension x1="66.3575" y1="79.375" x2="43.18" y2="79.375" x3="54.76875" y3="79.375" layer="199"/>
-<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="70.485" y3="75.8825" layer="199" dtype="horizontal"/>
-<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="78.74" y3="75.2475" layer="199" dtype="vertical"/>
-<dimension x1="66.3575" y1="62.865" x2="58.1025" y2="47.9425" x3="52.07" y3="55.40375" layer="199" dtype="vertical"/>
-<dimension x1="47.3075" y1="20.6375" x2="43.18" y2="20.6375" x3="45.24375" y3="26.3525" layer="199"/>
-<dimension x1="47.3075" y1="20.6375" x2="47.3075" y2="16.51" x3="36.5125" y3="18.57375" layer="199"/>
-<dimension x1="104.4575" y1="17.4625" x2="104.4575" y2="16.51" x3="103.505" y3="16.98625" layer="199"/>
-<dimension x1="104.4575" y1="17.4625" x2="43.18" y2="17.4625" x3="73.81875" y3="9.2075" layer="199"/>
-<dimension x1="104.4575" y1="17.4625" x2="183.1975" y2="17.4625" x3="143.8275" y3="11.1125" layer="199"/>
-<dimension x1="183.1975" y1="17.4625" x2="183.1975" y2="83.5025" x3="191.135" y3="50.4825" layer="199"/>
-<dimension x1="143.8275" y1="87.3125" x2="43.18" y2="87.3125" x3="93.50375" y3="93.6625" layer="199"/>
-<dimension x1="143.8275" y1="87.3125" x2="151.4475" y2="87.3125" x3="147.6375" y3="94.615" layer="199"/>
-<dimension x1="197.1675" y1="87.3125" x2="197.1675" y2="91.7575" x3="197.1675" y3="89.535" layer="199"/>
-<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="16.51" x3="90.805" y3="23.97125" layer="199"/>
-<dimension x1="95.5675" y1="31.4325" x2="43.18" y2="31.4325" x3="69.37375" y3="31.4325" layer="199"/>
-<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="40.3225" x3="111.76" y3="35.8775" layer="199"/>
+<dimension x1="43.18" y1="16.51" x2="43.18" y2="91.59" x3="38.4175" y3="54.05" textsize="3.5" layer="199"/>
+<dimension x1="43.18" y1="91.59" x2="243.18" y2="91.59" x3="143.18" y3="109.22" textsize="3.5" layer="199"/>
+<dimension x1="47.3075" y1="87.3125" x2="47.3075" y2="91.7575" x3="34.925" y3="89.535" textsize="3.5" layer="199"/>
+<dimension x1="47.3075" y1="87.3125" x2="43.18" y2="87.3125" x3="45.24375" y3="100.6475" textsize="3.5" layer="199"/>
+<dimension x1="239.0775" y1="87.3125" x2="239.0775" y2="91.7575" x3="249.2375" y3="89.535" textsize="3.5" layer="199"/>
+<dimension x1="239.0775" y1="87.3125" x2="243.205" y2="87.3125" x3="241.14125" y3="105.7275" textsize="3.5" layer="199"/>
+<dimension x1="239.0775" y1="20.6375" x2="239.0775" y2="16.51" x3="249.2375" y3="18.57375" textsize="3.5" layer="199"/>
+<dimension x1="239.0775" y1="20.6375" x2="243.205" y2="20.6375" x3="241.14125" y3="8.89" textsize="3.5" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="66.3575" y2="91.7575" x3="66.3575" y3="85.56625" textsize="3.5" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="43.18" y2="79.375" x3="54.76875" y3="79.375" textsize="3.5" layer="199"/>
+<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="70.485" y3="75.8825" textsize="3.5" layer="199" dtype="horizontal"/>
+<dimension x1="66.3575" y1="79.375" x2="74.6125" y2="71.12" x3="78.74" y3="75.2475" textsize="3.5" layer="199" dtype="vertical"/>
+<dimension x1="66.3575" y1="62.865" x2="58.1025" y2="47.9425" x3="52.07" y3="55.40375" textsize="3.5" layer="199" dtype="vertical"/>
+<dimension x1="47.3075" y1="20.6375" x2="43.18" y2="20.6375" x3="45.24375" y3="26.3525" textsize="3.5" layer="199"/>
+<dimension x1="47.3075" y1="20.6375" x2="47.3075" y2="16.51" x3="36.5125" y3="18.57375" textsize="3.5" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="104.4575" y2="16.51" x3="103.505" y3="16.98625" textsize="3.5" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="43.18" y2="17.4625" x3="73.81875" y3="9.2075" textsize="3.5" layer="199"/>
+<dimension x1="104.4575" y1="17.4625" x2="183.1975" y2="17.4625" x3="143.8275" y3="11.1125" textsize="3.5" layer="199"/>
+<dimension x1="183.1975" y1="17.4625" x2="183.1975" y2="83.5025" x3="191.135" y3="50.4825" textsize="3.5" layer="199"/>
+<dimension x1="143.8275" y1="87.3125" x2="43.18" y2="87.3125" x3="93.50375" y3="93.6625" textsize="3.5" layer="199"/>
+<dimension x1="143.8275" y1="87.3125" x2="151.4475" y2="87.3125" x3="147.6375" y3="94.615" textsize="3.5" layer="199"/>
+<dimension x1="197.1675" y1="87.3125" x2="197.1675" y2="91.7575" x3="197.1675" y3="89.535" textsize="3.5" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="16.51" x3="90.805" y3="23.97125" textsize="3.5" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="43.18" y2="31.4325" x3="69.37375" y3="31.4325" textsize="3.5" layer="199"/>
+<dimension x1="95.5675" y1="31.4325" x2="95.5675" y2="40.3225" x3="111.76" y3="35.8775" textsize="3.5" layer="199"/>
 <text x="227.6475" y="47.3075" size="1.778" layer="26">+</text>
 <text x="227.0125" y="48.5775" size="1.778" layer="26" rot="MR0">AUX Power</text>
 <wire x1="232.7275" y1="46.99" x2="232.7275" y2="52.07" width="0.4064" layer="26"/>
@@ -3982,6 +3982,9 @@ Please make sure your boards conform to these design rules.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -4527,7 +4530,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C13" pad="1"/>
-<contactref element="IC2" pad="7"/>
 <contactref element="C14" pad="2"/>
 <via x="142.875" y="70.1675" extent="1-16" drill="0.381"/>
 <contactref element="C15" pad="2"/>
@@ -4542,13 +4544,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C21" pad="1"/>
 <contactref element="C22" pad="1"/>
 <contactref element="C23" pad="1"/>
-<contactref element="IC3" pad="7"/>
 <contactref element="C24" pad="2"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="5"/>
-<contactref element="IC1" pad="6"/>
-<contactref element="IC1" pad="3"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C25" pad="-"/>
 <contactref element="C26" pad="-"/>
