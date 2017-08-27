@@ -6019,10 +6019,10 @@ at 30/07/2012 14:34:29</description>
 <instance part="U$51" gate="G$1" x="177.8" y="60.96"/>
 <instance part="U$53" gate="G$1" x="185.42" y="60.96"/>
 <instance part="U$54" gate="G$1" x="193.04" y="60.96"/>
-<instance part="U6" gate="A" x="-215.9" y="-327.66"/>
-<instance part="U12" gate="A" x="-172.72" y="-327.66"/>
-<instance part="U13" gate="A" x="-215.9" y="-370.84"/>
-<instance part="U14" gate="A" x="-172.72" y="-370.84"/>
+<instance part="U6" gate="A" x="-228.6" y="-157.48"/>
+<instance part="U12" gate="A" x="-185.42" y="-157.48"/>
+<instance part="U13" gate="A" x="-228.6" y="-200.66"/>
+<instance part="U14" gate="A" x="-185.42" y="-200.66"/>
 <instance part="GND1" gate="1" x="271.78" y="71.12"/>
 <instance part="U$2" gate="G$1" x="226.06" y="-284.48"/>
 <instance part="U$3" gate="G$1" x="203.2" y="-294.64" rot="R90"/>
@@ -6033,10 +6033,10 @@ at 30/07/2012 14:34:29</description>
 <instance part="R8" gate="G$1" x="170.18" y="-269.24" rot="R270"/>
 <instance part="R22" gate="G$1" x="200.66" y="-269.24" rot="R270"/>
 <instance part="U$4" gate="G$1" x="200.66" y="-256.54"/>
-<instance part="U17" gate="A" x="-218.44" y="-424.18"/>
-<instance part="U18" gate="A" x="-175.26" y="-424.18"/>
-<instance part="U19" gate="A" x="-220.98" y="-482.6"/>
-<instance part="U20" gate="A" x="-175.26" y="-485.14"/>
+<instance part="U17" gate="A" x="-231.14" y="-254"/>
+<instance part="U18" gate="A" x="-187.96" y="-254"/>
+<instance part="U19" gate="A" x="-233.68" y="-312.42"/>
+<instance part="U20" gate="A" x="-187.96" y="-314.96"/>
 </instances>
 <busses>
 </busses>

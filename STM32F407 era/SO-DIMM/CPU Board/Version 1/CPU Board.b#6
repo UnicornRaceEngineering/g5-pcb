@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -5285,6 +5285,16 @@
 <rectangle x1="68.40855" y1="33.55975" x2="71.85786875" y2="33.577525" layer="112"/>
 <rectangle x1="72.12456875" y1="33.55975" x2="74.5959875" y2="33.577525" layer="112"/>
 <text x="77.27188125" y="30.012640625" size="1.016" layer="112" font="vector">SODIMM CPU V1</text>
+<hole x="52.3875" y="30.48" drill="2.5"/>
+<circle x="52.3875" y="30.48" radius="3.01625" width="0.3048" layer="39"/>
+<circle x="52.3875" y="30.48" radius="3.01625" width="0.3048" layer="40"/>
+<circle x="52.3875" y="30.48" radius="3.020421875" width="0.3048" layer="41"/>
+<circle x="52.3875" y="30.48" radius="3.020421875" width="0.3048" layer="42"/>
+<hole x="113.03" y="30.48" drill="2.5"/>
+<circle x="113.03" y="30.48" radius="3.01625" width="0.3048" layer="39"/>
+<circle x="113.03" y="30.48" radius="3.01625" width="0.3048" layer="40"/>
+<circle x="113.03" y="30.48" radius="3.020421875" width="0.3048" layer="41"/>
+<circle x="113.03" y="30.48" radius="3.020421875" width="0.3048" layer="42"/>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
@@ -6283,8 +6293,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="112.4585" y="11.33475" size="1.016" layer="25"/>
 <attribute name="VALUE" x="114.3635" y="11.71575" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="H1" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="52.3875" y="30.48"/>
-<element name="H2" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="113.03" y="30.48"/>
+<element name="H1" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="43.02125" y="31.115"/>
+<element name="H2" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="121.92" y="31.115"/>
 </elements>
 <signals>
 <signal name="N$2">

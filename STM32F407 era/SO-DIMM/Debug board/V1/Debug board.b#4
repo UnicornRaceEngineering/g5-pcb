@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -160,6 +160,11 @@
 <wire x1="91.26125" y1="-0.15875" x2="91.26125" y2="41.42125" width="0" layer="20"/>
 <wire x1="91.26125" y1="41.42125" x2="-0.15875" y2="41.58" width="0" layer="20"/>
 <wire x1="-0.15875" y1="41.58" x2="0" y2="0" width="0" layer="20"/>
+<text x="12.065" y="-32.22625" size="1.778" layer="41" font="vector" ratio="15">SCK</text>
+<text x="23.01875" y="-32.0675" size="1.778" layer="41" font="vector" ratio="15">MISO</text>
+<text x="35.08375" y="-31.90875" size="1.778" layer="41" font="vector" ratio="15">MOSI</text>
+<text x="50.95875" y="-31.90875" size="1.778" layer="41" font="vector" ratio="15">SDA</text>
+<text x="63.65875" y="-31.90875" size="1.778" layer="41" font="vector" ratio="15">SCL</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1037,6 +1042,38 @@ Covered vias can be set in Masks (Limit).
 <wire x1="18.415" y1="27.94" x2="18.415" y2="31.265" width="0.3048" layer="1"/>
 <wire x1="18.415" y1="31.265" x2="18.455" y2="31.305" width="0.3048" layer="1"/>
 <wire x1="15.52575" y1="27.6225" x2="18.0975" y2="27.6225" width="0.3048" layer="1"/>
+</signal>
+<signal name="NEG_SILK">
+<polygon width="0.0635" layer="1">
+<vertex x="11.1125" y="-33.17875"/>
+<vertex x="17.62125" y="-33.17875"/>
+<vertex x="17.62125" y="-29.5275"/>
+<vertex x="11.1125" y="-29.5275"/>
+</polygon>
+<polygon width="0.0635" layer="1">
+<vertex x="22.06625" y="-33.02"/>
+<vertex x="29.68625" y="-33.02"/>
+<vertex x="29.68625" y="-29.36875"/>
+<vertex x="22.06625" y="-29.36875"/>
+</polygon>
+<polygon width="0.0635" layer="1">
+<vertex x="34.13125" y="-32.86125"/>
+<vertex x="41.75125" y="-32.86125"/>
+<vertex x="41.75125" y="-29.21"/>
+<vertex x="34.13125" y="-29.21"/>
+</polygon>
+<polygon width="0.0635" layer="1">
+<vertex x="50.00625" y="-32.86125"/>
+<vertex x="56.515" y="-32.86125"/>
+<vertex x="56.515" y="-29.21"/>
+<vertex x="50.00625" y="-29.21"/>
+</polygon>
+<polygon width="0.0635" layer="1">
+<vertex x="62.70625" y="-32.86125"/>
+<vertex x="69.215" y="-32.86125"/>
+<vertex x="69.215" y="-29.21"/>
+<vertex x="62.70625" y="-29.21"/>
+</polygon>
 </signal>
 </signals>
 </board>

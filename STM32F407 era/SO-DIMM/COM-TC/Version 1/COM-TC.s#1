@@ -3519,10 +3519,8 @@ at 30/07/2012 11:22:31</description>
 <wire x1="15.29" y1="10.12" x2="15.29" y2="12.12" width="0.2032" layer="46"/>
 <text x="29.44" y="14.72" size="1.778" layer="21" rot="R180">DDR STD</text>
 <wire x1="29.54" y1="-6.38" x2="31.29" y2="-6.23" width="0.2032" layer="21" curve="141.355752"/>
-<pad name="P$1" x="-33.02" y="-16.1925" drill="4.4" diameter="8"/>
-<pad name="P$2" x="27.6225" y="-16.1925" drill="4.4" diameter="8"/>
-<circle x="-33.02" y="-16.1925" radius="3.81" width="0.127" layer="21"/>
-<circle x="27.6225" y="-16.1925" radius="3.81" width="0.127" layer="21"/>
+<pad name="P$1" x="-33.02" y="-16.1925" drill="3.75" diameter="7"/>
+<pad name="P$2" x="27.6225" y="-16.1925" drill="3.75" diameter="7"/>
 </package>
 <package name="SOP63P600X175-16N">
 <smd name="1" x="-2.4638" y="2.2352" dx="1.9812" dy="0.3556" layer="1"/>
