@@ -5914,6 +5914,7 @@ Standard A4 size frame in Landscape</description>
 </sheet>
 <sheet>
 <plain>
+<text x="181.61" y="16.51" size="3.048" layer="94" font="vector">Connectors, CAN, PSU and debounce</text>
 </plain>
 <instances>
 <instance part="U$28" gate="G$1" x="66.04" y="93.98"/>
@@ -6659,6 +6660,7 @@ Standard A4 size frame in Landscape</description>
 </sheet>
 <sheet>
 <plain>
+<text x="181.61" y="16.51" size="3.048" layer="94" font="vector">Connectors, CAN, PSU and debounce</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="127" y="58.42" rot="R180"/>

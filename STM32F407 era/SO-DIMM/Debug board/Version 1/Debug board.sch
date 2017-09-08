@@ -921,6 +921,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.795" y="2.62" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.69" y="3.415" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="BANANA_CONN">
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FTDI_DEVICE">
@@ -968,6 +972,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="9" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="5" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas"/>
+</symbol>
+<symbol name="BANANA_CONN">
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.27" layer="95">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1048,6 +1058,22 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <technology name="">
 <attribute name="PROD_ID" value="CONN-09904" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BANANA_CONN" prefix="J" uservalue="yes">
+<description>Through-hole banana jack</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1332,12 +1358,21 @@ distributor Farnell 149-452</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device=""/>
-<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
+<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="120"/>
 <part name="X2" library="con-coax" deviceset="BN35N61" device=""/>
 <part name="X3" library="con-coax" deviceset="BN35N61" device=""/>
 <part name="X4" library="con-coax" deviceset="BN35N61" device=""/>
 <part name="X5" library="con-coax" deviceset="BN35N61" device=""/>
 <part name="X6" library="con-coax" deviceset="BN35N61" device=""/>
+<part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="U$1" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$2" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="U$3" library="microbuilder" deviceset="12V" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1397,6 +1432,15 @@ distributor Farnell 149-452</description>
 <instance part="X4" gate="G$1" x="111.76" y="96.52" rot="MR0"/>
 <instance part="X5" gate="G$1" x="71.12" y="78.74" rot="MR0"/>
 <instance part="X6" gate="G$1" x="91.44" y="78.74" rot="MR0"/>
+<instance part="J2" gate="G$1" x="15.24" y="63.5"/>
+<instance part="J3" gate="G$1" x="15.24" y="58.42"/>
+<instance part="J5" gate="G$1" x="15.24" y="53.34"/>
+<instance part="J6" gate="G$1" x="15.24" y="48.26"/>
+<instance part="U$1" gate="G$1" x="10.16" y="68.58"/>
+<instance part="U$2" gate="G$1" x="5.08" y="68.58"/>
+<instance part="U$3" gate="G$1" x="0" y="68.58"/>
+<instance part="GND9" gate="1" x="10.16" y="40.64"/>
+<instance part="J7" gate="G$1" x="15.24" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -1430,6 +1474,16 @@ distributor Farnell 149-452</description>
 <wire x1="53.34" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="12.7" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="48.26" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="45.72" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
+<junction x="10.16" y="45.72"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -1437,6 +1491,12 @@ distributor Farnell 149-452</description>
 <pinref part="U$75" gate="G$1" pin="3.3V"/>
 <wire x1="7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="99.06" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="12.7" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="63.5" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -1446,8 +1506,14 @@ distributor Farnell 149-452</description>
 <wire x1="-22.86" y1="96.52" x2="-30.48" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="96.52" x2="-30.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="12V"/>
+<wire x1="12.7" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="0" y1="53.34" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="CANH" class="0">
+<net name="CAN_P" class="0">
 <segment>
 <pinref part="X1" gate="-7" pin="S"/>
 <wire x1="-25.4" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
@@ -1464,7 +1530,7 @@ distributor Farnell 149-452</description>
 <label x="45.72" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CANL" class="0">
+<net name="CAN_N" class="0">
 <segment>
 <pinref part="X1" gate="-8" pin="S"/>
 <wire x1="2.54" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
@@ -1487,6 +1553,12 @@ distributor Farnell 149-452</description>
 <pinref part="U$76" gate="G$1" pin="5.0V"/>
 <wire x1="-22.86" y1="99.06" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="99.06" x2="-25.4" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="5.0V"/>
+<wire x1="12.7" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">

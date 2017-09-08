@@ -1730,7 +1730,7 @@
 <rectangle x1="46.3296" y1="24.9809" x2="48.895" y2="25.0063" layer="22" rot="R180"/>
 <rectangle x1="49.1998" y1="25.0063" x2="52.5272" y2="25.0317" layer="22" rot="R180"/>
 <rectangle x1="46.5836" y1="25.0063" x2="48.895" y2="25.0317" layer="22" rot="R180"/>
-<text x="44.7802" y="21.9075" size="1.27" layer="22" font="vector" ratio="10" rot="MR0">Dashboard
+<text x="44.62145" y="21.43125" size="1.27" layer="22" font="vector" ratio="10" rot="MR0">Dashboard
 Version 3</text>
 <dimension x1="43.18" y1="16.51" x2="43.18" y2="91.59" x3="38.4175" y3="54.05" textsize="3.5" layer="199"/>
 <dimension x1="43.18" y1="91.59" x2="243.18" y2="91.59" x3="143.18" y3="109.22" textsize="3.5" layer="199"/>

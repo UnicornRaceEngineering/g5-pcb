@@ -5024,7 +5024,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <part name="U$72" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device=""/>
-<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
+<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="120"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="International_Rectifier_By_element14_Batch_1" deviceset="IRF9332PBF" device=""/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
