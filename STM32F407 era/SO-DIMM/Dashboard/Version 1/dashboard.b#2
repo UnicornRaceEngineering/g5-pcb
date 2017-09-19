@@ -6639,13 +6639,13 @@ Covered vias can be set in Masks (Limit).
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.4064" layer="1">
+<polygon width="0.254" layer="1">
 <vertex x="0" y="0"/>
 <vertex x="94.2975" y="0"/>
 <vertex x="94.2975" y="70.64375"/>
 <vertex x="0" y="70.64375"/>
 </polygon>
-<polygon width="0.4064" layer="16">
+<polygon width="0.254" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="94.2975" y="0"/>
 <vertex x="94.2975" y="70.64375"/>

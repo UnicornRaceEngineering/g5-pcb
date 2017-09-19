@@ -1893,7 +1893,7 @@ Covered vias can be set in Masks (Limit).
 <element name="JTAG1" library="microbuilder" package="JTAG-ARM" value="JTAG-ARM" x="16.66875" y="95.40875" rot="R180"/>
 <element name="PTC2" library="microbuilder" package="PTC1812" value="" x="-110.49" y="134.62"/>
 <element name="R22" library="microbuilder" package="_0603" value="4k7" x="2.38125" y="27.14625" rot="MR180"/>
-<element name="R26" library="microbuilder" package="_0603" value="60" x="-99.06" y="149.86"/>
+<element name="R26" library="microbuilder" package="_0603" value="120" x="-99.06" y="149.86"/>
 <element name="R27" library="microbuilder" package="_0805" value="10k 0W5" x="-25.4" y="144.78"/>
 <element name="R28" library="microbuilder" package="_0603" value="1k" x="-102.87" y="149.86"/>
 <element name="R29" library="microbuilder" package="_0805" value="10k 0W5" x="-30.48" y="144.78"/>
