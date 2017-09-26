@@ -4835,6 +4835,7 @@ Standard A4 size frame in Landscape</description>
 <wire x1="154.94" y1="91.44" x2="154.94" y2="22.86" width="0.3048" layer="97"/>
 <wire x1="154.94" y1="91.44" x2="182.88" y2="91.44" width="0.3048" layer="97"/>
 <wire x1="182.88" y1="91.44" x2="187.96" y2="96.52" width="0.3048" layer="97"/>
+<text x="181.61" y="16.51" size="3.048" layer="94" font="vector">Connectors, CAN, PSU and debounce</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="195.58" y="109.22"/>

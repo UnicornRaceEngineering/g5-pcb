@@ -4856,7 +4856,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R13" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="J1" library="con-molex" deviceset="22-?-03" device="27-2031"/>
@@ -4973,7 +4972,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="R13" gate="G$1" x="-157.48" y="0" rot="R270"/>
 <instance part="U$8" gate="G$1" x="-157.48" y="7.62"/>
 <instance part="H1" gate="G$1" x="-86.36" y="154.94"/>
-<instance part="H2" gate="G$1" x="-86.36" y="147.32"/>
 <instance part="H3" gate="G$1" x="-86.36" y="139.7"/>
 <instance part="H4" gate="G$1" x="-86.36" y="132.08"/>
 <instance part="J1" gate="-1" x="-121.92" y="96.52" rot="MR0"/>

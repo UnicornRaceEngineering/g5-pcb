@@ -6969,6 +6969,27 @@ Standard A4 size frame in Landscape</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,20.32,66.04,U1G$1,VBAT,N$6,,,"/>
+<approved hash="104,1,20.32,25.4,U1G$1,VSSA,GND,,,"/>
+<approved hash="104,1,20.32,48.26,U1G$1,VDDA,3.3V,,,"/>
+<approved hash="104,1,20.32,63.5,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,60.96,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,58.42,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,35.56,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,55.88,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,33.02,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,53.34,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,30.48,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,50.8,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,27.94,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,40.64,71.12,BAT1,-,GND,,,"/>
+<approved hash="104,1,30.48,71.12,BAT1,+,N$6,,,"/>
+<approved hash="104,1,109.22,165.1,U2,VDD,3.3V,,,"/>
+<approved hash="113,1,14.7955,42.9895,U1,,,,,"/>
+<approved hash="113,1,139.7,60.2319,PTC1,,,,,"/>
+<approved hash="113,1,216.616,106.926,SODIMM1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

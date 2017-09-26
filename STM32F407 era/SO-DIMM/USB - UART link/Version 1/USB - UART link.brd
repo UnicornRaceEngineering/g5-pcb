@@ -3885,18 +3885,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="46.031309375" y1="12.957921875" x2="38.2772375" y2="5.20385" width="0.15" layer="1"/>
 <wire x1="46.031309375" y1="12.957921875" x2="46.1875" y2="13.335" width="0.15" layer="1" curve="45"/>
 </signal>
-<signal name="PWR_COM_EN">
-<contactref element="U1" pad="9"/>
-</signal>
-<signal name="PWR_ECU_EN">
-<contactref element="U1" pad="13"/>
-</signal>
-<signal name="PWR_COM_OC">
-<contactref element="U1" pad="10"/>
-</signal>
-<signal name="PWR_ECU_OC">
-<contactref element="U1" pad="14"/>
-</signal>
 <signal name="N$5">
 <contactref element="U1" pad="27"/>
 <contactref element="R7" pad="1"/>

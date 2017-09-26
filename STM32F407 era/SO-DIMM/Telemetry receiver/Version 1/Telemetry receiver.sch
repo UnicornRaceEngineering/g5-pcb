@@ -5589,6 +5589,21 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,114.3,223.52,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,114.3,172.72,XB1,VREF,,,,"/>
+<approved hash="104,1,-45.72,190.5,CN1,VBUS,N$1,,,"/>
+<approved hash="106,1,17.78,213.36,MISO,,,,,"/>
+<approved hash="106,1,17.78,215.9,MOSI,,,,,"/>
+<approved hash="106,1,17.78,218.44,SCK,,,,,"/>
+<approved hash="113,1,54.61,101.278,LED3,,,,,"/>
+<approved hash="113,1,54.61,93.6583,LED5,,,,,"/>
+<approved hash="113,1,20.32,118.576,U2,,,,,"/>
+<approved hash="113,1,107.95,189.006,LED2,,,,,"/>
+<approved hash="113,1,-53.975,186.711,CN1,,,,,"/>
+<approved hash="113,1,-35.56,192.312,PTC2,,,,,"/>
+<approved hash="113,1,107.95,214.854,LED1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

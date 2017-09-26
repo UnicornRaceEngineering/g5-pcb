@@ -1947,6 +1947,15 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,60.96,115.728,J1,,,,,"/>
+<approved hash="113,1,87.63,114.842,SW1,,,,,"/>
+<approved hash="113,1,84.0994,163.356,J2,,,,,"/>
+<approved hash="113,1,84.0994,158.276,J3,,,,,"/>
+<approved hash="113,1,84.0994,153.196,J5,,,,,"/>
+<approved hash="113,1,84.0994,148.116,J6,,,,,"/>
+<approved hash="113,1,84.0994,145.576,J7,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

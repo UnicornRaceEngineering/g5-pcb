@@ -3093,6 +3093,8 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,1,09f9e1499d2271c5"/>
 <approved hash="4,1,f5397b9f85c6351a"/>
 <approved hash="4,1,dc214a87b4ae1c02"/>
+<approved hash="4,1,6dc8ddc2c3e8edd1"/>
+<approved hash="4,1,46e096da88e0c6c9"/>
 </errors>
 </board>
 </drawing>
