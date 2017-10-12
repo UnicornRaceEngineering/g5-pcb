@@ -9951,6 +9951,11 @@ distributor Farnell 149-452</description>
 <wire x1="-137.16" y1="-297.18" x2="-134.62" y2="-297.18" width="0.1524" layer="91"/>
 <label x="-137.16" y="-297.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="P1/TX"/>
+<wire x1="-121.92" y1="-182.88" x2="-119.38" y2="-182.88" width="0.1524" layer="91"/>
+<label x="-121.92" y="-182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TELE_RX" class="0">
 <segment>
@@ -9962,6 +9967,11 @@ distributor Farnell 149-452</description>
 <pinref part="XB1" gate="G$1" pin="DOUT"/>
 <wire x1="-137.16" y1="-299.72" x2="-134.62" y2="-299.72" width="0.1524" layer="91"/>
 <label x="-137.16" y="-299.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="P0/RX"/>
+<wire x1="-121.92" y1="-180.34" x2="-119.38" y2="-180.34" width="0.1524" layer="91"/>
+<label x="-121.92" y="-180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10862,18 +10872,6 @@ distributor Farnell 149-452</description>
 <pinref part="J3" gate="G$3" pin="PD15"/>
 <wire x1="256.54" y1="-139.7" x2="254" y2="-139.7" width="0.1524" layer="91"/>
 <label x="256.54" y="-139.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="P0/RX"/>
-<wire x1="-121.92" y1="-180.34" x2="-119.38" y2="-180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="P1/TX"/>
-<wire x1="-121.92" y1="-182.88" x2="-119.38" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTS" class="0">

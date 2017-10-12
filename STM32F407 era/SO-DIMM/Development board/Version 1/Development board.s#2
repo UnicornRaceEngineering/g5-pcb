@@ -10881,9 +10881,9 @@ distributor Farnell 149-452</description>
 <label x="-137.16" y="-312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$4" pin="PD3"/>
-<wire x1="256.54" y1="-99.06" x2="254" y2="-99.06" width="0.1524" layer="91"/>
-<label x="256.54" y="-99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$4" pin="PD4"/>
+<wire x1="256.54" y1="-96.52" x2="254" y2="-96.52" width="0.1524" layer="91"/>
+<label x="256.54" y="-96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CTS" class="0">
@@ -10893,9 +10893,9 @@ distributor Farnell 149-452</description>
 <label x="-137.16" y="-309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$4" pin="PD4"/>
-<wire x1="256.54" y1="-96.52" x2="254" y2="-96.52" width="0.1524" layer="91"/>
-<label x="256.54" y="-96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$4" pin="PD3"/>
+<wire x1="256.54" y1="-99.06" x2="254" y2="-99.06" width="0.1524" layer="91"/>
+<label x="256.54" y="-99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">

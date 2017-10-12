@@ -976,10 +976,10 @@ Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
 <wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.3048" layer="21"/>
 <wire x1="64.516" y1="53.34" x2="0" y2="53.34" width="0.3048" layer="21"/>
 <wire x1="0" y1="53.34" x2="0" y2="0" width="0.3048" layer="21"/>
-<circle x="15.24" y="50.8" radius="1.796" width="0.2032" layer="51"/>
-<circle x="13.97" y="2.54" radius="1.796" width="0.2032" layer="51"/>
-<circle x="66.04" y="35.56" radius="1.796" width="0.2032" layer="51"/>
-<circle x="66.04" y="7.62" radius="1.796" width="0.2032" layer="51"/>
+<circle x="15.24" y="50.8" radius="1.796" width="0.2032" layer="37"/>
+<circle x="13.97" y="2.54" radius="1.796" width="0.2032" layer="37"/>
+<circle x="66.04" y="35.56" radius="1.796" width="0.2032" layer="37"/>
+<circle x="66.04" y="7.62" radius="1.796" width="0.2032" layer="37"/>
 <pad name="D4" x="53.34" y="50.8" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="A0" x="50.8" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="D3" x="55.88" y="50.8" drill="1" diameter="1.6764" shape="octagon"/>
@@ -1024,26 +1024,26 @@ Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
 <text x="58.039" y="3.81" size="1.016" layer="21" font="vector">3</text>
 <text x="60.579" y="3.81" size="1.016" layer="21" font="vector">4</text>
 <text x="63.119" y="3.81" size="1.016" layer="21" font="vector">5</text>
-<text x="23.368" y="49.911" size="1.016" layer="21" font="vector" rot="R270">ARef</text>
-<text x="25.908" y="49.784" size="1.016" layer="21" font="vector" rot="R270">gnd</text>
-<text x="30.099" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
-<text x="32.639" y="49.53" size="1.016" layer="21" font="vector" rot="R180">12</text>
-<text x="35.179" y="49.53" size="1.016" layer="21" font="vector" rot="R180">11</text>
-<text x="37.719" y="49.53" size="1.016" layer="21" font="vector" rot="R180">10</text>
-<text x="39.751" y="49.53" size="1.016" layer="21" font="vector" rot="R180">9</text>
-<text x="42.291" y="49.53" size="1.016" layer="21" font="vector" rot="R180">8</text>
-<text x="46.355" y="49.53" size="1.016" layer="21" font="vector" rot="R180">7</text>
-<text x="48.895" y="49.53" size="1.016" layer="21" font="vector" rot="R180">6</text>
-<text x="51.435" y="49.53" size="1.016" layer="21" font="vector" rot="R180">5</text>
-<text x="53.975" y="49.53" size="1.016" layer="21" font="vector" rot="R180">4</text>
-<text x="56.515" y="49.53" size="1.016" layer="21" font="vector" rot="R180">3</text>
-<text x="59.055" y="49.53" size="1.016" layer="21" font="vector" rot="R180">2</text>
-<text x="61.595" y="49.53" size="1.016" layer="21" font="vector" rot="R180">1</text>
-<text x="64.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
-<text x="31.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
-<text x="50.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
-<text x="18.288" y="49.911" size="1.016" layer="21" font="vector" rot="R270">SCL</text>
-<text x="20.828" y="49.911" size="1.016" layer="21" font="vector" rot="R270">SDA</text>
+<text x="23.368" y="49.911" size="1.016" layer="37" font="vector" rot="R270">ARef</text>
+<text x="25.908" y="49.784" size="1.016" layer="37" font="vector" rot="R270">gnd</text>
+<text x="30.099" y="49.53" size="1.016" layer="37" font="vector" rot="R180">13</text>
+<text x="32.639" y="49.53" size="1.016" layer="37" font="vector" rot="R180">12</text>
+<text x="35.179" y="49.53" size="1.016" layer="37" font="vector" rot="R180">11</text>
+<text x="37.719" y="49.53" size="1.016" layer="37" font="vector" rot="R180">10</text>
+<text x="39.751" y="49.53" size="1.016" layer="37" font="vector" rot="R180">9</text>
+<text x="42.291" y="49.53" size="1.016" layer="37" font="vector" rot="R180">8</text>
+<text x="46.355" y="49.53" size="1.016" layer="37" font="vector" rot="R180">7</text>
+<text x="48.895" y="49.53" size="1.016" layer="37" font="vector" rot="R180">6</text>
+<text x="51.435" y="49.53" size="1.016" layer="37" font="vector" rot="R180">5</text>
+<text x="53.975" y="49.53" size="1.016" layer="37" font="vector" rot="R180">4</text>
+<text x="56.515" y="49.53" size="1.016" layer="37" font="vector" rot="R180">3</text>
+<text x="59.055" y="49.53" size="1.016" layer="37" font="vector" rot="R180">2</text>
+<text x="61.595" y="49.53" size="1.016" layer="37" font="vector" rot="R180">1</text>
+<text x="64.135" y="49.53" size="1.016" layer="37" font="vector" rot="R180">0</text>
+<text x="31.623" y="52.07" size="1.016" layer="37" font="vector">Digital I/O</text>
+<text x="50.927" y="52.07" size="1.016" layer="37" font="vector">Digital I/O</text>
+<text x="18.288" y="49.911" size="1.016" layer="37" font="vector" rot="R270">SCL</text>
+<text x="20.828" y="49.911" size="1.016" layer="37" font="vector" rot="R270">SDA</text>
 <text x="30.988" y="3.7999" size="1.016" layer="21" font="vector" rot="R90">IOr</text>
 </package>
 <package name="ARDUINOR3-BPLACE">
@@ -8781,8 +8781,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="J3" library="AAU-Racing" deviceset="SO-DIMM-CPU" device=""/>
 <part name="U$6" library="microbuilder" deviceset="3.3V" device=""/>
@@ -9006,8 +9004,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="H1" gate="G$1" x="353.06" y="-198.12"/>
 <instance part="H2" gate="G$1" x="353.06" y="-205.74"/>
 <instance part="H3" gate="G$1" x="353.06" y="-213.36"/>
-<instance part="H4" gate="G$1" x="353.06" y="-220.98"/>
-<instance part="H5" gate="G$1" x="353.06" y="-228.6"/>
 <instance part="H6" gate="G$1" x="353.06" y="-236.22"/>
 <instance part="J3" gate="G$1" x="86.36" y="-157.48"/>
 <instance part="J3" gate="G$2" x="246.38" y="-203.2" rot="R180"/>

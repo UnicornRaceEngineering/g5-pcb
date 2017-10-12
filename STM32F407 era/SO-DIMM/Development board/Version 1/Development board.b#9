@@ -21591,12 +21591,16 @@ Covered vias can be set in Masks (Limit).
 <signal name="TELE_TX">
 <contactref element="J3" pad="103"/>
 <contactref element="XB1" pad="3"/>
-<wire x1="38.0725" y1="37.745" x2="149.4625" y2="42.59125" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="41"/>
+<wire x1="119.38" y1="23.97125" x2="149.4625" y2="42.59125" width="0" layer="19" extent="1-1"/>
+<wire x1="38.0725" y1="37.745" x2="119.38" y2="23.97125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TELE_RX">
 <contactref element="J3" pad="105"/>
 <contactref element="XB1" pad="2"/>
-<wire x1="38.0725" y1="38.345" x2="151.4625" y2="42.59125" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="40"/>
+<wire x1="116.84" y1="23.97125" x2="151.4625" y2="42.59125" width="0" layer="19" extent="1-1"/>
+<wire x1="38.0725" y1="38.345" x2="116.84" y2="23.97125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -22620,12 +22624,6 @@ Covered vias can be set in Masks (Limit).
 <via x="41.5925" y="25.7175" extent="1-16" drill="0.3302"/>
 <wire x1="41.5925" y1="25.7175" x2="41.5925" y2="51.02225" width="0.3048" layer="16"/>
 <wire x1="41.5925" y1="51.02225" x2="42.8625" y2="52.29225" width="0.3048" layer="16"/>
-</signal>
-<signal name="N$12">
-<contactref element="U4" pad="40"/>
-</signal>
-<signal name="N$15">
-<contactref element="U4" pad="41"/>
 </signal>
 <signal name="RTS">
 <contactref element="XB1" pad="16"/>
