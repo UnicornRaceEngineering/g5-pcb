@@ -3796,15 +3796,15 @@ at 30/07/2012 11:22:31</description>
 <text x="-7.62" y="-22.86" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="SO-DIMM-CPU-IO-BANK-1">
-<pin name="PA3" x="-7.62" y="22.86" length="short"/>
-<pin name="PA4" x="-7.62" y="20.32" length="short"/>
-<pin name="PA5" x="-7.62" y="17.78" length="short"/>
-<pin name="PA6" x="-7.62" y="15.24" length="short"/>
-<pin name="PA7" x="-7.62" y="12.7" length="short"/>
-<pin name="PC4" x="-7.62" y="10.16" length="short"/>
-<pin name="PC5" x="-7.62" y="7.62" length="short"/>
-<pin name="PB0" x="-7.62" y="5.08" length="short"/>
-<pin name="PB1" x="-7.62" y="2.54" length="short"/>
+<pin name="PA3/AN3" x="-7.62" y="22.86" length="short"/>
+<pin name="PA4/AN4" x="-7.62" y="20.32" length="short"/>
+<pin name="PA5/AN5" x="-7.62" y="17.78" length="short"/>
+<pin name="PA6/AN6" x="-7.62" y="15.24" length="short"/>
+<pin name="PA7/AN7" x="-7.62" y="12.7" length="short"/>
+<pin name="PC4/AN15" x="-7.62" y="10.16" length="short"/>
+<pin name="PC5/AN15" x="-7.62" y="7.62" length="short"/>
+<pin name="PB0/AN8" x="-7.62" y="5.08" length="short"/>
+<pin name="PB1/AN9" x="-7.62" y="2.54" length="short"/>
 <pin name="PE7" x="-7.62" y="0" length="short"/>
 <pin name="PE8" x="-7.62" y="-2.54" length="short"/>
 <pin name="PE9" x="-7.62" y="-5.08" length="short"/>
@@ -3816,7 +3816,7 @@ at 30/07/2012 11:22:31</description>
 <pin name="PE15" x="-7.62" y="-20.32" length="short"/>
 <pin name="PB10" x="-7.62" y="-22.86" length="short"/>
 <pin name="PB11" x="-7.62" y="-25.4" length="short"/>
-<text x="3.81" y="-1.27" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 1</text>
+<text x="3.81" y="-3.81" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 1</text>
 <wire x1="-5.08" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
@@ -3824,7 +3824,7 @@ at 30/07/2012 11:22:31</description>
 <text x="-5.08" y="27.94" size="1.27" layer="94" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-30.48" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
-<symbol name="SO-DIMM-IO-BANK-2">
+<symbol name="SO-DIMM-CPU-IO-BANK-2">
 <pin name="PB12" x="-7.62" y="20.32" length="short"/>
 <pin name="PB13" x="-7.62" y="17.78" length="short"/>
 <pin name="PB14" x="-7.62" y="15.24" length="short"/>
@@ -3886,14 +3886,14 @@ at 30/07/2012 11:22:31</description>
 <pin name="PE5" x="-7.62" y="7.62" length="short"/>
 <pin name="PE6" x="-7.62" y="5.08" length="short"/>
 <pin name="PC13" x="-7.62" y="2.54" length="short"/>
-<pin name="PC0" x="-7.62" y="0" length="short"/>
-<pin name="PC1" x="-7.62" y="-2.54" length="short"/>
-<pin name="PC2" x="-7.62" y="-5.08" length="short"/>
-<pin name="PC3" x="-7.62" y="-7.62" length="short"/>
-<pin name="PA0" x="-7.62" y="-10.16" length="short"/>
-<pin name="PA1" x="-7.62" y="-12.7" length="short"/>
-<pin name="PA2" x="-7.62" y="-15.24" length="short"/>
-<text x="3.81" y="0" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 4</text>
+<pin name="PC0/AN10" x="-7.62" y="0" length="short"/>
+<pin name="PC1/AN11" x="-7.62" y="-2.54" length="short"/>
+<pin name="PC2/AN12" x="-7.62" y="-5.08" length="short"/>
+<pin name="PC3/AN13" x="-7.62" y="-7.62" length="short"/>
+<pin name="PA0/AN0" x="-7.62" y="-10.16" length="short"/>
+<pin name="PA1/AN1" x="-7.62" y="-12.7" length="short"/>
+<pin name="PA2/AN2" x="-7.62" y="-15.24" length="short"/>
+<text x="3.81" y="7.62" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 4</text>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
@@ -4039,7 +4039,7 @@ at 30/07/2012 11:22:31</description>
 <gates>
 <gate name="G$1" symbol="SO-DIMM-CPU-USB-JTAG-POWER" x="0" y="0"/>
 <gate name="G$2" symbol="SO-DIMM-CPU-IO-BANK-1" x="20.32" y="-5.08"/>
-<gate name="G$3" symbol="SO-DIMM-IO-BANK-2" x="40.64" y="-2.54"/>
+<gate name="G$3" symbol="SO-DIMM-CPU-IO-BANK-2" x="40.64" y="-2.54"/>
 <gate name="G$4" symbol="SO-DIMM-CPU-IO-BANK-3" x="60.96" y="-5.08"/>
 <gate name="G$5" symbol="SO-DIMM-CPU-IO-BANK-4" x="81.28" y="2.54"/>
 </gates>
@@ -4056,17 +4056,17 @@ at 30/07/2012 11:22:31</description>
 <connect gate="G$1" pin="TDO" pad="88"/>
 <connect gate="G$1" pin="TMS" pad="82"/>
 <connect gate="G$1" pin="VCC" pad="197 199"/>
-<connect gate="G$2" pin="PA3" pad="1"/>
-<connect gate="G$2" pin="PA4" pad="3"/>
-<connect gate="G$2" pin="PA5" pad="5"/>
-<connect gate="G$2" pin="PA6" pad="7"/>
-<connect gate="G$2" pin="PA7" pad="9"/>
-<connect gate="G$2" pin="PB0" pad="15"/>
-<connect gate="G$2" pin="PB1" pad="17"/>
+<connect gate="G$2" pin="PA3/AN3" pad="1"/>
+<connect gate="G$2" pin="PA4/AN4" pad="3"/>
+<connect gate="G$2" pin="PA5/AN5" pad="5"/>
+<connect gate="G$2" pin="PA6/AN6" pad="7"/>
+<connect gate="G$2" pin="PA7/AN7" pad="9"/>
+<connect gate="G$2" pin="PB0/AN8" pad="15"/>
+<connect gate="G$2" pin="PB1/AN9" pad="17"/>
 <connect gate="G$2" pin="PB10" pad="37"/>
 <connect gate="G$2" pin="PB11" pad="39"/>
-<connect gate="G$2" pin="PC4" pad="11"/>
-<connect gate="G$2" pin="PC5" pad="13"/>
+<connect gate="G$2" pin="PC4/AN15" pad="11"/>
+<connect gate="G$2" pin="PC5/AN15" pad="13"/>
 <connect gate="G$2" pin="PE10" pad="25"/>
 <connect gate="G$2" pin="PE11" pad="27"/>
 <connect gate="G$2" pin="PE12" pad="29"/>
@@ -4113,14 +4113,14 @@ at 30/07/2012 11:22:31</description>
 <connect gate="G$4" pin="PD7" pad="107"/>
 <connect gate="G$4" pin="PE0" pad="121"/>
 <connect gate="G$4" pin="PE1" pad="123"/>
-<connect gate="G$5" pin="PA0" pad="153"/>
-<connect gate="G$5" pin="PA1" pad="155"/>
-<connect gate="G$5" pin="PA2" pad="157"/>
-<connect gate="G$5" pin="PC0" pad="145"/>
-<connect gate="G$5" pin="PC1" pad="147"/>
+<connect gate="G$5" pin="PA0/AN0" pad="153"/>
+<connect gate="G$5" pin="PA1/AN1" pad="155"/>
+<connect gate="G$5" pin="PA2/AN2" pad="157"/>
+<connect gate="G$5" pin="PC0/AN10" pad="145"/>
+<connect gate="G$5" pin="PC1/AN11" pad="147"/>
 <connect gate="G$5" pin="PC13" pad="143"/>
-<connect gate="G$5" pin="PC2" pad="149"/>
-<connect gate="G$5" pin="PC3" pad="151"/>
+<connect gate="G$5" pin="PC2/AN12" pad="149"/>
+<connect gate="G$5" pin="PC3/AN13" pad="151"/>
 <connect gate="G$5" pin="PE2" pad="133"/>
 <connect gate="G$5" pin="PE3" pad="135"/>
 <connect gate="G$5" pin="PE4" pad="137"/>
@@ -5883,10 +5883,10 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <part name="U4" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="3,3V"/>
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="U$18" library="microbuilder" deviceset="12V" device=""/>
-<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
+<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="10u"/>
+<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="10u"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="U$19" library="microbuilder" deviceset="5.0V" device=""/>
@@ -6323,7 +6323,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <instance part="U$4" gate="G$1" x="200.66" y="-256.54"/>
 <instance part="U$1" gate="G$1" x="91.44" y="-396.24"/>
 <instance part="Q4" gate="G$1" x="109.22" y="-383.54"/>
-<instance part="C6" gate="G$1" x="76.2" y="-391.16" rot="MR0"/>
+<instance part="C6" gate="G$1" x="73.66" y="-388.62" rot="MR0"/>
 <instance part="GND3" gate="1" x="91.44" y="-411.48"/>
 <instance part="D4" gate="G$1" x="116.84" y="-375.92"/>
 <instance part="C13" gate="G$1" x="83.82" y="-378.46" rot="MR90"/>
@@ -6878,12 +6878,12 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="-403.86" x2="91.44" y2="-406.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-406.4" x2="76.2" y2="-406.4" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-406.4" x2="76.2" y2="-396.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-406.4" x2="73.66" y2="-406.4" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-406.4" x2="73.66" y2="-396.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
-<wire x1="76.2" y1="-396.24" x2="78.74" y2="-396.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-393.7" x2="76.2" y2="-396.24" width="0.1524" layer="91"/>
-<junction x="76.2" y="-396.24"/>
+<wire x1="73.66" y1="-396.24" x2="78.74" y2="-396.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-391.16" x2="73.66" y2="-396.24" width="0.1524" layer="91"/>
+<junction x="73.66" y="-396.24"/>
 <pinref part="C6" gate="G$1" pin="P$2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="91.44" y1="-408.94" x2="91.44" y2="-406.4" width="0.1524" layer="91"/>
@@ -7679,7 +7679,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="101.6" y1="-172.72" x2="101.6" y2="-170.18" width="0.1524" layer="91"/>
 <label x="101.6" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PA2"/>
+<pinref part="J3" gate="G$5" pin="PA2/AN2"/>
 </segment>
 </net>
 <net name="YAWB" class="0">
@@ -7696,7 +7696,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="104.14" y1="-172.72" x2="104.14" y2="-170.18" width="0.1524" layer="91"/>
 <label x="104.14" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PA1"/>
+<pinref part="J3" gate="G$5" pin="PA1/AN1"/>
 </segment>
 </net>
 <net name="IGNCUTO" class="0">
@@ -7743,7 +7743,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="218.44" y="-226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PC5"/>
+<pinref part="J3" gate="G$2" pin="PC5/AN15"/>
 <wire x1="284.48" y1="-170.18" x2="284.48" y2="-172.72" width="0.1524" layer="91"/>
 <label x="284.48" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8138,7 +8138,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="109.22" y1="-170.18" x2="109.22" y2="-172.72" width="0.1524" layer="91"/>
 <label x="109.22" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PC3"/>
+<pinref part="J3" gate="G$5" pin="PC3/AN13"/>
 </segment>
 </net>
 <net name="TRAVEL3B" class="0">
@@ -8155,7 +8155,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="116.84" y1="-170.18" x2="116.84" y2="-172.72" width="0.1524" layer="91"/>
 <label x="116.84" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PC0"/>
+<pinref part="J3" gate="G$5" pin="PC0/AN10"/>
 </segment>
 </net>
 <net name="TRAVEL2B" class="0">
@@ -8172,7 +8172,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="111.76" y1="-170.18" x2="111.76" y2="-172.72" width="0.1524" layer="91"/>
 <label x="111.76" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PC2"/>
+<pinref part="J3" gate="G$5" pin="PC2/AN12"/>
 </segment>
 </net>
 <net name="TRAVEL4B" class="0">
@@ -8189,7 +8189,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="114.3" y1="-170.18" x2="114.3" y2="-172.72" width="0.1524" layer="91"/>
 <label x="114.3" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PC1"/>
+<pinref part="J3" gate="G$5" pin="PC1/AN11"/>
 </segment>
 </net>
 <net name="SPEEDB" class="0">
@@ -8204,7 +8204,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="218.44" y="-210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PB0"/>
+<pinref part="J3" gate="G$2" pin="PB0/AN8"/>
 <wire x1="281.94" y1="-170.18" x2="281.94" y2="-172.72" width="0.1524" layer="91"/>
 <label x="281.94" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8250,7 +8250,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <pinref part="U13" gate="A" pin="VINA-"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PA6"/>
+<pinref part="J3" gate="G$2" pin="PA6/AN6"/>
 <wire x1="292.1" y1="-170.18" x2="292.1" y2="-172.72" width="0.1524" layer="91"/>
 <label x="292.1" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8284,7 +8284,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <pinref part="U13" gate="A" pin="VINB-"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PA7"/>
+<pinref part="J3" gate="G$2" pin="PA7/AN7"/>
 <wire x1="289.56" y1="-170.18" x2="289.56" y2="-172.72" width="0.1524" layer="91"/>
 <label x="289.56" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8318,7 +8318,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="218.44" y="-220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PC4"/>
+<pinref part="J3" gate="G$2" pin="PC4/AN15"/>
 <wire x1="287.02" y1="-170.18" x2="287.02" y2="-172.72" width="0.1524" layer="91"/>
 <label x="287.02" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8352,7 +8352,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="218.44" y="-215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PB1"/>
+<pinref part="J3" gate="G$2" pin="PB1/AN9"/>
 <wire x1="279.4" y1="-170.18" x2="279.4" y2="-172.72" width="0.1524" layer="91"/>
 <label x="279.4" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8383,7 +8383,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <segment>
 <wire x1="106.68" y1="-170.18" x2="106.68" y2="-172.72" width="0.1524" layer="91"/>
 <label x="106.68" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$5" pin="PA0"/>
+<pinref part="J3" gate="G$5" pin="PA0/AN0"/>
 </segment>
 </net>
 <net name="RPM3GIN" class="0">
@@ -9167,6 +9167,9 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <pinref part="U$1" gate="G$1" pin="REF"/>
 <pinref part="C6" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="-386.08" x2="76.2" y2="-386.08" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-386.08" x2="76.2" y2="-381" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-381" x2="73.66" y2="-381" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-381" x2="73.66" y2="-383.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -9228,8 +9231,13 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <net name="UPS_EN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SHDN"/>
-<wire x1="73.66" y1="-393.7" x2="78.74" y2="-393.7" width="0.1524" layer="91"/>
-<label x="73.66" y="-393.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="-393.7" x2="78.74" y2="-393.7" width="0.1524" layer="91"/>
+<label x="71.12" y="-393.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$2" pin="PE14"/>
+<wire x1="259.08" y1="-172.72" x2="259.08" y2="-170.18" width="0.1524" layer="91"/>
+<label x="259.08" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SUPERCAP" class="0">
@@ -9372,7 +9380,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <pinref part="U13" gate="A" pin="VINC-"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PA3"/>
+<pinref part="J3" gate="G$2" pin="PA3/AN3"/>
 <wire x1="299.72" y1="-170.18" x2="299.72" y2="-172.72" width="0.1524" layer="91"/>
 <label x="299.72" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -9389,7 +9397,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <pinref part="U13" gate="A" pin="VIND-"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PA5"/>
+<pinref part="J3" gate="G$2" pin="PA5/AN5"/>
 <wire x1="294.64" y1="-170.18" x2="294.64" y2="-172.72" width="0.1524" layer="91"/>
 <label x="294.64" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -9489,7 +9497,7 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="15.24" y="-213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$2" pin="PA4"/>
+<pinref part="J3" gate="G$2" pin="PA4/AN4"/>
 <wire x1="297.18" y1="-170.18" x2="297.18" y2="-172.72" width="0.1524" layer="91"/>
 <label x="297.18" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -9670,6 +9678,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="0" y1="-63.5" x2="0" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="0" y="-86.36"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$2" pin="G"/>
+<wire x1="396.24" y1="-337.82" x2="391.16" y2="-337.82" width="0.1524" layer="91"/>
+<label x="396.24" y="-337.82" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX2" class="0">
 <segment>
@@ -9680,6 +9693,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="5.08" y1="-88.9" x2="-45.72" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-63.5" x2="5.08" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="5.08" y="-88.9"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$3" pin="G"/>
+<wire x1="429.26" y1="-337.82" x2="424.18" y2="-337.82" width="0.1524" layer="91"/>
+<label x="429.26" y="-337.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX3" class="0">
@@ -9692,6 +9710,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="10.16" y1="-63.5" x2="10.16" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="10.16" y="-91.44"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="E"/>
+<wire x1="472.44" y1="-332.74" x2="457.2" y2="-332.74" width="0.1524" layer="91"/>
+<label x="472.44" y="-332.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX4" class="0">
 <segment>
@@ -9702,6 +9725,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="15.24" y1="-93.98" x2="-45.72" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-63.5" x2="15.24" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="15.24" y="-93.98"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$3" pin="E"/>
+<wire x1="429.26" y1="-332.74" x2="424.18" y2="-332.74" width="0.1524" layer="91"/>
+<label x="429.26" y="-332.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX5" class="0">
@@ -9714,6 +9742,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="20.32" y1="-63.5" x2="20.32" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="20.32" y="-96.52"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="E"/>
+<wire x1="365.76" y1="-332.74" x2="360.68" y2="-332.74" width="0.1524" layer="91"/>
+<label x="365.76" y="-332.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX6" class="0">
 <segment>
@@ -9725,6 +9758,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="25.4" y1="-63.5" x2="25.4" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="25.4" y="-99.06"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$2" pin="E"/>
+<wire x1="396.24" y1="-332.74" x2="391.16" y2="-332.74" width="0.1524" layer="91"/>
+<label x="396.24" y="-332.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX7" class="0">
 <segment>
@@ -9735,6 +9773,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="30.48" y1="-101.6" x2="-45.72" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-63.5" x2="30.48" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="30.48" y="-101.6"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="D"/>
+<wire x1="365.76" y1="-330.2" x2="360.68" y2="-330.2" width="0.1524" layer="91"/>
+<label x="365.76" y="-330.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -9788,6 +9831,11 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="40.64" y1="-63.5" x2="40.64" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="40.64" y="-106.68"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$2" pin="C"/>
+<wire x1="396.24" y1="-327.66" x2="391.16" y2="-327.66" width="0.1524" layer="91"/>
+<label x="396.24" y="-327.66" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX8" class="0">
 <segment>
@@ -9799,17 +9847,17 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="35.56" y1="-63.5" x2="35.56" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="35.56" y="-104.14"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$3" pin="C"/>
+<wire x1="431.8" y1="-327.66" x2="424.18" y2="-327.66" width="0.1524" layer="91"/>
+<label x="431.8" y="-327.66" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AUX1L" class="0">
 <segment>
 <wire x1="-68.58" y1="-86.36" x2="-66.04" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-68.58" y="-86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U8" gate="G$1" pin="S9"/>
-</segment>
-<segment>
-<wire x1="172.72" y1="-170.18" x2="172.72" y2="-172.72" width="0.1524" layer="91"/>
-<label x="172.72" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$4" pin="PD3"/>
 </segment>
 </net>
 <net name="AUX2L" class="0">
@@ -9952,20 +10000,6 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="406.4" y="-279.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="E"/>
-<wire x1="365.76" y1="-332.74" x2="360.68" y2="-332.74" width="0.1524" layer="91"/>
-<label x="365.76" y="-332.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="D"/>
-<wire x1="365.76" y1="-330.2" x2="360.68" y2="-330.2" width="0.1524" layer="91"/>
-<label x="365.76" y="-330.2" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="J1" gate="G$2" pin="H"/>
@@ -9973,53 +10007,45 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="396.24" y="-340.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="CTS" class="0">
 <segment>
-<pinref part="J1" gate="G$2" pin="G"/>
-<wire x1="396.24" y1="-337.82" x2="391.16" y2="-337.82" width="0.1524" layer="91"/>
-<label x="396.24" y="-337.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="XB1" gate="G$1" pin="!CTS!/DIO7"/>
+<wire x1="-137.16" y1="-309.88" x2="-134.62" y2="-309.88" width="0.1524" layer="91"/>
+<label x="-137.16" y="-309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$2" pin="PE13"/>
+<wire x1="261.62" y1="-170.18" x2="261.62" y2="-172.72" width="0.1524" layer="91"/>
+<label x="261.62" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P2"/>
+<wire x1="-83.82" y1="-297.18" x2="-81.28" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-83.82" y="-297.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="RTS" class="0">
 <segment>
-<pinref part="J1" gate="G$2" pin="E"/>
-<wire x1="396.24" y1="-332.74" x2="391.16" y2="-332.74" width="0.1524" layer="91"/>
-<label x="396.24" y="-332.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="XB1" gate="G$1" pin="!RTS!/AD6/DIO6"/>
+<wire x1="-137.16" y1="-312.42" x2="-134.62" y2="-312.42" width="0.1524" layer="91"/>
+<label x="-137.16" y="-312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$2" pin="PE12"/>
+<wire x1="264.16" y1="-170.18" x2="264.16" y2="-172.72" width="0.1524" layer="91"/>
+<label x="264.16" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P3"/>
+<wire x1="-83.82" y1="-299.72" x2="-81.28" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-83.82" y="-299.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="PWR_OUT" class="0">
 <segment>
-<pinref part="J1" gate="G$2" pin="C"/>
-<wire x1="396.24" y1="-327.66" x2="391.16" y2="-327.66" width="0.1524" layer="91"/>
-<label x="396.24" y="-327.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="J1" gate="G$3" pin="C"/>
-<wire x1="431.8" y1="-327.66" x2="424.18" y2="-327.66" width="0.1524" layer="91"/>
-<label x="431.8" y="-327.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="J1" gate="G$3" pin="E"/>
-<wire x1="429.26" y1="-332.74" x2="424.18" y2="-332.74" width="0.1524" layer="91"/>
-<label x="429.26" y="-332.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="J1" gate="G$3" pin="G"/>
-<wire x1="429.26" y1="-337.82" x2="424.18" y2="-337.82" width="0.1524" layer="91"/>
-<label x="429.26" y="-337.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="E"/>
-<wire x1="472.44" y1="-332.74" x2="457.2" y2="-332.74" width="0.1524" layer="91"/>
-<label x="472.44" y="-332.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$4" pin="PD3"/>
+<wire x1="172.72" y1="-170.18" x2="172.72" y2="-172.72" width="0.1524" layer="91"/>
+<label x="172.72" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -10036,6 +10062,45 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,208.28,-297.18,VSS,GND,,,,"/>
+<approved hash="102,1,208.28,-294.64,VDD,3.3V,,,,"/>
+<approved hash="102,1,208.28,-302.26,GND1,GND,,,,"/>
+<approved hash="104,1,-134.62,-281.94,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,-134.62,-332.74,XB1,VREF,,,,"/>
+<approved hash="204,1,71.12,-147.32,CN1,VBUS,,,,"/>
+<approved hash="104,1,53.34,-332.74,U10,VCC,3.3V,,,"/>
+<approved hash="104,1,99.06,-233.68,U6,VDD,3.3V,,,"/>
+<approved hash="104,1,175.26,-233.68,U12,VDD,3.3V,,,"/>
+<approved hash="104,1,246.38,-233.68,U13,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,-233.68,U14,VDD,3.3V,,,"/>
+<approved hash="106,1,391.16,-340.36,N$33,,,,,"/>
+<approved hash="106,1,426.72,-210.82,SCL,,,,,"/>
+<approved hash="106,1,396.24,-210.82,SDA,,,,,"/>
+<approved hash="106,1,78.74,-393.7,UPS_EN,,,,,"/>
+<approved hash="110,1,76.2,-393.7,UPS_EN,GND,,,,"/>
+<approved hash="111,1,76.2,-393.7,UPS_EN,,,,,"/>
+<approved hash="113,1,81.1057,50.8,Q3,,,,,"/>
+<approved hash="113,1,-110.397,-121.92,D1,,,,,"/>
+<approved hash="113,1,-110.397,-68.58,D3,,,,,"/>
+<approved hash="113,1,177.8,-333.468,PTC2,,,,,"/>
+<approved hash="113,1,62.865,-151.109,CN1,,,,,"/>
+<approved hash="113,1,110.49,-347.438,SW1,,,,,"/>
+<approved hash="113,1,29.6513,-389.89,C8,,,,,"/>
+<approved hash="113,1,29.6513,-344.17,C9,,,,,"/>
+<approved hash="113,1,5.32403,-389.89,C10,,,,,"/>
+<approved hash="113,1,5.32403,-344.17,C11,,,,,"/>
+<approved hash="113,1,-119.554,-68.58,Q1,,,,,"/>
+<approved hash="113,1,-119.554,-121.92,Q2,,,,,"/>
+<approved hash="113,1,-163.737,-66.04,D8,,,,,"/>
+<approved hash="113,1,-163.737,-91.44,D9,,,,,"/>
+<approved hash="113,1,-172.894,-91.44,Q5,,,,,"/>
+<approved hash="113,1,-172.894,-66.04,Q6,,,,,"/>
+<approved hash="113,1,-110.397,-93.98,D10,,,,,"/>
+<approved hash="113,1,-110.397,-147.32,D11,,,,,"/>
+<approved hash="113,1,-119.554,-147.32,Q7,,,,,"/>
+<approved hash="113,1,-119.554,-93.98,Q8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

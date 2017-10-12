@@ -3542,15 +3542,15 @@ MAX3223-MAX3243.pdf</description>
 <text x="-7.62" y="-22.86" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="SO-DIMM-CPU-IO-BANK-1">
-<pin name="PA3" x="-7.62" y="22.86" length="short"/>
-<pin name="PA4" x="-7.62" y="20.32" length="short"/>
-<pin name="PA5" x="-7.62" y="17.78" length="short"/>
-<pin name="PA6" x="-7.62" y="15.24" length="short"/>
-<pin name="PA7" x="-7.62" y="12.7" length="short"/>
-<pin name="PC4" x="-7.62" y="10.16" length="short"/>
-<pin name="PC5" x="-7.62" y="7.62" length="short"/>
-<pin name="PB0" x="-7.62" y="5.08" length="short"/>
-<pin name="PB1" x="-7.62" y="2.54" length="short"/>
+<pin name="PA3/AN3" x="-7.62" y="22.86" length="short"/>
+<pin name="PA4/AN4" x="-7.62" y="20.32" length="short"/>
+<pin name="PA5/AN5" x="-7.62" y="17.78" length="short"/>
+<pin name="PA6/AN6" x="-7.62" y="15.24" length="short"/>
+<pin name="PA7/AN7" x="-7.62" y="12.7" length="short"/>
+<pin name="PC4/AN15" x="-7.62" y="10.16" length="short"/>
+<pin name="PC5/AN15" x="-7.62" y="7.62" length="short"/>
+<pin name="PB0/AN8" x="-7.62" y="5.08" length="short"/>
+<pin name="PB1/AN9" x="-7.62" y="2.54" length="short"/>
 <pin name="PE7" x="-7.62" y="0" length="short"/>
 <pin name="PE8" x="-7.62" y="-2.54" length="short"/>
 <pin name="PE9" x="-7.62" y="-5.08" length="short"/>
@@ -3562,7 +3562,7 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PE15" x="-7.62" y="-20.32" length="short"/>
 <pin name="PB10" x="-7.62" y="-22.86" length="short"/>
 <pin name="PB11" x="-7.62" y="-25.4" length="short"/>
-<text x="3.81" y="-1.27" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 1</text>
+<text x="3.81" y="-3.81" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 1</text>
 <wire x1="-5.08" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
 <wire x1="7.62" y1="25.4" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
@@ -3570,7 +3570,7 @@ MAX3223-MAX3243.pdf</description>
 <text x="-5.08" y="27.94" size="1.27" layer="94" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-30.48" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
-<symbol name="SO-DIMM-IO-BANK-2">
+<symbol name="SO-DIMM-CPU-IO-BANK-2">
 <pin name="PB12" x="-7.62" y="20.32" length="short"/>
 <pin name="PB13" x="-7.62" y="17.78" length="short"/>
 <pin name="PB14" x="-7.62" y="15.24" length="short"/>
@@ -3632,14 +3632,14 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PE5" x="-7.62" y="7.62" length="short"/>
 <pin name="PE6" x="-7.62" y="5.08" length="short"/>
 <pin name="PC13" x="-7.62" y="2.54" length="short"/>
-<pin name="PC0" x="-7.62" y="0" length="short"/>
-<pin name="PC1" x="-7.62" y="-2.54" length="short"/>
-<pin name="PC2" x="-7.62" y="-5.08" length="short"/>
-<pin name="PC3" x="-7.62" y="-7.62" length="short"/>
-<pin name="PA0" x="-7.62" y="-10.16" length="short"/>
-<pin name="PA1" x="-7.62" y="-12.7" length="short"/>
-<pin name="PA2" x="-7.62" y="-15.24" length="short"/>
-<text x="3.81" y="0" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 4</text>
+<pin name="PC0/AN10" x="-7.62" y="0" length="short"/>
+<pin name="PC1/AN11" x="-7.62" y="-2.54" length="short"/>
+<pin name="PC2/AN12" x="-7.62" y="-5.08" length="short"/>
+<pin name="PC3/AN13" x="-7.62" y="-7.62" length="short"/>
+<pin name="PA0/AN0" x="-7.62" y="-10.16" length="short"/>
+<pin name="PA1/AN1" x="-7.62" y="-12.7" length="short"/>
+<pin name="PA2/AN2" x="-7.62" y="-15.24" length="short"/>
+<text x="3.81" y="7.62" size="1.778" layer="94" rot="R270" align="bottom-center">IO Bank 4</text>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
@@ -3653,7 +3653,7 @@ MAX3223-MAX3243.pdf</description>
 <gates>
 <gate name="G$1" symbol="SO-DIMM-CPU-USB-JTAG-POWER" x="0" y="0"/>
 <gate name="G$2" symbol="SO-DIMM-CPU-IO-BANK-1" x="20.32" y="-5.08"/>
-<gate name="G$3" symbol="SO-DIMM-IO-BANK-2" x="40.64" y="-2.54"/>
+<gate name="G$3" symbol="SO-DIMM-CPU-IO-BANK-2" x="40.64" y="-2.54"/>
 <gate name="G$4" symbol="SO-DIMM-CPU-IO-BANK-3" x="60.96" y="-5.08"/>
 <gate name="G$5" symbol="SO-DIMM-CPU-IO-BANK-4" x="81.28" y="2.54"/>
 </gates>
@@ -3670,17 +3670,17 @@ MAX3223-MAX3243.pdf</description>
 <connect gate="G$1" pin="TDO" pad="88"/>
 <connect gate="G$1" pin="TMS" pad="82"/>
 <connect gate="G$1" pin="VCC" pad="197 199"/>
-<connect gate="G$2" pin="PA3" pad="1"/>
-<connect gate="G$2" pin="PA4" pad="3"/>
-<connect gate="G$2" pin="PA5" pad="5"/>
-<connect gate="G$2" pin="PA6" pad="7"/>
-<connect gate="G$2" pin="PA7" pad="9"/>
-<connect gate="G$2" pin="PB0" pad="15"/>
-<connect gate="G$2" pin="PB1" pad="17"/>
+<connect gate="G$2" pin="PA3/AN3" pad="1"/>
+<connect gate="G$2" pin="PA4/AN4" pad="3"/>
+<connect gate="G$2" pin="PA5/AN5" pad="5"/>
+<connect gate="G$2" pin="PA6/AN6" pad="7"/>
+<connect gate="G$2" pin="PA7/AN7" pad="9"/>
+<connect gate="G$2" pin="PB0/AN8" pad="15"/>
+<connect gate="G$2" pin="PB1/AN9" pad="17"/>
 <connect gate="G$2" pin="PB10" pad="37"/>
 <connect gate="G$2" pin="PB11" pad="39"/>
-<connect gate="G$2" pin="PC4" pad="11"/>
-<connect gate="G$2" pin="PC5" pad="13"/>
+<connect gate="G$2" pin="PC4/AN15" pad="11"/>
+<connect gate="G$2" pin="PC5/AN15" pad="13"/>
 <connect gate="G$2" pin="PE10" pad="25"/>
 <connect gate="G$2" pin="PE11" pad="27"/>
 <connect gate="G$2" pin="PE12" pad="29"/>
@@ -3727,14 +3727,14 @@ MAX3223-MAX3243.pdf</description>
 <connect gate="G$4" pin="PD7" pad="107"/>
 <connect gate="G$4" pin="PE0" pad="121"/>
 <connect gate="G$4" pin="PE1" pad="123"/>
-<connect gate="G$5" pin="PA0" pad="153"/>
-<connect gate="G$5" pin="PA1" pad="155"/>
-<connect gate="G$5" pin="PA2" pad="157"/>
-<connect gate="G$5" pin="PC0" pad="145"/>
-<connect gate="G$5" pin="PC1" pad="147"/>
+<connect gate="G$5" pin="PA0/AN0" pad="153"/>
+<connect gate="G$5" pin="PA1/AN1" pad="155"/>
+<connect gate="G$5" pin="PA2/AN2" pad="157"/>
+<connect gate="G$5" pin="PC0/AN10" pad="145"/>
+<connect gate="G$5" pin="PC1/AN11" pad="147"/>
 <connect gate="G$5" pin="PC13" pad="143"/>
-<connect gate="G$5" pin="PC2" pad="149"/>
-<connect gate="G$5" pin="PC3" pad="151"/>
+<connect gate="G$5" pin="PC2/AN12" pad="149"/>
+<connect gate="G$5" pin="PC3/AN13" pad="151"/>
 <connect gate="G$5" pin="PE2" pad="133"/>
 <connect gate="G$5" pin="PE3" pad="135"/>
 <connect gate="G$5" pin="PE4" pad="137"/>
@@ -5206,7 +5206,7 @@ Standard A4 size frame in Landscape</description>
 <segment>
 <wire x1="60.96" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 <label x="58.42" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PA3"/>
+<pinref part="J1" gate="G$2" pin="PA3/AN3"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -5225,21 +5225,21 @@ Standard A4 size frame in Landscape</description>
 <segment>
 <wire x1="60.96" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="58.42" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PC4"/>
+<pinref part="J1" gate="G$2" pin="PC4/AN15"/>
 </segment>
 </net>
 <net name="LCD_RESET" class="0">
 <segment>
 <wire x1="60.96" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 <label x="58.42" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PB0"/>
+<pinref part="J1" gate="G$2" pin="PB0/AN8"/>
 </segment>
 </net>
 <net name="LCD_DATA" class="0">
 <segment>
 <wire x1="58.42" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="58.42" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PA7"/>
+<pinref part="J1" gate="G$2" pin="PA7/AN7"/>
 </segment>
 <segment>
 <pinref part="X6" gate="-11" pin="S"/>
@@ -5251,7 +5251,7 @@ Standard A4 size frame in Landscape</description>
 <segment>
 <wire x1="60.96" y1="162.56" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
 <label x="58.42" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PA5"/>
+<pinref part="J1" gate="G$2" pin="PA5/AN5"/>
 </segment>
 <segment>
 <pinref part="X6" gate="-13" pin="S"/>
@@ -5263,7 +5263,7 @@ Standard A4 size frame in Landscape</description>
 <segment>
 <wire x1="58.42" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 <label x="58.42" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PC5"/>
+<pinref part="J1" gate="G$2" pin="PC5/AN15"/>
 </segment>
 </net>
 <net name="SW3" class="0">
@@ -5902,7 +5902,7 @@ Standard A4 size frame in Landscape</description>
 <segment>
 <wire x1="58.42" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <label x="58.42" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$2" pin="PB1"/>
+<pinref part="J1" gate="G$2" pin="PB1/AN9"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="OUT1"/>

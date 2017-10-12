@@ -1513,7 +1513,7 @@ distributor Farnell 149-452</description>
 <wire x1="0" y1="53.34" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CANH" class="0">
+<net name="CAN_P" class="0">
 <segment>
 <pinref part="X1" gate="-7" pin="S"/>
 <wire x1="-25.4" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
@@ -1530,7 +1530,7 @@ distributor Farnell 149-452</description>
 <label x="45.72" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CANL" class="0">
+<net name="CAN_N" class="0">
 <segment>
 <pinref part="X1" gate="-8" pin="S"/>
 <wire x1="2.54" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
