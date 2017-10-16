@@ -1734,32 +1734,63 @@
 <rectangle x1="46.046390625" y1="7.59333125" x2="48.126646875" y2="7.6161875" layer="112"/>
 <text x="58.7375" y="1.27" size="1.27" layer="112" font="vector" ratio="10">USB to UART 
 Bridge V1</text>
-<wire x1="15.875" y1="31.4325" x2="24.28875" y2="31.4325" width="0.15" layer="21"/>
-<wire x1="24.28875" y1="31.4325" x2="24.28875" y2="35.71875" width="0.15" layer="21"/>
-<wire x1="24.28875" y1="35.71875" x2="24.28875" y2="37.30625" width="0.15" layer="21"/>
-<wire x1="24.28875" y1="37.30625" x2="20.79625" y2="37.30625" width="0.15" layer="21"/>
-<wire x1="20.79625" y1="37.30625" x2="20.79625" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="20.79625" y1="34.44875" x2="15.875" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="15.875" y1="34.44875" x2="15.875" y2="31.4325" width="0.15" layer="21"/>
-<wire x1="24.28875" y1="35.71875" x2="27.305" y2="35.71875" width="0.15" layer="21"/>
-<wire x1="27.305" y1="35.71875" x2="27.78125" y2="35.2425" width="0.15" layer="21"/>
-<wire x1="27.78125" y1="35.2425" x2="27.46375" y2="35.2425" width="0.15" layer="21"/>
-<wire x1="27.78125" y1="35.2425" x2="27.78125" y2="35.56" width="0.15" layer="21"/>
-<wire x1="8.41375" y1="31.4325" x2="15.39875" y2="31.4325" width="0.15" layer="21"/>
-<wire x1="15.39875" y1="31.4325" x2="15.39875" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="15.39875" y1="34.44875" x2="14.2875" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="14.2875" y1="34.44875" x2="14.2875" y2="37.30625" width="0.15" layer="21"/>
-<wire x1="14.2875" y1="37.30625" x2="9.525" y2="37.30625" width="0.15" layer="21"/>
-<wire x1="9.525" y1="37.30625" x2="9.525" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="9.525" y1="34.44875" x2="8.41375" y2="34.44875" width="0.15" layer="21"/>
-<wire x1="8.41375" y1="34.44875" x2="8.41375" y2="31.4325" width="0.15" layer="21"/>
-<wire x1="15.39875" y1="31.4325" x2="16.51" y2="30.32125" width="0.15" layer="21"/>
-<wire x1="16.51" y1="30.32125" x2="18.89125" y2="30.32125" width="0.15" layer="21"/>
-<wire x1="18.89125" y1="30.32125" x2="20.32" y2="28.8925" width="0.15" layer="21"/>
-<wire x1="20.32" y1="28.8925" x2="20.32" y2="20.955" width="0.15" layer="21"/>
-<wire x1="20.32" y1="20.955" x2="20.6375" y2="20.6375" width="0.15" layer="21"/>
-<wire x1="20.6375" y1="20.6375" x2="20.6375" y2="20.955" width="0.15" layer="21"/>
-<wire x1="20.6375" y1="20.6375" x2="20.32" y2="20.6375" width="0.15" layer="21"/>
+<wire x1="15.875" y1="31.4325" x2="24.28875" y2="31.4325" width="0.127" layer="21"/>
+<wire x1="24.28875" y1="31.4325" x2="24.28875" y2="35.71875" width="0.127" layer="21"/>
+<wire x1="24.28875" y1="35.71875" x2="24.28875" y2="37.30625" width="0.127" layer="21"/>
+<wire x1="24.28875" y1="37.30625" x2="20.79625" y2="37.30625" width="0.127" layer="21"/>
+<wire x1="20.79625" y1="37.30625" x2="20.79625" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="20.79625" y1="34.44875" x2="15.875" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="15.875" y1="34.44875" x2="15.875" y2="31.4325" width="0.127" layer="21"/>
+<wire x1="24.28875" y1="35.71875" x2="27.305" y2="35.71875" width="0.127" layer="21"/>
+<wire x1="27.305" y1="35.71875" x2="27.78125" y2="35.2425" width="0.127" layer="21"/>
+<wire x1="27.78125" y1="35.2425" x2="27.305" y2="35.2425" width="0.127" layer="21"/>
+<wire x1="27.78125" y1="35.2425" x2="27.78125" y2="35.71875" width="0.127" layer="21"/>
+<wire x1="8.41375" y1="31.4325" x2="15.39875" y2="31.4325" width="0.127" layer="21"/>
+<wire x1="15.39875" y1="31.4325" x2="15.39875" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="15.39875" y1="34.44875" x2="14.2875" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="14.2875" y1="34.44875" x2="14.2875" y2="37.30625" width="0.127" layer="21"/>
+<wire x1="14.2875" y1="37.30625" x2="9.525" y2="37.30625" width="0.127" layer="21"/>
+<wire x1="9.525" y1="37.30625" x2="9.525" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="9.525" y1="34.44875" x2="8.41375" y2="34.44875" width="0.127" layer="21"/>
+<wire x1="8.41375" y1="34.44875" x2="8.41375" y2="31.4325" width="0.127" layer="21"/>
+<wire x1="15.39875" y1="31.4325" x2="16.51" y2="30.32125" width="0.127" layer="21"/>
+<wire x1="16.51" y1="30.32125" x2="18.89125" y2="30.32125" width="0.127" layer="21"/>
+<wire x1="18.89125" y1="30.32125" x2="20.16125" y2="29.05125" width="0.127" layer="21"/>
+<wire x1="20.16125" y1="29.05125" x2="20.16125" y2="21.11375" width="0.127" layer="21"/>
+<wire x1="20.16125" y1="21.11375" x2="20.6375" y2="20.6375" width="0.127" layer="21"/>
+<wire x1="20.6375" y1="20.6375" x2="20.6375" y2="21.11375" width="0.127" layer="21"/>
+<wire x1="20.6375" y1="20.6375" x2="20.16125" y2="20.6375" width="0.127" layer="21"/>
+<wire x1="56.35625" y1="12.065" x2="56.35625" y2="11.58875" width="0.127" layer="21"/>
+<wire x1="56.35625" y1="11.58875" x2="56.35625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="56.35625" y1="4.7625" x2="57.94375" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="57.94375" y1="4.7625" x2="57.94375" y2="6.985" width="0.127" layer="21"/>
+<wire x1="57.94375" y1="6.985" x2="60.0075" y2="6.985" width="0.127" layer="21"/>
+<wire x1="60.0075" y1="6.985" x2="60.0075" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="60.0075" y1="4.7625" x2="61.595" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="61.595" y1="4.7625" x2="61.595" y2="12.065" width="0.127" layer="21"/>
+<wire x1="61.595" y1="12.065" x2="60.0075" y2="12.065" width="0.127" layer="21"/>
+<wire x1="60.0075" y1="12.065" x2="60.0075" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="60.0075" y1="10.00125" x2="57.94375" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="57.94375" y1="10.00125" x2="57.94375" y2="12.065" width="0.127" layer="21"/>
+<wire x1="57.94375" y1="12.065" x2="56.35625" y2="12.065" width="0.127" layer="21"/>
+<wire x1="56.35625" y1="11.58875" x2="54.76875" y2="11.58875" width="0.127" layer="21"/>
+<wire x1="54.76875" y1="11.58875" x2="54.2925" y2="12.065" width="0.127" layer="21"/>
+<wire x1="54.2925" y1="12.065" x2="54.76875" y2="12.065" width="0.127" layer="21"/>
+<wire x1="54.2925" y1="12.065" x2="54.2925" y2="11.58875" width="0.127" layer="21"/>
+<wire x1="49.8475" y1="5.3975" x2="53.34" y2="5.3975" width="0.127" layer="21"/>
+<wire x1="53.34" y1="5.3975" x2="53.34" y2="7.77875" width="0.127" layer="21"/>
+<wire x1="53.34" y1="7.77875" x2="55.72125" y2="7.77875" width="0.127" layer="21"/>
+<wire x1="55.72125" y1="7.77875" x2="55.72125" y2="9.36625" width="0.127" layer="21"/>
+<wire x1="55.72125" y1="9.36625" x2="53.34" y2="9.36625" width="0.127" layer="21"/>
+<wire x1="53.34" y1="9.36625" x2="53.34" y2="11.27125" width="0.127" layer="21"/>
+<wire x1="53.34" y1="11.27125" x2="49.8475" y2="11.27125" width="0.127" layer="21"/>
+<wire x1="49.8475" y1="11.27125" x2="49.8475" y2="5.3975" width="0.127" layer="21"/>
+<wire x1="49.8475" y1="11.27125" x2="47.625" y2="11.27125" width="0.127" layer="21"/>
+<wire x1="47.625" y1="11.27125" x2="46.0375" y2="12.85875" width="0.127" layer="21"/>
+<wire x1="46.0375" y1="12.85875" x2="44.92625" y2="12.85875" width="0.127" layer="21"/>
+<wire x1="44.92625" y1="12.85875" x2="43.02125" y2="14.76375" width="0.127" layer="21"/>
+<wire x1="43.02125" y1="14.76375" x2="43.02125" y2="14.2875" width="0.127" layer="21"/>
+<wire x1="43.02125" y1="14.76375" x2="43.4975" y2="14.76375" width="0.127" layer="21"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -2727,11 +2758,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="24.28875" y="-0.38105" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C17" library="microbuilder" package="_0603" value="22p" x="36.195" y="36.195" smashed="yes" rot="MR180">
-<attribute name="NAME" x="34.925" y="35.2425" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="30.95625" y="36.83" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="34.925" y="37.6873" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="C18" library="microbuilder" package="_0603" value="22p" x="39.6875" y="36.195" smashed="yes" rot="MR180">
-<attribute name="NAME" x="38.4175" y="35.2425" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="41.11625" y="36.83" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="38.4175" y="37.6873" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="C19" library="microbuilder" package="_0603" value="100n" x="30.32125" y="35.08375" smashed="yes" rot="R180">
@@ -2743,15 +2774,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="40.9575" y="11.36645" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C21" library="microbuilder" package="_0603" value="22p" x="36.195" y="18.415" smashed="yes" rot="MR180">
-<attribute name="NAME" x="34.925" y="17.4625" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="30.95625" y="19.05" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="34.925" y="19.9073" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="C22" library="microbuilder" package="_0603" value="22p" x="39.6875" y="18.415" smashed="yes" rot="MR180">
-<attribute name="NAME" x="38.4175" y="17.4625" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="41.11625" y="19.05" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="38.4175" y="19.9073" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="C23" library="microbuilder" package="_0603" value="100n" x="30.48" y="17.30375" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="16.35125" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="53.49875" y="9.68375" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="18.79605" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C24" library="microbuilder" package="_0603" value="100n" x="42.2275" y="30.63875" smashed="yes">
@@ -2787,7 +2818,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="1667008" x="37.94125" y="16.8275" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="37.94125" y="16.8275" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="37.94125" y="16.8275" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.86125" y="19.4945" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="53.49875" y="7.90575" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="32.86125" y="12.8905" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R19" library="microbuilder" package="_0603" value="10k" x="30.32125" y="36.35375" smashed="yes">
@@ -2803,15 +2834,15 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="31.59125" y="34.03605" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R22" library="microbuilder" package="_0603" value="10k" x="30.48" y="18.57375" smashed="yes">
-<attribute name="NAME" x="29.21" y="19.52625" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="53.49875" y="11.1125" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="29.21" y="17.08145" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="R23" library="microbuilder" package="_0603" value="270" x="30.48" y="16.03375" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="15.08125" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="53.49875" y="8.255" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="17.52605" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R24" library="microbuilder" package="_0603" value="270" x="30.48" y="14.76375" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="13.81125" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="53.49875" y="6.82625" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="16.25605" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U$24" library="mcp2200" package="SO20L" value="MCP2200" x="34.13125" y="25.7175" smashed="yes" rot="R180">
@@ -2878,11 +2909,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="52.3875" y="23.0823" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R5" library="microbuilder" package="_0603" value="27" x="51.1175" y="15.875" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.3875" y="14.9225" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="60.325" y="9.8425" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="52.3875" y="17.3673" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="microbuilder" package="_0603" value="27" x="51.1175" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.3875" y="13.6525" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="60.325" y="8.41375" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="52.3875" y="16.0973" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C4" library="microbuilder" package="_0603" value="100n" x="17.93875" y="20.955" smashed="yes">
@@ -2919,11 +2950,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="51.8477" y="20.79625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C9" library="microbuilder" package="_0603" value="22p" x="53.34" y="16.66875" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.3875" y="15.39875" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="61.43625" y="8.41375" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="54.8323" y="15.39875" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C10" library="microbuilder" package="_0603" value="22p" x="53.34" y="13.81125" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.2925" y="15.08125" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="61.43625" y="4.7625" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.8477" y="15.08125" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R8" library="microbuilder" package="_0603" value="15k" x="48.895" y="19.52625" smashed="yes" rot="R270">
@@ -2935,11 +2966,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="50.3873" y="21.11375" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R10" library="microbuilder" package="_0603" value="15k" x="48.895" y="13.81125" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.8475" y="15.08125" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="56.515" y="8.255" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="47.4027" y="15.08125" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R11" library="microbuilder" package="_0603" value="15k" x="48.895" y="16.66875" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.9425" y="15.39875" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="56.515" y="11.90625" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="50.3873" y="15.39875" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U7" library="microbuilder" package="SOT223-R" value="" x="12.065" y="18.0975" smashed="yes" rot="R180">
@@ -2992,7 +3023,6 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="62.1348" y="25.24125" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="H1" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="4.1275" y="33.49625"/>
-<element name="H2" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="60.0075" y="33.49625"/>
 <element name="H3" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="74.6125" y="33.3375"/>
 <element name="H4" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="74.77125" y="4.1275"/>
 <element name="J1" library="con-molex" package="6410-03" value="22-27-2031-03" x="75.40625" y="20.79625" smashed="yes" rot="R270">

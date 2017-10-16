@@ -2773,9 +2773,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1337916" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="microbuilder" package="_0603" value="850" x="15.875" y="-95.5675"/>
 <element name="C3" library="microbuilder" package="_0603" value="100n" x="11.27125" y="-95.5675"/>
-<element name="C4" library="microbuilder" package="_0805" value="1µ" x="6.985" y="-95.885"/>
 <element name="LED2" library="microbuilder" package="CHIPLED_1206" value="" x="2.38125" y="-96.04375"/>
 <element name="R8" library="microbuilder" package="_0603" value="500" x="20.47875" y="-95.5675"/>
 <element name="CN1" library="microbuilder" package="USB-MINIB_LARGER" value="" x="74.295" y="19.52625" rot="R90"/>
@@ -2802,7 +2800,6 @@ Covered vias can be set in Masks (Limit).
 </polygon>
 <contactref element="U7" pad="GND"/>
 <contactref element="XB1" pad="10"/>
-<contactref element="C4" pad="1"/>
 <contactref element="R8" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="CN1" pad="GND"/>
@@ -2814,7 +2811,6 @@ Covered vias can be set in Masks (Limit).
 </polygon>
 <via x="57.62625" y="4.60375" extent="1-16" drill="0.3302"/>
 <via x="56.35625" y="5.87375" extent="1-16" drill="0.3302"/>
-<wire x1="10.50925" y1="-95.5675" x2="5.969" y2="-95.885" width="0" layer="19" extent="1-1"/>
 <wire x1="19.71675" y1="-95.5675" x2="10.50925" y2="-95.5675" width="0" layer="19" extent="1-1"/>
 <wire x1="24.5575" y1="5.98625" x2="19.71675" y2="-95.5675" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2954,16 +2950,6 @@ Covered vias can be set in Masks (Limit).
 </signal>
 <signal name="MISO">
 <contactref element="U7" pad="38"/>
-</signal>
-<signal name="N$2">
-<contactref element="XB1" pad="6"/>
-<contactref element="R1" pad="1"/>
-<wire x1="16.5575" y1="5.98625" x2="15.113" y2="-95.5675" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SS-XBEE">
-<contactref element="R1" pad="2"/>
-<contactref element="C4" pad="2"/>
-<wire x1="16.637" y1="-95.5675" x2="8.001" y2="-95.885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="XB1" pad="15"/>

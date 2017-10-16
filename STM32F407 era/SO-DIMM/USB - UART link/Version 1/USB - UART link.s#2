@@ -4856,7 +4856,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R13" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="J1" library="con-molex" deviceset="22-?-03" device="27-2031"/>
@@ -4973,7 +4972,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="R13" gate="G$1" x="-157.48" y="0" rot="R270"/>
 <instance part="U$8" gate="G$1" x="-157.48" y="7.62"/>
 <instance part="H1" gate="G$1" x="-86.36" y="154.94"/>
-<instance part="H2" gate="G$1" x="-86.36" y="147.32"/>
 <instance part="H3" gate="G$1" x="-86.36" y="139.7"/>
 <instance part="H4" gate="G$1" x="-86.36" y="132.08"/>
 <instance part="J1" gate="-1" x="-121.92" y="96.52" rot="MR0"/>
@@ -5882,34 +5880,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <label x="7.62" y="-22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PWR_COM_EN" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~PWRON1"/>
-<wire x1="15.24" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<label x="15.24" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWR_ECU_EN" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~PWRON2"/>
-<wire x1="15.24" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<label x="15.24" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWR_COM_OC" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~OVRCUR1"/>
-<wire x1="-50.8" y1="93.98" x2="-43.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="-50.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWR_ECU_OC" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~OVRCUR2"/>
-<wire x1="-50.8" y1="88.9" x2="-43.18" y2="88.9" width="0.1524" layer="91"/>
-<label x="-50.8" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="DP0PUR"/>
@@ -6000,6 +5970,30 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,81.28,25.4,U3,VCC,5.0V,,,"/>
+<approved hash="104,1,81.28,22.86,U3,V+,N$15,,,"/>
+<approved hash="202,1,81.28,17.78,U3,T1IN,,,,"/>
+<approved hash="202,1,81.28,10.16,U3,R1IN,,,,"/>
+<approved hash="104,1,81.28,-12.7,U3,V-,N$13,,,"/>
+<approved hash="104,1,-43.18,106.68,U1,VCC_2,3.3V,,,"/>
+<approved hash="104,1,-43.18,104.14,U1,VCC,3.3V,,,"/>
+<approved hash="202,1,-43.18,86.36,U1,~OVRCUR3,,,,"/>
+<approved hash="104,1,-119.38,-7.62,U8,VDD,3.3V,,,"/>
+<approved hash="202,1,-119.38,-12.7,U8,~MR,,,,"/>
+<approved hash="106,1,12.7,83.82,PWR_COM_EN,,,,,"/>
+<approved hash="209,1,-43.18,93.98,PWR_COM_OC,,,,,"/>
+<approved hash="106,1,-43.18,93.98,PWR_COM_OC,,,,,"/>
+<approved hash="106,1,12.7,81.28,PWR_ECU_EN,,,,,"/>
+<approved hash="209,1,-43.18,88.9,PWR_ECU_OC,,,,,"/>
+<approved hash="106,1,-43.18,88.9,PWR_ECU_OC,,,,,"/>
+<approved hash="113,1,54.61,101.278,LED3,,,,,"/>
+<approved hash="113,1,54.61,93.6583,LED5,,,,,"/>
+<approved hash="113,1,54.61,53.0183,LED6,,,,,"/>
+<approved hash="113,1,54.61,45.3983,LED7,,,,,"/>
+<approved hash="113,1,-88.9,60.1557,U2,,,,,"/>
+<approved hash="113,1,-132.08,60.1557,U7,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

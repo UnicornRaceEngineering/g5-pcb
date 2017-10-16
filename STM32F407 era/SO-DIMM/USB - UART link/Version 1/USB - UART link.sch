@@ -5171,15 +5171,11 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="-43.18" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="66.04" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-45.72" y="63.5"/>
-<pinref part="U1" gate="A" pin="~NP3"/>
-<wire x1="-43.18" y1="91.44" x2="-48.26" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="91.44" x2="-48.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="83.82" x2="-48.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-45.72" y="66.04"/>
 <pinref part="U1" gate="A" pin="~OCPROT/~PWRSW"/>
 <wire x1="-43.18" y1="83.82" x2="-48.26" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-48.26" y="83.82"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -5348,9 +5344,10 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <junction x="-45.72" y="106.68"/>
 <pinref part="U1" gate="A" pin="~BUSPWR"/>
 <wire x1="-43.18" y1="76.2" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="76.2" x2="-45.72" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="76.2" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-45.72" y="104.14"/>
 <pinref part="U1" gate="A" pin="EEDATA/~GANGED"/>
+<wire x1="-45.72" y1="91.44" x2="-45.72" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="71.12" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="71.12" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-45.72" y="76.2"/>
@@ -5358,6 +5355,9 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="-43.18" y1="68.58" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="68.58" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-45.72" y="71.12"/>
+<pinref part="U1" gate="A" pin="~NP3"/>
+<wire x1="-45.72" y1="91.44" x2="-43.18" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-45.72" y="91.44"/>
 </segment>
 <segment>
 <pinref part="U8" gate="A" pin="VDD"/>

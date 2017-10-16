@@ -2766,12 +2766,12 @@ Covered vias can be set in Masks (Limit).
 <element name="H1" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="4.1275" y="33.49625"/>
 <element name="H3" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="74.6125" y="33.3375"/>
 <element name="H4" library="holes" package="3,0" value="MOUNT-HOLE3.0" x="74.77125" y="4.1275"/>
-<element name="U7" library="AAU-Racing" package="LOPY" value="LoPy" x="17.145" y="-27.78125"/>
-<element name="XB1" library="maxstream" package="XBEE-PRO" value="XBEE-PRO" x="17.30375" y="-73.50125">
-<attribute name="MPN" value="XBP24-AWI-001" x="-17.62125" y="-37.94125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="42M2667" x="-17.62125" y="-37.94125" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-17.62125" y="-37.94125" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1337916" x="-17.62125" y="-37.94125" size="1.778" layer="27" display="off"/>
+<element name="U7" library="AAU-Racing" package="LOPY" value="LoPy" x="28.09875" y="19.52625" rot="R270"/>
+<element name="XB1" library="maxstream" package="XBEE-PRO" value="XBEE-PRO" x="15.5575" y="16.98625" rot="R90">
+<attribute name="MPN" value="XBP24-AWI-001" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="42M2667" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1337916" x="-20.0025" y="-17.93875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="microbuilder" package="_0603" value="850" x="15.875" y="-95.5675"/>
 <element name="C3" library="microbuilder" package="_0603" value="100n" x="11.27125" y="-95.5675"/>
@@ -2816,9 +2816,7 @@ Covered vias can be set in Masks (Limit).
 <via x="56.35625" y="5.87375" extent="1-16" drill="0.3302"/>
 <wire x1="10.50925" y1="-95.5675" x2="5.969" y2="-95.885" width="0" layer="19" extent="1-1"/>
 <wire x1="19.71675" y1="-95.5675" x2="10.50925" y2="-95.5675" width="0" layer="19" extent="1-1"/>
-<wire x1="6.30375" y1="-82.50125" x2="5.969" y2="-95.885" width="0" layer="19" extent="1-1"/>
-<wire x1="27.305" y1="-12.54125" x2="6.30375" y2="-82.50125" width="0" layer="19" extent="1-1"/>
-<wire x1="42.9895" y1="12.85875" x2="27.305" y2="-12.54125" width="0" layer="19" extent="1-1"/>
+<wire x1="24.5575" y1="5.98625" x2="19.71675" y2="-95.5675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U$24" pad="1"/>
@@ -2845,25 +2843,25 @@ Covered vias can be set in Masks (Limit).
 <wire x1="62.5475" y1="35.8775" x2="62.5475" y2="22.5425" width="0.3048" layer="16"/>
 <via x="62.5475" y="22.5425" extent="1-16" drill="0.3302"/>
 <wire x1="62.5475" y1="22.5425" x2="61.9125" y2="21.9075" width="0.3048" layer="1"/>
-<wire x1="6.30375" y1="-72.50125" x2="12.03325" y2="-95.5675" width="0" layer="19" extent="1-1"/>
-<wire x1="6.30375" y1="-64.50125" x2="6.30375" y2="-72.50125" width="0" layer="19" extent="1-1"/>
-<wire x1="27.305" y1="-15.08125" x2="6.30375" y2="-64.50125" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4655" y1="12.85875" x2="27.305" y2="-15.08125" width="0" layer="19" extent="1-1"/>
-<wire x1="55.08625" y1="7.874" x2="41.4655" y2="12.85875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.5575" y1="5.98625" x2="12.03325" y2="-95.5675" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5575" y1="5.98625" x2="14.5575" y2="5.98625" width="0" layer="19" extent="1-1"/>
+<wire x1="40.79875" y1="9.36625" x2="14.5575" y2="5.98625" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4655" y1="12.85875" x2="40.79875" y2="9.36625" width="0" layer="19" extent="1-1"/>
+<wire x1="55.08625" y1="7.874" x2="40.79875" y2="9.36625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="U$24" pad="10"/>
 <contactref element="XB1" pad="2"/>
 <contactref element="U7" pad="41"/>
-<wire x1="6.985" y1="-15.08125" x2="54.9783" y2="13.81125" width="0" layer="19" extent="1-1"/>
-<wire x1="6.30375" y1="-66.50125" x2="6.985" y2="-15.08125" width="0" layer="19" extent="1-1"/>
+<wire x1="54.9783" y1="13.81125" x2="40.79875" y2="29.68625" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5575" y1="5.98625" x2="40.79875" y2="29.68625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX">
 <contactref element="U$24" pad="12"/>
 <contactref element="XB1" pad="3"/>
 <contactref element="U7" pad="40"/>
-<wire x1="6.985" y1="-12.54125" x2="65.0367" y2="15.08125" width="0" layer="19" extent="1-1"/>
-<wire x1="6.30375" y1="-68.50125" x2="6.985" y2="-12.54125" width="0" layer="19" extent="1-1"/>
+<wire x1="43.33875" y1="29.68625" x2="65.0367" y2="15.08125" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5575" y1="5.98625" x2="43.33875" y2="29.68625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="U$24" pad="2"/>
@@ -2931,7 +2929,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="64.61125" y1="7.874" x2="64.6385" y2="7.90125" width="0.6096" layer="1"/>
 <wire x1="62.14875" y1="5.84" x2="62.57725" y2="5.84" width="0.6096" layer="1"/>
 <wire x1="62.57725" y1="5.84" x2="64.61125" y2="7.874" width="0.6096" layer="1"/>
-<wire x1="27.305" y1="-10.00125" x2="62.14875" y2="5.84" width="0" layer="19" extent="1-1"/>
+<wire x1="45.87875" y1="9.36625" x2="62.14875" y2="5.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D_N">
 <contactref element="U$24" pad="18"/>
@@ -2960,23 +2958,17 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$2">
 <contactref element="XB1" pad="6"/>
 <contactref element="R1" pad="1"/>
-<wire x1="6.30375" y1="-74.50125" x2="15.113" y2="-95.5675" width="0" layer="19" extent="1-1"/>
+<wire x1="16.5575" y1="5.98625" x2="15.113" y2="-95.5675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS-XBEE">
 <contactref element="R1" pad="2"/>
 <contactref element="C4" pad="2"/>
 <wire x1="16.637" y1="-95.5675" x2="8.001" y2="-95.885" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RTS-XBEE">
-<contactref element="XB1" pad="16"/>
-</signal>
-<signal name="CTS-XBEE">
-<contactref element="XB1" pad="12"/>
-</signal>
 <signal name="N$5">
 <contactref element="XB1" pad="15"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="28.30375" y1="-74.50125" x2="2.38125" y2="-97.53975" width="0" layer="19" extent="1-1"/>
+<wire x1="16.5575" y1="27.98625" x2="2.38125" y2="-97.53975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED2" pad="C"/>

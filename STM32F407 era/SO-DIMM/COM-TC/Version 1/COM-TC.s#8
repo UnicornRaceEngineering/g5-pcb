@@ -9859,11 +9859,6 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <label x="-68.58" y="-86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U8" gate="G$1" pin="S9"/>
 </segment>
-<segment>
-<wire x1="172.72" y1="-170.18" x2="172.72" y2="-172.72" width="0.1524" layer="91"/>
-<label x="172.72" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="J3" gate="G$4" pin="PD3"/>
-</segment>
 </net>
 <net name="AUX2L" class="0">
 <segment>
@@ -10018,12 +10013,39 @@ Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS
 <wire x1="-137.16" y1="-309.88" x2="-134.62" y2="-309.88" width="0.1524" layer="91"/>
 <label x="-137.16" y="-309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$2" pin="PE13"/>
+<wire x1="261.62" y1="-170.18" x2="261.62" y2="-172.72" width="0.1524" layer="91"/>
+<label x="261.62" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P2"/>
+<wire x1="-83.82" y1="-297.18" x2="-81.28" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-83.82" y="-297.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RTS" class="0">
 <segment>
 <pinref part="XB1" gate="G$1" pin="!RTS!/AD6/DIO6"/>
 <wire x1="-137.16" y1="-312.42" x2="-134.62" y2="-312.42" width="0.1524" layer="91"/>
 <label x="-137.16" y="-312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$2" pin="PE12"/>
+<wire x1="264.16" y1="-170.18" x2="264.16" y2="-172.72" width="0.1524" layer="91"/>
+<label x="264.16" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P3"/>
+<wire x1="-83.82" y1="-299.72" x2="-81.28" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-83.82" y="-299.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWR_OUT" class="0">
+<segment>
+<pinref part="J3" gate="G$4" pin="PD3"/>
+<wire x1="172.72" y1="-170.18" x2="172.72" y2="-172.72" width="0.1524" layer="91"/>
+<label x="172.72" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>

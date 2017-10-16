@@ -967,7 +967,6 @@ Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
 </package>
 <package name="ARDUINOR3">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin</description>
-<wire x1="0" y1="0" x2="66.04" y2="0" width="0.3048" layer="21"/>
 <wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.3048" layer="21"/>
 <wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.3048" layer="21"/>
 <wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0.3048" layer="21"/>
@@ -1045,6 +1044,8 @@ Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
 <text x="18.288" y="49.911" size="1.016" layer="37" font="vector" rot="R270">SCL</text>
 <text x="20.828" y="49.911" size="1.016" layer="37" font="vector" rot="R270">SDA</text>
 <text x="30.988" y="3.7999" size="1.016" layer="37" font="vector" rot="R90">IOr</text>
+<wire x1="66.04" y1="0" x2="22.86" y2="0" width="0.3048" layer="21"/>
+<wire x1="13.97" y1="0" x2="8.89" y2="0" width="0.3048" layer="21"/>
 </package>
 <package name="ARDUINOR3-BPLACE">
 <wire x1="0" y1="0" x2="66.04" y2="0" width="0" layer="22"/>
@@ -8668,7 +8669,7 @@ distributor Farnell 149-452</description>
 <part name="U$72" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device=""/>
-<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="120"/>
+<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="FTDI_DEVICE" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -8814,6 +8815,26 @@ distributor Farnell 149-452</description>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603" value="240"/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603" value="240"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="47n"/>
+<part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="R16" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED8" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R17" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED9" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R18" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED10" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R19" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED11" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R20" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED12" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R21" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED13" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R23" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED14" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R24" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="LED15" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="GND30" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8829,9 +8850,9 @@ distributor Farnell 149-452</description>
 <wire x1="370.84" y1="-193.04" x2="375.92" y2="-187.96" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-317.5" x2="152.4" y2="-322.58" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-322.58" x2="152.4" y2="-360.68" width="0.3048" layer="97"/>
-<wire x1="152.4" y1="-360.68" x2="238.76" y2="-360.68" width="0.3048" layer="97"/>
-<wire x1="238.76" y1="-360.68" x2="238.76" y2="-317.5" width="0.3048" layer="97"/>
-<wire x1="238.76" y1="-317.5" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
+<wire x1="152.4" y1="-360.68" x2="251.46" y2="-360.68" width="0.3048" layer="97"/>
+<wire x1="251.46" y1="-360.68" x2="251.46" y2="-317.5" width="0.3048" layer="97"/>
+<wire x1="251.46" y1="-317.5" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
 <wire x1="182.88" y1="-317.5" x2="152.4" y2="-317.5" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-322.58" x2="177.8" y2="-322.58" width="0.3048" layer="97"/>
 <wire x1="177.8" y1="-322.58" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
@@ -8897,8 +8918,8 @@ distributor Farnell 149-452</description>
 <instance part="C50" gate="G$1" x="165.1" y="-345.44" rot="MR0"/>
 <instance part="U$72" gate="G$1" x="165.1" y="-327.66"/>
 <instance part="GND25" gate="1" x="165.1" y="-355.6"/>
-<instance part="SW1" gate="G$1" x="226.06" y="-347.98"/>
-<instance part="R26" gate="G$1" x="233.68" y="-350.52" rot="R270"/>
+<instance part="SW1" gate="G$1" x="220.98" y="-347.98"/>
+<instance part="R26" gate="G$1" x="228.6" y="-350.52" rot="R270"/>
 <instance part="U$8" gate="G$1" x="-137.16" y="-276.86"/>
 <instance part="J4" gate="G$1" x="396.24" y="-203.2"/>
 <instance part="GND8" gate="1" x="388.62" y="-215.9"/>
@@ -9039,6 +9060,26 @@ distributor Farnell 149-452</description>
 <instance part="R2" gate="G$1" x="-142.24" y="-292.1"/>
 <instance part="R3" gate="G$1" x="-144.78" y="-314.96"/>
 <instance part="GND28" gate="1" x="-160.02" y="-320.04"/>
+<instance part="R7" gate="G$1" x="228.6" y="-340.36" rot="R270"/>
+<instance part="C5" gate="G$1" x="238.76" y="-353.06"/>
+<instance part="GND29" gate="1" x="238.76" y="-358.14"/>
+<instance part="R16" gate="G$1" x="-35.56" y="-289.56" rot="R180"/>
+<instance part="LED8" gate="G$1" x="-25.4" y="-289.56"/>
+<instance part="R17" gate="G$1" x="-35.56" y="-297.18" rot="R180"/>
+<instance part="LED9" gate="G$1" x="-25.4" y="-297.18"/>
+<instance part="R18" gate="G$1" x="-35.56" y="-304.8" rot="R180"/>
+<instance part="LED10" gate="G$1" x="-25.4" y="-304.8"/>
+<instance part="R19" gate="G$1" x="-35.56" y="-312.42" rot="R180"/>
+<instance part="LED11" gate="G$1" x="-25.4" y="-312.42"/>
+<instance part="R20" gate="G$1" x="-35.56" y="-320.04" rot="R180"/>
+<instance part="LED12" gate="G$1" x="-25.4" y="-320.04"/>
+<instance part="R21" gate="G$1" x="-35.56" y="-327.66" rot="R180"/>
+<instance part="LED13" gate="G$1" x="-25.4" y="-327.66"/>
+<instance part="R23" gate="G$1" x="-35.56" y="-335.28" rot="R180"/>
+<instance part="LED14" gate="G$1" x="-25.4" y="-335.28"/>
+<instance part="R24" gate="G$1" x="-35.56" y="-342.9" rot="R180"/>
+<instance part="LED15" gate="G$1" x="-25.4" y="-342.9"/>
+<instance part="GND30" gate="1" x="-20.32" y="-347.98"/>
 </instances>
 <busses>
 </busses>
@@ -9384,6 +9425,44 @@ distributor Farnell 149-452</description>
 <junction x="-160.02" y="-314.96"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="P$2"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="C"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="-22.86" y1="-342.9" x2="-20.32" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-342.9" x2="-20.32" y2="-345.44" width="0.1524" layer="91"/>
+<pinref part="LED14" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-335.28" x2="-20.32" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-335.28" x2="-20.32" y2="-342.9" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-342.9"/>
+<pinref part="LED13" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-327.66" x2="-20.32" y2="-327.66" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-327.66" x2="-20.32" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-335.28"/>
+<pinref part="LED12" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-320.04" x2="-20.32" y2="-320.04" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-320.04" x2="-20.32" y2="-327.66" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-327.66"/>
+<pinref part="LED11" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-312.42" x2="-20.32" y2="-312.42" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-312.42" x2="-20.32" y2="-320.04" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-320.04"/>
+<pinref part="LED10" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-304.8" x2="-20.32" y2="-304.8" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-304.8" x2="-20.32" y2="-312.42" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-312.42"/>
+<pinref part="LED9" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-297.18" x2="-20.32" y2="-297.18" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-297.18" x2="-20.32" y2="-304.8" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-304.8"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-289.56" x2="-20.32" y2="-289.56" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-289.56" x2="-20.32" y2="-297.18" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-297.18"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -9613,8 +9692,8 @@ distributor Farnell 149-452</description>
 </net>
 <net name="CAN_RX" class="0">
 <segment>
-<wire x1="205.74" y1="-340.36" x2="203.2" y2="-340.36" width="0.1524" layer="91"/>
-<label x="205.74" y="-340.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="-340.36" x2="203.2" y2="-340.36" width="0.1524" layer="91"/>
+<label x="210.82" y="-340.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U10" gate="A" pin="R"/>
 </segment>
 <segment>
@@ -9897,14 +9976,7 @@ distributor Farnell 149-452</description>
 <segment>
 <pinref part="SW1" gate="G$1" pin="S2"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="-355.6" x2="233.68" y2="-355.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="SW1" gate="G$1" pin="S1"/>
-<pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="-345.44" x2="233.68" y2="-345.44" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-355.6" x2="228.6" y2="-355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DBG_RX" class="0">
@@ -10323,13 +10395,13 @@ distributor Farnell 149-452</description>
 </segment>
 <segment>
 <pinref part="U10" gate="A" pin="CANH"/>
-<wire x1="203.2" y1="-335.28" x2="215.9" y2="-335.28" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-335.28" x2="215.9" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-335.28" x2="205.74" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-335.28" x2="205.74" y2="-353.06" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="P2"/>
-<wire x1="215.9" y1="-353.06" x2="220.98" y2="-353.06" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-335.28" x2="215.9" y2="-335.28" width="0.1524" layer="91"/>
-<junction x="215.9" y="-335.28"/>
-<label x="220.98" y="-335.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="205.74" y1="-353.06" x2="215.9" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-335.28" x2="205.74" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="205.74" y="-335.28"/>
+<label x="210.82" y="-335.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="RIGHT"/>
@@ -10360,13 +10432,13 @@ distributor Farnell 149-452</description>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="P1"/>
-<wire x1="220.98" y1="-342.9" x2="218.44" y2="-342.9" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-342.9" x2="218.44" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-342.9" x2="208.28" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-342.9" x2="208.28" y2="-332.74" width="0.1524" layer="91"/>
 <pinref part="U10" gate="A" pin="CANL"/>
-<wire x1="218.44" y1="-332.74" x2="203.2" y2="-332.74" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-332.74" x2="218.44" y2="-332.74" width="0.1524" layer="91"/>
-<junction x="218.44" y="-332.74"/>
-<label x="220.98" y="-332.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="-332.74" x2="203.2" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-332.74" x2="208.28" y2="-332.74" width="0.1524" layer="91"/>
+<junction x="208.28" y="-332.74"/>
+<label x="210.82" y="-332.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="LEFT"/>
@@ -10918,6 +10990,170 @@ distributor Farnell 149-452</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="-147.32" y1="-292.1" x2="-149.86" y2="-292.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="S1"/>
+<wire x1="223.52" y1="-345.44" x2="226.06" y2="-345.44" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-345.44" x2="226.06" y2="-332.74" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="-332.74" x2="228.6" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-332.74" x2="228.6" y2="-335.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="P$1"/>
+<wire x1="228.6" y1="-345.44" x2="238.76" y2="-345.44" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-345.44" x2="238.76" y2="-347.98" width="0.1524" layer="91"/>
+<junction x="228.6" y="-345.44"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="LED9" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="LED10" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="LED11" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="LED12" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="LED13" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="LED14" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="LED15" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="LED8" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-342.9" x2="-40.64" y2="-342.9" width="0.1524" layer="91"/>
+<label x="-43.18" y="-342.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD8"/>
+<wire x1="256.54" y1="-157.48" x2="254" y2="-157.48" width="0.1524" layer="91"/>
+<label x="256.54" y="-157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED7" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-335.28" x2="-40.64" y2="-335.28" width="0.1524" layer="91"/>
+<label x="-43.18" y="-335.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD9"/>
+<wire x1="256.54" y1="-154.94" x2="254" y2="-154.94" width="0.1524" layer="91"/>
+<label x="256.54" y="-154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED6" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-327.66" x2="-40.64" y2="-327.66" width="0.1524" layer="91"/>
+<label x="-43.18" y="-327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD10"/>
+<wire x1="256.54" y1="-152.4" x2="254" y2="-152.4" width="0.1524" layer="91"/>
+<label x="256.54" y="-152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED5" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-320.04" x2="-40.64" y2="-320.04" width="0.1524" layer="91"/>
+<label x="-43.18" y="-320.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD11"/>
+<wire x1="256.54" y1="-149.86" x2="254" y2="-149.86" width="0.1524" layer="91"/>
+<label x="256.54" y="-149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED4" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-312.42" x2="-40.64" y2="-312.42" width="0.1524" layer="91"/>
+<label x="-43.18" y="-312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD12"/>
+<wire x1="256.54" y1="-147.32" x2="254" y2="-147.32" width="0.1524" layer="91"/>
+<label x="256.54" y="-147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED3" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-304.8" x2="-40.64" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-43.18" y="-304.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD13"/>
+<wire x1="256.54" y1="-144.78" x2="254" y2="-144.78" width="0.1524" layer="91"/>
+<label x="256.54" y="-144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-297.18" x2="-40.64" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-43.18" y="-297.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PD14"/>
+<wire x1="256.54" y1="-142.24" x2="254" y2="-142.24" width="0.1524" layer="91"/>
+<label x="256.54" y="-142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-289.56" x2="-40.64" y2="-289.56" width="0.1524" layer="91"/>
+<label x="-43.18" y="-289.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$3" pin="PA9"/>
+<wire x1="256.54" y1="-124.46" x2="254" y2="-124.46" width="0.1524" layer="91"/>
+<label x="256.54" y="-124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

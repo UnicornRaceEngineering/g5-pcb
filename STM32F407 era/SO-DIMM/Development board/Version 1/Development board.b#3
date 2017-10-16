@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -29250,9 +29250,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="0.47625" y="26.3525" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="1.11125" y="28.63855" size="0.4064" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="R26" library="microbuilder" package="_0603" value="120" x="33.81375" y="87.15375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="35.08375" y="88.10625" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="35.08375" y="85.66145" size="0.4064" layer="28" ratio="10" rot="MR0"/>
+<element name="R26" library="microbuilder" package="_0603" value="60" x="33.02" y="87.9475" smashed="yes" rot="MR270">
+<attribute name="NAME" x="28.575" y="89.05875" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="34.5123" y="89.2175" size="0.4064" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="R4" library="microbuilder" package="_0603" value="4k7" x="2.38125" y="23.01875" smashed="yes" rot="MR180">
 <attribute name="NAME" x="3.65125" y="24.13" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
@@ -29485,7 +29485,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="61.9125" y="76.2" size="1.27" layer="27"/>
 </element>
 <element name="LED6" library="microbuilder" package="CHIPLED_1206" value="" x="154.46375" y="16.66875" smashed="yes" rot="R180">
-<attribute name="NAME" x="155.73375" y="18.95475" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="151.92375" y="18.95475" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="152.81275" y="18.95475" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="LED7" library="microbuilder" package="CHIPLED_1206" value="" x="157.32125" y="16.66875" smashed="yes" rot="R180">
@@ -29500,6 +29500,30 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="156.5275" y="23.1775" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="157.3848" y="20.16125" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
+<element name="R7" library="microbuilder" package="_0603" value="60" x="34.6075" y="87.9475" smashed="yes" rot="MR90">
+<attribute name="NAME" x="35.2425" y="89.2175" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="33.1152" y="86.6775" size="0.4064" layer="28" ratio="10" rot="MR90"/>
+</element>
+<element name="C5" library="microbuilder" package="_0603" value="47n" x="33.81375" y="90.01125" smashed="yes" rot="MR180">
+<attribute name="NAME" x="32.0675" y="89.535" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="32.54375" y="91.50355" size="0.4064" layer="28" ratio="10" rot="MR180"/>
+</element>
+<element name="R16" library="microbuilder" package="_0603" value="100" x="-28.8925" y="-32.385"/>
+<element name="LED8" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-31.59125"/>
+<element name="R17" library="microbuilder" package="_0603" value="100" x="-33.9725" y="-41.91"/>
+<element name="LED9" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-36.98875"/>
+<element name="R18" library="microbuilder" package="_0603" value="100" x="-29.05125" y="-51.435"/>
+<element name="LED10" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-46.51375"/>
+<element name="R19" library="microbuilder" package="_0603" value="100" x="-33.9725" y="-56.8325"/>
+<element name="LED11" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-51.91125"/>
+<element name="R20" library="microbuilder" package="_0603" value="100" x="-33.9725" y="-71.755"/>
+<element name="LED12" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-61.43625"/>
+<element name="R21" library="microbuilder" package="_0603" value="100" x="-29.36875" y="-71.755"/>
+<element name="LED13" library="microbuilder" package="CHIPLED_1206" value="" x="-28.73375" y="-61.43625"/>
+<element name="R23" library="microbuilder" package="_0603" value="100" x="-33.9725" y="-75.8825"/>
+<element name="LED14" library="microbuilder" package="CHIPLED_1206" value="" x="-33.81375" y="-66.83375"/>
+<element name="R24" library="microbuilder" package="_0603" value="100" x="-29.36875" y="-75.8825"/>
+<element name="LED15" library="microbuilder" package="CHIPLED_1206" value="" x="-28.73375" y="-66.83375"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -29686,7 +29710,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="S5" pad="S"/>
 <contactref element="S6" pad="S"/>
 <contactref element="S7" pad="S"/>
-<contactref element="S8" pad="S"/>
 <contactref element="U6" pad="SLEEVE"/>
 <contactref element="U5" pad="SLEEVE"/>
 <contactref element="U$21" pad="P$2"/>
@@ -29717,6 +29740,24 @@ Covered vias can be set in Masks (Limit).
 <via x="34.6075" y="30.32125" extent="1-16" drill="0.3302"/>
 <via x="34.6075" y="33.9725" extent="1-16" drill="0.3302"/>
 <via x="28.09875" y="30.48" extent="1-16" drill="0.3302"/>
+<contactref element="S8" pad="S"/>
+<contactref element="C5" pad="2"/>
+<contactref element="LED15" pad="C"/>
+<contactref element="LED14" pad="C"/>
+<contactref element="LED13" pad="C"/>
+<contactref element="LED12" pad="C"/>
+<contactref element="LED11" pad="C"/>
+<contactref element="LED10" pad="C"/>
+<contactref element="LED9" pad="C"/>
+<contactref element="LED8" pad="C"/>
+<wire x1="-28.73375" y1="-65.33775" x2="-33.81375" y2="-65.33775" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.81375" y1="-59.94025" x2="-33.81375" y2="-65.33775" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.73375" y1="-59.94025" x2="-33.81375" y2="-59.94025" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.81375" y1="-50.41525" x2="-33.81375" y2="-59.94025" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.81375" y1="-45.01775" x2="-33.81375" y2="-50.41525" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.81375" y1="-35.49275" x2="-33.81375" y2="-45.01775" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.81375" y1="-30.09525" x2="-33.81375" y2="-35.49275" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27625" y1="16.08625" x2="-33.81375" y2="-30.09525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="CN1" pad="VBUS"/>
@@ -29758,10 +29799,9 @@ Covered vias can be set in Masks (Limit).
 <contactref element="LED5" pad="2"/>
 <contactref element="U2" pad="2"/>
 <contactref element="C2" pad="1"/>
-<wire x1="137.00125" y1="10.31875" x2="125.4125" y2="10.31875" width="0.6096" layer="16"/>
-<wire x1="137.00125" y1="10.31875" x2="147.955" y2="10.31875" width="0.6096" layer="16"/>
-<wire x1="125.4125" y1="12.19875" x2="125.4125" y2="10.31875" width="0.6096" layer="16"/>
-<wire x1="137.00125" y1="12.19875" x2="137.00125" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="136.96125" y1="10.31875" x2="147.955" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="125.57125" y1="10.31875" x2="136.96125" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="113.82375" y1="10.31875" x2="125.3725" y2="10.31875" width="0.6096" layer="16"/>
 <wire x1="153.4625" y1="42.59125" x2="153.51125" y2="42.64" width="0.6096" layer="1"/>
 <contactref element="U4" pad="3,3V"/>
 <contactref element="R12" pad="2"/>
@@ -29791,8 +29831,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="102.20325" y1="8.763" x2="102.235" y2="8.73125" width="0.6096" layer="1"/>
 <wire x1="113.82375" y1="10.31875" x2="112.23625" y2="8.73125" width="0.6096" layer="16"/>
 <wire x1="112.23625" y1="8.73125" x2="108.2675" y2="8.73125" width="0.6096" layer="16"/>
-<wire x1="125.4125" y1="10.31875" x2="113.82375" y2="10.31875" width="0.6096" layer="16"/>
-<wire x1="113.82375" y1="12.19875" x2="113.82375" y2="10.31875" width="0.6096" layer="16"/>
 <wire x1="158.27375" y1="13.49375" x2="158.27375" y2="37.78" width="0.6096" layer="16"/>
 <wire x1="158.27375" y1="37.78" x2="153.4625" y2="42.59125" width="0.6096" layer="16"/>
 <contactref element="XB1" pad="5"/>
@@ -29905,9 +29943,11 @@ Covered vias can be set in Masks (Limit).
 <wire x1="157.01875" y1="12.23875" x2="158.27375" y2="13.49375" width="0.6096" layer="16"/>
 <wire x1="73.18375" y1="11.58875" x2="74.6125" y2="11.58875" width="0.6096" layer="1"/>
 <wire x1="74.6125" y1="11.58875" x2="77.47" y2="8.73125" width="0.6096" layer="1"/>
-<wire x1="137.00125" y1="12.19875" x2="136.96125" y2="12.23875" width="0" layer="19" extent="16-16"/>
-<wire x1="125.3725" y1="12.23875" x2="125.4125" y2="12.19875" width="0" layer="19" extent="16-16"/>
-<wire x1="113.78375" y1="12.23875" x2="113.82375" y2="12.19875" width="0" layer="19" extent="16-16"/>
+<wire x1="136.96125" y1="12.23875" x2="136.96125" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="125.3725" y1="12.23875" x2="125.3725" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="125.3725" y1="10.31875" x2="125.57125" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="113.78375" y1="12.23875" x2="113.78375" y2="10.31875" width="0.6096" layer="16"/>
+<wire x1="113.78375" y1="10.31875" x2="113.82375" y2="10.31875" width="0.6096" layer="16"/>
 </signal>
 <signal name="12V">
 <contactref element="CN2" pad="PWR"/>
@@ -30384,18 +30424,11 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$5">
 <contactref element="SW1" pad="P$4"/>
 <contactref element="R26" pad="2"/>
-<wire x1="33.05175" y1="87.15375" x2="31.59125" y2="87.15375" width="0.3048" layer="16"/>
 <via x="31.59125" y="87.15375" extent="1-16" drill="0.3302"/>
 <wire x1="31.59125" y1="87.15375" x2="29.85375" y2="87.15375" width="0.3048" layer="1"/>
 <wire x1="29.85375" y1="87.15375" x2="29.81375" y2="87.11375" width="0.3048" layer="1" curve="90"/>
-</signal>
-<signal name="N$8">
-<contactref element="SW1" pad="P$3"/>
-<contactref element="R26" pad="1"/>
-<wire x1="34.57575" y1="87.15375" x2="36.03625" y2="87.15375" width="0.3048" layer="16"/>
-<via x="36.03625" y="87.15375" extent="1-16" drill="0.3302"/>
-<wire x1="36.03625" y1="87.15375" x2="37.77375" y2="87.15375" width="0.3048" layer="1"/>
-<wire x1="37.77375" y1="87.15375" x2="37.81375" y2="87.11375" width="0.3048" layer="1" curve="-90"/>
+<wire x1="31.59125" y1="87.15375" x2="32.98825" y2="87.15375" width="0.3048" layer="16"/>
+<wire x1="32.98825" y1="87.15375" x2="33.02" y2="87.1855" width="0.3048" layer="16" curve="90"/>
 </signal>
 <signal name="DBG_RX">
 <contactref element="J4" pad="P$3"/>
@@ -30508,8 +30541,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="142.71625" y1="35.08375" x2="149.06625" y2="41.43375" width="0.3048" layer="1"/>
 <wire x1="150.305" y1="41.43375" x2="151.4625" y2="42.59125" width="0.3048" layer="1"/>
 <wire x1="149.06625" y1="41.43375" x2="150.305" y2="41.43375" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$3">
 </signal>
 <signal name="N$10">
 <contactref element="U$30" pad="6"/>
@@ -31054,7 +31085,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="J3" pad="17"/>
 <wire x1="38.0725" y1="8.345" x2="40.55" y2="8.345" width="0.3048" layer="1"/>
 <wire x1="40.55" y1="8.345" x2="45.085" y2="3.81" width="0.3048" layer="1"/>
-<wire x1="78.22565" y1="5.48005" x2="78.22565" y2="11.98245" width="0" layer="19" extent="1-1"/>
+<wire x1="78.22565" y1="5.48005" x2="78.22565" y2="11.98245" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW6">
 <contactref element="R13" pad="1"/>
@@ -31070,7 +31101,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="J3" pad="15"/>
 <wire x1="38.0725" y1="7.745" x2="40.35625" y2="7.745" width="0.3048" layer="1"/>
 <wire x1="40.35625" y1="7.745" x2="44.7675" y2="3.33375" width="0.3048" layer="1"/>
-<wire x1="85.21065" y1="5.48005" x2="85.21065" y2="11.98245" width="0" layer="19" extent="1-1"/>
+<wire x1="85.21065" y1="5.48005" x2="85.21065" y2="11.98245" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW7">
 <contactref element="R14" pad="1"/>
@@ -31086,7 +31117,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="J3" pad="13"/>
 <wire x1="38.0725" y1="7.145" x2="40.1625" y2="7.145" width="0.3048" layer="1"/>
 <wire x1="40.1625" y1="7.145" x2="44.45" y2="2.8575" width="0.3048" layer="1"/>
-<wire x1="92.19565" y1="5.48005" x2="92.19565" y2="11.98245" width="0" layer="19" extent="1-1"/>
+<wire x1="92.19565" y1="5.48005" x2="92.19565" y2="11.98245" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW8">
 <contactref element="R15" pad="1"/>
@@ -31104,7 +31135,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="J3" pad="11"/>
 <wire x1="38.0725" y1="6.545" x2="39.96875" y2="6.545" width="0.3048" layer="1"/>
 <wire x1="39.96875" y1="6.545" x2="44.1325" y2="2.38125" width="0.3048" layer="1"/>
-<wire x1="99.18065" y1="5.48005" x2="99.18065" y2="11.98245" width="0" layer="19" extent="1-1"/>
+<wire x1="99.18065" y1="5.48005" x2="99.18065" y2="11.98245" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW4">
 <contactref element="S8" pad="P"/>
@@ -31257,14 +31288,19 @@ Covered vias can be set in Masks (Limit).
 <wire x1="115.09375" y1="73.3425" x2="136.36625" y2="73.3425" width="0.3048" layer="1"/>
 <via x="136.36625" y="73.3425" extent="1-16" drill="0.3302"/>
 <wire x1="136.36625" y1="73.3425" x2="136.36625" y2="75.08875" width="0.3048" layer="16"/>
-<wire x1="38.0725" y1="19.145" x2="107.0925" y2="19.145" width="0.3048" layer="1"/>
-<wire x1="107.0925" y1="19.145" x2="110.49" y2="22.5425" width="0.3048" layer="1"/>
-<wire x1="110.49" y1="22.5425" x2="110.49" y2="41.5925" width="0.3048" layer="1"/>
-<via x="110.49" y="41.5925" extent="1-16" drill="0.3302"/>
-<wire x1="110.49" y1="41.5925" x2="110.49" y2="62.5475" width="0.3048" layer="16"/>
-<wire x1="110.49" y1="62.5475" x2="113.82375" y2="65.88125" width="0.3048" layer="16"/>
 <wire x1="113.82375" y1="65.88125" x2="113.82375" y2="72.0725" width="0.3048" layer="16"/>
 <wire x1="113.82375" y1="72.0725" x2="115.09375" y2="73.3425" width="0.3048" layer="16"/>
+<wire x1="38.0725" y1="19.145" x2="44.38625" y2="19.145" width="0.3048" layer="1"/>
+<wire x1="44.38625" y1="19.145" x2="45.87875" y2="20.6375" width="0.3048" layer="1"/>
+<wire x1="45.87875" y1="20.6375" x2="45.87875" y2="24.92375" width="0.3048" layer="1"/>
+<wire x1="62.5475" y1="41.5925" x2="88.74125" y2="41.5925" width="0.3048" layer="1"/>
+<via x="88.74125" y="41.5925" extent="1-16" drill="0.3302"/>
+<wire x1="88.74125" y1="41.5925" x2="94.45625" y2="41.5925" width="0.3048" layer="16"/>
+<wire x1="94.45625" y1="41.5925" x2="96.99625" y2="44.1325" width="0.3048" layer="16"/>
+<wire x1="96.99625" y1="44.1325" x2="96.99625" y2="48.895" width="0.3048" layer="16"/>
+<wire x1="45.87875" y1="24.92375" x2="62.5475" y2="41.5925" width="0.3048" layer="1"/>
+<wire x1="113.82375" y1="65.7225" x2="113.82375" y2="65.88125" width="0.254" layer="16"/>
+<wire x1="96.99625" y1="48.895" x2="113.82375" y2="65.7225" width="0.3048" layer="16"/>
 </signal>
 <signal name="DAC0">
 <contactref element="J3" pad="3"/>
@@ -31605,6 +31641,104 @@ Covered vias can be set in Masks (Limit).
 <contactref element="LED7" pad="A"/>
 <wire x1="157.48" y1="20.66925" x2="157.48" y2="18.16475" width="0.3048" layer="1"/>
 <wire x1="157.48" y1="18.16475" x2="157.32125" y2="18.16475" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="SW1" pad="P$3"/>
+<contactref element="R7" pad="1"/>
+<wire x1="37.81375" y1="87.11375" x2="37.77375" y2="87.15375" width="0.3048" layer="1"/>
+<wire x1="37.77375" y1="87.15375" x2="36.03625" y2="87.15375" width="0.3048" layer="1"/>
+<via x="36.03625" y="87.15375" extent="1-16" drill="0.3302"/>
+<wire x1="36.03625" y1="87.15375" x2="34.63925" y2="87.15375" width="0.3048" layer="16"/>
+<wire x1="34.63925" y1="87.15375" x2="34.6075" y2="87.1855" width="0.3048" layer="16" curve="-90"/>
+</signal>
+<signal name="N$8">
+<contactref element="R26" pad="1"/>
+<contactref element="R7" pad="2"/>
+<contactref element="C5" pad="1"/>
+<wire x1="33.81375" y1="88.7095" x2="33.02" y2="88.7095" width="0.3048" layer="16"/>
+<wire x1="33.81375" y1="88.7095" x2="34.6075" y2="88.7095" width="0.3048" layer="16"/>
+<wire x1="33.05175" y1="90.01125" x2="33.81375" y2="89.24925" width="0.3048" layer="16"/>
+<wire x1="33.81375" y1="89.24925" x2="33.81375" y2="88.7095" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="R16" pad="1"/>
+<contactref element="LED8" pad="A"/>
+<wire x1="-29.6545" y1="-32.385" x2="-33.81375" y2="-33.08725" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="R17" pad="1"/>
+<contactref element="LED9" pad="A"/>
+<wire x1="-33.81375" y1="-38.48475" x2="-34.7345" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="R18" pad="1"/>
+<contactref element="LED10" pad="A"/>
+<wire x1="-33.81375" y1="-48.00975" x2="-29.81325" y2="-51.435" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="R19" pad="1"/>
+<contactref element="LED11" pad="A"/>
+<wire x1="-33.81375" y1="-53.40725" x2="-34.7345" y2="-56.8325" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="R20" pad="1"/>
+<contactref element="LED12" pad="A"/>
+<wire x1="-33.81375" y1="-62.93225" x2="-34.7345" y2="-71.755" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$41">
+<contactref element="R21" pad="1"/>
+<contactref element="LED13" pad="A"/>
+<wire x1="-28.73375" y1="-62.93225" x2="-30.13075" y2="-71.755" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$42">
+<contactref element="R23" pad="1"/>
+<contactref element="LED14" pad="A"/>
+<wire x1="-33.81375" y1="-68.32975" x2="-34.7345" y2="-75.8825" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$43">
+<contactref element="R24" pad="1"/>
+<contactref element="LED15" pad="A"/>
+<wire x1="-28.73375" y1="-68.32975" x2="-30.13075" y2="-75.8825" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED8">
+<contactref element="R24" pad="2"/>
+<contactref element="J3" pad="49"/>
+<wire x1="38.0725" y1="21.545" x2="-28.60675" y2="-75.8825" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED7">
+<contactref element="R23" pad="2"/>
+<contactref element="J3" pad="51"/>
+<wire x1="38.0725" y1="22.145" x2="-33.2105" y2="-75.8825" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED6">
+<contactref element="R21" pad="2"/>
+<contactref element="J3" pad="53"/>
+<wire x1="38.0725" y1="22.745" x2="-28.60675" y2="-71.755" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED5">
+<contactref element="R20" pad="2"/>
+<contactref element="J3" pad="55"/>
+<wire x1="38.0725" y1="23.345" x2="-33.2105" y2="-71.755" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED4">
+<contactref element="R19" pad="2"/>
+<contactref element="J3" pad="57"/>
+<wire x1="38.0725" y1="23.945" x2="-33.2105" y2="-56.8325" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED3">
+<contactref element="R18" pad="2"/>
+<contactref element="J3" pad="59"/>
+<wire x1="38.0725" y1="24.545" x2="-28.28925" y2="-51.435" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED2">
+<contactref element="R17" pad="2"/>
+<contactref element="J3" pad="61"/>
+<wire x1="38.0725" y1="25.145" x2="-33.2105" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED1">
+<contactref element="R16" pad="2"/>
+<contactref element="J3" pad="75"/>
+<wire x1="-28.1305" y1="-32.385" x2="38.0725" y2="29.345" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

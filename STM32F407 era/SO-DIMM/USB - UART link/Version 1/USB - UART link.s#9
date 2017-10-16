@@ -5117,6 +5117,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="U$9" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="R14" library="microbuilder" deviceset="RESISTOR" device="_0603" value="15k"/>
 <part name="R15" library="microbuilder" deviceset="RESISTOR" device="_0603" value="15k"/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5236,6 +5237,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="U$9" gate="G$1" x="78.74" y="30.48"/>
 <instance part="R14" gate="G$1" x="124.46" y="15.24"/>
 <instance part="R15" gate="G$1" x="132.08" y="7.62" rot="R90"/>
+<instance part="GND19" gate="1" x="132.08" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -5522,6 +5524,10 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="-116.84" y1="-17.78" x2="-114.3" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-17.78" x2="-114.3" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-116.84" y="-17.78"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">

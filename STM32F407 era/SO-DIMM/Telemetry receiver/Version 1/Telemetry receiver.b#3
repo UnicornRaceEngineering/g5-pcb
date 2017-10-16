@@ -2994,6 +2994,12 @@ Covered vias can be set in Masks (Limit).
 <contactref element="R1" pad="1"/>
 <wire x1="-12.3825" y1="0.1905" x2="-18.79975" y2="1.11125" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="CTS">
+<contactref element="U$24" pad="13"/>
+</signal>
+<signal name="RTS">
+<contactref element="U$24" pad="11"/>
+</signal>
 </signals>
 <errors>
 <approved hash="5,1,6da0a167d90c119c"/>

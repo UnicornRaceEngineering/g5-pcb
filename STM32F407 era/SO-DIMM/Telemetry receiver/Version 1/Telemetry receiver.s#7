@@ -5352,18 +5352,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="25.4" y1="246.38" x2="25.4" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="COM_ESD_N" class="0">
+<net name="D_N" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="D-"/>
 <wire x1="127" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="COM_ESD_P" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="D+"/>
-<wire x1="127" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="CN1" gate="G$1" pin="D-"/>
+<wire x1="-43.18" y1="185.42" x2="-45.72" y2="185.42" width="0.1524" layer="91"/>
+<label x="-43.18" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -5430,6 +5428,18 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="88.9" y1="190.5" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="D_P" class="0">
+<segment>
+<pinref part="CN1" gate="G$1" pin="D+"/>
+<wire x1="-43.18" y1="187.96" x2="-45.72" y2="187.96" width="0.1524" layer="91"/>
+<label x="-43.18" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="D+"/>
+<wire x1="127" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
+<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

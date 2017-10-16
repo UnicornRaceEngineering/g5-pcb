@@ -2877,11 +2877,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="7.3025" y1="26.89225" x2="9.765" y2="28.92625" width="0" layer="19" extent="1-1"/>
 <wire x1="27.305" y1="-10.00125" x2="7.3025" y2="26.89225" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="COM_ESD_N">
+<signal name="D_N">
 <contactref element="U$24" pad="18"/>
-</signal>
-<signal name="COM_ESD_P">
-<contactref element="U$24" pad="19"/>
+<contactref element="CN1" pad="D-"/>
+<wire x1="37.30625" y1="20.6883" x2="-6.67375" y2="-86.4235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U7" pad="16"/>
@@ -2920,6 +2919,11 @@ Covered vias can be set in Masks (Limit).
 </signal>
 <signal name="VBUS">
 <contactref element="CN1" pad="VBUS"/>
+</signal>
+<signal name="D_P">
+<contactref element="CN1" pad="D+"/>
+<contactref element="U$24" pad="19"/>
+<wire x1="38.57625" y1="20.6883" x2="-5.87375" y2="-86.4235" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
