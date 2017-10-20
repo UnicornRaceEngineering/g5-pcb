@@ -5886,7 +5886,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="R68" library="microbuilder" deviceset="RESISTOR" device="_0603" value="10k2"/>
-<part name="R69" library="microbuilder" deviceset="RESISTOR" device="_0603" value="3k24"/>
+<part name="R69" library="microbuilder" deviceset="RESISTOR" device="_0603" value="2k7"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="microbuilder" deviceset="INDUCTOR" device="TDK_VLC6045" value="SRN6045TA-680M"/>
 <part name="U$71" library="microbuilder" deviceset="12V" device=""/>
@@ -5964,16 +5964,16 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="microbuilder" deviceset="RESISTOR" device="_0603" value="10k"/>
-<part name="R18" library="microbuilder" deviceset="RESISTOR" device="_0603" value="29k4"/>
-<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="50K" library="microbuilder" deviceset="RESISTOR" device="_0603" value="10k"/>
+<part name="70K" library="microbuilder" deviceset="RESISTOR" device="_0603" value="29k4"/>
+<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="47p"/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="U$9" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="220u 6v3"/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="100u 6v3"/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="150u 6v3"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="microbuilder" deviceset="RESISTOR" device="1206" value="10m"/>
+<part name="R20" library="microbuilder" deviceset="RESISTOR" device="1206" value="35m"/>
 <part name="L3" library="microbuilder" deviceset="INDUCTOR" device="TDK_VLC6045" value="SRN6045TA-220M"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="5V"/>
@@ -6104,6 +6104,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="International_Rectifier_By_element14_Batch_1" deviceset="IRF9332PBF" device=""/>
 <part name="P+3" library="microbuilder" deviceset="VCC" device=""/>
+<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="100u 6v3"/>
 </parts>
 <sheets>
 <sheet>
@@ -6434,12 +6435,12 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="D4" gate="G$1" x="116.84" y="-375.92"/>
 <instance part="C13" gate="G$1" x="83.82" y="-378.46" rot="MR90"/>
 <instance part="GND4" gate="1" x="78.74" y="-378.46" rot="R270"/>
-<instance part="R16" gate="G$1" x="106.68" y="-403.86" rot="R270"/>
-<instance part="R18" gate="G$1" x="124.46" y="-396.24"/>
+<instance part="50K" gate="G$1" x="106.68" y="-403.86" rot="R270"/>
+<instance part="70K" gate="G$1" x="124.46" y="-396.24"/>
 <instance part="C18" gate="G$1" x="124.46" y="-401.32" rot="MR270"/>
 <instance part="D5" gate="G$1" x="137.16" y="-375.92"/>
 <instance part="U$9" gate="G$1" x="144.78" y="-370.84"/>
-<instance part="C19" gate="G$1" x="129.54" y="-386.08" rot="MR0"/>
+<instance part="C19" gate="G$1" x="129.54" y="-386.08"/>
 <instance part="C20" gate="G$1" x="66.04" y="-378.46" rot="MR0"/>
 <instance part="GND5" gate="1" x="129.54" y="-391.16"/>
 <instance part="GND6" gate="1" x="66.04" y="-383.54"/>
@@ -6637,6 +6638,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="GND31" gate="1" x="121.92" y="-358.14"/>
 <instance part="U1" gate="A" x="149.86" y="-337.82" rot="MR0"/>
 <instance part="P+3" gate="VCC" x="388.62" y="-195.58"/>
+<instance part="C25" gate="G$1" x="127" y="-386.08" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6996,7 +6998,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="91.44" y1="-408.94" x2="91.44" y2="-406.4" width="0.1524" layer="91"/>
 <junction x="91.44" y="-406.4"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="50K" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="-408.94" x2="106.68" y2="-411.48" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="-411.48" x2="101.6" y2="-411.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-411.48" x2="101.6" y2="-406.4" width="0.1524" layer="91"/>
@@ -7013,6 +7015,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <segment>
 <pinref part="C19" gate="G$1" pin="P$2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C25" gate="G$1" pin="P$2"/>
+<wire x1="127" y1="-388.62" x2="129.54" y2="-388.62" width="0.1524" layer="91"/>
+<junction x="129.54" y="-388.62"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="P$2"/>
@@ -9304,7 +9309,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="C18" gate="G$1" pin="P$2"/>
 <wire x1="127" y1="-401.32" x2="132.08" y2="-401.32" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-401.32" x2="132.08" y2="-396.24" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="70K" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="-396.24" x2="129.54" y2="-396.24" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="-375.92" x2="129.54" y2="-375.92" width="0.1524" layer="91"/>
@@ -9317,17 +9322,22 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="91.44" y1="-373.38" x2="132.08" y2="-373.38" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-373.38" x2="132.08" y2="-375.92" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="P$1"/>
-<wire x1="129.54" y1="-375.92" x2="129.54" y2="-381" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-375.92" x2="129.54" y2="-378.46" width="0.1524" layer="91"/>
 <junction x="129.54" y="-375.92"/>
+<pinref part="C25" gate="G$1" pin="P$1"/>
+<wire x1="129.54" y1="-378.46" x2="129.54" y2="-381" width="0.1524" layer="91"/>
+<wire x1="127" y1="-381" x2="127" y2="-378.46" width="0.1524" layer="91"/>
+<wire x1="127" y1="-378.46" x2="129.54" y2="-378.46" width="0.1524" layer="91"/>
+<junction x="129.54" y="-378.46"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="FB"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="50K" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="-396.24" x2="106.68" y2="-396.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="-396.24" x2="106.68" y2="-398.78" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="70K" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="-396.24" x2="116.84" y2="-396.24" width="0.1524" layer="91"/>
 <junction x="106.68" y="-396.24"/>
 <pinref part="C18" gate="G$1" pin="P$1"/>
