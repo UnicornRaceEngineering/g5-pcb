@@ -5175,11 +5175,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U$16" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="XB1" library="maxstream" deviceset="XBEE" device="-PRO"/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603" value="850"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
-<part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="1µ"/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="LED2" library="microbuilder" deviceset="LED" device="1206"/>
@@ -5189,6 +5184,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="PTC2" library="microbuilder" deviceset="PTC" device="1812"/>
+<part name="LED1" library="microbuilder" deviceset="LED" device="1206"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 </parts>
 <sheets>
 <sheet>
@@ -5197,8 +5194,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instances>
 <instance part="U$24" gate="G$1" x="104.14" y="109.22"/>
 <instance part="U$17" gate="G$1" x="78.74" y="134.62"/>
-<instance part="U$28" gate="G$1" x="129.54" y="124.46"/>
-<instance part="GND15" gate="1" x="132.08" y="88.9"/>
+<instance part="U$28" gate="G$1" x="134.62" y="124.46"/>
+<instance part="GND15" gate="1" x="137.16" y="88.9"/>
 <instance part="Q2" gate="G$1" x="55.88" y="119.38" rot="R90"/>
 <instance part="C17" gate="G$1" x="48.26" y="114.3" rot="MR90"/>
 <instance part="C18" gate="G$1" x="50.8" y="124.46" rot="R90"/>
@@ -5210,7 +5207,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="LED5" gate="G$1" x="55.88" y="93.98" rot="R270"/>
 <instance part="C19" gate="G$1" x="58.42" y="111.76" rot="R270"/>
 <instance part="GND26" gate="1" x="48.26" y="88.9"/>
-<instance part="C20" gate="G$1" x="134.62" y="104.14"/>
+<instance part="C20" gate="G$1" x="139.7" y="104.14"/>
 <instance part="U2" gate="G$1" x="20.32" y="121.92"/>
 <instance part="U$1" gate="G$1" x="30.48" y="127"/>
 <instance part="GND2" gate="1" x="20.32" y="104.14"/>
@@ -5225,20 +5222,17 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="GND30" gate="1" x="27.94" y="182.88"/>
 <instance part="U$16" gate="G$1" x="25.4" y="251.46"/>
 <instance part="XB1" gate="G$1" x="129.54" y="198.12"/>
-<instance part="R1" gate="G$1" x="104.14" y="213.36" rot="R180"/>
-<instance part="C3" gate="G$1" x="96.52" y="203.2" rot="R180"/>
-<instance part="C4" gate="G$1" x="88.9" y="208.28" rot="R180"/>
-<instance part="GND3" gate="1" x="88.9" y="195.58"/>
-<instance part="GND4" gate="1" x="88.9" y="172.72"/>
 <instance part="GND5" gate="1" x="101.6" y="165.1"/>
 <instance part="U$5" gate="G$1" x="96.52" y="228.6"/>
-<instance part="LED2" gate="G$1" x="104.14" y="190.5" rot="R180"/>
-<instance part="R8" gate="G$1" x="88.9" y="182.88" rot="R90"/>
+<instance part="LED2" gate="G$1" x="106.68" y="190.5" rot="R180"/>
+<instance part="R8" gate="G$1" x="101.6" y="182.88" rot="R90"/>
 <instance part="CN1" gate="G$1" x="-55.88" y="185.42"/>
 <instance part="H2" gate="G$1" x="-86.36" y="149.86"/>
 <instance part="GND1" gate="1" x="-43.18" y="175.26"/>
 <instance part="U$3" gate="G$1" x="-27.94" y="195.58"/>
 <instance part="PTC2" gate="G$1" x="-35.56" y="190.5"/>
+<instance part="LED1" gate="G$1" x="106.68" y="213.36" rot="MR0"/>
+<instance part="R1" gate="G$1" x="96.52" y="205.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -5246,14 +5240,14 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="VSS"/>
-<wire x1="127" y1="119.38" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="119.38" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="127" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C20" gate="G$1" pin="P$2"/>
-<wire x1="132.08" y1="99.06" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<junction x="132.08" y="99.06"/>
+<wire x1="137.16" y1="99.06" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+<junction x="137.16" y="99.06"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="P$1"/>
@@ -5298,24 +5292,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="27.94" y1="185.42" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="198.12" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="P$1"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="88.9" y1="175.26" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="198.12" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="XB1" gate="G$1" pin="GND"/>
+<wire x1="96.52" y1="200.66" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="170.18" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="170.18"/>
-<pinref part="C3" gate="G$1" pin="P$1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="177.8" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="GND"/>
@@ -5338,12 +5324,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <segment>
 <pinref part="U$24" gate="G$1" pin="VUSB"/>
 <pinref part="U$28" gate="G$1" pin="3.3V"/>
-<wire x1="127" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="127" y1="111.76" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="P$1"/>
-<wire x1="129.54" y1="111.76" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="111.76" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="111.76" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
-<junction x="129.54" y="111.76"/>
+<wire x1="134.62" y1="111.76" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="111.76" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="111.76" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
+<junction x="134.62" y="111.76"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
@@ -5362,16 +5348,13 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <segment>
 <wire x1="114.3" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="205.74" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="XB1" gate="G$1" pin="VCC"/>
 <pinref part="XB1" gate="G$1" pin="!RESET"/>
 <wire x1="114.3" y1="220.98" x2="109.22" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="220.98" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <junction x="109.22" y="223.52"/>
-<pinref part="C3" gate="G$1" pin="P$2"/>
 <pinref part="U$5" gate="G$1" pin="3.3V"/>
 <wire x1="96.52" y1="223.52" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
-<junction x="96.52" y="223.52"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -5395,7 +5378,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <segment>
 <pinref part="U$24" gate="G$1" pin="RX"/>
 <wire x1="129.54" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="129.54" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="XB1" gate="G$1" pin="DIN/!CONFIG"/>
@@ -5500,8 +5483,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <net name="D_N" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="D-"/>
-<wire x1="127" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<label x="142.24" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="D-"/>
@@ -5530,33 +5513,17 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="15.24" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="109.22" y1="213.36" x2="114.3" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="XB1" gate="G$1" pin="PWM0/RSSI"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="SS-XBEE" class="0">
-<segment>
-<wire x1="88.9" y1="213.36" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<label x="88.9" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="88.9" y1="210.82" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="P$2"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="XB1" gate="G$1" pin="ASSOC/AD5/DIO5"/>
-<wire x1="109.22" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="88.9" y1="187.96" x2="88.9" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="190.5" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="187.96" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="190.5" x2="104.14" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
@@ -5569,8 +5536,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </segment>
 <segment>
 <pinref part="U$24" gate="G$1" pin="D+"/>
-<wire x1="127" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<label x="142.24" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5578,6 +5545,35 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="CN1" gate="G$1" pin="VBUS"/>
 <pinref part="PTC2" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="190.5" x2="-40.64" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="XB1" gate="G$1" pin="PWM0/RSSI"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="114.3" y1="213.36" x2="111.76" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="213.36" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="213.36" x2="96.52" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CTS" class="0">
+<segment>
+<pinref part="U$24" gate="G$1" pin="!CTS"/>
+<wire x1="129.54" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<label x="129.54" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RTS" class="0">
+<segment>
+<pinref part="U$24" gate="G$1" pin="!RTS"/>
+<wire x1="129.54" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
+<label x="129.54" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -3172,6 +3172,56 @@ TS-003</description>
 <hole x="-2.2" y="1" drill="1"/>
 <hole x="2.2" y="1" drill="1"/>
 </package>
+<package name="PTC1210">
+<description>PTC 1210 (3225 Metric)
+
+Source: http://www.bourns.com/data/global/PDFs/mfusmf.pdf</description>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="-1.6" y2="0.25" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="0.25" x2="-1.6" y2="-0.25" width="0.2032" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="-0.25" x2="-1.6" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="1.6" y2="-0.25" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="0.25" width="0.2032" layer="51" curve="-180"/>
+<wire x1="1.6" y1="0.25" x2="1.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="1.75" x2="2.25" y2="1.75" width="0.127" layer="39"/>
+<wire x1="2.25" y1="1.75" x2="2.25" y2="-1.75" width="0.127" layer="39"/>
+<wire x1="2.25" y1="-1.75" x2="-2.25" y2="-1.75" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="-1.75" x2="-2.25" y2="1.75" width="0.127" layer="39"/>
+<wire x1="-2.2225" y1="1.778" x2="2.2225" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="2.2225" y1="1.778" x2="2.2225" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="2.2225" y1="-1.778" x2="-2.2225" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-2.2225" y1="-1.778" x2="-2.2225" y2="1.778" width="0.2032" layer="21"/>
+<smd name="P$1" x="-1.5" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="PTC1812">
+<description>PTC 1812 (4532 Metric)
+
+Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
+<wire x1="-2.25" y1="1.625" x2="2.25" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-1.625" x2="2.25" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="1.625" x2="-2.25" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="0.5" x2="-2.25" y2="-0.5" width="0.127" layer="51" curve="-180"/>
+<wire x1="-2.25" y1="-0.5" x2="-2.25" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-1.625" x2="2.25" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-0.5" x2="2.25" y2="0.5" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.25" y1="0.5" x2="2.25" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-3.1" y1="2.1" x2="3.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="3.1" y1="2.1" x2="3.1" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="3.1" y1="-2.1" x2="-3.1" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="-3.1" y1="-2.1" x2="-3.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="-3.1115" y1="2.0955" x2="3.1115" y2="2.0955" width="0.2032" layer="21"/>
+<wire x1="3.1115" y1="2.0955" x2="3.1115" y2="-2.0955" width="0.2032" layer="21"/>
+<wire x1="3.1115" y1="-2.0955" x2="-3.1115" y2="-2.0955" width="0.2032" layer="21"/>
+<wire x1="-3.1115" y1="-2.0955" x2="-3.1115" y2="2.0955" width="0.2032" layer="21"/>
+<smd name="P$1" x="-2.1" y="0" dx="1.5" dy="3.7" layer="1"/>
+<smd name="P$2" x="2.1" y="0" dx="1.5" dy="3.7" layer="1"/>
+<text x="-3.175" y="2.54" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-3.175" y="-2.794" size="0.4064" layer="27" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -3273,6 +3323,36 @@ TS-003</description>
 <pin name="VBUS" x="10.16" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="ID" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="PTC">
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-2.286" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="3.302" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.0668" y1="2.1336" x2="-0.762" y2="2.159" width="0.1524" layer="94" curve="-143.401004"/>
+<wire x1="-0.762" y1="2.159" x2="-0.635" y2="1.651" width="0.1524" layer="94" curve="16.281888"/>
+<wire x1="-0.635" y1="1.651" x2="-0.0508" y2="1.5494" width="0.1524" layer="94" curve="135.668554"/>
+<wire x1="-0.0508" y1="1.5494" x2="-0.127" y2="2.921" width="0.1524" layer="94" curve="65.705733"/>
+<wire x1="-0.127" y1="2.921" x2="-0.381" y2="2.794" width="0.1524" layer="94" curve="139.383116"/>
+<wire x1="-0.381" y1="2.794" x2="0.381" y2="2.286" width="0.1524" layer="94" curve="100.176187"/>
+<text x="-3.81" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.794" y="1.778"/>
+<vertex x="2.286" y="1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="2.54"/>
+<vertex x="3.556" y="1.778"/>
+<vertex x="3.048" y="1.778"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -3819,6 +3899,53 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="ID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTC" prefix="PTC" uservalue="yes">
+<description>&lt;b&gt;PTC (Resettable Fuse)&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;1206 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250mA PTC (16V Max, Time-to-Trip: 0.08s) - Digikey: F2110CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;1210 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100mA PTC (30V Max, Time-to-Trip: 0.6s) - Digikey: MF-USMF010-2CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;1812 Package&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;750mA PTC (24V Max, Time-to-Trip: 0.2s) - Digikey: MF-MSMF075/24-2CT-ND&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1210" package="PTC1210">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1812" package="PTC1812">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5059,6 +5186,9 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 <part name="CN1" library="microbuilder" deviceset="USB" device="MINIBLARGE"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="U$3" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="PTC2" library="microbuilder" deviceset="PTC" device="1812"/>
 </parts>
 <sheets>
 <sheet>
@@ -5106,6 +5236,9 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="R8" gate="G$1" x="88.9" y="182.88" rot="R90"/>
 <instance part="CN1" gate="G$1" x="-55.88" y="185.42"/>
 <instance part="H2" gate="G$1" x="-86.36" y="149.86"/>
+<instance part="GND1" gate="1" x="-43.18" y="175.26"/>
+<instance part="U$3" gate="G$1" x="-27.94" y="195.58"/>
+<instance part="PTC2" gate="G$1" x="-35.56" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -5184,6 +5317,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="C3" gate="G$1" pin="P$1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="GND"/>
+<wire x1="-45.72" y1="180.34" x2="-43.18" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-43.18" y1="180.34" x2="-43.18" y2="177.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -5241,12 +5380,32 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="78.74" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
 <label x="78.74" y="96.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<label x="111.76" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="XB1" gate="G$1" pin="DOUT"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P1/TX"/>
+<wire x1="15.24" y1="228.6" x2="17.78" y2="228.6" width="0.1524" layer="91"/>
+<label x="15.24" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TX" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="RX"/>
 <wire x1="129.54" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
 <label x="129.54" y="99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="XB1" gate="G$1" pin="DIN/!CONFIG"/>
+<wire x1="114.3" y1="208.28" x2="111.76" y2="208.28" width="0.1524" layer="91"/>
+<label x="111.76" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="P0/RX"/>
+<wire x1="15.24" y1="231.14" x2="17.78" y2="231.14" width="0.1524" layer="91"/>
+<label x="15.24" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -5331,19 +5490,23 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="U$16" gate="G$1" pin="5.0V"/>
 <wire x1="25.4" y1="246.38" x2="25.4" y2="248.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="PTC2" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="5.0V"/>
+<wire x1="-30.48" y1="190.5" x2="-27.94" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="190.5" x2="-27.94" y2="193.04" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="COM_ESD_N" class="0">
+<net name="D_N" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="D-"/>
 <wire x1="127" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="COM_ESD_P" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="D+"/>
-<wire x1="127" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="CN1" gate="G$1" pin="D-"/>
+<wire x1="-43.18" y1="185.42" x2="-45.72" y2="185.42" width="0.1524" layer="91"/>
+<label x="-43.18" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -5367,20 +5530,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="15.24" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TELE_TX" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="P0/RX"/>
-<wire x1="15.24" y1="231.14" x2="17.78" y2="231.14" width="0.1524" layer="91"/>
-<label x="15.24" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TELE_RX" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="P1/TX"/>
-<wire x1="15.24" y1="228.6" x2="17.78" y2="228.6" width="0.1524" layer="91"/>
-<label x="15.24" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="109.22" y1="213.36" x2="114.3" y2="213.36" width="0.1524" layer="91"/>
@@ -5395,20 +5544,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="88.9" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="88.9" y1="210.82" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="P$2"/>
-</segment>
-</net>
-<net name="RX-XBEE" class="0">
-<segment>
-<label x="111.76" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="111.76" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="XB1" gate="G$1" pin="DOUT"/>
-</segment>
-</net>
-<net name="TX-XBEE" class="0">
-<segment>
-<pinref part="XB1" gate="G$1" pin="DIN/!CONFIG"/>
-<wire x1="114.3" y1="208.28" x2="111.76" y2="208.28" width="0.1524" layer="91"/>
-<label x="111.76" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RTS-XBEE" class="0">
@@ -5438,6 +5573,25 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="88.9" y1="190.5" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="D_P" class="0">
+<segment>
+<pinref part="CN1" gate="G$1" pin="D+"/>
+<wire x1="-43.18" y1="187.96" x2="-45.72" y2="187.96" width="0.1524" layer="91"/>
+<label x="-43.18" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="D+"/>
+<wire x1="127" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
+<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="CN1" gate="G$1" pin="VBUS"/>
+<pinref part="PTC2" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="190.5" x2="-40.64" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

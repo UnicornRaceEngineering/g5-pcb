@@ -8668,7 +8668,7 @@ distributor Farnell 149-452</description>
 <part name="U$72" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device=""/>
-<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="120"/>
+<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
 <part name="U$8" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="FTDI_DEVICE" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -8814,6 +8814,9 @@ distributor Farnell 149-452</description>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603" value="240"/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603" value="240"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="47n"/>
+<part name="GND29" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8829,9 +8832,9 @@ distributor Farnell 149-452</description>
 <wire x1="370.84" y1="-193.04" x2="375.92" y2="-187.96" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-317.5" x2="152.4" y2="-322.58" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-322.58" x2="152.4" y2="-360.68" width="0.3048" layer="97"/>
-<wire x1="152.4" y1="-360.68" x2="238.76" y2="-360.68" width="0.3048" layer="97"/>
-<wire x1="238.76" y1="-360.68" x2="238.76" y2="-317.5" width="0.3048" layer="97"/>
-<wire x1="238.76" y1="-317.5" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
+<wire x1="152.4" y1="-360.68" x2="251.46" y2="-360.68" width="0.3048" layer="97"/>
+<wire x1="251.46" y1="-360.68" x2="251.46" y2="-317.5" width="0.3048" layer="97"/>
+<wire x1="251.46" y1="-317.5" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
 <wire x1="182.88" y1="-317.5" x2="152.4" y2="-317.5" width="0.3048" layer="97"/>
 <wire x1="152.4" y1="-322.58" x2="177.8" y2="-322.58" width="0.3048" layer="97"/>
 <wire x1="177.8" y1="-322.58" x2="182.88" y2="-317.5" width="0.3048" layer="97"/>
@@ -8897,8 +8900,8 @@ distributor Farnell 149-452</description>
 <instance part="C50" gate="G$1" x="165.1" y="-345.44" rot="MR0"/>
 <instance part="U$72" gate="G$1" x="165.1" y="-327.66"/>
 <instance part="GND25" gate="1" x="165.1" y="-355.6"/>
-<instance part="SW1" gate="G$1" x="226.06" y="-347.98"/>
-<instance part="R26" gate="G$1" x="233.68" y="-350.52" rot="R270"/>
+<instance part="SW1" gate="G$1" x="220.98" y="-347.98"/>
+<instance part="R26" gate="G$1" x="228.6" y="-350.52" rot="R270"/>
 <instance part="U$8" gate="G$1" x="-137.16" y="-276.86"/>
 <instance part="J4" gate="G$1" x="396.24" y="-203.2"/>
 <instance part="GND8" gate="1" x="388.62" y="-215.9"/>
@@ -9039,6 +9042,9 @@ distributor Farnell 149-452</description>
 <instance part="R2" gate="G$1" x="-142.24" y="-292.1"/>
 <instance part="R3" gate="G$1" x="-144.78" y="-314.96"/>
 <instance part="GND28" gate="1" x="-160.02" y="-320.04"/>
+<instance part="R7" gate="G$1" x="228.6" y="-340.36" rot="R270"/>
+<instance part="C5" gate="G$1" x="238.76" y="-353.06"/>
+<instance part="GND29" gate="1" x="238.76" y="-358.14"/>
 </instances>
 <busses>
 </busses>
@@ -9296,6 +9302,7 @@ distributor Farnell 149-452</description>
 <junction x="48.26" y="-116.84"/>
 <pinref part="S8" gate="1" pin="S"/>
 <wire x1="43.18" y1="-129.54" x2="48.26" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="48.26" y="-129.54"/>
 </segment>
 <segment>
 <pinref part="XB1" gate="G$1" pin="GND"/>
@@ -9382,6 +9389,10 @@ distributor Farnell 149-452</description>
 <wire x1="-160.02" y1="-317.5" x2="-160.02" y2="-314.96" width="0.1524" layer="91"/>
 <junction x="-160.02" y="-314.96"/>
 <pinref part="GND28" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="P$2"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9612,8 +9623,8 @@ distributor Farnell 149-452</description>
 </net>
 <net name="CAN_RX" class="0">
 <segment>
-<wire x1="205.74" y1="-340.36" x2="203.2" y2="-340.36" width="0.1524" layer="91"/>
-<label x="205.74" y="-340.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="-340.36" x2="203.2" y2="-340.36" width="0.1524" layer="91"/>
+<label x="210.82" y="-340.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U10" gate="A" pin="R"/>
 </segment>
 <segment>
@@ -9896,14 +9907,17 @@ distributor Farnell 149-452</description>
 <segment>
 <pinref part="SW1" gate="G$1" pin="S2"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="-355.6" x2="233.68" y2="-355.6" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-355.6" x2="228.6" y2="-355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="SW1" gate="G$1" pin="S1"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="-345.44" x2="233.68" y2="-345.44" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<junction x="228.6" y="-345.44"/>
+<pinref part="C5" gate="G$1" pin="P$1"/>
+<wire x1="228.6" y1="-345.44" x2="238.76" y2="-345.44" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-345.44" x2="238.76" y2="-347.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DBG_RX" class="0">
@@ -9974,11 +9988,6 @@ distributor Farnell 149-452</description>
 <label x="-121.92" y="-180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="289.56" y1="-330.2" x2="289.56" y2="-331.47" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="-63.5" y1="86.36" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
@@ -10002,7 +10011,6 @@ distributor Farnell 149-452</description>
 <wire x1="-63.5" y1="81.28" x2="-55.88" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="81.28" x2="-55.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$30" gate="G$1" pin="/OUT2"/>
 <pinref part="LED1" gate="G$1" pin="BLUE"/>
 </segment>
@@ -10328,13 +10336,13 @@ distributor Farnell 149-452</description>
 </segment>
 <segment>
 <pinref part="U10" gate="A" pin="CANH"/>
-<wire x1="203.2" y1="-335.28" x2="215.9" y2="-335.28" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-335.28" x2="215.9" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-335.28" x2="205.74" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-335.28" x2="205.74" y2="-353.06" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="P2"/>
-<wire x1="215.9" y1="-353.06" x2="220.98" y2="-353.06" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-335.28" x2="215.9" y2="-335.28" width="0.1524" layer="91"/>
-<junction x="215.9" y="-335.28"/>
-<label x="220.98" y="-335.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="205.74" y1="-353.06" x2="215.9" y2="-353.06" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-335.28" x2="205.74" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="205.74" y="-335.28"/>
+<label x="210.82" y="-335.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="RIGHT"/>
@@ -10365,13 +10373,13 @@ distributor Farnell 149-452</description>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="P1"/>
-<wire x1="220.98" y1="-342.9" x2="218.44" y2="-342.9" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-342.9" x2="218.44" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-342.9" x2="208.28" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-342.9" x2="208.28" y2="-332.74" width="0.1524" layer="91"/>
 <pinref part="U10" gate="A" pin="CANL"/>
-<wire x1="218.44" y1="-332.74" x2="203.2" y2="-332.74" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-332.74" x2="218.44" y2="-332.74" width="0.1524" layer="91"/>
-<junction x="218.44" y="-332.74"/>
-<label x="220.98" y="-332.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="-332.74" x2="203.2" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-332.74" x2="208.28" y2="-332.74" width="0.1524" layer="91"/>
+<junction x="208.28" y="-332.74"/>
+<label x="210.82" y="-332.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="LEFT"/>
@@ -10881,9 +10889,9 @@ distributor Farnell 149-452</description>
 <label x="-137.16" y="-312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$4" pin="PD3"/>
-<wire x1="256.54" y1="-99.06" x2="254" y2="-99.06" width="0.1524" layer="91"/>
-<label x="256.54" y="-99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$4" pin="PD4"/>
+<wire x1="256.54" y1="-96.52" x2="254" y2="-96.52" width="0.1524" layer="91"/>
+<label x="256.54" y="-96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CTS" class="0">
@@ -10893,9 +10901,9 @@ distributor Farnell 149-452</description>
 <label x="-137.16" y="-309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$4" pin="PD4"/>
-<wire x1="256.54" y1="-96.52" x2="254" y2="-96.52" width="0.1524" layer="91"/>
-<label x="256.54" y="-96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$4" pin="PD3"/>
+<wire x1="256.54" y1="-99.06" x2="254" y2="-99.06" width="0.1524" layer="91"/>
+<label x="256.54" y="-99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -10925,6 +10933,16 @@ distributor Farnell 149-452</description>
 <wire x1="-147.32" y1="-292.1" x2="-149.86" y2="-292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="S1"/>
+<wire x1="223.52" y1="-345.44" x2="226.06" y2="-345.44" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-345.44" x2="226.06" y2="-332.74" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="-332.74" x2="228.6" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-332.74" x2="228.6" y2="-335.28" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -10940,90 +10958,89 @@ distributor Farnell 149-452</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-40.64,154.94,U1,VCC,3.3V,,,"/>
-<approved hash="104,1,-180.34,55.88,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,-180.34,53.34,U2,V+,N$23,,,"/>
-<approved hash="202,1,-180.34,48.26,U2,T1IN,,,,"/>
-<approved hash="202,1,-180.34,40.64,U2,R1IN,,,,"/>
-<approved hash="104,1,-180.34,17.78,U2,V-,N$13,,,"/>
-<approved hash="104,1,104.14,147.32,U$19,VDD,3.3V,,,"/>
-<approved hash="104,1,33.02,147.32,U$24,VDD,3.3V,,,"/>
-<approved hash="104,1,-111.76,20.32,U$30,VDD,3.3V,,,"/>
-<approved hash="104,1,-58.42,20.32,U$34,VDD,3.3V,,,"/>
-<approved hash="104,1,-5.08,20.32,U$37,VDD,3.3V,,,"/>
-<approved hash="104,1,48.26,20.32,U$40,VDD,3.3V,,,"/>
-<approved hash="104,1,-187.96,-124.46,U$33,VDD,3.3V,,,"/>
-<approved hash="104,1,-134.62,-124.46,U$39,VDD,3.3V,,,"/>
-<approved hash="104,1,-81.28,-124.46,U$43,VDD,3.3V,,,"/>
-<approved hash="104,1,-187.96,-160.02,U$45,VDD,3.3V,,,"/>
-<approved hash="104,1,-134.62,-160.02,U$47,VDD,3.3V,,,"/>
-<approved hash="104,1,-81.28,-160.02,U$49,VDD,3.3V,,,"/>
-<approved hash="104,1,-187.96,-195.58,U$55,VDD,3.3V,,,"/>
-<approved hash="104,1,-134.62,-195.58,U$57,VDD,3.3V,,,"/>
-<approved hash="104,1,-81.28,-195.58,U$59,VDD,3.3V,,,"/>
-<approved hash="104,1,139.7,45.72,U5,VCC,5.0V,,,"/>
-<approved hash="202,1,139.7,27.94,U5,EXT1,,,,"/>
-<approved hash="202,1,139.7,25.4,U5,EXT2,,,,"/>
-<approved hash="104,1,139.7,-15.24,U6,VCC,5.0V,,,"/>
-<approved hash="202,1,139.7,-33.02,U6,EXT1,,,,"/>
-<approved hash="202,1,139.7,-35.56,U6,EXT2,,,,"/>
-<approved hash="104,1,358.14,-43.18,U8,VDD,3.3V,,,"/>
-<approved hash="104,1,-175.26,121.92,U9,VDD,5.0V,,,"/>
-<approved hash="206,1,175.26,38.1,GND,,,,,"/>
-<approved hash="206,1,175.26,-22.86,GND,,,,,"/>
-<approved hash="208,1,-185.42,-45.72,GND,sup,,,,"/>
-<approved hash="208,1,-157.48,-45.72,GND,sup,,,,"/>
-<approved hash="208,1,-127,-45.72,GND,sup,,,,"/>
-<approved hash="208,1,-96.52,-45.72,GND,sup,,,,"/>
-<approved hash="208,1,-48.26,-40.64,GND,sup,,,,"/>
-<approved hash="208,1,-17.78,-38.1,GND,sup,,,,"/>
-<approved hash="208,1,10.16,-38.1,GND,sup,,,,"/>
-<approved hash="208,1,-43.18,132.08,GND,sup,,,,"/>
-<approved hash="208,1,-73.66,127,GND,sup,,,,"/>
-<approved hash="208,1,-182.88,2.54,GND,sup,,,,"/>
-<approved hash="208,1,-195.58,50.8,GND,sup,,,,"/>
-<approved hash="208,1,17.78,127,GND,sup,,,,"/>
-<approved hash="208,1,88.9,127,GND,sup,,,,"/>
-<approved hash="208,1,83.82,45.72,GND,sup,,,,"/>
-<approved hash="208,1,-30.48,73.66,GND,sup,,,,"/>
-<approved hash="208,1,0,73.66,GND,sup,,,,"/>
-<approved hash="208,1,30.48,73.66,GND,sup,,,,"/>
-<approved hash="208,1,170.18,76.2,GND,sup,,,,"/>
-<approved hash="208,1,289.56,66.04,GND,sup,,,,"/>
-<approved hash="208,1,304.8,109.22,GND,sup,,,,"/>
-<approved hash="208,1,71.12,76.2,GND,sup,,,,"/>
-<approved hash="208,1,30.48,129.54,GND,sup,,,,"/>
-<approved hash="208,1,101.6,129.54,GND,sup,,,,"/>
-<approved hash="208,1,-114.3,2.54,GND,sup,,,,"/>
-<approved hash="208,1,-60.96,2.54,GND,sup,,,,"/>
-<approved hash="208,1,-7.62,2.54,GND,sup,,,,"/>
-<approved hash="208,1,45.72,2.54,GND,sup,,,,"/>
-<approved hash="208,1,-60.96,73.66,GND,sup,,,,"/>
-<approved hash="208,1,-190.5,-142.24,GND,sup,,,,"/>
-<approved hash="208,1,-137.16,-142.24,GND,sup,,,,"/>
-<approved hash="208,1,-83.82,-142.24,GND,sup,,,,"/>
-<approved hash="208,1,-190.5,-177.8,GND,sup,,,,"/>
-<approved hash="208,1,-137.16,-177.8,GND,sup,,,,"/>
-<approved hash="208,1,-83.82,-177.8,GND,sup,,,,"/>
-<approved hash="208,1,134.62,76.2,GND,sup,,,,"/>
-<approved hash="208,1,101.6,76.2,GND,sup,,,,"/>
-<approved hash="208,1,-190.5,-213.36,GND,sup,,,,"/>
-<approved hash="208,1,-137.16,-213.36,GND,sup,,,,"/>
-<approved hash="208,1,-83.82,-213.36,GND,sup,,,,"/>
-<approved hash="208,1,388.62,15.24,GND,sup,,,,"/>
-<approved hash="208,1,396.24,15.24,GND,sup,,,,"/>
-<approved hash="208,1,175.26,38.1,GND,out,,,,"/>
-<approved hash="208,1,177.8,33.02,GND,sup,,,,"/>
-<approved hash="208,1,137.16,2.54,GND,sup,,,,"/>
-<approved hash="208,1,137.16,-58.42,GND,sup,,,,"/>
-<approved hash="208,1,175.26,-22.86,GND,out,,,,"/>
-<approved hash="208,1,177.8,-27.94,GND,sup,,,,"/>
-<approved hash="208,1,355.6,-50.8,GND,sup,,,,"/>
-<approved hash="208,1,322.58,-27.94,GND,sup,,,,"/>
-<approved hash="208,1,322.58,-53.34,GND,sup,,,,"/>
-<approved hash="208,1,325.12,-78.74,GND,sup,,,,"/>
-<approved hash="208,1,327.66,-104.14,GND,sup,,,,"/>
-<approved hash="208,1,-180.34,78.74,GND,sup,,,,"/>
+<approved hash="102,1,208.28,-297.18,VSS,GND,,,,"/>
+<approved hash="102,1,208.28,-294.64,VDD,3.3V,,,,"/>
+<approved hash="102,1,208.28,-302.26,GND1,GND,,,,"/>
+<approved hash="104,1,-134.62,-281.94,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,-134.62,-332.74,XB1,VREF,,,,"/>
+<approved hash="204,1,71.12,-147.32,CN1,VBUS,,,,"/>
+<approved hash="104,1,167.64,-332.74,U10,VCC,3.3V,,,"/>
+<approved hash="104,1,-17.78,93.98,LED1,ANODE,3.3V,,,"/>
+<approved hash="104,1,-17.78,81.28,LED2,ANODE,3.3V,,,"/>
+<approved hash="104,1,-17.78,68.58,LED3,ANODE,3.3V,,,"/>
+<approved hash="104,1,-17.78,55.88,LED4,ANODE,3.3V,,,"/>
+<approved hash="104,1,-17.78,43.18,LED5,ANODE,3.3V,,,"/>
+<approved hash="104,1,48.26,-266.7,CN2,PWR,12V,,,"/>
+<approved hash="104,1,48.26,-269.24,CN2,GNDBREAK,GND,,,"/>
+<approved hash="104,1,81.28,-378.46,IC1P,VCC,5.0V,,,"/>
+<approved hash="104,1,96.52,-378.46,IC2P,VCC,5.0V,,,"/>
+<approved hash="104,1,60.96,-335.28,DIS1,VCC,5.0V,,,"/>
+<approved hash="104,1,368.3,-50.8,U1,VIN,12V,,,"/>
+<approved hash="104,1,368.3,-53.34,U1,GND1,GND,,,"/>
+<approved hash="104,1,368.3,-55.88,U1,GND2,GND,,,"/>
+<approved hash="104,1,368.3,-58.42,U1,5V,5.0V,,,"/>
+<approved hash="104,1,368.3,-60.96,U1,3V,3.3V,,,"/>
+<approved hash="208,1,73.66,-137.16,3.3V,sup,,,,"/>
+<approved hash="208,1,477.52,-195.58,3.3V,sup,,,,"/>
+<approved hash="208,1,457.2,-195.58,3.3V,sup,,,,"/>
+<approved hash="208,1,165.1,-330.2,3.3V,sup,,,,"/>
+<approved hash="208,1,-137.16,-279.4,3.3V,sup,,,,"/>
+<approved hash="208,1,208.28,-294.64,3.3V,sup,,,,"/>
+<approved hash="208,1,205.74,-294.64,3.3V,sup,,,,"/>
+<approved hash="208,1,200.66,-259.08,3.3V,sup,,,,"/>
+<approved hash="208,1,2.54,-208.28,3.3V,sup,,,,"/>
+<approved hash="208,1,20.32,-208.28,3.3V,sup,,,,"/>
+<approved hash="208,1,38.1,-208.28,3.3V,sup,,,,"/>
+<approved hash="208,1,55.88,-208.28,3.3V,sup,,,,"/>
+<approved hash="208,1,-88.9,99.06,3.3V,sup,,,,"/>
+<approved hash="208,1,-134.62,91.44,3.3V,sup,,,,"/>
+<approved hash="208,1,-127,91.44,3.3V,sup,,,,"/>
+<approved hash="208,1,-15.24,96.52,3.3V,sup,,,,"/>
+<approved hash="208,1,71.12,-284.48,3.3V,sup,,,,"/>
+<approved hash="208,1,-106.68,-162.56,3.3V,sup,,,,"/>
+<approved hash="208,1,111.76,-86.36,3.3V,sup,,,,"/>
+<approved hash="208,1,121.92,-86.36,3.3V,sup,,,,"/>
+<approved hash="208,1,132.08,-86.36,3.3V,sup,,,,"/>
+<approved hash="208,1,142.24,-86.36,3.3V,sup,,,,"/>
+<approved hash="208,1,45.72,-83.82,3.3V,sup,,,,"/>
+<approved hash="208,1,424.18,-233.68,3.3V,sup,,,,"/>
+<approved hash="208,1,378.46,-55.88,3.3V,sup,,,,"/>
+<approved hash="208,1,368.3,-66.04,3.3V,out,,,,"/>
+<approved hash="105,1,289.56,-330.835,N$3,,,,,"/>
+<approved hash="108,1,48.26,-129.54,GND,,,,,"/>
+<approved hash="108,1,-45.72,91.44,N$14,,,,,"/>
+<approved hash="113,1,62.865,-151.109,CN1,,,,,"/>
+<approved hash="113,1,224.79,-347.438,SW1,,,,,"/>
+<approved hash="113,1,6.2992,-215.9,RV1,,,,,"/>
+<approved hash="113,1,24.0792,-215.9,RV2,,,,,"/>
+<approved hash="113,1,41.8592,-215.9,RV3,,,,,"/>
+<approved hash="113,1,59.6392,-215.9,RV4,,,,,"/>
+<approved hash="113,1,-31.75,95.3558,LED1,,,,,"/>
+<approved hash="113,1,-31.75,82.6558,LED2,,,,,"/>
+<approved hash="113,1,-31.75,69.9558,LED3,,,,,"/>
+<approved hash="113,1,-31.75,57.2558,LED4,,,,,"/>
+<approved hash="113,1,-31.75,44.5558,LED5,,,,,"/>
+<approved hash="113,1,48.5129,-268.063,CN2,,,,,"/>
+<approved hash="113,1,60.96,-290.364,U2,,,,,"/>
+<approved hash="113,1,91.44,-290.364,U3,,,,,"/>
+<approved hash="113,1,49.0887,-293.37,C1,,,,,"/>
+<approved hash="113,1,72.8313,-293.37,C2,,,,,"/>
+<approved hash="113,1,79.5687,-293.37,C3,,,,,"/>
+<approved hash="113,1,103.311,-293.37,C6,,,,,"/>
+<approved hash="113,1,222.758,-380.5,U5,,,,,"/>
+<approved hash="113,1,222.758,-388.12,U6,,,,,"/>
+<approved hash="113,1,187.96,-379.572,J1,,,,,"/>
+<approved hash="113,1,107.069,-106.68,S1,,,,,"/>
+<approved hash="113,1,117.229,-106.68,S2,,,,,"/>
+<approved hash="113,1,127.389,-106.68,S3,,,,,"/>
+<approved hash="113,1,137.549,-106.68,S4,,,,,"/>
+<approved hash="113,1,38.1,-85.4795,S5,,,,,"/>
+<approved hash="113,1,38.1,-98.1795,S6,,,,,"/>
+<approved hash="113,1,38.1,-110.879,S7,,,,,"/>
+<approved hash="113,1,38.1,-123.579,S8,,,,,"/>
+<approved hash="113,1,41.1692,-335.28,R1,,,,,"/>
+<approved hash="113,1,-153.67,-316.454,LED6,,,,,"/>
+<approved hash="113,1,-153.67,-293.594,LED7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
