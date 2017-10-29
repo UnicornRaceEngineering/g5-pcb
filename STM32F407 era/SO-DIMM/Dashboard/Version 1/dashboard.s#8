@@ -4720,7 +4720,7 @@ Standard A4 size frame in Landscape</description>
 <part name="U$72" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device=""/>
-<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="60"/>
+<part name="R26" library="microbuilder" deviceset="RESISTOR" device="_0603" value="120"/>
 <part name="JTAG1" library="microbuilder" deviceset="JTAG-ARM" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="U$22" library="microbuilder" deviceset="3.3V" device=""/>
@@ -5768,98 +5768,98 @@ Standard A4 size frame in Landscape</description>
 </net>
 <net name="BTN1" class="0">
 <segment>
-<pinref part="J1" gate="G$4" pin="PD2"/>
-<wire x1="124.46" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<label x="124.46" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="OUT1"/>
 <wire x1="203.2" y1="71.12" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
 <label x="203.2" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$3" pin="PD14"/>
+<wire x1="96.52" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
+<label x="96.52" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN2" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PD3"/>
-<wire x1="124.46" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
-<label x="124.46" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT2"/>
 <wire x1="203.2" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="203.2" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$3" pin="PD15"/>
+<wire x1="96.52" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<label x="96.52" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN3" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PD4"/>
-<wire x1="124.46" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
-<label x="124.46" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT3"/>
 <wire x1="203.2" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 <label x="203.2" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PD2"/>
+<wire x1="124.46" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
+<label x="124.46" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN4" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PD5"/>
-<wire x1="124.46" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
-<label x="124.46" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT4"/>
 <wire x1="203.2" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <label x="203.2" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PD3"/>
+<wire x1="124.46" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
+<label x="124.46" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN5" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PD6"/>
-<wire x1="124.46" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<label x="124.46" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT5"/>
 <wire x1="203.2" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
 <label x="203.2" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PD4"/>
+<wire x1="124.46" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<label x="124.46" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN6" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PD7"/>
-<wire x1="124.46" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<label x="124.46" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT6"/>
 <wire x1="203.2" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="203.2" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PD5"/>
+<wire x1="124.46" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<label x="124.46" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN7" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PB4"/>
-<wire x1="124.46" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
-<label x="124.46" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT7"/>
 <wire x1="203.2" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
 <label x="203.2" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PD6"/>
+<wire x1="124.46" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<label x="124.46" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN8" class="0">
-<segment>
-<pinref part="J1" gate="G$4" pin="PB5"/>
-<wire x1="124.46" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
-<label x="124.46" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT8"/>
 <wire x1="203.2" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
 <label x="203.2" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$4" pin="PE0"/>
+<wire x1="124.46" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
+<label x="124.46" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SW4" class="0">
@@ -6222,7 +6222,6 @@ Standard A4 size frame in Landscape</description>
 <wire x1="91.44" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="144.78" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U$30" gate="G$1" pin="/OUT2"/>
 <pinref part="LED1" gate="G$1" pin="BLUE"/>
 </segment>
@@ -7453,97 +7452,67 @@ Standard A4 size frame in Landscape</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,-162.56,63.5,IC2F,O,,,,"/>
-<approved hash="104,1,-45.72,-109.22,LED1,RGND,N$7,,,"/>
-<approved hash="104,1,-43.18,-109.22,LED1,GGND,N$8,,,"/>
-<approved hash="104,1,-40.64,-109.22,LED1,BGND,N$10,,,"/>
-<approved hash="104,1,-33.02,-109.22,LED2,RGND,N$11,,,"/>
-<approved hash="104,1,-30.48,-109.22,LED2,GGND,N$12,,,"/>
-<approved hash="104,1,-27.94,-109.22,LED2,BGND,N$13,,,"/>
-<approved hash="104,1,-20.32,-109.22,LED3,RGND,N$14,,,"/>
-<approved hash="104,1,-17.78,-109.22,LED3,GGND,N$15,,,"/>
-<approved hash="104,1,-15.24,-109.22,LED3,BGND,N$16,,,"/>
-<approved hash="104,1,-7.62,-109.22,LED4,RGND,N$17,,,"/>
-<approved hash="104,1,-5.08,-109.22,LED4,GGND,N$18,,,"/>
-<approved hash="104,1,-2.54,-109.22,LED4,BGND,N$19,,,"/>
-<approved hash="104,1,5.08,-109.22,LED5,RGND,N$20,,,"/>
-<approved hash="104,1,7.62,-109.22,LED5,GGND,N$21,,,"/>
-<approved hash="104,1,10.16,-109.22,LED5,BGND,N$22,,,"/>
-<approved hash="104,1,78.74,-109.22,LED6,RGND,N$23,,,"/>
-<approved hash="104,1,81.28,-109.22,LED6,GGND,N$24,,,"/>
-<approved hash="104,1,83.82,-109.22,LED6,BGND,N$25,,,"/>
-<approved hash="104,1,91.44,-109.22,LED7,RGND,N$26,,,"/>
-<approved hash="104,1,93.98,-109.22,LED7,GGND,N$27,,,"/>
-<approved hash="104,1,96.52,-109.22,LED7,BGND,N$28,,,"/>
-<approved hash="104,1,104.14,-109.22,LED8,RGND,N$29,,,"/>
-<approved hash="104,1,106.68,-109.22,LED8,GGND,N$30,,,"/>
-<approved hash="104,1,109.22,-109.22,LED8,BGND,N$31,,,"/>
-<approved hash="104,1,116.84,-109.22,LED9,RGND,N$32,,,"/>
-<approved hash="104,1,119.38,-109.22,LED9,GGND,N$33,,,"/>
-<approved hash="104,1,121.92,-109.22,LED9,BGND,N$34,,,"/>
-<approved hash="104,1,129.54,-109.22,LED10,RGND,N$35,,,"/>
-<approved hash="104,1,132.08,-109.22,LED10,GGND,N$36,,,"/>
-<approved hash="104,1,134.62,-109.22,LED10,BGND,N$37,,,"/>
-<approved hash="104,1,203.2,-109.22,LED11,RGND,N$38,,,"/>
-<approved hash="104,1,205.74,-109.22,LED11,GGND,N$39,,,"/>
-<approved hash="104,1,208.28,-109.22,LED11,BGND,N$40,,,"/>
-<approved hash="104,1,215.9,-109.22,LED12,RGND,N$41,,,"/>
-<approved hash="104,1,218.44,-109.22,LED12,GGND,N$42,,,"/>
-<approved hash="104,1,220.98,-109.22,LED12,BGND,N$43,,,"/>
-<approved hash="104,1,228.6,-109.22,LED13,RGND,N$44,,,"/>
-<approved hash="104,1,231.14,-109.22,LED13,GGND,N$45,,,"/>
-<approved hash="104,1,233.68,-109.22,LED13,BGND,N$46,,,"/>
-<approved hash="104,1,241.3,-109.22,LED14,RGND,N$47,,,"/>
-<approved hash="104,1,243.84,-109.22,LED14,GGND,N$48,,,"/>
-<approved hash="104,1,246.38,-109.22,LED14,BGND,N$49,,,"/>
-<approved hash="104,1,254,-109.22,LED15,RGND,N$50,,,"/>
-<approved hash="104,1,256.54,-109.22,LED15,GGND,N$51,,,"/>
-<approved hash="104,1,259.08,-109.22,LED15,BGND,N$52,,,"/>
-<approved hash="104,1,327.66,-109.22,LED16,RGND,N$54,,,"/>
-<approved hash="104,1,330.2,-109.22,LED16,GGND,N$62,,,"/>
-<approved hash="104,1,332.74,-109.22,LED16,BGND,N$63,,,"/>
-<approved hash="104,1,340.36,-109.22,LED17,RGND,N$64,,,"/>
-<approved hash="104,1,342.9,-109.22,LED17,GGND,N$65,,,"/>
-<approved hash="104,1,345.44,-109.22,LED17,BGND,N$66,,,"/>
-<approved hash="104,1,353.06,-109.22,LED18,RGND,N$67,,,"/>
-<approved hash="104,1,355.6,-109.22,LED18,GGND,N$68,,,"/>
-<approved hash="104,1,358.14,-109.22,LED18,BGND,N$69,,,"/>
-<approved hash="104,1,365.76,-109.22,LED19,RGND,N$70,,,"/>
-<approved hash="104,1,368.3,-109.22,LED19,GGND,N$71,,,"/>
-<approved hash="104,1,370.84,-109.22,LED19,BGND,N$72,,,"/>
-<approved hash="104,1,378.46,-109.22,LED20,RGND,N$73,,,"/>
-<approved hash="104,1,381,-109.22,LED20,GGND,N$74,,,"/>
-<approved hash="104,1,383.54,-109.22,LED20,BGND,N$75,,,"/>
-<approved hash="104,1,-157.48,71.12,IC2P,VCC,3.3V,,,"/>
-<approved hash="104,1,-132.08,-45.72,IC3P,VCC,3.3V,,,"/>
-<approved hash="115,1,6.74689,-48.26,X1,,,,,"/>
-<approved hash="115,1,-44.5558,-96.52,LED1,,,,,"/>
-<approved hash="115,1,-31.8558,-96.52,LED2,,,,,"/>
-<approved hash="115,1,-19.1558,-96.52,LED3,,,,,"/>
-<approved hash="115,1,-6.45583,-96.52,LED4,,,,,"/>
-<approved hash="115,1,6.24417,-96.52,LED5,,,,,"/>
-<approved hash="115,1,79.9042,-96.52,LED6,,,,,"/>
-<approved hash="115,1,92.6042,-96.52,LED7,,,,,"/>
-<approved hash="115,1,105.304,-96.52,LED8,,,,,"/>
-<approved hash="115,1,118.004,-96.52,LED9,,,,,"/>
-<approved hash="115,1,130.704,-96.52,LED10,,,,,"/>
-<approved hash="115,1,204.364,-96.52,LED11,,,,,"/>
-<approved hash="115,1,217.064,-96.52,LED12,,,,,"/>
-<approved hash="115,1,229.764,-96.52,LED13,,,,,"/>
-<approved hash="115,1,242.464,-96.52,LED14,,,,,"/>
-<approved hash="115,1,255.164,-96.52,LED15,,,,,"/>
-<approved hash="115,1,328.824,-96.52,LED16,,,,,"/>
-<approved hash="115,1,341.524,-96.52,LED17,,,,,"/>
-<approved hash="115,1,354.224,-96.52,LED18,,,,,"/>
-<approved hash="115,1,366.924,-96.52,LED19,,,,,"/>
-<approved hash="115,1,379.624,-96.52,LED20,,,,,"/>
-<approved hash="115,1,-210.82,-28.3295,S1,,,,,"/>
-<approved hash="115,1,-210.82,-41.0295,S2,,,,,"/>
-<approved hash="115,1,-210.82,-53.7295,S3,,,,,"/>
-<approved hash="115,1,-210.82,-66.4295,S4,,,,,"/>
-<approved hash="115,1,-210.82,-79.1295,S5,,,,,"/>
-<approved hash="115,1,43.18,-48.5987,IC1,,,,,"/>
-<approved hash="115,1,-210.82,-91.8295,S6,,,,,"/>
+<approved hash="104,2,137.16,157.48,LED1,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,144.78,LED2,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,132.08,LED3,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,119.38,LED4,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,106.68,LED5,ANODE,3.3V,,,"/>
+<approved hash="104,2,254,157.48,LED6,ANODE,3.3V,,,"/>
+<approved hash="104,2,254,144.78,LED7,ANODE,3.3V,,,"/>
+<approved hash="104,2,254,132.08,LED8,ANODE,3.3V,,,"/>
+<approved hash="104,2,254,119.38,LED9,ANODE,3.3V,,,"/>
+<approved hash="104,2,254,106.68,LED10,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,78.74,LED11,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,66.04,LED12,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,53.34,LED13,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,40.64,LED14,ANODE,3.3V,,,"/>
+<approved hash="104,2,137.16,27.94,LED15,ANODE,3.3V,,,"/>
+<approved hash="104,3,124.46,154.94,LED16,ANODE,3.3V,,,"/>
+<approved hash="104,3,124.46,142.24,LED17,ANODE,3.3V,,,"/>
+<approved hash="104,3,124.46,129.54,LED18,ANODE,3.3V,,,"/>
+<approved hash="104,3,124.46,116.84,LED19,ANODE,3.3V,,,"/>
+<approved hash="104,3,124.46,104.14,LED20,ANODE,3.3V,,,"/>
+<approved hash="104,1,200.66,76.2,U$4,VCC,3.3V,,,"/>
+<approved hash="104,1,256.54,76.2,U$5,VCC,3.3V,,,"/>
+<approved hash="104,1,17.78,30.48,U10,VCC,3.3V,,,"/>
+<approved hash="104,3,248.92,154.94,LED21,ANODE,3.3V,,,"/>
+<approved hash="104,3,248.92,142.24,LED22,ANODE,3.3V,,,"/>
+<approved hash="104,3,248.92,129.54,LED23,ANODE,3.3V,,,"/>
+<approved hash="104,3,248.92,116.84,LED24,ANODE,3.3V,,,"/>
+<approved hash="104,3,248.92,104.14,LED25,ANODE,3.3V,,,"/>
+<approved hash="106,1,228.6,160.02,5.0V,,,,,"/>
+<approved hash="106,1,226.06,162.56,5.0V,,,,,"/>
+<approved hash="106,1,259.08,149.86,MISO,,,,,"/>
+<approved hash="108,2,109.22,154.94,N$10,,,,,"/>
+<approved hash="113,3,64.0877,66.04,Q2,,,,,"/>
+<approved hash="113,2,123.19,158.856,LED1,,,,,"/>
+<approved hash="113,2,123.19,146.156,LED2,,,,,"/>
+<approved hash="113,2,123.19,133.456,LED3,,,,,"/>
+<approved hash="113,2,123.19,120.756,LED4,,,,,"/>
+<approved hash="113,2,123.19,108.056,LED5,,,,,"/>
+<approved hash="113,2,240.03,158.856,LED6,,,,,"/>
+<approved hash="113,2,240.03,146.156,LED7,,,,,"/>
+<approved hash="113,2,240.03,133.456,LED8,,,,,"/>
+<approved hash="113,2,240.03,120.756,LED9,,,,,"/>
+<approved hash="113,2,240.03,108.056,LED10,,,,,"/>
+<approved hash="113,2,123.19,80.1158,LED11,,,,,"/>
+<approved hash="113,2,123.19,67.4158,LED12,,,,,"/>
+<approved hash="113,2,123.19,54.7158,LED13,,,,,"/>
+<approved hash="113,2,123.19,42.0158,LED14,,,,,"/>
+<approved hash="113,2,123.19,29.3158,LED15,,,,,"/>
+<approved hash="113,3,110.49,156.316,LED16,,,,,"/>
+<approved hash="113,3,110.49,143.616,LED17,,,,,"/>
+<approved hash="113,3,110.49,130.916,LED18,,,,,"/>
+<approved hash="113,3,110.49,118.216,LED19,,,,,"/>
+<approved hash="113,3,110.49,105.516,LED20,,,,,"/>
+<approved hash="113,1,142.24,32.2919,PTC2,,,,,"/>
+<approved hash="113,1,74.93,15.7819,SW1,,,,,"/>
+<approved hash="113,3,234.95,156.316,LED21,,,,,"/>
+<approved hash="113,3,234.95,143.616,LED22,,,,,"/>
+<approved hash="113,3,234.95,130.916,LED23,,,,,"/>
+<approved hash="113,3,234.95,118.216,LED24,,,,,"/>
+<approved hash="113,3,234.95,105.516,LED25,,,,,"/>
+<approved hash="113,1,188.197,114.431,CN1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

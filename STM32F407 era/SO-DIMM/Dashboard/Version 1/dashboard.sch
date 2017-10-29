@@ -4924,7 +4924,7 @@ Standard A4 size frame in Landscape</description>
 <instance part="U$47" gate="G$1" x="180.34" y="104.14"/>
 <instance part="P+2" gate="VCC" x="180.34" y="121.92"/>
 <instance part="X3" gate="-1" x="254" y="86.36" rot="MR0"/>
-<instance part="X3" gate="-2" x="220.98" y="71.12" rot="MR0"/>
+<instance part="X3" gate="-2" x="220.98" y="91.44" rot="MR0"/>
 <instance part="X3" gate="-3" x="220.98" y="66.04" rot="MR0"/>
 <instance part="X3" gate="-4" x="220.98" y="60.96" rot="MR0"/>
 <instance part="X3" gate="-5" x="220.98" y="55.88" rot="MR0"/>
@@ -4940,9 +4940,9 @@ Standard A4 size frame in Landscape</description>
 <instance part="X2" gate="-4" x="165.1" y="60.96" rot="MR0"/>
 <instance part="X2" gate="-5" x="165.1" y="55.88" rot="MR0"/>
 <instance part="X2" gate="-6" x="165.1" y="50.8" rot="MR0"/>
-<instance part="X2" gate="-7" x="165.1" y="45.72" rot="MR0"/>
-<instance part="X2" gate="-8" x="165.1" y="40.64" rot="MR0"/>
-<instance part="X2" gate="-9" x="165.1" y="35.56" rot="MR0"/>
+<instance part="X2" gate="-7" x="165.1" y="88.9" rot="MR0"/>
+<instance part="X2" gate="-8" x="165.1" y="86.36" rot="MR0"/>
+<instance part="X2" gate="-9" x="165.1" y="83.82" rot="MR0"/>
 <instance part="X2" gate="-10" x="165.1" y="30.48" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="R11" gate="G$1" x="81.28" y="22.86" rot="R270"/>
@@ -5668,13 +5668,6 @@ Standard A4 size frame in Landscape</description>
 <label x="96.52" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$104" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="IN1"/>
-<wire x1="228.6" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="S"/>
-</segment>
-</net>
 <net name="N$105" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="IN2"/>
@@ -5759,27 +5752,6 @@ Standard A4 size frame in Landscape</description>
 <pinref part="X2" gate="-6" pin="S"/>
 </segment>
 </net>
-<net name="N$116" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="IN6"/>
-<wire x1="172.72" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-7" pin="S"/>
-</segment>
-</net>
-<net name="N$117" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="IN7"/>
-<wire x1="172.72" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-8" pin="S"/>
-</segment>
-</net>
-<net name="N$118" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="IN8"/>
-<wire x1="172.72" y1="35.56" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-9" pin="S"/>
-</segment>
-</net>
 <net name="BTN1" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT1"/>
@@ -5842,38 +5814,38 @@ Standard A4 size frame in Landscape</description>
 </net>
 <net name="BTN6" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="OUT6"/>
-<wire x1="203.2" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="203.2" y="45.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$4" pin="PD5"/>
 <wire x1="124.46" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <label x="124.46" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X2" gate="-7" pin="S"/>
+<wire x1="170.18" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
+<label x="170.18" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BTN7" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="OUT7"/>
-<wire x1="203.2" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="203.2" y="40.64" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="PD6"/>
 <wire x1="124.46" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <label x="124.46" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X2" gate="-8" pin="S"/>
+<wire x1="170.18" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
+<label x="170.18" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BTN8" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="OUT8"/>
-<wire x1="203.2" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="203.2" y="35.56" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$4" pin="PE0"/>
 <wire x1="124.46" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
 <label x="124.46" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-9" pin="S"/>
+<wire x1="170.18" y1="83.82" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<label x="170.18" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW4" class="0">
@@ -5919,9 +5891,9 @@ Standard A4 size frame in Landscape</description>
 <pinref part="J1" gate="G$2" pin="PB1/AN9"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="OUT1"/>
-<wire x1="259.08" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
-<label x="259.08" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="X3" gate="-2" pin="S"/>
+<wire x1="226.06" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<label x="226.06" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$119" class="0">

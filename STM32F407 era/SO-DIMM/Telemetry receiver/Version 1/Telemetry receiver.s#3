@@ -5171,7 +5171,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
 <part name="U7" library="AAU-Racing" deviceset="LOPY" device="" value="LoPy"/>
-<part name="U$15" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U$16" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="XB1" library="maxstream" deviceset="XBEE" device="-PRO"/>
@@ -5218,7 +5217,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="H3" gate="G$1" x="-86.36" y="144.78"/>
 <instance part="H4" gate="G$1" x="-86.36" y="139.7"/>
 <instance part="U7" gate="G$1" x="27.94" y="210.82"/>
-<instance part="U$15" gate="G$1" x="30.48" y="251.46"/>
 <instance part="GND30" gate="1" x="27.94" y="182.88"/>
 <instance part="U$16" gate="G$1" x="25.4" y="251.46"/>
 <instance part="XB1" gate="G$1" x="129.54" y="198.12"/>
@@ -5339,11 +5337,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <junction x="30.48" y="121.92"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="3,3V"/>
-<pinref part="U$15" gate="G$1" pin="3.3V"/>
-<wire x1="30.48" y1="246.38" x2="30.48" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>

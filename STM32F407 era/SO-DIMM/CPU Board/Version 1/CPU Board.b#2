@@ -6480,6 +6480,21 @@ Covered vias can be set in Masks (Limit).
 <contactref element="C16" pad="2"/>
 <wire x1="46.863" y1="25.55875" x2="46.95825" y2="25.4635" width="0.3048" layer="1"/>
 <wire x1="46.95825" y1="25.4635" x2="46.95825" y2="24.28875" width="0.3048" layer="1"/>
+<via x="50.64125" y="16.98625" extent="1-16" drill="0.381"/>
+<via x="51.91125" y="16.98625" extent="1-16" drill="0.381"/>
+<via x="54.2925" y="19.52625" extent="1-16" drill="0.381"/>
+<via x="54.2925" y="18.0975" extent="1-16" drill="0.381"/>
+<via x="54.2925" y="16.66875" extent="1-16" drill="0.381"/>
+<via x="63.8175" y="20.0025" extent="1-16" drill="0.381"/>
+<via x="64.92875" y="18.89125" extent="1-16" drill="0.381"/>
+<via x="62.38875" y="11.27125" extent="1-16" drill="0.381"/>
+<via x="56.1975" y="12.22375" extent="1-16" drill="0.381"/>
+<via x="56.35625" y="3.33375" extent="1-16" drill="0.381"/>
+<via x="40.005" y="10.00125" extent="1-16" drill="0.381"/>
+<via x="28.73375" y="8.89" extent="1-16" drill="0.381"/>
+<via x="28.73375" y="7.9375" extent="1-16" drill="0.381"/>
+<via x="29.05125" y="6.6675" extent="1-16" drill="0.381"/>
+<via x="28.8925" y="3.65125" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="21"/>
