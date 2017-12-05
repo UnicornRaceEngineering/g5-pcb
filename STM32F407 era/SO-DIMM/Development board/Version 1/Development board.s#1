@@ -8711,8 +8711,8 @@ distributor Farnell 149-452</description>
 <part name="LED4" library="microbuilder" deviceset="LED_RGB_PLCC4" device=""/>
 <part name="LED5" library="microbuilder" deviceset="LED_RGB_PLCC4" device=""/>
 <part name="CN2" library="microbuilder" deviceset="DCBARREL" device="PTH"/>
-<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
-<part name="U3" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
+<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="3,3v"/>
+<part name="U3" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="5,0v"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
@@ -8834,8 +8834,8 @@ distributor Farnell 149-452</description>
 <part name="R24" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
 <part name="LED15" library="microbuilder" deviceset="LED" device="1206"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
-<part name="R27" library="microbuilder" deviceset="RESISTOR" device="_0603" value="100"/>
+<part name="R25" library="microbuilder" deviceset="RESISTOR" device="_0603" value="499"/>
+<part name="R27" library="microbuilder" deviceset="RESISTOR" device="_0603" value="976"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 </parts>

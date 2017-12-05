@@ -5054,6 +5054,7 @@ Standard A4 size frame in Landscape</description>
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603" value="500"/>
 </parts>
 <sheets>
 <sheet>
@@ -5156,7 +5157,7 @@ Standard A4 size frame in Landscape</description>
 <instance part="SODIMM1" gate="G$1" x="215.9" y="109.22"/>
 <instance part="U2" gate="A" x="91.44" y="162.56" rot="MR0"/>
 <instance part="S1" gate="G$1" x="119.38" y="162.56" rot="MR90"/>
-<instance part="U$9" gate="G$1" x="111.76" y="170.18" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="111.76" y="175.26" rot="MR0"/>
 <instance part="U$21" gate="G$1" x="109.22" y="149.86" rot="MR0"/>
 <instance part="U$13" gate="G$1" x="149.86" y="63.5"/>
 <instance part="D1" gate="G$1" x="147.32" y="48.26" rot="R90"/>
@@ -5169,6 +5170,7 @@ Standard A4 size frame in Landscape</description>
 <instance part="C16" gate="G$1" x="129.54" y="160.02"/>
 <instance part="U$5" gate="G$1" x="129.54" y="154.94" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="129.54" y="167.64" rot="MR0"/>
+<instance part="R2" gate="G$1" x="73.66" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -5890,7 +5892,13 @@ Standard A4 size frame in Landscape</description>
 <pinref part="U2" gate="A" pin="VDD"/>
 <pinref part="U$9" gate="G$1" pin="3.3V"/>
 <wire x1="109.22" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="165.1" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="165.1" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="170.18" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="172.72" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<junction x="111.76" y="170.18"/>
 </segment>
 <segment>
 <pinref part="PTC1" gate="G$1" pin="1"/>
@@ -6031,10 +6039,15 @@ Standard A4 size frame in Landscape</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$7" pin="NRST"/>
-<wire x1="22.86" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="167.64" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="~RESET"/>
 <wire x1="71.12" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="172.72" x2="66.04" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="172.72" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="167.64"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6956,6 +6969,27 @@ Standard A4 size frame in Landscape</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,20.32,66.04,U1G$1,VBAT,N$6,,,"/>
+<approved hash="104,1,20.32,25.4,U1G$1,VSSA,GND,,,"/>
+<approved hash="104,1,20.32,48.26,U1G$1,VDDA,3.3V,,,"/>
+<approved hash="104,1,20.32,63.5,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,60.96,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,58.42,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,35.56,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,55.88,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,33.02,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,53.34,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,30.48,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,20.32,50.8,U1G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,20.32,27.94,U1G$1,VSS,GND,,,"/>
+<approved hash="104,1,40.64,71.12,BAT1,-,GND,,,"/>
+<approved hash="104,1,30.48,71.12,BAT1,+,N$6,,,"/>
+<approved hash="104,1,109.22,165.1,U2,VDD,3.3V,,,"/>
+<approved hash="113,1,14.7955,42.9895,U1,,,,,"/>
+<approved hash="113,1,139.7,60.2319,PTC1,,,,,"/>
+<approved hash="113,1,216.616,106.926,SODIMM1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

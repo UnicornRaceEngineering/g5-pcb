@@ -1,0 +1,17 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"2";"";"LED1206";"CHIPLED_1206";"LED1, LED2";"LED";"";
+"2";"";"LEDCHIPLED_0805";"CHIPLED_0805";"LED3, LED5";"LED";"";
+"1";"";"LM1117SOT223-REFLOW";"SOT223-R";"U2";"LM1117 Voltage Regulator";"";
+"1";"";"PTC1812";"PTC1812";"PTC2";"PTC (Resettable Fuse)";"";
+"1";"";"USBMINIBLARGE";"USB-MINIB_LARGER";"CN1";"USB Connectors";"";
+"2";"100n";"CAP_CERAMIC_0603";"_0603";"C19, C20";"Ceramic Capacitors";"";
+"1";"10k";"RESISTOR_0603";"_0603";"R19";"Resistors";"";
+"1";"12MHz";"CRYSTALHC49S";"HC49/S";"Q2";"CRYSTAL";"";
+"2";"22p";"CAP_CERAMIC_0603";"_0603";"C17, C18";"Ceramic Capacitors";"";
+"2";"270";"RESISTOR_0603";"_0603";"R20, R21";"Resistors";"";
+"2";"4u7";"CAP_CERAMIC_0805";"_0805";"C1, C2";"Ceramic Capacitors";"";
+"2";"500";"RESISTOR_0603";"_0603";"R1, R8";"Resistors";"";
+"1";"LoPy";"LOPY";"LOPY";"U7";"";"";
+"1";"MCP2200";"MCP2200";"SO20L";"U$24";"USB to serial converter by micreochip";"";
+"4";"MOUNT-HOLE3.0";"MOUNT-HOLE3.0";"3,0";"H1, H2, H3, H4";"MOUNTING HOLE with drill center marker";"";
+"1";"XBEE-PRO";"XBEE-PRO";"XBEE-PRO";"XB1";"XBee (TM) /XBee-PRO(TM) OEM RF Modules";"";

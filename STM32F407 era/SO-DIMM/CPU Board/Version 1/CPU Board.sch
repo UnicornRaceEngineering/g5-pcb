@@ -2807,11 +2807,13 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <text x="27.94" y="12.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SODIMM_BOARD_SMALLER-67.6X35">
-<wire x1="16.75" y1="0" x2="16.75" y2="3.5" width="0" layer="20"/>
-<wire x1="15.75" y1="0" x2="15.75" y2="3.5" width="0" layer="20"/>
-<wire x1="15.75" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="16.75" y1="0" x2="67.6" y2="0" width="0" layer="20"/>
-<wire x1="15.75" y1="3.5" x2="16.75" y2="3.5" width="0" layer="20" curve="-180"/>
+<wire x1="16.90875" y1="0" x2="16.90875" y2="3.57" width="0" layer="20"/>
+<wire x1="14.1625" y1="0" x2="14.1625" y2="3.5" width="0" layer="20"/>
+<wire x1="14.1625" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="16.90875" y1="0" x2="67.6" y2="0" width="0" layer="20"/>
+<wire x1="14.1625" y1="3.5" x2="14.63125" y2="3.96875" width="0" layer="20" curve="-90"/>
+<wire x1="14.63125" y1="3.96875" x2="16.51" y2="3.96875" width="0" layer="20"/>
+<wire x1="16.51" y1="3.96875" x2="16.90875" y2="3.57" width="0" layer="20" curve="-90"/>
 <wire x1="67.6" y1="0" x2="67.6" y2="18" width="0" layer="20"/>
 <wire x1="0" y1="35" x2="0" y2="22" width="0" layer="20"/>
 <wire x1="0" y1="18" x2="0" y2="0" width="0" layer="20"/>

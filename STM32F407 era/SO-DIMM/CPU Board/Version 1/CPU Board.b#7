@@ -5284,7 +5284,8 @@
 <rectangle x1="23.22956875" y1="34.49446875" x2="25.94990625" y2="34.51225" layer="112"/>
 <rectangle x1="19.51355" y1="34.51225" x2="22.96286875" y2="34.530025" layer="112"/>
 <rectangle x1="23.22956875" y1="34.51225" x2="25.7009875" y2="34.530025" layer="112"/>
-<text x="28.37688125" y="30.965140625" size="1.016" layer="112" font="vector" ratio="10">SODIMM CPU V1</text>
+<text x="28.37688125" y="30.965140625" size="1.016" layer="112" font="vector" ratio="10">SODIMM CPU
+Version 1</text>
 <hole x="3.4925" y="31.4325" drill="2.5"/>
 <circle x="3.4925" y="31.4325" radius="3.01625" width="0.3048" layer="39"/>
 <circle x="3.4925" y="31.4325" radius="3.01625" width="0.3048" layer="40"/>
@@ -7820,4 +7821,10 @@ Covered vias can be set in Masks (Limit).
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

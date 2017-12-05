@@ -5568,6 +5568,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="129.54" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <label x="129.54" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="XB1" gate="G$1" pin="!RTS!/AD6/DIO6"/>
+<wire x1="111.76" y1="193.04" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
+<label x="111.76" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RTS" class="0">
 <segment>
@@ -5575,10 +5580,30 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="129.54" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <label x="129.54" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="XB1" gate="G$1" pin="!CTS!/DIO7"/>
+<wire x1="111.76" y1="195.58" x2="114.3" y2="195.58" width="0.1524" layer="91"/>
+<label x="111.76" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,114.3,223.52,XB1,VCC,3.3V,,,"/>
+<approved hash="202,1,114.3,172.72,XB1,VREF,,,,"/>
+<approved hash="104,1,-45.72,190.5,CN1,VBUS,N$1,,,"/>
+<approved hash="106,1,17.78,213.36,MISO,,,,,"/>
+<approved hash="106,1,17.78,215.9,MOSI,,,,,"/>
+<approved hash="106,1,17.78,218.44,SCK,,,,,"/>
+<approved hash="113,1,54.61,101.278,LED3,,,,,"/>
+<approved hash="113,1,54.61,93.6583,LED5,,,,,"/>
+<approved hash="113,1,20.32,118.576,U2,,,,,"/>
+<approved hash="113,1,107.95,189.006,LED2,,,,,"/>
+<approved hash="113,1,-53.975,186.711,CN1,,,,,"/>
+<approved hash="113,1,-35.56,192.312,PTC2,,,,,"/>
+<approved hash="113,1,107.95,214.854,LED1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

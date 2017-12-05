@@ -5398,8 +5398,8 @@ Standard A4 size frame in Landscape</description>
 <instance part="U$15" gate="G$1" x="223.52" y="38.1"/>
 <instance part="U$16" gate="G$1" x="251.46" y="38.1"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="H1" gate="G$1" x="-48.26" y="111.76"/>
-<instance part="H2" gate="G$1" x="-48.26" y="104.14"/>
+<instance part="H1" gate="G$1" x="124.46" y="83.82"/>
+<instance part="H2" gate="G$1" x="124.46" y="76.2"/>
 </instances>
 <busses>
 </busses>

@@ -6277,6 +6277,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="45.24375" y="26.3525" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="48.895" y="27.05105" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
+<element name="R2" library="microbuilder" package="_0603" value="500" x="1.27" y="-3.175"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -6567,6 +6568,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="48.387" y1="25.55875" x2="49.53" y2="25.55875" width="0.3048" layer="1"/>
 <wire x1="49.53" y1="25.55875" x2="49.8602" y2="25.22855" width="0.3048" layer="1"/>
 <wire x1="49.8602" y1="25.22855" x2="49.8602" y2="25.1079" width="0.3048" layer="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="2.032" y1="-3.175" x2="26.82875" y2="8.28675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="12"/>
@@ -6697,6 +6700,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="45.4025" y1="23.1775" x2="49.53" y2="23.1775" width="0.3048" layer="1"/>
 <wire x1="49.53" y1="23.1775" x2="49.8602" y2="22.8473" width="0.3048" layer="1"/>
 <wire x1="49.8602" y1="22.8473" x2="49.8602" y2="22.5171" width="0.3048" layer="1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="0.508" y1="-3.175" x2="42.2275" y2="16.1925" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="U1" pad="6"/>

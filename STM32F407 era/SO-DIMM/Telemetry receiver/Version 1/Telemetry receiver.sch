@@ -5161,7 +5161,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
-<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
+<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="3,3v"/>
 <part name="U$1" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="5.0V" device=""/>

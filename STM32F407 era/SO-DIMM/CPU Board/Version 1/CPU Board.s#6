@@ -3766,8 +3766,8 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <pin name="P$198" x="38.1" y="-60.96" visible="pin" length="middle"/>
 <pin name="P$199" x="38.1" y="-63.5" visible="pin" length="middle"/>
 <pin name="P$200" x="38.1" y="-66.04" visible="pin" length="middle"/>
-<text x="53.34" y="63.5" size="1.778" layer="95">&gt;NAME</text>
-<text x="58.42" y="-71.12" size="1.778" layer="96">&gt;VALUE</text>
+<text x="38.1" y="60.96" size="1.778" layer="95">&gt;NAME</text>
+<text x="38.1" y="-71.12" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CRYSTAL">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>

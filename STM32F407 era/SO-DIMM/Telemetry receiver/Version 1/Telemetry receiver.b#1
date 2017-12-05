@@ -4256,8 +4256,10 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$5">
 <contactref element="XB1" pad="15"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="16.51" y1="30.57375" x2="17.1925" y2="29.89125" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="30.57375" x2="14.03725" y2="33.655" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1925" y1="29.89125" x2="16.51" y2="30.57375" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="30.57375" x2="16.51" y2="32.7025" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="32.7025" x2="15.5575" y2="33.655" width="0.3048" layer="1"/>
+<wire x1="15.5575" y1="33.655" x2="14.03725" y2="33.655" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED2" pad="C"/>
@@ -4292,7 +4294,9 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$2">
 <contactref element="XB1" pad="6"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="14.03725" y1="4.1275" x2="17.1925" y2="7.89125" width="0" layer="19" extent="1-1"/>
+<wire x1="14.03725" y1="4.1275" x2="15.24" y2="4.1275" width="0.3048" layer="1"/>
+<wire x1="17.1925" y1="6.08" x2="17.1925" y2="7.89125" width="0.3048" layer="1"/>
+<wire x1="15.24" y1="4.1275" x2="17.1925" y2="6.08" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="C"/>
@@ -4335,8 +4339,8 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,1,09f9e1499d2271c5"/>
 <approved hash="4,1,f5397b9f85c6351a"/>
 <approved hash="4,1,dc214a87b4ae1c02"/>
-<approved hash="4,1,46e096da88e0c6c9"/>
 <approved hash="4,1,6dc8ddc2c3e8edd1"/>
+<approved hash="4,1,46e096da88e0c6c9"/>
 </errors>
 </board>
 </drawing>

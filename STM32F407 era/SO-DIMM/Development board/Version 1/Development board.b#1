@@ -32119,11 +32119,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="142.71625" y="98.58375" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="141.6685" y="103.34625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="U2" library="microbuilder" package="SOT223-R" value="" x="155.73375" y="83.02625" smashed="yes" rot="R90">
+<element name="U2" library="microbuilder" package="SOT223-R" value="3,3v" x="155.73375" y="83.02625" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.924" y="80.8355" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="156.36875" y="80.23225" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U3" library="microbuilder" package="SOT223-R" value="" x="149.70125" y="71.12" smashed="yes" rot="R90">
+<element name="U3" library="microbuilder" package="SOT223-R" value="5,0v" x="149.70125" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.6385" y="72.04075" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="150.33625" y="68.326" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -32356,8 +32356,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="46.6725" y="19.46275" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.65725" y="21.17725" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R25" library="microbuilder" package="_0603" value="100" x="124.61875" y="25.7175"/>
-<element name="R27" library="microbuilder" package="_0603" value="100" x="127.79375" y="25.7175"/>
+<element name="R25" library="microbuilder" package="_0603" value="499" x="124.61875" y="25.7175"/>
+<element name="R27" library="microbuilder" package="_0603" value="976" x="127.79375" y="25.7175"/>
 </elements>
 <signals>
 <signal name="GND">

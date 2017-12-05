@@ -1734,8 +1734,8 @@
 <rectangle x1="46.046390625" y1="7.59333125" x2="48.126646875" y2="7.6161875" layer="21"/>
 <text x="58.7375" y="1.27" size="1.27" layer="21" font="vector" ratio="10">Telemetry
 receiver V1</text>
-<text x="15.39875" y="33.655" size="1.778" layer="21" font="vector" ratio="10" align="center-left">&lt;Assoc</text>
-<text x="15.39875" y="4.1275" size="1.778" layer="21" font="vector" ratio="10" align="center-left">&lt;RSSI</text>
+<text x="15.39875" y="33.655" size="1.778" layer="41" font="vector" ratio="10" align="center-left">&lt;ASSOC</text>
+<text x="15.39875" y="4.1275" size="1.778" layer="41" font="vector" ratio="10" align="center-left">&lt;RSSI</text>
 <text x="66.51625" y="34.6075" size="1.778" layer="21" font="vector" ratio="10" align="center-left">TX</text>
 <text x="66.675" y="29.21" size="1.778" layer="21" font="vector" ratio="10" align="center-left">RX</text>
 </plain>
@@ -2827,7 +2827,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U7" pad="GND"/>
 <contactref element="XB1" pad="10"/>
 <contactref element="CN1" pad="GND"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.254" layer="1" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="0" y="37.62375"/>
 <vertex x="78.89875" y="37.62375"/>
@@ -2877,7 +2877,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="10.63625" y1="18.7325" x2="11.27125" y2="19.3675" width="0.3048" layer="1"/>
 <wire x1="11.27125" y1="19.3675" x2="40.48125" y2="19.3675" width="0.3048" layer="1"/>
 <wire x1="40.48125" y1="19.3675" x2="40.64" y2="19.52625" width="0.3048" layer="1"/>
-<wire x1="40.64" y1="19.52625" x2="40.79875" y2="19.685" width="0.3048" layer="1"/>
 <wire x1="10.63625" y1="9.335" x2="10.63625" y2="18.7325" width="0.3048" layer="1"/>
 <via x="40.64" y="19.52625" extent="1-16" drill="0.3302"/>
 <contactref element="U$24" pad="12"/>
@@ -2887,7 +2886,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="46.0375" y1="15.08125" x2="41.5925" y2="19.52625" width="0.3048" layer="16"/>
 <wire x1="41.5925" y1="19.52625" x2="40.64" y2="19.52625" width="0.3048" layer="16"/>
 <contactref element="U7" pad="41"/>
-<wire x1="40.79875" y1="19.685" x2="40.79875" y2="31.4325" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="19.52625" x2="40.79875" y2="19.685" width="0.254" layer="1"/>
+<wire x1="40.79875" y1="19.685" x2="40.79875" y2="31.4325" width="0.254" layer="1"/>
 </signal>
 <signal name="TX">
 <contactref element="XB1" pad="3"/>
@@ -3000,10 +3000,8 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$5">
 <contactref element="XB1" pad="15"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="14.03725" y1="33.655" x2="15.71625" y2="33.655" width="0.3048" layer="1"/>
-<wire x1="15.71625" y1="33.655" x2="16.51" y2="32.86125" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="32.86125" x2="16.51" y2="30.57375" width="0.3048" layer="1"/>
 <wire x1="16.51" y1="30.57375" x2="17.1925" y2="29.89125" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="30.57375" x2="14.03725" y2="33.655" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED2" pad="C"/>
@@ -3039,8 +3037,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="XB1" pad="6"/>
 <contactref element="LED1" pad="A"/>
 <wire x1="14.03725" y1="4.1275" x2="14.9225" y2="4.1275" width="0.3048" layer="1"/>
-<wire x1="17.1925" y1="6.3975" x2="17.1925" y2="7.89125" width="0.3048" layer="1"/>
-<wire x1="14.9225" y1="4.1275" x2="17.1925" y2="6.3975" width="0.3048" layer="1"/>
+<wire x1="14.9225" y1="4.1275" x2="17.1925" y2="7.89125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="C"/>
@@ -3074,6 +3071,20 @@ Covered vias can be set in Masks (Limit).
 <wire x1="42.8625" y1="20.955" x2="24.92375" y2="20.955" width="0.3048" layer="16"/>
 <wire x1="23.1925" y1="22.68625" x2="23.1925" y2="29.89125" width="0.3048" layer="16"/>
 <wire x1="24.92375" y1="20.955" x2="23.1925" y2="22.68625" width="0.3048" layer="16"/>
+</signal>
+<signal name="NEG_SILK">
+<polygon width="0.127" layer="1">
+<vertex x="15.08125" y="5.23875"/>
+<vertex x="22.86" y="5.23875"/>
+<vertex x="22.86" y="3.01625"/>
+<vertex x="15.08125" y="3.01625"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="15.08125" y="34.6075"/>
+<vertex x="24.92375" y="34.6075"/>
+<vertex x="24.92375" y="32.7025"/>
+<vertex x="15.08125" y="32.7025"/>
+</polygon>
 </signal>
 </signals>
 <errors>

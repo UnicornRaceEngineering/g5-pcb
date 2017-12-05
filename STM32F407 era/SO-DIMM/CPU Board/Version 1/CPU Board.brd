@@ -5655,11 +5655,13 @@ shrink quad flat pack, square</description>
 <library name="BaseApp">
 <packages>
 <package name="SODIMM_BOARD_SMALLER-67.6X35">
-<wire x1="16.75" y1="0" x2="16.75" y2="3.5" width="0" layer="20"/>
-<wire x1="15.75" y1="0" x2="15.75" y2="3.5" width="0" layer="20"/>
-<wire x1="15.75" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="16.75" y1="0" x2="67.6" y2="0" width="0" layer="20"/>
-<wire x1="15.75" y1="3.5" x2="16.75" y2="3.5" width="0" layer="20" curve="-180"/>
+<wire x1="16.90875" y1="0" x2="16.90875" y2="3.57" width="0" layer="20"/>
+<wire x1="14.1625" y1="0" x2="14.1625" y2="3.5" width="0" layer="20"/>
+<wire x1="14.1625" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="16.90875" y1="0" x2="67.6" y2="0" width="0" layer="20"/>
+<wire x1="14.1625" y1="3.5" x2="14.63125" y2="3.96875" width="0" layer="20" curve="-90"/>
+<wire x1="14.63125" y1="3.96875" x2="16.51" y2="3.96875" width="0" layer="20"/>
+<wire x1="16.51" y1="3.96875" x2="16.90875" y2="3.57" width="0" layer="20" curve="-90"/>
 <wire x1="67.6" y1="0" x2="67.6" y2="18" width="0" layer="20"/>
 <wire x1="0" y1="35" x2="0" y2="22" width="0" layer="20"/>
 <wire x1="0" y1="18" x2="0" y2="0" width="0" layer="20"/>
@@ -7681,6 +7683,10 @@ Covered vias can be set in Masks (Limit).
 <approved hash="4,1,37f4c1a3497c97e9"/>
 <approved hash="4,1,1b8ee1a43b7be1eb"/>
 <approved hash="4,1,fff0c9d92d06e3e8"/>
+<approved hash="4,1,8e3864f21e5a14d8"/>
+<approved hash="4,1,2a5a905d93db9d8e"/>
+<approved hash="4,1,b4a6fd75bf36308f"/>
+<approved hash="4,1,ea91b764c73a1e5e"/>
 <approved hash="4,1,fbf1c1ccab1371e8"/>
 <approved hash="4,1,1ffe29c01d1e33e7"/>
 <approved hash="4,1,3bf449c13f1d5de9"/>

@@ -8711,12 +8711,12 @@ distributor Farnell 149-452</description>
 <part name="LED4" library="microbuilder" deviceset="LED_RGB_PLCC4" device=""/>
 <part name="LED5" library="microbuilder" deviceset="LED_RGB_PLCC4" device=""/>
 <part name="CN2" library="microbuilder" deviceset="DCBARREL" device="PTH"/>
-<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
-<part name="U3" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805"/>
+<part name="U2" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="3,3v"/>
+<part name="U3" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="5,0v"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
+<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
+<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805" value="22u"/>
 <part name="U$5" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$9" library="microbuilder" deviceset="12V" device=""/>
 <part name="U$12" library="microbuilder" deviceset="12V" device=""/>

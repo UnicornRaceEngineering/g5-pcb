@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"2";"";"AUDIO-JACKPTH";"AUDIO-JACK";"U5, U6";"3.5mm Audio Jack";"";
+"5";"";"BANANA_CONN";"BANANA_CONN";"J2, J3, J5, J6, J7";"Through-hole banana jack";"";
+"1";"";"DB9FEMALE";"DB9";"J1";"DB9 Connector";"";
+"1";"";"DCBARRELPTH";"DCJACK_2MM_PTH";"CN2";"DC Barrel Jack";"";
+"1";"";"SWITCH_DPDT";"DPDT_SMT_JS202011SCQN";"SW1";"Switch - DPDT";"";
+"1";"057-014-1";"057-014-1";"057-014-1";"X1";"CONNECTOR";"";
+"1";"47n";"CAP_CERAMIC_0603";"_0603";"C1";"Ceramic Capacitors";"";
+"2";"60";"RESISTOR_0603";"_0603";"R1, R26";"Resistors";"";
+"7";"BN35N61";"BN35N61";"B35N61";"X2, X3, X4, X5, X6, X7, X8";"BNC CONNECTOR";"";
+"1";"FTDI_DEVICE";"FTDI_DEVICE";"FTDI_DEVICE_SIDE";"J4";"Connector which mates to FTDI basic or FTDI cable.";"";
+"1";"MICROFIT4";"MICROFIT4";"43045-0400";"U$21";"";"";

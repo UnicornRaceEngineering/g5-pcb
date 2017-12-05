@@ -3998,7 +3998,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="59.2455" y="24.35225" size="1.27" layer="27" ratio="10" rot="R270"/>
 <attribute name="NAME" x="59.15025" y="26.2255" size="1.27" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="U2" library="microbuilder" package="SOT223-R" value="" x="59.84875" y="8.89" smashed="yes">
+<element name="U2" library="microbuilder" package="SOT223-R" value="3,3v" x="59.84875" y="8.89" smashed="yes">
 <attribute name="NAME" x="58.3565" y="12.2555" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="57.05475" y="8.255" size="0.4064" layer="27" ratio="10"/>
 </element>
