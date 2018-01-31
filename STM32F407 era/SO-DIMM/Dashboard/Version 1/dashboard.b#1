@@ -8690,21 +8690,21 @@ Covered vias can be set in Masks (Limit).
 <wire x1="38.21625" y1="36.2375" x2="38.4175" y2="36.03625" width="0.3048" layer="16"/>
 <via x="38.4175" y="36.03625" extent="1-16" drill="0.381"/>
 <wire x1="45.4025" y1="36.195" x2="44.7675" y2="35.56" width="0.3048" layer="1"/>
-<via x="51.91125" y="36.195" extent="1-16" drill="0.381"/>
+<via x="51.435" y="36.195" extent="1-16" drill="0.381"/>
 <via x="81.12125" y="30.95625" extent="1-16" drill="0.381"/>
 <wire x1="81.12125" y1="30.95625" x2="86.995" y2="25.0825" width="0.3048" layer="1"/>
 <via x="86.995" y="25.0825" extent="1-16" drill="0.381"/>
 <wire x1="86.995" y1="25.0825" x2="87.47125" y2="24.60625" width="0.3048" layer="16"/>
 <wire x1="87.78875" y1="24.60625" x2="88.9" y2="23.495" width="0.3048" layer="16"/>
-<wire x1="45.4025" y1="36.195" x2="51.91125" y2="36.195" width="0.3048" layer="1"/>
+<wire x1="45.4025" y1="36.195" x2="51.435" y2="36.195" width="0.3048" layer="1"/>
 <wire x1="87.47125" y1="24.60625" x2="87.78875" y2="24.60625" width="0.3048" layer="16"/>
 <wire x1="77.31125" y1="34.29" x2="79.0575" y2="32.54375" width="0.3048" layer="16"/>
 <wire x1="79.0575" y1="32.54375" x2="79.53375" y2="32.54375" width="0.3048" layer="16"/>
 <wire x1="79.53375" y1="32.54375" x2="81.12125" y2="30.95625" width="0.3048" layer="16"/>
 <wire x1="38.89375" y1="35.56" x2="38.4175" y2="36.03625" width="0.3048" layer="1"/>
 <wire x1="44.7675" y1="35.56" x2="38.89375" y2="35.56" width="0.3048" layer="1"/>
-<wire x1="51.91125" y1="36.195" x2="53.81625" y2="34.29" width="0.3048" layer="16"/>
-<wire x1="53.81625" y1="34.29" x2="77.31125" y2="34.29" width="0.3048" layer="16"/>
+<wire x1="51.435" y1="36.195" x2="53.34" y2="34.29" width="0.3048" layer="16"/>
+<wire x1="53.34" y1="34.29" x2="77.31125" y2="34.29" width="0.3048" layer="16"/>
 </signal>
 <signal name="DBG_TX">
 <contactref element="X6" pad="5"/>
@@ -8713,9 +8713,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="37.61625" y1="36.1875" x2="37.465" y2="36.03625" width="0.3048" layer="16"/>
 <via x="37.465" y="36.03625" extent="1-16" drill="0.381"/>
 <wire x1="45.085" y1="35.08375" x2="45.72" y2="35.71875" width="0.3048" layer="1"/>
-<wire x1="45.72" y1="35.71875" x2="51.1175" y2="35.71875" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="35.71875" x2="51.435" y2="35.40125" width="0.3048" layer="1"/>
-<via x="51.435" y="35.40125" extent="1-16" drill="0.381"/>
+<wire x1="45.72" y1="35.71875" x2="50.8" y2="35.71875" width="0.3048" layer="1"/>
+<wire x1="50.8" y1="35.71875" x2="51.1175" y2="35.40125" width="0.3048" layer="1"/>
+<via x="51.1175" y="35.40125" extent="1-16" drill="0.381"/>
 <via x="79.0575" y="31.75" extent="1-16" drill="0.381"/>
 <wire x1="79.0575" y1="31.75" x2="81.28" y2="31.75" width="0.3048" layer="1"/>
 <wire x1="86.995" y1="26.035" x2="87.15375" y2="26.035" width="0.3048" layer="1"/>
@@ -8727,8 +8727,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="88.42375" y1="24.765" x2="90.17" y2="24.765" width="0.3048" layer="16"/>
 <wire x1="76.99375" y1="33.81375" x2="79.0575" y2="31.75" width="0.3048" layer="16"/>
 <wire x1="38.4175" y1="35.08375" x2="37.465" y2="36.03625" width="0.3048" layer="1"/>
-<wire x1="51.435" y1="35.40125" x2="53.0225" y2="33.81375" width="0.3048" layer="16"/>
-<wire x1="53.0225" y1="33.81375" x2="76.99375" y2="33.81375" width="0.3048" layer="16"/>
+<wire x1="51.1175" y1="35.40125" x2="52.705" y2="33.81375" width="0.3048" layer="16"/>
+<wire x1="52.705" y1="33.81375" x2="76.99375" y2="33.81375" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$87">
 <contactref element="U$8" pad="6"/>
@@ -9106,49 +9106,48 @@ Covered vias can be set in Masks (Limit).
 <wire x1="48.10125" y1="33.81375" x2="48.10125" y2="32.7025" width="0.3048" layer="1"/>
 </signal>
 <signal name="BTN6">
-<via x="43.4975" y="8.41375" extent="1-16" drill="0.381"/>
-<wire x1="43.4975" y1="8.41375" x2="40.48125" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="35.71875" y1="11.43" x2="35.08375" y2="12.065" width="0.3048" layer="1"/>
-<wire x1="40.48125" y1="11.43" x2="35.71875" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="35.08375" y1="18.89125" x2="35.08375" y2="12.065" width="0.3048" layer="1"/>
 <contactref element="J1" pad="103"/>
 <wire x1="49.01625" y1="38.0725" x2="49.01625" y2="33.45875" width="0.3048" layer="16"/>
 <wire x1="49.01625" y1="33.45875" x2="48.895" y2="33.3375" width="0.3048" layer="16"/>
 <via x="48.895" y="33.3375" extent="1-16" drill="0.381"/>
-<wire x1="48.73625" y1="32.54375" x2="35.08375" y2="18.89125" width="0.3048" layer="1"/>
-<wire x1="48.895" y1="33.3375" x2="48.73625" y2="33.17875" width="0.3048" layer="1"/>
-<wire x1="48.73625" y1="33.17875" x2="48.73625" y2="32.54375" width="0.3048" layer="1"/>
 <contactref element="X2" pad="7"/>
-<wire x1="49.01625" y1="38.0725" x2="60.07875" y2="42.58625" width="0" layer="19" extent="16-16"/>
+<wire x1="48.895" y1="33.3375" x2="49.2125" y2="33.655" width="0.3048" layer="1"/>
+<wire x1="49.2125" y1="33.655" x2="51.27625" y2="33.655" width="0.3048" layer="1"/>
+<wire x1="51.27625" y1="33.655" x2="52.3875" y2="34.76625" width="0.3048" layer="1"/>
+<wire x1="52.3875" y1="34.76625" x2="52.3875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="52.3875" y1="43.97375" x2="53.49875" y2="45.085" width="0.3048" layer="1"/>
+<wire x1="53.49875" y1="45.085" x2="60.16625" y2="45.085" width="0.3048" layer="1"/>
+<via x="60.16625" y="45.085" extent="1-16" drill="0.3302"/>
+<wire x1="60.16625" y1="45.085" x2="60.07875" y2="44.9975" width="0.3048" layer="16"/>
+<wire x1="60.07875" y1="44.9975" x2="60.07875" y2="42.58625" width="0.3048" layer="16"/>
 </signal>
 <signal name="BTN7">
-<via x="44.7675" y="8.41375" extent="1-16" drill="0.381"/>
-<wire x1="44.7675" y1="8.41375" x2="41.275" y2="11.90625" width="0.3048" layer="1"/>
-<wire x1="36.03625" y1="11.90625" x2="35.56" y2="12.3825" width="0.3048" layer="1"/>
-<wire x1="41.275" y1="11.90625" x2="36.03625" y2="11.90625" width="0.3048" layer="1"/>
-<wire x1="35.56" y1="18.57375" x2="35.56" y2="12.3825" width="0.3048" layer="1"/>
 <contactref element="J1" pad="105"/>
 <wire x1="49.61625" y1="38.0725" x2="49.61625" y2="32.78875" width="0.3048" layer="16"/>
 <wire x1="49.61625" y1="32.78875" x2="49.53" y2="32.7025" width="0.3048" layer="16"/>
 <via x="49.53" y="32.7025" extent="1-16" drill="0.381"/>
-<wire x1="49.53" y1="32.7025" x2="49.53" y2="32.54375" width="0.3048" layer="1"/>
-<wire x1="49.53" y1="32.54375" x2="35.56" y2="18.57375" width="0.3048" layer="1"/>
 <contactref element="X2" pad="8"/>
-<wire x1="49.61625" y1="38.0725" x2="61.07875" y2="42.58625" width="0" layer="19" extent="16-16"/>
+<wire x1="49.53" y1="32.7025" x2="51.1175" y2="32.7025" width="0.3048" layer="1"/>
+<wire x1="52.86375" y1="43.65625" x2="53.6575" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="53.6575" y1="44.45" x2="61.11875" y2="44.45" width="0.3048" layer="1"/>
+<via x="61.11875" y="44.45" extent="1-16" drill="0.3302"/>
+<wire x1="61.11875" y1="44.45" x2="61.11875" y2="42.62625" width="0.3048" layer="16"/>
+<wire x1="61.11875" y1="42.62625" x2="61.07875" y2="42.58625" width="0.3048" layer="16"/>
+<wire x1="51.1175" y1="32.7025" x2="52.86375" y2="34.44875" width="0.3048" layer="1"/>
+<wire x1="52.86375" y1="34.44875" x2="52.86375" y2="43.65625" width="0.3048" layer="1"/>
 </signal>
 <signal name="BTN8">
-<via x="46.0375" y="8.41375" extent="1-16" drill="0.381"/>
-<wire x1="42.06875" y1="12.3825" x2="46.0375" y2="8.41375" width="0.3048" layer="1"/>
-<wire x1="42.06875" y1="12.3825" x2="36.35375" y2="12.3825" width="0.3048" layer="1"/>
-<wire x1="36.35375" y1="12.3825" x2="36.03625" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="36.03625" y1="18.25625" x2="36.03625" y2="12.7" width="0.3048" layer="1"/>
 <contactref element="J1" pad="121"/>
 <wire x1="54.41625" y1="38.0725" x2="54.41625" y2="36.63625" width="0.3048" layer="16"/>
 <wire x1="54.41625" y1="36.63625" x2="53.6575" y2="35.8775" width="0.3048" layer="16"/>
 <via x="53.6575" y="35.8775" extent="1-16" drill="0.381"/>
-<wire x1="53.6575" y1="35.8775" x2="36.03625" y2="18.25625" width="0.3048" layer="1"/>
 <contactref element="X2" pad="9"/>
-<wire x1="54.41625" y1="38.0725" x2="62.07875" y2="42.58625" width="0" layer="19" extent="16-16"/>
+<wire x1="53.6575" y1="35.8775" x2="53.6575" y2="43.4975" width="0.3048" layer="1"/>
+<wire x1="53.6575" y1="43.4975" x2="53.975" y2="43.815" width="0.3048" layer="1"/>
+<wire x1="53.975" y1="43.815" x2="62.07125" y2="43.815" width="0.3048" layer="1"/>
+<via x="62.07125" y="43.815" extent="1-16" drill="0.3302"/>
+<wire x1="62.07875" y1="42.58625" x2="62.07875" y2="43.8075" width="0.3048" layer="16"/>
+<wire x1="62.07875" y1="43.8075" x2="62.07125" y2="43.815" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW4">
 <contactref element="J1" pad="23"/>
@@ -9249,6 +9248,10 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,1,a0685c301d52c179"/>
 <approved hash="5,16,33571f1a153451fe"/>
 <approved hash="5,1,d24695d69a8bcd98"/>
+<approved hash="5,16,5c61b89e687db486"/>
+<approved hash="5,16,9b6f842cd4732763"/>
+<approved hash="5,16,a1b3bcc68c832eb1"/>
+<approved hash="5,16,660f12c304e1a130"/>
 <approved hash="5,1,2cf67e7f790c0ea0"/>
 <approved hash="5,1,3f63d393010c0dd7"/>
 <approved hash="5,1,5a3de52892712de4"/>
@@ -9263,8 +9266,8 @@ Covered vias can be set in Masks (Limit).
 <approved hash="19,1,3c6b19451b233bcc"/>
 <approved hash="5,1,37733fe7e300dfb6"/>
 <approved hash="5,1,df4a80241e84aec9"/>
-<approved hash="5,1,9d28cb37525550aa"/>
 <approved hash="5,1,e793baf00280b286"/>
+<approved hash="5,1,9d28cb37525550aa"/>
 <approved hash="5,1,c21d5f750388b380"/>
 <approved hash="5,1,19667ea6737671d6"/>
 <approved hash="5,1,e0223253b2c5405d"/>
@@ -9281,7 +9284,7 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,1,97e152705fafaabe"/>
 <approved hash="5,16,2020e35bea1fdf59"/>
 <approved hash="19,16,2a720e0813122d4c"/>
-<approved hash="5,16,5c61b89e687db486"/>
+<approved hash="5,16,ae1c246f86d97f6e"/>
 <approved hash="5,16,e26b842d80871602"/>
 <approved hash="5,16,f0e7989cec56cc57"/>
 <approved hash="5,16,1235bbce868225f3"/>
@@ -9294,9 +9297,7 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,16,6de88690f457cde7"/>
 <approved hash="5,16,7335bdce06832445"/>
 <approved hash="5,16,88d4892d054268a5"/>
-<approved hash="5,16,9b6f842cd4732763"/>
-<approved hash="5,16,a1b3bcc68c832eb1"/>
-<approved hash="5,16,660f12c304e1a130"/>
+<approved hash="5,16,1ad4cda3d9621a0a"/>
 </errors>
 </board>
 </drawing>

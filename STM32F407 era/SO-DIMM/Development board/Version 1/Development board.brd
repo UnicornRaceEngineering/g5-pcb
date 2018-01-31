@@ -32116,7 +32116,7 @@ Covered vias can be set in Masks (Limit).
 <element name="LED4" library="microbuilder" package="RGBLED_PLCC4" value="" x="102.71125" y="37.62375" smashed="yes" rot="R180"/>
 <element name="LED5" library="microbuilder" package="RGBLED_PLCC4" value="" x="102.71125" y="40.9575" smashed="yes" rot="R180"/>
 <element name="CN2" library="microbuilder" package="DCJACK_2MM_PTH" value="" x="147.0025" y="103.34625" smashed="yes" rot="R180">
-<attribute name="NAME" x="142.71625" y="98.58375" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="142.08125" y="96.67875" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="141.6685" y="103.34625" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U2" library="microbuilder" package="SOT223-R" value="3,3v" x="155.73375" y="83.02625" smashed="yes" rot="R90">
@@ -32156,7 +32156,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_NEWARK" value="unknown" x="139.22375" y="63.8175" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="139.22375" y="63.8175" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="139.22375" y="63.8175" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="101.12375" y="82.2325" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="101.12375" y="81.915" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="139.85875" y="82.2325" size="1.27" layer="27"/>
 </element>
 <element name="C7" library="microbuilder" package="_0603" value="100n" x="104.93375" y="78.105" smashed="yes" rot="R90">
@@ -32207,7 +32207,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="113.665" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="113.665" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="113.665" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="76.80325" y="5.68325" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="79.502" y="10.50925" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="85.56625" y="5.68325" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="S2" library="switch-omron" package="B3F-10XX" value="" x="87.47125" y="8.73125" smashed="yes" rot="R90">
@@ -32215,7 +32215,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="139.3825" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="139.3825" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="139.3825" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="83.78825" y="5.68325" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="86.487" y="10.50925" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="92.55125" y="5.68325" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="S3" library="switch-omron" package="B3F-10XX" value="" x="94.45625" y="8.73125" smashed="yes" rot="R90">
@@ -32223,7 +32223,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="146.3675" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="146.3675" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="146.3675" y="8.73125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.77325" y="5.68325" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="93.472" y="10.50925" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="99.53625" y="5.68325" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="S4" library="switch-omron" package="B3F-10XX" value="" x="101.44125" y="8.73125" smashed="yes" rot="R90">
@@ -32231,7 +32231,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="" x="172.085" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="172.085" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="172.085" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="97.75825" y="5.68325" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="100.29825" y="10.50925" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="106.52125" y="5.68325" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="S5" library="adafruit" package="EG1218" value="" x="49.37125" y="9.04875" smashed="yes" rot="R270">
@@ -32252,7 +32252,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="47.2125" y="96.46625" size="1.778" layer="27"/>
 </element>
 <element name="R1" library="rcl" package="RTRIM3296W" value="" x="96.2025" y="77.31125" smashed="yes" rot="R180">
-<attribute name="NAME" x="98.8525" y="81.81125" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="96.2575" y="83.075" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="92.2525" y="81.81125" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="X2" library="con-coax" package="B35N61" value="BN35N61" x="13.17625" y="79.53375" smashed="yes">
@@ -32341,7 +32341,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="67.53225" y="21.17725" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R23" library="microbuilder" package="_0603" value="100" x="57.15" y="21.43125" smashed="yes" rot="R180">
-<attribute name="NAME" x="58.42" y="20.47875" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="55.5625" y="22.225" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="58.42" y="22.92355" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="LED14" library="microbuilder" package="CHIPLED_1206" value="" x="57.15" y="19.52625" smashed="yes" rot="R90">

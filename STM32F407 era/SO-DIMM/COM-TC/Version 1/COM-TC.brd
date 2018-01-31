@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -14268,10 +14267,10 @@ Please make sure your boards conform to these design rules.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -15174,6 +15173,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="38.57625" y="72.86625" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="27.94" y="75.7873" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
+<element name="C28" library="microbuilder" package="_0603" value="100n" x="66.19875" y="9.36625" smashed="yes" rot="MR90">
+<attribute name="NAME" x="66.83375" y="6.82625" size="1.27" layer="26" font="vector" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="64.70645" y="8.09625" size="0.4064" layer="28" ratio="10" rot="MR90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -15589,6 +15592,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="71.91375" y="115.72875" extent="1-16" drill="0.3302"/>
 <via x="71.91375" y="117.1575" extent="1-16" drill="0.3302"/>
 <via x="67.6275" y="109.69625" extent="1-16" drill="0.3302"/>
+<contactref element="C28" pad="2"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R37" pad="1"/>
@@ -15628,7 +15632,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="1"/>
 <wire x1="64.29375" y1="7.493" x2="63.02375" y2="7.493" width="0.6096" layer="16"/>
-<wire x1="64.29375" y1="7.493" x2="66.19875" y2="7.493" width="0.6096" layer="16"/>
+<wire x1="66.19875" y1="7.493" x2="64.29375" y2="7.493" width="0.6096" layer="16"/>
 <wire x1="66.19875" y1="7.493" x2="68.42125" y2="7.493" width="0.6096" layer="16"/>
 <wire x1="68.42125" y1="7.493" x2="69.69125" y2="7.493" width="0.6096" layer="16"/>
 <wire x1="69.69125" y1="7.493" x2="70.96125" y2="7.493" width="0.6096" layer="16"/>
@@ -15825,6 +15829,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44.97" y1="15.875" x2="44.97" y2="16.76375" width="0.3048" layer="1"/>
 <wire x1="44.97" y1="15.875" x2="44.97" y2="8.29875" width="0.3048" layer="1"/>
 <wire x1="44.29125" y1="15.875" x2="44.97" y2="15.875" width="0.3048" layer="1"/>
+<contactref element="C28" pad="1"/>
+<wire x1="66.19875" y1="8.60425" x2="66.19875" y2="7.493" width="0.4064" layer="16"/>
 </signal>
 <signal name="12V">
 <contactref element="J1" pad="A4"/>

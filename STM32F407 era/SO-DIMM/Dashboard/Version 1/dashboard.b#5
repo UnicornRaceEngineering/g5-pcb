@@ -6651,7 +6651,7 @@ Covered vias can be set in Masks (Limit).
 <vertex x="94.2975" y="70.64375"/>
 <vertex x="0" y="70.64375"/>
 </polygon>
-<polygon width="0.254" layer="16">
+<polygon width="0.254" layer="16" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="94.2975" y="0"/>
 <vertex x="94.2975" y="70.64375"/>
@@ -6869,7 +6869,7 @@ Covered vias can be set in Masks (Limit).
 <via x="37.30625" y="31.59125" extent="1-16" drill="0.381"/>
 <via x="34.925" y="31.59125" extent="1-16" drill="0.381"/>
 <via x="31.90875" y="31.59125" extent="1-16" drill="0.381"/>
-<via x="59.21375" y="23.97125" extent="1-16" drill="0.381"/>
+<via x="56.67375" y="23.8125" extent="1-16" drill="0.381"/>
 <via x="72.39" y="26.3525" extent="1-16" drill="0.381"/>
 <via x="72.39" y="23.97125" extent="1-16" drill="0.381"/>
 <via x="69.85" y="20.16125" extent="1-16" drill="0.381"/>
@@ -6883,6 +6883,8 @@ Covered vias can be set in Masks (Limit).
 <contactref element="X3" pad="10"/>
 <contactref element="C11" pad="2"/>
 <contactref element="U2" pad="4"/>
+<via x="55.72125" y="22.225" extent="1-16" drill="0.381"/>
+<via x="56.1975" y="20.6375" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="3"/>
@@ -8443,23 +8445,36 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U2" pad="8"/>
 <contactref element="U2" pad="5"/>
 <contactref element="U2" pad="6"/>
-<wire x1="56.67375" y1="27.07005" x2="57.94375" y2="27.07005" width="0.6096" layer="16"/>
-<wire x1="57.94375" y1="27.07005" x2="59.21375" y2="27.07005" width="0.6096" layer="16"/>
-<wire x1="59.21375" y1="27.07005" x2="60.48375" y2="27.07005" width="0.6096" layer="16"/>
-<wire x1="57.94375" y1="27.07005" x2="57.94375" y2="25.87625" width="0.6096" layer="16"/>
-<wire x1="58.57875" y1="25.24125" x2="57.94375" y2="25.87625" width="0.6096" layer="16"/>
-<wire x1="59.21375" y1="27.07005" x2="59.21375" y2="25.87625" width="0.6096" layer="16"/>
-<wire x1="59.21375" y1="25.87625" x2="58.57875" y2="25.24125" width="0.6096" layer="16"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="56.515" y="28.09875"/>
+<vertex x="56.35625" y="27.94"/>
+<vertex x="56.35625" y="26.035"/>
+<vertex x="57.94375" y="24.4475"/>
+<vertex x="59.21375" y="24.4475"/>
+<vertex x="60.80125" y="26.035"/>
+<vertex x="60.80125" y="27.94"/>
+<vertex x="60.6425" y="28.09875"/>
+</polygon>
 </signal>
 <signal name="N$84">
 <contactref element="PTC2" pad="P$2"/>
-<wire x1="58.57875" y1="19.40375" x2="58.57875" y2="22.14245" width="0.6096" layer="16"/>
 <contactref element="U2" pad="1"/>
 <contactref element="U2" pad="3"/>
 <contactref element="U2" pad="2"/>
-<wire x1="57.94375" y1="22.14245" x2="60.48375" y2="22.14245" width="0.6096" layer="16"/>
-<wire x1="59.21375" y1="22.14245" x2="57.94375" y2="22.14245" width="0.6096" layer="16"/>
-<wire x1="59.21375" y1="22.14245" x2="58.57875" y2="22.14245" width="0" layer="19" extent="16-16"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="57.62625" y="23.01875"/>
+<vertex x="57.62625" y="21.11375"/>
+<vertex x="56.67375" y="20.16125"/>
+<vertex x="56.67375" y="18.7325"/>
+<vertex x="56.8325" y="18.57375"/>
+<vertex x="60.325" y="18.57375"/>
+<vertex x="60.48375" y="18.7325"/>
+<vertex x="60.48375" y="20.16125"/>
+<vertex x="60.80125" y="20.47875"/>
+<vertex x="60.80125" y="23.01875"/>
+<vertex x="60.6425" y="23.1775"/>
+<vertex x="57.785" y="23.1775"/>
+</polygon>
 </signal>
 <signal name="CAN_RX">
 <contactref element="U10" pad="4"/>
@@ -9304,8 +9319,8 @@ Covered vias can be set in Masks (Limit).
 <approved hash="5,1,615f3ca50785bf51"/>
 <approved hash="5,1,a82acb45ec85ae0a"/>
 <approved hash="5,1,dfe580681eb8ae28"/>
-<approved hash="5,1,098cc2ef700ffbcd"/>
 <approved hash="5,1,1df71570d5d7fd35"/>
+<approved hash="5,1,098cc2ef700ffbcd"/>
 <approved hash="5,1,97e152705fafaabe"/>
 <approved hash="5,16,2020e35bea1fdf59"/>
 <approved hash="19,16,2a720e0813122d4c"/>

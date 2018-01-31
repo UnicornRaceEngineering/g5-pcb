@@ -6872,7 +6872,7 @@ Covered vias can be set in Masks (Limit).
 <via x="37.30625" y="31.59125" extent="1-16" drill="0.381"/>
 <via x="34.925" y="31.59125" extent="1-16" drill="0.381"/>
 <via x="31.90875" y="31.59125" extent="1-16" drill="0.381"/>
-<via x="60.48375" y="24.28875" extent="1-16" drill="0.381"/>
+<via x="59.21375" y="23.97125" extent="1-16" drill="0.381"/>
 <via x="72.39" y="26.3525" extent="1-16" drill="0.381"/>
 <via x="72.39" y="23.97125" extent="1-16" drill="0.381"/>
 <via x="69.85" y="20.16125" extent="1-16" drill="0.381"/>
@@ -8359,13 +8359,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="62.83325" y1="20.0025" x2="62.865" y2="20.03425" width="0.6096" layer="16"/>
 <wire x1="58.57875" y1="15.20375" x2="60.7015" y2="15.20375" width="0.6096" layer="16"/>
 <wire x1="60.7015" y1="15.20375" x2="63.5" y2="18.00225" width="0.6096" layer="16"/>
-<wire x1="66.59245" y1="20.16125" x2="68.10375" y2="20.16125" width="0.6096" layer="16"/>
-<wire x1="68.10375" y1="20.16125" x2="68.58" y2="19.685" width="0.6096" layer="16"/>
-<via x="68.58" y="19.685" extent="1-16" drill="0.6"/>
-<wire x1="68.58" y1="19.685" x2="69.215" y2="19.05" width="0.6096" layer="1"/>
-<wire x1="69.215" y1="19.05" x2="82.2325" y2="19.05" width="0.6096" layer="1"/>
-<wire x1="82.2325" y1="19.05" x2="87.9475" y2="24.765" width="0.6096" layer="1"/>
-<wire x1="87.9475" y1="24.765" x2="90.17" y2="24.765" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$77">
 <contactref element="U3" pad="4"/>
@@ -8449,7 +8442,11 @@ Covered vias can be set in Masks (Limit).
 <wire x1="57.94375" y1="25.24125" x2="57.94375" y2="27.07005" width="0.6096" layer="16"/>
 <wire x1="77.7875" y1="43.33875" x2="59.69" y2="25.24125" width="0.6096" layer="1"/>
 <contactref element="X6" pad="3"/>
-<wire x1="77.7875" y1="43.33875" x2="91.44" y2="26.035" width="0" layer="19" extent="16-16"/>
+<wire x1="91.44" y1="26.035" x2="90.17" y2="24.765" width="0.6096" layer="1"/>
+<wire x1="88.10625" y1="24.765" x2="86.20125" y2="22.86" width="0.6096" layer="1"/>
+<wire x1="86.20125" y1="22.86" x2="62.07125" y2="22.86" width="0.6096" layer="1"/>
+<wire x1="62.07125" y1="22.86" x2="59.69" y2="25.24125" width="0.6096" layer="1"/>
+<wire x1="90.17" y1="24.765" x2="88.10625" y2="24.765" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$84">
 <contactref element="PTC2" pad="P$2"/>

@@ -8350,7 +8350,6 @@ Covered vias can be set in Masks (Limit).
 <contactref element="U3" pad="2"/>
 <contactref element="R22" pad="1"/>
 <contactref element="PTC2" pad="P$1"/>
-<contactref element="X6" pad="3"/>
 <wire x1="64.5795" y1="20.16125" x2="66.59245" y2="20.16125" width="0.6096" layer="16"/>
 <wire x1="64.4525" y1="20.03425" x2="64.5795" y2="20.16125" width="0.6096" layer="16"/>
 <wire x1="62.865" y1="20.03425" x2="63.65875" y2="20.03425" width="0.6096" layer="16"/>
@@ -8366,7 +8365,6 @@ Covered vias can be set in Masks (Limit).
 <wire x1="68.58" y1="19.685" x2="69.215" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="69.215" y1="19.05" x2="82.2325" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="82.2325" y1="19.05" x2="87.9475" y2="24.765" width="0.6096" layer="1"/>
-<wire x1="90.17" y1="24.765" x2="91.44" y2="26.035" width="0.6096" layer="1"/>
 <wire x1="87.9475" y1="24.765" x2="90.17" y2="24.765" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$77">
@@ -8450,6 +8448,8 @@ Covered vias can be set in Masks (Limit).
 <via x="57.94375" y="25.24125" extent="1-16" drill="0.6"/>
 <wire x1="57.94375" y1="25.24125" x2="57.94375" y2="27.07005" width="0.6096" layer="16"/>
 <wire x1="77.7875" y1="43.33875" x2="59.69" y2="25.24125" width="0.6096" layer="1"/>
+<contactref element="X6" pad="3"/>
+<wire x1="77.7875" y1="43.33875" x2="91.44" y2="26.035" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$84">
 <contactref element="PTC2" pad="P$2"/>

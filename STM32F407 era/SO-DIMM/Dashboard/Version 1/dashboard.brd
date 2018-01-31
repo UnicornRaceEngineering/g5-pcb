@@ -6635,12 +6635,14 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="13.6525" y="63.02375" size="1.27" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="11.5252" y="56.515" size="0.4064" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="U2" library="International_Rectifier_By_element14_Batch_1" package="SOIC127P600X175-8N" value="IRF9332PBF" x="58.57875" y="24.60625" rot="MR90">
+<element name="U2" library="International_Rectifier_By_element14_Batch_1" package="SOIC127P600X175-8N" value="IRF9332PBF" x="58.57875" y="24.60625" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="12T9892" x="58.57875" y="24.60625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IRF9332PBF" x="58.57875" y="24.60625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SUPPLIER" value="INTERNATIONAL RECTIFIER" x="58.57875" y="24.60625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="1857354" x="58.57875" y="24.60625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="SOIC-8" x="58.57875" y="24.60625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="55.88" y="26.47315" size="1.27" layer="26" font="vector" ratio="10" rot="SMR270"/>
+<attribute name="VALUE" x="52.86375" y="21.15185" size="2.0828" layer="28" ratio="10" rot="SMR90"/>
 </element>
 </elements>
 <signals>
