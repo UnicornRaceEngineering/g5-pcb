@@ -15497,14 +15497,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="4"/>
 <contactref element="C25" pad="2"/>
 <contactref element="R16" pad="2"/>
-<contactref element="R97" pad="2"/>
-<contactref element="R96" pad="2"/>
 <via x="62.38875" y="111.76" extent="1-16" drill="0.3302"/>
 <via x="83.34375" y="119.53875" extent="1-16" drill="0.3302"/>
 <via x="89.8525" y="119.53875" extent="1-16" drill="0.3302"/>
-<wire x1="99.187" y1="127.9525" x2="98.425" y2="127.1905" width="0.3048" layer="1"/>
-<wire x1="101.2825" y1="127.1905" x2="100.5205" y2="127.9525" width="0.3048" layer="1"/>
-<wire x1="100.5205" y1="127.9525" x2="99.187" y2="127.9525" width="0.3048" layer="1"/>
 <contactref element="U9" pad="7"/>
 <contactref element="U9" pad="6"/>
 <contactref element="C26" pad="2"/>
@@ -15571,7 +15566,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R35" pad="1"/>
 <contactref element="R92" pad="1"/>
 <contactref element="R93" pad="1"/>
-<wire x1="89.8525" y1="119.53875" x2="88.74125" y2="121.0945" width="0" layer="19" extent="1-1"/>
+<contactref element="R96" pad="1"/>
+<contactref element="R97" pad="1"/>
+<wire x1="101.2825" y1="129.8575" x2="101.2825" y2="128.7145" width="0" layer="19" extent="1-1"/>
+<wire x1="98.425" y1="128.7145" x2="98.425" y2="129.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="88.74125" y1="121.0945" x2="89.8525" y2="119.53875" width="0" layer="19" extent="1-1"/>
 <wire x1="84.455" y1="121.0945" x2="83.34375" y2="119.53875" width="0" layer="19" extent="1-1"/>
 <wire x1="73.025" y1="115.53825" x2="69.9897" y2="112.7125" width="0" layer="19" extent="1-1"/>
 <wire x1="80.80375" y1="124.2695" x2="84.455" y2="121.0945" width="0" layer="19" extent="1-1"/>
@@ -19257,21 +19256,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="85.88375" y1="119.5705" x2="84.455" y2="119.5705" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CURRENT2">
-<contactref element="R96" pad="1"/>
 <contactref element="R94" pad="1"/>
 <contactref element="J2" pad="E3"/>
 <wire x1="102.0575" y1="141.0975" x2="100.80625" y2="139.84625" width="0.3048" layer="1"/>
 <wire x1="100.80625" y1="139.84625" x2="100.80625" y2="131.1275" width="0.3048" layer="1"/>
-<wire x1="99.85375" y1="128.7145" x2="98.425" y2="128.7145" width="0.3048" layer="1"/>
 <wire x1="100.80625" y1="131.1275" x2="99.85375" y2="130.175" width="0.3048" layer="1"/>
 <wire x1="99.85375" y1="130.175" x2="99.85375" y2="128.7145" width="0.3048" layer="1"/>
 </signal>
 <signal name="CURRENT1">
-<contactref element="R97" pad="1"/>
 <contactref element="R95" pad="1"/>
 <contactref element="J2" pad="E1"/>
 <wire x1="102.0575" y1="133.0975" x2="102.0575" y2="130.035" width="0.3048" layer="1"/>
-<wire x1="102.71125" y1="128.7145" x2="101.2825" y2="128.7145" width="0.3048" layer="1"/>
 <wire x1="102.71125" y1="129.38125" x2="102.71125" y2="128.7145" width="0.3048" layer="1"/>
 <wire x1="102.0575" y1="130.035" x2="102.71125" y2="129.38125" width="0.3048" layer="1"/>
 </signal>
@@ -19285,6 +19280,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="100.33" y1="118.11" x2="100.33" y2="123.825" width="0.3048" layer="1"/>
 <wire x1="100.33" y1="123.825" x2="102.71125" y2="126.20625" width="0.3048" layer="1"/>
 <wire x1="102.71125" y1="126.20625" x2="102.71125" y2="127.1905" width="0.3048" layer="1"/>
+<contactref element="R97" pad="2"/>
+<wire x1="102.71125" y1="127.1905" x2="101.2825" y2="127.1905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STEERING-ANGLE3">
 <contactref element="R94" pad="2"/>
@@ -19294,6 +19291,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="99.21875" y1="111.4425" x2="98.425" y2="112.23625" width="0.3048" layer="1"/>
 <wire x1="98.425" y1="112.23625" x2="98.425" y2="116.99875" width="0.3048" layer="1"/>
 <wire x1="98.425" y1="116.99875" x2="99.85375" y2="118.4275" width="0.3048" layer="1"/>
+<contactref element="R96" pad="2"/>
+<wire x1="99.85375" y1="127.1905" x2="98.425" y2="127.1905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R85" pad="2"/>

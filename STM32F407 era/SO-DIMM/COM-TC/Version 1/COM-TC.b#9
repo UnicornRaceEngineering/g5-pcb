@@ -19034,11 +19034,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="63.02375" y1="53.6575" x2="63.02375" y2="86.6775" width="0.3048" layer="1"/>
 </signal>
 <signal name="BITEL">
-<contactref element="J3" pad="41"/>
 <contactref element="U8" pad="21"/>
 <wire x1="65.1425" y1="88.83375" x2="65.1425" y2="85.62125" width="0.3048" layer="1"/>
 <wire x1="64.92875" y1="85.4075" x2="65.1425" y2="85.62125" width="0.3048" layer="1"/>
-<wire x1="72.295" y1="43.1525" x2="72.295" y2="44.545" width="0.3048" layer="1"/>
 <wire x1="72.295" y1="44.545" x2="72.0725" y2="44.7675" width="0.3048" layer="1"/>
 <wire x1="72.0725" y1="44.7675" x2="70.96125" y2="44.7675" width="0.3048" layer="1"/>
 <wire x1="70.96125" y1="44.7675" x2="70.485" y2="45.24375" width="0.3048" layer="1"/>
@@ -19355,6 +19353,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="CS">
 <contactref element="U9" pad="12"/>
+<contactref element="J3" pad="41"/>
+<wire x1="46.645" y1="17.43875" x2="72.295" y2="43.1525" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

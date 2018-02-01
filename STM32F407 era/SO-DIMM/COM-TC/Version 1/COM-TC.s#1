@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6323,6 +6322,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="GND76" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="FRAME4" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
+<part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -7950,7 +7950,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="C4" gate="G$1" x="-231.14" y="-157.48" rot="MR0"/>
 <instance part="GND28" gate="1" x="-231.14" y="-170.18"/>
 <instance part="U$2" gate="G$1" x="-50.8" y="-170.18"/>
-<instance part="U$3" gate="G$1" x="-73.66" y="-180.34" rot="R90"/>
+<instance part="U$3" gate="G$1" x="-81.28" y="-180.34" rot="R90"/>
 <instance part="GND2" gate="1" x="-71.12" y="-195.58"/>
 <instance part="R4" gate="G$1" x="-83.82" y="-154.94" rot="R270"/>
 <instance part="R5" gate="G$1" x="-91.44" y="-154.94" rot="R270"/>
@@ -8004,6 +8004,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="GND63" gate="1" x="-109.22" y="-243.84"/>
 <instance part="R102" gate="G$1" x="-154.94" y="-170.18"/>
 <instance part="R103" gate="G$1" x="-172.72" y="-177.8" rot="R90"/>
+<instance part="C28" gate="G$1" x="-76.2" y="-187.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8078,6 +8079,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="-68.58" y1="-182.88" x2="-71.12" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-182.88" x2="-71.12" y2="-187.96" width="0.1524" layer="91"/>
 <junction x="-71.12" y="-187.96"/>
+<pinref part="C28" gate="G$1" pin="P$2"/>
+<wire x1="-76.2" y1="-190.5" x2="-71.12" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -8191,7 +8194,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
 <pinref part="U$3" gate="G$1" pin="3.3V"/>
-<wire x1="-68.58" y1="-180.34" x2="-71.12" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-180.34" x2="-76.2" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="P$1"/>
+<wire x1="-76.2" y1="-180.34" x2="-78.74" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-182.88" x2="-76.2" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-180.34"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>

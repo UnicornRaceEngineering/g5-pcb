@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6243,7 +6244,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="R73" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
 <part name="R77" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
 <part name="R78" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
-<part name="R79" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
 <part name="R80" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
 <part name="R81" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
 <part name="R82" library="microbuilder" deviceset="RESISTOR" device="_0603" value="220"/>
@@ -9908,10 +9908,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <attribute name="NAME" x="129.032" y="73.66" size="1.27" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="130.175" y="63.5" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R79" gate="G$1" x="132.08" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="134.112" y="73.66" size="1.27" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="135.255" y="63.5" size="1.27" layer="96" font="vector" rot="R90"/>
-</instance>
 <instance part="R80" gate="G$1" x="137.16" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.192" y="73.66" size="1.27" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="140.335" y="63.5" size="1.27" layer="96" font="vector" rot="R90"/>
@@ -10142,14 +10138,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="121.92" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="127" y1="76.2" x2="127" y2="73.66" width="0.1524" layer="91"/>
 <junction x="121.92" y="76.2"/>
-<pinref part="R79" gate="G$1" pin="1"/>
-<wire x1="127" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="76.2" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 <junction x="127" y="76.2"/>
 <pinref part="R80" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="127" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="76.2" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-<junction x="132.08" y="76.2"/>
 <pinref part="R81" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
@@ -10355,24 +10347,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="17.78" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <label x="17.78" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U8" gate="G$1" pin="S2"/>
-</segment>
-</net>
-<net name="BITE" class="0">
-<segment>
-<wire x1="149.86" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="149.86" y="15.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="U8" gate="G$1" pin="D19"/>
-<pinref part="R79" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="63.5" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
-<junction x="132.08" y="15.24"/>
-</segment>
-</net>
-<net name="BITEL" class="0">
-<segment>
-<wire x1="17.78" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-<label x="17.78" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U8" gate="G$1" pin="S19"/>
 </segment>
 </net>
 <net name="TRAVEL1B" class="0">
