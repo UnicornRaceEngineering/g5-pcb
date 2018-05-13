@@ -4834,6 +4834,7 @@ Covered vias can be set in Masks (Limit).
 <via x="43.02125" y="5.08" extent="1-16" drill="0.3"/>
 <via x="16.8275" y="3.96875" extent="1-16" drill="0.3"/>
 <via x="17.62125" y="14.9225" extent="1-16" drill="0.3"/>
+<via x="23.65375" y="14.44625" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="21"/>

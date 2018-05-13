@@ -4502,9 +4502,9 @@ Covered vias can be set in Masks (Limit).
 <attribute name="PROD_ID" value="BATT-08315" x="52.3875" y="28.8925" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="56.1975" y="23.8125" size="0.4064" layer="28" rot="MR0"/>
 </element>
-<element name="C1" library="microbuilder" package="_0603" value="2u2" x="30.53125" y="-4.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.7375" y="-3.14375" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="29.57875" y="-3.9375" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<element name="C1" library="microbuilder" package="_0603" value="2u2" x="30.29" y="4.3375" smashed="yes">
+<attribute name="NAME" x="28.54375" y="3.54375" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="29.3375" y="3.385" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="C10" library="microbuilder" package="_0603" value="100n" x="51.435" y="13.6525" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.53" y="14.9225" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
@@ -4627,7 +4627,10 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$2">
 <contactref element="U1" pad="73"/>
 <contactref element="C1" pad="1"/>
-<wire x1="30.53125" y1="-4.128" x2="28.7125" y2="6.75375" width="0" layer="19" extent="1-1"/>
+<wire x1="28.7125" y1="6.75375" x2="28.7125" y2="5.534425" width="0.3048" layer="1"/>
+<wire x1="28.7125" y1="5.534425" x2="28.9174" y2="5.329525" width="0.3048" layer="1"/>
+<wire x1="28.9174" y1="5.329525" x2="28.9174" y2="4.9481" width="0.3048" layer="1"/>
+<wire x1="28.9174" y1="4.9481" x2="29.528" y2="4.3375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="49"/>
@@ -4805,11 +4808,13 @@ Covered vias can be set in Masks (Limit).
 <via x="11.43" y="19.685" extent="1-16" drill="0.3"/>
 <via x="10.63625" y="19.685" extent="1-16" drill="0.3"/>
 <via x="17.4625" y="20.0025" extent="1-16" drill="0.3"/>
-<wire x1="16.1125" y1="19.85375" x2="17.4625" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="20.2125" y1="21.95375" x2="17.4625" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="29.45" y1="1.525" x2="29.75" y2="1.525" width="0" layer="19" extent="1-16"/>
-<wire x1="30.53125" y1="-5.652" x2="30.35" y2="1.525" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.67315625" y1="26.33513125" x2="10.63625" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="16.1125" y1="19.85375" x2="17.31375" y2="19.85375" width="0.3048" layer="1"/>
+<wire x1="17.31375" y1="19.85375" x2="17.4625" y2="20.0025" width="0.3048" layer="1"/>
+<wire x1="29.2125" y1="6.75375" x2="29.2601" y2="6.70615" width="0.3048" layer="1"/>
+<wire x1="29.2601" y1="6.70615" x2="29.2601" y2="5.82849375" width="0.3048" layer="1"/>
+<wire x1="29.68625" y1="5.40234375" x2="29.68625" y2="5.3975" width="0.3048" layer="1"/>
+<wire x1="29.2601" y1="5.82849375" x2="29.68625" y2="5.40234375" width="0.3048" layer="1"/>
+<wire x1="10.63625" y1="19.685" x2="-2.67315625" y2="26.33513125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="21"/>
@@ -4912,17 +4917,31 @@ Covered vias can be set in Masks (Limit).
 <signal name="JTAG_TCK">
 <contactref element="U1" pad="76"/>
 <contactref element="U$19" pad="84"/>
-<wire x1="30.65" y1="1.525" x2="31.3125" y2="8.35375" width="0" layer="19" extent="1-16"/>
+<wire x1="30.65" y1="1.525" x2="30.65" y2="7.29125" width="0.3048" layer="16"/>
+<wire x1="30.65" y1="7.29125" x2="29.845" y2="8.09625" width="0.3048" layer="16"/>
+<via x="29.845" y="8.09625" extent="1-16" drill="0.3"/>
+<wire x1="29.845" y1="8.09625" x2="30.1025" y2="8.35375" width="0.3048" layer="1"/>
+<wire x1="30.1025" y1="8.35375" x2="31.3125" y2="8.35375" width="0.3048" layer="1"/>
 </signal>
 <signal name="JTAG_TDI">
 <contactref element="U1" pad="77"/>
 <contactref element="U$19" pad="86"/>
-<wire x1="31.25" y1="1.525" x2="31.3125" y2="8.85375" width="0" layer="19" extent="1-16"/>
+<wire x1="30.094525" y1="8.69865" x2="30.03635" y2="8.69865" width="0.3048" layer="16"/>
+<wire x1="30.03635" y1="8.69865" x2="29.8159125" y2="8.9190875" width="0.3048" layer="16"/>
+<wire x1="31.25" y1="1.525" x2="31.25" y2="7.543175" width="0.3048" layer="16"/>
+<wire x1="31.25" y1="7.543175" x2="30.094525" y2="8.69865" width="0.3048" layer="16"/>
+<via x="29.8159125" y="8.9190875" extent="1-16" drill="0.3"/>
+<wire x1="29.8159125" y1="8.9190875" x2="29.88125" y2="8.85375" width="0.3048" layer="1"/>
+<wire x1="29.88125" y1="8.85375" x2="31.3125" y2="8.85375" width="0.3048" layer="1"/>
 </signal>
 <signal name="JTAG_TDO">
 <contactref element="U1" pad="89"/>
 <contactref element="U$19" pad="88"/>
-<wire x1="31.85" y1="1.525" x2="31.3125" y2="14.85375" width="0" layer="19" extent="1-16"/>
+<wire x1="31.85" y1="1.525" x2="31.85" y2="12.6" width="0.3048" layer="16"/>
+<wire x1="31.85" y1="12.6" x2="29.68625" y2="14.76375" width="0.3048" layer="16"/>
+<via x="29.68625" y="14.76375" extent="1-16" drill="0.3"/>
+<wire x1="29.68625" y1="14.76375" x2="29.77625" y2="14.85375" width="0.3048" layer="1"/>
+<wire x1="29.77625" y1="14.85375" x2="31.3125" y2="14.85375" width="0.3048" layer="1"/>
 </signal>
 <signal name="PD0">
 <contactref element="U1" pad="81"/>
