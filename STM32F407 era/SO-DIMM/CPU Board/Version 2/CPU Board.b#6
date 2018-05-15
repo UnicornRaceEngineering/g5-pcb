@@ -3624,7 +3624,7 @@
 <rectangle x1="50.85206875" y1="20.84196875" x2="53.57240625" y2="20.85975" layer="112"/>
 <rectangle x1="47.13605" y1="20.85975" x2="50.58536875" y2="20.877525" layer="112"/>
 <rectangle x1="50.85206875" y1="20.85975" x2="53.3234875" y2="20.877525" layer="112"/>
-<text x="55.99938125" y="17.312640625" size="1.27" layer="112" font="vector" ratio="10">SODIMM CPU
+<text x="55.36438125" y="17.312640625" size="1.27" layer="112" font="vector" ratio="10">MCU NODE
 Version 2</text>
 <hole x="3.4925" y="31.90875" drill="2.5"/>
 <circle x="3.4925" y="31.90875" radius="3.01625" width="0.3048" layer="39"/>
